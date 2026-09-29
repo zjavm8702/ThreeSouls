@@ -1,0 +1,49 @@
+{
+    "Items": [
+        {
+            "Index": 0,
+            "Stage": 1,
+            "Monsters": [
+                "Key_goblin",
+                "Key_purpleBat",
+                "Key_troll"
+            ],
+            "MapName": 3,
+            "SpawnCounts": [
+                3,
+                3,
+                1
+            ]
+        },
+        {
+            "Index": 1,
+            "Stage": 2,
+            "Monsters": [
+                "Key_goblin",
+                "Key_purpleBat",
+                "Key_troll"
+            ],
+            "MapName": 3,
+            "SpawnCounts": [
+                3,
+                3,
+                1
+            ]
+        },
+        {
+            "Index": 2,
+            "Stage": 3,
+            "Monsters": [
+                "Key_goblin",
+                "Key_purpleBat",
+                "Key_troll"
+            ],
+            "MapName": 3,
+            "SpawnCounts": [
+                3,
+                3,
+                1
+            ]
+        }
+    ]
+}

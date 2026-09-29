@@ -1,0 +1,13 @@
+{
+    "Items": [
+        {
+            "MaxCharacterCombat": 3,
+            "BaseCharacterID": [
+                "Key_night",
+                "Key_archer",
+                "Key_wizard"
+            ],
+            "BaseAttackInterval": 1.0
+        }
+    ]
+}

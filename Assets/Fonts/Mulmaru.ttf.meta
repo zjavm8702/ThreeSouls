@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f92559170725b5740b9cd4a96447b965
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Mulmaru
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: fe0af0c9411577344958c363a794985e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 2
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

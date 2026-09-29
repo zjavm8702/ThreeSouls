@@ -1,0 +1,64 @@
+{
+    "Items": [
+        {
+            "Index": 0,
+            "StrKey": "Key_night",
+            "KrValue": "나이트",
+            "EnValue": "Knight"
+        },
+        {
+            "Index": 1,
+            "StrKey": "Key_archer",
+            "KrValue": "아처",
+            "EnValue": "Archer"
+        },
+        {
+            "Index": 2,
+            "StrKey": "Key_wizard",
+            "KrValue": "위자드",
+            "EnValue": "Wizard"
+        },
+        {
+            "Index": 3,
+            "StrKey": "Key_goblin",
+            "KrValue": "고블린",
+            "EnValue": "Goblin"
+        },
+        {
+            "Index": 4,
+            "StrKey": "Key_hog",
+            "KrValue": "돼지",
+            "EnValue": "Hog"
+        },
+        {
+            "Index": 5,
+            "StrKey": "Key_troll",
+            "KrValue": "트롤",
+            "EnValue": "Troll"
+        },
+        {
+            "Index": 6,
+            "StrKey": "Key_blackBear",
+            "KrValue": "블랙곰",
+            "EnValue": "BlackBear"
+        },
+        {
+            "Index": 7,
+            "StrKey": "Key_blueCrab",
+            "KrValue": "파란게",
+            "EnValue": "BlueCrab"
+        },
+        {
+            "Index": 8,
+            "StrKey": "Key_redCrab",
+            "KrValue": "빨간게",
+            "EnValue": "RedCrab"
+        },
+        {
+            "Index": 9,
+            "StrKey": "Key_wolf",
+            "KrValue": "늑대",
+            "EnValue": "Wolf"
+        }
+    ]
+}

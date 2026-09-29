@@ -1,0 +1,12 @@
+Index : int,StrKey : string ,KrValue : string,EnValue : string
+인덱스,키,KR,EN
+0000,Key_night,나이트,Knight
+0001,Key_archer,아처,Archer
+0002,Key_wizard,위자드,Wizard
+0003,Key_goblin,고블린,Goblin
+0004,Key_hog,돼지,Hog
+0005,Key_troll,트롤,Troll
+0006,Key_blackBear,블랙곰,BlackBear
+0007,Key_blueCrab,파란게,BlueCrab
+0008,Key_redCrab,빨간게,RedCrab
+0009,Key_wolf,늑대,Wolf

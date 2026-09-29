@@ -1,0 +1,48 @@
+# Unity generated directories
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+.utmp/
+
+# Local IDE and editor files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Build and generated output
+[Bb]uild/
+[Bb]uilds/
+[Bb]undle/
+[Dd]eliverables/
+[Pp]rofilerCaptures/
+
+# Unity crash and temporary files
+sysinfo.txt
+*.tmp
+*.bak
+*.swp
+
+# Addressables generated streaming assets
+/Assets/StreamingAssets/aa.meta
+/Assets/StreamingAssets/aa/
+
+# Local project guidance and documentation
+/AGENTS.md
+/Docs/
+

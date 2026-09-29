@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35396a292b8d6f141903abea1eac8c54, type: 3}
+  m_Name: StringTableData
+  m_EditorClassIdentifier: Assembly-CSharp:ThreeSouls.Data.Generated:StringTableDataTable
+  Items:
+  - Index: 0
+    StrKey: Key_night
+    KrValue: "\uB098\uC774\uD2B8"
+    EnValue: Knight
+  - Index: 1
+    StrKey: Key_archer
+    KrValue: "\uC544\uCC98"
+    EnValue: Archer
+  - Index: 2
+    StrKey: Key_wizard
+    KrValue: "\uC704\uC790\uB4DC"
+    EnValue: Wizard
+  - Index: 3
+    StrKey: Key_goblin
+    KrValue: "\uACE0\uBE14\uB9B0"
+    EnValue: Goblin
+  - Index: 4
+    StrKey: Key_hog
+    KrValue: "\uB3FC\uC9C0"
+    EnValue: Hog
+  - Index: 5
+    StrKey: Key_troll
+    KrValue: "\uD2B8\uB864"
+    EnValue: Troll
+  - Index: 6
+    StrKey: Key_blackBear
+    KrValue: "\uBE14\uB799\uACF0"
+    EnValue: BlackBear
+  - Index: 7
+    StrKey: Key_blueCrab
+    KrValue: "\uD30C\uB780\uAC8C"
+    EnValue: BlueCrab
+  - Index: 8
+    StrKey: Key_redCrab
+    KrValue: "\uBE68\uAC04\uAC8C"
+    EnValue: RedCrab
+  - Index: 9
+    StrKey: Key_wolf
+    KrValue: "\uB291\uB300"
+    EnValue: Wolf

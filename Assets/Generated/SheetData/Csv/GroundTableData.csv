@@ -1,0 +1,5 @@
+Index : int,Stage : int,Monsters : string[],MapName : Enum<Prefabs>,SpawnCounts : int[]
+인덱스,스테이지,몬스터,맵 프리팹 이름,소환 숫자
+0,1,"[Key_goblin, Key_purpleBat, Key_troll]",Grid_Cave,"[3, 3, 1]"
+1,2,"[Key_goblin, Key_purpleBat, Key_troll]",Grid_Cave,"[3, 3, 1]"
+2,3,"[Key_goblin, Key_purpleBat, Key_troll]",Grid_Cave,"[3, 3, 1]"

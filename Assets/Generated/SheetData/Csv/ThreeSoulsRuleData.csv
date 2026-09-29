@@ -1,0 +1,3 @@
+MaxCharacterCombat : int,BaseCharacterID : string[],BaseAttackInterval : float
+전투 참여 캐릭 수,기본  전투 캐릭터,기본 공격 딜레이
+3,"[Key_night, Key_archer, Key_wizard]",1

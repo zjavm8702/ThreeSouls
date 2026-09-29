@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SpriteLibrarys
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: SpriteLibrarys
+  m_GUID: 75c0273c5387f6249b224a9e50a2f7b8
+  m_SerializeEntries:
+  - m_GUID: 80fc27bcc1a0c344380643908f988f19
+    m_Address: Assets/SpriteLibrarys/Character
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bed53e63f798ce541ae31923035016fc
+    m_Address: Assets/SpriteLibrarys/Projectile
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ff1df453a29880544a7a15ac1dc2d604, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e1a7c2c4257968f4b8e1cde639e497d2, type: 2}
+    - {fileID: 11400000, guid: 50fa708532ec98b4fa70fe791929ae46, type: 2}

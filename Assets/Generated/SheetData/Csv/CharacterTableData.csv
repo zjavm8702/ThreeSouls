@@ -1,0 +1,13 @@
+Index : int,StrKey : string,MoveSpeed : float,IsRunningPlay : bool,RunningSpeed : float,AttackType : Enum<AttackType>,CharacterType: Enum<CharacterType>,MaxHP : float,AttackDmg : float,DistanceToTarget : float,CharacterRole : Enum<CharacterRole>,AttackRange : float,AttackSpeedMultiplier : float,DetectDelay : float,ResourceName : string
+인덱스,스트링 테이블 키,이동 속도,근접 대쉬,근접 속도,무기 타입,캐릭터 타입,체력,공격력,적까지 남은 이동 거리,캐릭터 역할군 타입,공격 범위,공격속도 배율,타겟 찾는 딜레이,SpriteLibrary 이름
+0,Key_night,3,TRUE,2,Single,Hero,500,5,1,Tank,0,0.5,1,Knight
+1,Key_archer,3,FALSE,0,SingleBow,Hero,250,7,4,RangedDealer,0,1,1,Archer
+2,Key_wizard,3,FALSE,0,SingleStaff,Hero,250,15,3,RangedDealer,0,0.5,1,FireWizard
+3,Key_goblin,3,FALSE,0,Single,Monster,50,3,1,MonsterMeleeDealer,0,1,1,Goblin
+4,Key_hog,3,FALSE,0,Single,Monster,50,3,1,MonsterMeleeDealer,0,1,1,Hog
+5,Key_troll,3,FALSE,0,Single,Monster,200,6,1,MonsterMeleeDealer,0,1,1,Troll
+6,Key_blackBear,3,FALSE,0,Single,Monster,50,3,1,MonsterMeleeDealer,0,1,1,BlackBear
+7,Key_blueCrab,3,FALSE,0,Single,Monster,50,3,1,MonsterMeleeDealer,0,1,1,BlueCrab
+8,Key_redCrab,3,FALSE,0,Single,Monster,50,3,1,MonsterMeleeDealer,0,1,1,RedCrab
+9,Key_wolf,3,FALSE,0,Single,Monster,50,3,1,MonsterMeleeDealer,0,1,1,Wolf
+10,Key_purpleBat,3,FALSE,0,Single,Monster,50,3,1,MonsterMeleeDealer,0,1,1,PurpleBat
