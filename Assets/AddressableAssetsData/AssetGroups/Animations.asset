@@ -15,8 +15,138 @@ MonoBehaviour:
   m_GroupName: Animations
   m_GUID: 2dbd72b268752ef4ab0e67a8162ff268
   m_SerializeEntries:
+  - m_GUID: 029ed9db831f6d74e9998ae0af6945c8
+    m_Address: Assets/Animations/Character/Down_Hit.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 035ef04be2294dc45bc096fbb0ab40da
+    m_Address: Assets/Animations/Projectile/Move.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 122cc92066589604ea8042bcd88bf3bc
+    m_Address: Assets/Animations/Character/Right_Idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 21c36f85605edff42a8392ff3da0438c
     m_Address: Assets/Animations
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 289b86c5f77275142a914d4deb939f90
+    m_Address: Assets/Animations/Character/Down_Attack.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a3077c37ff56984080bd4aebb4eaeae
+    m_Address: Assets/Animations/Character/HeroController.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51ce28739bf2fa447b4aa8f16c50762f
+    m_Address: Assets/Animations/Character/Right_Walking.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d5e32fad88582a49bb187a742143079
+    m_Address: Assets/Animations/Character/Up_Running.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6477ee4bdec04e641a8db45afaffa6c7
+    m_Address: Assets/Animations/Skill/FlameNova/FlameNovaAttack.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a29508d8755b9245bdbd6a5427dc48c
+    m_Address: Assets/Animations/Character/Right_Hit.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 915d780b35511464f9f926a8debd6f66
+    m_Address: Assets/Animations/Character/Up_Attack.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9178150d1efebdd49a33080984016a22
+    m_Address: Assets/Animations/Character/Right_Death.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 999d3e8c41be9f9498a546e49270404c
+    m_Address: Assets/Animations/Character/Down_Idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9aa5537188ff0e149b94af7293dba6a3
+    m_Address: Assets/Animations/Character/Right_Attack.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c017478a2331de4d8ce808b2d92b242
+    m_Address: Assets/Animations/Skill/SkillController.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a24e9ae6d9989014b9bfcae5607437ad
+    m_Address: Assets/Animations/Skill/PrecisionShot/PrecisionShotAttack.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2f355ed35a55744f9ba04861dcdb671
+    m_Address: Assets/Animations/Character/MonsterController.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6900ed56bb225f40aff045dcc9492b8
+    m_Address: Assets/Animations/Skill/Controller.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d415e5a61d032c64bbcf07f1a8df7252
+    m_Address: Assets/Animations/Character/Up_Death.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d83991e832413024a8f45765ea59834a
+    m_Address: Assets/Animations/Projectile/Controller.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da24a7f7987f5a14d9995d2d19e9bce1
+    m_Address: Assets/Animations/Character/Up_Idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ded9c7eefd5030e4884493659ebadb03
+    m_Address: Assets/Animations/Character/Up_Walking.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfae6c14d50d35b49b4e807a657a5e67
+    m_Address: Assets/Animations/Character/Down_Death.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eac11a948e7df4b47ab77a6e365d9d34
+    m_Address: Assets/Animations/Character/Up_Hit.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0ab2acb061de6147ac6f6d8890553c2
+    m_Address: Assets/Animations/Character/Right_Running.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8c7b4a6285924f42afb5e689e6ce656
+    m_Address: Assets/Animations/Character/Down_Running.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffd5b45c2a9617e45b1c315f40c98f13
+    m_Address: Assets/Animations/Character/Down_Walking.anim
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

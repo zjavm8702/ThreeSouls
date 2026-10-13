@@ -7,17 +7,21 @@ using ThreeSouls.Global;
 using ThreeSouls.Interface;
 using ThreeSouls.Manager;
 using ThreeSouls.Utility;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Scene_Start : MonoBehaviour
 {
-    [SerializeField] private RectTransform UICanvas = null;
+    [SerializeField] private Image BackgroundImage = null;
    
     private UI_Popup_Patch PatchPopup = null;
 
     private void Start()
     {
-        UIManager.Get().SetUIRoot(UICanvas);
+        StartupLoadTrace.Begin();
+
+        BackgroundImage.gameObject.SetActive(true);
 
         ThreeSoulsLog.Info("START_SCENE");
 #if UNITY_EDITOR
@@ -83,7 +87,7 @@ public class Scene_Start : MonoBehaviour
     /// </summary>
     private void UpdateBundleSize(long bundleSize)
     {
-        ThreeSoulsLog.Warning($"다운로드 필요 용량: {bundleSize} bytes", false, this);
+        ThreeSoulsLog.Info($"다운로드 필요 용량: {bundleSize} bytes", false, this);
 
         if (bundleSize > 0)
         {
@@ -114,7 +118,7 @@ public class Scene_Start : MonoBehaviour
         }
 
         PatchPopup = obj.GetComponent<UI_Popup_Patch>();
-        PatchPopup.transform.SetSafeParent(UICanvas.transform);
+        PatchPopup.transform.SetSafeParent(UIManager.Get().GetPopupCanvas());
         PatchPopup.ShowPopup(bundleSize);
         PatchPopup.ButtonAction = () =>
         {
@@ -126,13 +130,18 @@ public class Scene_Start : MonoBehaviour
     {
         if (PatchPopup != null)
         {
-            Destroy(PatchPopup);
+            Destroy(PatchPopup.gameObject);
         }
     }
 
     private IEnumerator AssetPreLoad()
     {
+        StartupLoadTrace.Mark("PatchReady");
+        GameManager.Instance.Get<ThreeSouls.Audio.GameAudio>().LoadCatalog();
         yield return TableManager.Get().AssetsPreLoad();
+        StartupLoadTrace.Mark("TablesReady");
+        UserManager.Get().PrepareInitialSession();
+        StartupLoadTrace.Mark("SessionReady");
 
         DestroyPatchPopup();
 
@@ -143,8 +152,10 @@ public class Scene_Start : MonoBehaviour
 
     private void LoadLobbyScene()
     {
+        BackgroundImage.gameObject.SetActive(false);
+
         GameManager.Instance.Get<AddressableManager>().OnAddressableStatusEventHandler -= OnAddressableStatus;
 
-        SceneLoadManager.Get().LoadScene(SceneName.Scene_Dungeon);
+        SceneLoadManager.Get().LoadScene(SceneName.Scene_Village);
     }
 }

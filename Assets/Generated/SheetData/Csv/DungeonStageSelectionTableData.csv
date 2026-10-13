@@ -1,0 +1,22 @@
+Key : string,DungeonKey : string,StageNumber : int,DisplayName : string,MapX : float,MapY : float,Enabled : bool
+스테이지 선택 키,소속 던전 키,출전 스테이지 번호,표시 이름(초안),던전 이미지 선택점 X,던전 이미지 선택점 Y,현재 선택 가능(진행 해금은 추후)
+Mine_1,Mine,1,광산 입구,0.13,0.12,TRUE
+Mine_2,Mine,2,버려진 갱도,0.315,0.12,TRUE
+Mine_3,Mine,3,지하 수로,0.5,0.12,TRUE
+Mine_4,Mine,4,채굴장,0.685,0.12,TRUE
+Mine_5,Mine,5,광산 심장부,0.87,0.12,TRUE
+Ruins_1,Ruins,1,유적 야영지,0.13,0.12,TRUE
+Ruins_2,Ruins,2,무너진 다리,0.315,0.12,TRUE
+Ruins_3,Ruins,3,고대 회랑,0.5,0.12,TRUE
+Ruins_4,Ruins,4,감시탑,0.685,0.12,TRUE
+Ruins_5,Ruins,5,잊힌 성채,0.87,0.12,TRUE
+Forest_1,Forest,1,숲의 입구,0.13,0.12,TRUE
+Forest_2,Forest,2,폭포 길,0.315,0.12,TRUE
+Forest_3,Forest,3,푸른 강가,0.5,0.12,TRUE
+Forest_4,Forest,4,정령 숲길,0.685,0.12,TRUE
+Forest_5,Forest,5,정령의 성소,0.87,0.12,TRUE
+Frost_1,Frost,1,설원 야영지,0.13,0.12,TRUE
+Frost_2,Frost,2,얼음 다리,0.315,0.12,TRUE
+Frost_3,Frost,3,수정 동굴,0.5,0.12,TRUE
+Frost_4,Frost,4,눈바람 절벽,0.685,0.12,TRUE
+Frost_5,Frost,5,얼음 성채,0.87,0.12,TRUE

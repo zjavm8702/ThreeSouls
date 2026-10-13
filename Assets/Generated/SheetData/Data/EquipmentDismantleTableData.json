@@ -1,0 +1,44 @@
+{
+    "Items": [
+        {
+            "Index": 0,
+            "Rarity": 0,
+            "BaseStoneReward": 1,
+            "InvestedStoneReturnRate": 0.75,
+            "RoundDown": true,
+            "GoldRefund": 0
+        },
+        {
+            "Index": 1,
+            "Rarity": 1,
+            "BaseStoneReward": 2,
+            "InvestedStoneReturnRate": 0.75,
+            "RoundDown": true,
+            "GoldRefund": 0
+        },
+        {
+            "Index": 2,
+            "Rarity": 2,
+            "BaseStoneReward": 4,
+            "InvestedStoneReturnRate": 0.75,
+            "RoundDown": true,
+            "GoldRefund": 0
+        },
+        {
+            "Index": 3,
+            "Rarity": 3,
+            "BaseStoneReward": 7,
+            "InvestedStoneReturnRate": 0.75,
+            "RoundDown": true,
+            "GoldRefund": 0
+        },
+        {
+            "Index": 4,
+            "Rarity": 4,
+            "BaseStoneReward": 12,
+            "InvestedStoneReturnRate": 0.75,
+            "RoundDown": true,
+            "GoldRefund": 0
+        }
+    ]
+}

@@ -1,0 +1,1908 @@
+fileFormatVersion: 2
+guid: 4004b9d50bb21ef44b93b8745d09c289
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2279691974030454520
+    second: VillageAtlas_0
+  - first:
+      213: 7673935235502122378
+    second: VillageAtlas_1
+  - first:
+      213: -4139063783065843407
+    second: VillageAtlas_2
+  - first:
+      213: 3374143896255397223
+    second: VillageAtlas_3
+  - first:
+      213: 4250389665005043867
+    second: VillageAtlas_4
+  - first:
+      213: 6685267640665793048
+    second: VillageAtlas_5
+  - first:
+      213: 560577830166434101
+    second: VillageAtlas_6
+  - first:
+      213: -8879750016792523491
+    second: VillageAtlas_7
+  - first:
+      213: 3991780674025856892
+    second: VillageAtlas_8
+  - first:
+      213: 442190039739651466
+    second: VillageAtlas_9
+  - first:
+      213: -8725222382166555399
+    second: VillageAtlas_10
+  - first:
+      213: -8631369954804087666
+    second: VillageAtlas_11
+  - first:
+      213: 7835109877724800464
+    second: VillageAtlas_12
+  - first:
+      213: 4134571040148033606
+    second: VillageAtlas_13
+  - first:
+      213: -2815683276267521163
+    second: VillageAtlas_14
+  - first:
+      213: -7202808188677111970
+    second: VillageAtlas_15
+  - first:
+      213: 3623651588319375674
+    second: VillageAtlas_16
+  - first:
+      213: 1325118583608545823
+    second: VillageAtlas_17
+  - first:
+      213: -5288277238058642840
+    second: VillageAtlas_18
+  - first:
+      213: 7749046754666032234
+    second: VillageAtlas_19
+  - first:
+      213: -2990867938946282235
+    second: VillageAtlas_20
+  - first:
+      213: -7646552812795285375
+    second: VillageAtlas_21
+  - first:
+      213: 5899869688868453529
+    second: VillageAtlas_22
+  - first:
+      213: 6187681848129157361
+    second: VillageAtlas_23
+  - first:
+      213: -2720950542915467164
+    second: VillageAtlas_24
+  - first:
+      213: 5957607305224501118
+    second: VillageAtlas_25
+  - first:
+      213: 8690957035920544950
+    second: VillageAtlas_26
+  - first:
+      213: 1342618519515899851
+    second: VillageAtlas_27
+  - first:
+      213: 5631636209773399325
+    second: VillageAtlas_28
+  - first:
+      213: -8948414919016866092
+    second: VillageAtlas_29
+  - first:
+      213: -8020152327544527929
+    second: VillageAtlas_30
+  - first:
+      213: 6112989141871862014
+    second: VillageAtlas_31
+  - first:
+      213: 6518007146915375087
+    second: VillageAtlas_32
+  - first:
+      213: -7074950753120747326
+    second: VillageAtlas_33
+  - first:
+      213: -379340082796371783
+    second: VillageAtlas_34
+  - first:
+      213: -6772727059429895297
+    second: VillageAtlas_35
+  - first:
+      213: -4373860204719856134
+    second: VillageAtlas_36
+  - first:
+      213: 1913909894790666910
+    second: VillageAtlas_37
+  - first:
+      213: 4376735052107641383
+    second: VillageAtlas_38
+  - first:
+      213: -5883534184698068477
+    second: VillageAtlas_39
+  - first:
+      213: -758417951439290312
+    second: VillageAtlas_40
+  - first:
+      213: -5305935247498015621
+    second: VillageAtlas_41
+  - first:
+      213: 467742467539831643
+    second: VillageAtlas_42
+  - first:
+      213: -4634047352413675904
+    second: VillageAtlas_43
+  - first:
+      213: 8518526539260563622
+    second: VillageAtlas_44
+  - first:
+      213: 4002046293368319666
+    second: VillageAtlas_45
+  - first:
+      213: 3409066309742294284
+    second: VillageAtlas_46
+  - first:
+      213: -3915649679782068365
+    second: VillageAtlas_47
+  - first:
+      213: 2763302520886442625
+    second: VillageAtlas_48
+  - first:
+      213: -5941958569123297769
+    second: VillageAtlas_49
+  - first:
+      213: -1629969565275387049
+    second: VillageAtlas_50
+  - first:
+      213: 8400988869862432115
+    second: VillageAtlas_51
+  - first:
+      213: -2670315103212049590
+    second: VillageAtlas_52
+  - first:
+      213: 9052181255580155914
+    second: VillageAtlas_53
+  - first:
+      213: 3790192742168035439
+    second: VillageAtlas_54
+  - first:
+      213: 9139116773910666828
+    second: VillageAtlas_55
+  - first:
+      213: -3642090911888750983
+    second: VillageAtlas_56
+  - first:
+      213: -1989078946620882702
+    second: VillageAtlas_57
+  - first:
+      213: -3361491572330502146
+    second: VillageAtlas_58
+  - first:
+      213: 6578261450478342792
+    second: VillageAtlas_59
+  - first:
+      213: 8910818382667883693
+    second: VillageAtlas_60
+  - first:
+      213: -6948700602179428107
+    second: VillageAtlas_61
+  - first:
+      213: 4289258012859124731
+    second: VillageAtlas_62
+  - first:
+      213: -7474097081140680342
+    second: VillageAtlas_63
+  - first:
+      213: 5811077043489528280
+    second: VillageAtlas_64
+  - first:
+      213: 6892338038584411114
+    second: VillageAtlas_65
+  - first:
+      213: -591480078285174645
+    second: VillageAtlas_66
+  - first:
+      213: 8652493787216171047
+    second: VillageAtlas_67
+  - first:
+      213: 7978595966179746615
+    second: VillageAtlas_68
+  - first:
+      213: -5846413278699974654
+    second: VillageAtlas_69
+  - first:
+      213: 6998753930861903033
+    second: VillageAtlas_70
+  - first:
+      213: 7796389196885579967
+    second: VillageAtlas_71
+  - first:
+      213: 2066904488002880010
+    second: VillageAtlas_72
+  - first:
+      213: -3368634388176146602
+    second: VillageAtlas_73
+  - first:
+      213: 442339642794830278
+    second: VillageAtlas_74
+  - first:
+      213: 2096877882150637493
+    second: VillageAtlas_75
+  - first:
+      213: -6932618538861177632
+    second: VillageAtlas_76
+  - first:
+      213: 4200330966200174935
+    second: VillageAtlas_77
+  - first:
+      213: -8481847786984964818
+    second: VillageAtlas_78
+  - first:
+      213: 8842716000015908393
+    second: VillageAtlas_79
+  - first:
+      213: -6586217987141732860
+    second: VillageAtlas_80
+  - first:
+      213: -1519235054138570143
+    second: VillageAtlas_81
+  - first:
+      213: 4847635140064980225
+    second: VillageAtlas_82
+  - first:
+      213: 8929071162884352726
+    second: VillageAtlas_83
+  - first:
+      213: 7423374941102699952
+    second: VillageAtlas_84
+  - first:
+      213: 4671769511284151409
+    second: VillageAtlas_85
+  - first:
+      213: 2815862760377895887
+    second: VillageAtlas_86
+  - first:
+      213: 396763950782137923
+    second: VillageAtlas_87
+  - first:
+      213: 3810107216173994471
+    second: VillageAtlas_88
+  - first:
+      213: -3463067198233242644
+    second: VillageAtlas_89
+  - first:
+      213: 1587397865969249449
+    second: VillageAtlas_90
+  - first:
+      213: 6743568724450792235
+    second: VillageAtlas_91
+  - first:
+      213: -5010349401954503469
+    second: VillageAtlas_92
+  - first:
+      213: 9091059617910499597
+    second: VillageAtlas_93
+  - first:
+      213: -8095901566854804667
+    second: VillageAtlas_94
+  - first:
+      213: 5960469523193087339
+    second: VillageAtlas_95
+  - first:
+      213: -5896462669994813863
+    second: VillageAtlas_96
+  - first:
+      213: 3390125303909604907
+    second: VillageAtlas_97
+  - first:
+      213: 4585359157718033427
+    second: VillageAtlas_98
+  - first:
+      213: 994146585649320104
+    second: VillageAtlas_99
+  - first:
+      213: 5278466626319636960
+    second: VillageAtlas_100
+  - first:
+      213: -100006641188631757
+    second: VillageAtlas_101
+  - first:
+      213: 8711157220138354108
+    second: VillageAtlas_102
+  - first:
+      213: -7057578336369895751
+    second: VillageAtlas_103
+  - first:
+      213: -4256259170473929149
+    second: VillageAtlas_104
+  - first:
+      213: -7244175501924394806
+    second: VillageAtlas_105
+  - first:
+      213: 865866453242115401
+    second: VillageAtlas_106
+  - first:
+      213: 5635380975912403212
+    second: VillageAtlas_107
+  - first:
+      213: -736072451350369478
+    second: VillageAtlas_108
+  - first:
+      213: -4121163496651996623
+    second: VillageAtlas_109
+  - first:
+      213: 599376236898512673
+    second: VillageAtlas_110
+  - first:
+      213: -7324557889421657355
+    second: VillageAtlas_111
+  - first:
+      213: 3845067528940172822
+    second: VillageAtlas_112
+  - first:
+      213: -4337986446853708671
+    second: VillageAtlas_113
+  - first:
+      213: 5419561032915638842
+    second: VillageAtlas_114
+  - first:
+      213: -4335079897332052386
+    second: VillageAtlas_115
+  - first:
+      213: -347642258399348515
+    second: VillageAtlas_116
+  - first:
+      213: -1173752188482406732
+    second: VillageAtlas_117
+  - first:
+      213: 2583610889600667308
+    second: VillageAtlas_118
+  - first:
+      213: -3599311081031395853
+    second: VillageAtlas_119
+  - first:
+      213: 8965163986213734591
+    second: VillageAtlas_120
+  - first:
+      213: 8225280739428864675
+    second: VillageAtlas_121
+  - first:
+      213: -2876075259559001309
+    second: VillageAtlas_122
+  - first:
+      213: 8993657624098328811
+    second: VillageAtlas_123
+  - first:
+      213: 3170049460057349289
+    second: VillageAtlas_124
+  - first:
+      213: 527770005232010524
+    second: VillageAtlas_125
+  - first:
+      213: 2909076641287748203
+    second: VillageAtlas_126
+  - first:
+      213: -8996818660307585610
+    second: VillageAtlas_127
+  - first:
+      213: 4588613301461336011
+    second: VillageAtlas_128
+  - first:
+      213: 7437278831102951652
+    second: VillageAtlas_129
+  - first:
+      213: 7783964360030774811
+    second: VillageAtlas_130
+  - first:
+      213: -5968341026745188283
+    second: VillageAtlas_131
+  - first:
+      213: -1192183175419632705
+    second: VillageAtlas_132
+  - first:
+      213: -6412607498702061945
+    second: VillageAtlas_133
+  - first:
+      213: -6027094562138988830
+    second: VillageAtlas_134
+  - first:
+      213: 5737074634781999342
+    second: VillageAtlas_135
+  - first:
+      213: 6860833934053184780
+    second: VillageAtlas_136
+  - first:
+      213: -1834160975287271851
+    second: VillageAtlas_137
+  - first:
+      213: -2693712738633932140
+    second: VillageAtlas_138
+  - first:
+      213: 5630156763787820466
+    second: VillageAtlas_139
+  - first:
+      213: -3738577009881742563
+    second: VillageAtlas_140
+  - first:
+      213: -7075321251251938303
+    second: VillageAtlas_141
+  - first:
+      213: 361242942273870035
+    second: VillageAtlas_142
+  - first:
+      213: -3410533056966661925
+    second: VillageAtlas_143
+  - first:
+      213: -1795473350268976210
+    second: VillageAtlas_144
+  - first:
+      213: 8304543491609492245
+    second: VillageAtlas_145
+  - first:
+      213: -1309856636612969329
+    second: VillageAtlas_146
+  - first:
+      213: 2836133661899875330
+    second: VillageAtlas_147
+  - first:
+      213: -874456631654477007
+    second: VillageAtlas_148
+  - first:
+      213: 3708751127577836148
+    second: VillageAtlas_149
+  - first:
+      213: -6834366239081305731
+    second: VillageAtlas_150
+  - first:
+      213: -882817762197132389
+    second: VillageAtlas_151
+  - first:
+      213: 694332244098809077
+    second: VillageAtlas_152
+  - first:
+      213: 2769885338121704604
+    second: VillageAtlas_153
+  - first:
+      213: 7313469715803544444
+    second: VillageAtlas_154
+  - first:
+      213: -1326170752519135707
+    second: VillageAtlas_155
+  - first:
+      213: 4239785589982581949
+    second: VillageAtlas_156
+  - first:
+      213: 7962036753807641533
+    second: VillageAtlas_157
+  - first:
+      213: -2311645761274685480
+    second: VillageAtlas_158
+  - first:
+      213: -1435659615771396878
+    second: VillageAtlas_159
+  - first:
+      213: 1585507623683207746
+    second: VillageAtlas_160
+  - first:
+      213: 3700634780261068906
+    second: VillageAtlas_161
+  - first:
+      213: -3179954483929270935
+    second: VillageAtlas_162
+  - first:
+      213: 5844994365894559411
+    second: VillageAtlas_163
+  - first:
+      213: -7370728600463942862
+    second: VillageAtlas_164
+  - first:
+      213: 3740068802774431611
+    second: VillageAtlas_165
+  - first:
+      213: 822404698331849925
+    second: VillageAtlas_166
+  - first:
+      213: -5615871513361714443
+    second: VillageAtlas_167
+  - first:
+      213: -218199812915680424
+    second: VillageAtlas_168
+  - first:
+      213: -5625520836064446187
+    second: VillageAtlas_169
+  - first:
+      213: 3300854504171197063
+    second: VillageAtlas_170
+  - first:
+      213: -196490368822975319
+    second: VillageAtlas_171
+  - first:
+      213: -8998151128462312300
+    second: VillageAtlas_172
+  - first:
+      213: 7701072917902904590
+    second: VillageAtlas_173
+  - first:
+      213: 7711929954229637007
+    second: VillageAtlas_174
+  - first:
+      213: 5391529378495614858
+    second: VillageAtlas_175
+  - first:
+      213: 7972145703452888188
+    second: VillageAtlas_176
+  - first:
+      213: -3848341228850495431
+    second: VillageAtlas_177
+  - first:
+      213: 1775374323418879455
+    second: VillageAtlas_178
+  - first:
+      213: -7885820351963893599
+    second: VillageAtlas_179
+  - first:
+      213: 1155892576129520978
+    second: VillageAtlas_180
+  - first:
+      213: -3177301414065499952
+    second: VillageAtlas_181
+  - first:
+      213: 3078388887463745809
+    second: VillageAtlas_182
+  - first:
+      213: -7648138307584443740
+    second: VillageAtlas_183
+  - first:
+      213: -7313266924582309661
+    second: VillageAtlas_184
+  - first:
+      213: -7298848823948317397
+    second: VillageAtlas_185
+  - first:
+      213: 1694593395363737769
+    second: VillageAtlas_186
+  - first:
+      213: -3749496703139466039
+    second: VillageAtlas_187
+  - first:
+      213: -6668514610816187053
+    second: VillageAtlas_188
+  - first:
+      213: -4754061758946184845
+    second: VillageAtlas_189
+  - first:
+      213: 6616478395051120011
+    second: VillageAtlas_190
+  - first:
+      213: 8433524938700488706
+    second: VillageAtlas_191
+  - first:
+      213: 8773062746094399806
+    second: VillageAtlas_192
+  - first:
+      213: 8650514809964808978
+    second: VillageAtlas_193
+  - first:
+      213: 4044915056076859979
+    second: VillageAtlas_194
+  - first:
+      213: 3438860992473546433
+    second: VillageAtlas_195
+  - first:
+      213: -2846215386651995675
+    second: VillageAtlas_196
+  - first:
+      213: 1883839553613505705
+    second: VillageAtlas_197
+  - first:
+      213: -3791298641858705189
+    second: VillageAtlas_198
+  - first:
+      213: 8372078509643090383
+    second: VillageAtlas_199
+  - first:
+      213: -735283470310310641
+    second: VillageAtlas_200
+  - first:
+      213: 601414004425638177
+    second: VillageAtlas_201
+  - first:
+      213: -2295028675130188013
+    second: VillageAtlas_202
+  - first:
+      213: 5385490866749995657
+    second: VillageAtlas_203
+  - first:
+      213: -6159587670548033660
+    second: VillageAtlas_204
+  - first:
+      213: -4565751256151299914
+    second: VillageAtlas_205
+  - first:
+      213: 4984319076142672133
+    second: VillageAtlas_206
+  - first:
+      213: 809458736124917068
+    second: VillageAtlas_207
+  - first:
+      213: 1161478850899746273
+    second: VillageAtlas_208
+  - first:
+      213: -3648154140907721885
+    second: VillageAtlas_209
+  - first:
+      213: -7384248137625924850
+    second: VillageAtlas_210
+  - first:
+      213: -753928485588792112
+    second: VillageAtlas_211
+  - first:
+      213: -247133130261263989
+    second: VillageAtlas_212
+  - first:
+      213: -6553210958741898418
+    second: VillageAtlas_213
+  - first:
+      213: 1851953799402632228
+    second: VillageAtlas_214
+  - first:
+      213: -6894472265276638371
+    second: VillageAtlas_215
+  - first:
+      213: 7532785827971097956
+    second: VillageAtlas_216
+  - first:
+      213: -3127435362399361064
+    second: VillageAtlas_217
+  - first:
+      213: 6278253320009183228
+    second: VillageAtlas_218
+  - first:
+      213: -3182185451102190902
+    second: VillageAtlas_219
+  - first:
+      213: 981048145555432775
+    second: VillageAtlas_220
+  - first:
+      213: -1166315043001068750
+    second: VillageAtlas_221
+  - first:
+      213: 7651229308812101277
+    second: VillageAtlas_222
+  - first:
+      213: -616727245870754946
+    second: VillageAtlas_223
+  - first:
+      213: 6416313986875439189
+    second: VillageAtlas_224
+  - first:
+      213: 2552343997770953077
+    second: VillageAtlas_225
+  - first:
+      213: 8186350853281237509
+    second: VillageAtlas_226
+  - first:
+      213: -1734110195152863975
+    second: VillageAtlas_227
+  - first:
+      213: -7588190279978721081
+    second: VillageAtlas_228
+  - first:
+      213: 7971858407260560320
+    second: VillageAtlas_229
+  - first:
+      213: 4545421811534362670
+    second: VillageAtlas_230
+  - first:
+      213: 5355156500723927823
+    second: VillageAtlas_231
+  - first:
+      213: 2443163306246291808
+    second: VillageAtlas_232
+  - first:
+      213: -5298224253055231511
+    second: VillageAtlas_233
+  - first:
+      213: -8649057543379982302
+    second: VillageAtlas_234
+  - first:
+      213: -6017529837051882275
+    second: VillageAtlas_235
+  - first:
+      213: 5966514491683671666
+    second: VillageAtlas_236
+  - first:
+      213: 4611554941937860047
+    second: VillageAtlas_237
+  - first:
+      213: -4814504239909711634
+    second: VillageAtlas_238
+  - first:
+      213: 8755309715713128219
+    second: VillageAtlas_239
+  - first:
+      213: 1090649623730696442
+    second: VillageAtlas_240
+  - first:
+      213: -6769502607116309738
+    second: VillageAtlas_241
+  - first:
+      213: 2137514859044161438
+    second: VillageAtlas_242
+  - first:
+      213: -212570808945995778
+    second: VillageAtlas_243
+  - first:
+      213: 3929596455718899218
+    second: VillageAtlas_244
+  - first:
+      213: 176335807267123250
+    second: VillageAtlas_245
+  - first:
+      213: 284069720134088563
+    second: VillageAtlas_246
+  - first:
+      213: 8079004005731403716
+    second: VillageAtlas_247
+  - first:
+      213: 2195226436767230171
+    second: VillageAtlas_248
+  - first:
+      213: 2738081647606681444
+    second: VillageAtlas_249
+  - first:
+      213: -4023993347019831568
+    second: VillageAtlas_250
+  - first:
+      213: 289337251819503829
+    second: VillageAtlas_251
+  - first:
+      213: 6190596313240120426
+    second: VillageAtlas_252
+  - first:
+      213: -7816552141617021776
+    second: VillageAtlas_253
+  - first:
+      213: 9158037623099505862
+    second: VillageAtlas_254
+  - first:
+      213: -2670430602189219526
+    second: VillageAtlas_255
+  - first:
+      213: 740762271801774205
+    second: VillageAtlas_256
+  - first:
+      213: 114967617030254806
+    second: VillageAtlas_257
+  - first:
+      213: 8440190797882039120
+    second: VillageAtlas_258
+  - first:
+      213: -2487556903546533635
+    second: VillageAtlas_259
+  - first:
+      213: -4543256837746643446
+    second: VillageAtlas_260
+  - first:
+      213: -8833544305071769302
+    second: VillageAtlas_261
+  - first:
+      213: 4237011040314420891
+    second: VillageAtlas_262
+  - first:
+      213: 3238433052530867919
+    second: VillageAtlas_263
+  - first:
+      213: -5947275728238062162
+    second: VillageAtlas_264
+  - first:
+      213: -8999251075700130226
+    second: VillageAtlas_265
+  - first:
+      213: -3501104528431631390
+    second: VillageAtlas_266
+  - first:
+      213: -736773054070370847
+    second: VillageAtlas_267
+  - first:
+      213: -3649270214028816734
+    second: VillageAtlas_268
+  - first:
+      213: 2856821003825930021
+    second: VillageAtlas_269
+  - first:
+      213: -5383518263012341788
+    second: VillageAtlas_270
+  - first:
+      213: 6852134685708587325
+    second: VillageAtlas_271
+  - first:
+      213: 6751921634686404744
+    second: VillageAtlas_272
+  - first:
+      213: -3223004639458405828
+    second: VillageAtlas_273
+  - first:
+      213: 5905036599861456803
+    second: VillageAtlas_274
+  - first:
+      213: 557181330423328078
+    second: VillageAtlas_275
+  - first:
+      213: -8798350580238188716
+    second: VillageAtlas_276
+  - first:
+      213: -1841074555122635028
+    second: VillageAtlas_277
+  - first:
+      213: 6624695255414768989
+    second: VillageAtlas_278
+  - first:
+      213: -7594330889863140088
+    second: VillageAtlas_279
+  - first:
+      213: 968914625404510217
+    second: VillageAtlas_280
+  - first:
+      213: 4658963085907681409
+    second: VillageAtlas_281
+  - first:
+      213: 8193424812145768589
+    second: VillageAtlas_282
+  - first:
+      213: -2293521134244521142
+    second: VillageAtlas_283
+  - first:
+      213: 7539326920118438314
+    second: VillageAtlas_284
+  - first:
+      213: 1281224097098246384
+    second: VillageAtlas_285
+  - first:
+      213: 2544422314448014500
+    second: VillageAtlas_286
+  - first:
+      213: 366416012585901555
+    second: VillageAtlas_287
+  - first:
+      213: 2779898841391507075
+    second: VillageAtlas_288
+  - first:
+      213: -803717252154672316
+    second: VillageAtlas_289
+  - first:
+      213: -7405827504354958568
+    second: VillageAtlas_290
+  - first:
+      213: -1888185967403843706
+    second: VillageAtlas_291
+  - first:
+      213: 7498733913062140765
+    second: VillageAtlas_292
+  - first:
+      213: 7478052863099521624
+    second: VillageAtlas_293
+  - first:
+      213: 7816249400969661046
+    second: VillageAtlas_294
+  - first:
+      213: 2645555862820818571
+    second: VillageAtlas_295
+  - first:
+      213: 2202393063342146381
+    second: VillageAtlas_296
+  - first:
+      213: -5891423631740338151
+    second: VillageAtlas_297
+  - first:
+      213: -8458955781769255808
+    second: VillageAtlas_298
+  - first:
+      213: 1723289571438271587
+    second: VillageAtlas_299
+  - first:
+      213: -2883094099681161314
+    second: VillageAtlas_300
+  - first:
+      213: -3331493970163812331
+    second: VillageAtlas_301
+  - first:
+      213: -4196108184858811006
+    second: VillageAtlas_302
+  - first:
+      213: -2068700452120859263
+    second: VillageAtlas_303
+  - first:
+      213: -373472679515591746
+    second: VillageAtlas_304
+  - first:
+      213: 1156504647129820809
+    second: VillageAtlas_305
+  - first:
+      213: -5466132509319229529
+    second: VillageAtlas_306
+  - first:
+      213: -3791473733273521043
+    second: VillageAtlas_307
+  - first:
+      213: -751060049454288886
+    second: VillageAtlas_308
+  - first:
+      213: -6481595552817388351
+    second: VillageAtlas_309
+  - first:
+      213: 2806296198418398023
+    second: VillageAtlas_310
+  - first:
+      213: -8571437142369227012
+    second: VillageAtlas_311
+  - first:
+      213: 7802094358747432204
+    second: VillageAtlas_312
+  - first:
+      213: -313434037154105003
+    second: VillageAtlas_313
+  - first:
+      213: -5112681448394782972
+    second: VillageAtlas_314
+  - first:
+      213: 6554111012128121067
+    second: VillageAtlas_315
+  - first:
+      213: -5805961472493200969
+    second: VillageAtlas_316
+  - first:
+      213: 4848895200199616
+    second: VillageAtlas_317
+  - first:
+      213: -7050290268925371894
+    second: VillageAtlas_318
+  - first:
+      213: -8037688322778263569
+    second: VillageAtlas_319
+  - first:
+      213: -849596017853636480
+    second: VillageAtlas_320
+  - first:
+      213: 3597148585147005605
+    second: VillageAtlas_321
+  - first:
+      213: -5209190117789002519
+    second: VillageAtlas_322
+  - first:
+      213: 4160785636511784598
+    second: VillageAtlas_323
+  - first:
+      213: 148740067984696701
+    second: VillageAtlas_324
+  - first:
+      213: 6581416333121413840
+    second: VillageAtlas_325
+  - first:
+      213: -8385743869095123161
+    second: VillageAtlas_326
+  - first:
+      213: 5143210672671746319
+    second: VillageAtlas_327
+  - first:
+      213: -2050285251418242676
+    second: VillageAtlas_328
+  - first:
+      213: 6921138382537545807
+    second: VillageAtlas_329
+  - first:
+      213: -5530452409967537695
+    second: VillageAtlas_330
+  - first:
+      213: 7435378781484552085
+    second: VillageAtlas_331
+  - first:
+      213: -4053612835840423356
+    second: VillageAtlas_332
+  - first:
+      213: 1362907252055008817
+    second: VillageAtlas_333
+  - first:
+      213: -7970210165480803386
+    second: VillageAtlas_334
+  - first:
+      213: 1906536174130769309
+    second: VillageAtlas_335
+  - first:
+      213: 73731067841271515
+    second: VillageAtlas_336
+  - first:
+      213: 4277734114166676709
+    second: VillageAtlas_337
+  - first:
+      213: 6604194239430081973
+    second: VillageAtlas_338
+  - first:
+      213: 2694910985242649900
+    second: VillageAtlas_339
+  - first:
+      213: -8189392206637310829
+    second: VillageAtlas_340
+  - first:
+      213: 400614695365475669
+    second: VillageAtlas_341
+  - first:
+      213: -1959933817265825021
+    second: VillageAtlas_342
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grass
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 992
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5013d50ef8d94043bb981d1e7d8373a
+      internalID: 646334011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrassFlowers
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 976
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85634debda1f8b34386c027c1bb0aa34
+      internalID: -1142196453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrassSpecks
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 976
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cae0f0bf76577428512bb706503610
+      internalID: 1445918905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 880
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2593e395fa18eaa44a9011e66431fdf5
+      internalID: 1517584999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487be9976f89ad64798c10c5309fc018
+      internalID: 778130410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliff
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 944
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062f314038c11d849869e5ad6688b691
+      internalID: -1486700848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planks
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 808
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df0f1719b7eb6044ba7e6b1d5222ace
+      internalID: -1141866809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 976
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80958501c75f75d4fa46da4ad164a3b8
+      internalID: 1272656434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StonePaving
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 768
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c47950d4567452498c77f017147180e
+      internalID: 1382721992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHouse
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 768
+        width: 128
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf0ee74b0f84b14c8f4277b234ccb18
+      internalID: -1477974744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenHouse
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 640
+        width: 128
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530b32d39cbf2e345b52b000884a6f0d
+      internalID: -178380479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeHouse
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 512
+        width: 128
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa062325d2253514ea9ae4143771fe0c
+      internalID: 859141899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHouse
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 384
+        width: 128
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9154112966cda4a88d177b177c012c
+      internalID: -1497510307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleHouse
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 256
+        width: 128
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4854c7d9ed9bf86479836cae027d442a
+      internalID: 831569105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTower
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 776
+        width: 32
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78626aa69d697b148b72eed983c053ad
+      internalID: 1979110786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Statue
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 672
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b734d4fedf1c5f94e8ff2bb3f9017f93
+      internalID: 578787675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 680
+        width: 32
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7710ba6a099e4eb408d6f95fc79bd6d4
+      internalID: 665502255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bench
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 800
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbf8d07164433d42bb8cbd8b5ea7c64
+      internalID: -953859581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crates
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 832
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56f36dc4987862439c3044486eb6c25
+      internalID: -844845446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 752
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4164e73f6d891ef4db38f3a9cb55413f
+      internalID: -2074525417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerPink
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 944
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfe79fcda127cf46825a48b4594e24c
+      internalID: 204528005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerYellow
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 944
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3158079fb6d05e9488aa3f81ffdc9e1d
+      internalID: -2025536405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 656
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae4de3459d0ee84c96413ee5768f194
+      internalID: -1192270483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sign
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 832
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5642ec41eb0919e4ca133b3347356a78
+      internalID: -558528953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timber
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 864
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b7f2ff8b986d443beaa8175cf6a231
+      internalID: 1564531957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 848
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f556733525e784b9e9e366a2ba269e
+      internalID: -224583662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 848
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a7801c8504d6f41aa5294e36b3fbfc
+      internalID: -1102159847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShingles
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 848
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dfaabec18a31d4ea212dc5dbdabcc0
+      internalID: 992405007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenShingles
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 720
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b4e07593871fb42a3f3379d33dc2a4
+      internalID: -1372913300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeShingles
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 592
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2676bfd6b534e045bd112033ae1835b
+      internalID: 1020557042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShingles
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 464
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b778527b85dcd2d48a039adf83eb1908
+      internalID: 1566542799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleShingles
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 336
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d2cbd485b108d4fa3f2ae66f951b9d
+      internalID: -1603211982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ad2ae1a10949b634da8188158d2599e1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Barrel: -2074525417
+      Bench: -953859581
+      BlueHouse: -1477974744
+      BlueShingles: 992405007
+      BlueTower: 1979110786
+      Cliff: -1486700848
+      Crates: -844845446
+      Dirt: 1517584999
+      Door: -224583662
+      Fence: 1272656434
+      FlowerPink: 204528005
+      FlowerYellow: -2025536405
+      Grass: 646334011
+      GrassFlowers: -1142196453
+      GrassSpecks: 1445918905
+      GreenHouse: -178380479
+      GreenShingles: -1372913300
+      OrangeHouse: 859141899
+      OrangeShingles: 1020557042
+      Planks: -1141866809
+      PurpleHouse: 831569105
+      PurpleShingles: -1603211982
+      RedHouse: -1497510307
+      RedShingles: 1566542799
+      Rock: -1192270483
+      Sign: -558528953
+      Statue: 578787675
+      StonePaving: 1382721992
+      Timber: 1564531957
+      Water: 778130410
+      Well: 665502255
+      Window: -1102159847
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

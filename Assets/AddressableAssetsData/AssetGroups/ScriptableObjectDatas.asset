@@ -15,8 +15,183 @@ MonoBehaviour:
   m_GroupName: ScriptableObjectDatas
   m_GUID: b19c56bc309bb2c4a9eb274bd58c25c5
   m_SerializeEntries:
+  - m_GUID: 0598dfc6f33729f4fb07e089af9ba8c3
+    m_Address: Assets/ScriptableObjectDatas/HeroStatUpgradeTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05a63ff9d417e484d9515d1fd599e185
+    m_Address: Assets/ScriptableObjectDatas/EquipmentGrowthRuleTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0950faf4f389c9e49bd3b915c1d8fa0c
+    m_Address: Assets/ScriptableObjectDatas/EquipmentUpgradeTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a26437d0c0d78d4da0944341fd92c4c
+    m_Address: Assets/ScriptableObjectDatas/HeroGrowthStartTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ae2733a938a9e8408546c5257aabdff
+    m_Address: Assets/ScriptableObjectDatas/StoryQuestTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1582f1895ab379a4ea5de4dd5443770e
+    m_Address: Assets/ScriptableObjectDatas/DropTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f67bec22c6ee1f4782c3b0369944bb3
+    m_Address: Assets/ScriptableObjectDatas/SanctuaryRuneRuleTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21e05b5df1695284d931b4ed1a1367c3
+    m_Address: Assets/ScriptableObjectDatas/HeroGrowthRuleTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ab5199c1bd5e4744940e8f6f38b37ce
+    m_Address: Assets/ScriptableObjectDatas/RuneUpgradeTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 344acf32df1f14740b534e1cedf98943
+    m_Address: Assets/ScriptableObjectDatas/GameAudioCatalog.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40a0e26bbcc22d1419b0b543b43f9c00
+    m_Address: Assets/ScriptableObjectDatas/EquipmentShopTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44a099e04d92aa4408c93c93bbbceb98
+    m_Address: Assets/ScriptableObjectDatas/DungeonMapTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46ff73536b644d449ade6429763bd916
+    m_Address: Assets/ScriptableObjectDatas/AutoHealTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a8b83808e2c4304c84c9c42d9f1159f
+    m_Address: Assets/ScriptableObjectDatas/LobbyHeroTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f5e9583f42e4194eab6b446fb7522c8
+    m_Address: Assets/ScriptableObjectDatas/LobbyTestStartTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bf3f18c6e608b84f8e41c8324b4a4fc
+    m_Address: Assets/ScriptableObjectDatas/VillagePartyTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fb6d654430efb64d98e97fd5906bb54
+    m_Address: Assets/ScriptableObjectDatas/SupplyRuleTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac01477ad795a9f429530c02aacbb96f
+    m_Address: Assets/ScriptableObjectDatas/EquipmentDismantleTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac316b18b4289094baa08e93614c2100
+    m_Address: Assets/ScriptableObjectDatas/DungeonStageSelectionTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b84fb1cc2b56b2e48af765c778d6d052
+    m_Address: Assets/ScriptableObjectDatas/SkillTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c558118e73bad8c4e843d15aef7c8cf7
+    m_Address: Assets/ScriptableObjectDatas/HolyPlaceTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7b9461f135aa9747964c7e7eec3228b
+    m_Address: Assets/ScriptableObjectDatas/CampaignEquipmentLootTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d21cb6f2bfe63fb4182dd4abc5de3525
     m_Address: Assets/ScriptableObjectDatas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d71722774b4193d41a0cd00a233c1001
+    m_Address: Assets/ScriptableObjectDatas/CampaignStageTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd07d35065eed0f49a83f0b632741758
+    m_Address: Assets/ScriptableObjectDatas/CharacterTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfdd82d262fc8bf4ab1dfeb6e0b58ae4
+    m_Address: Assets/ScriptableObjectDatas/EquipmentTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e05103f8759912d4e90202144a173e08
+    m_Address: Assets/ScriptableObjectDatas/CampaignRuneLootTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb4ad1973461c344782e8200b3965f21
+    m_Address: Assets/ScriptableObjectDatas/RuneTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efca73181a0c1214db879f38efb99265
+    m_Address: Assets/ScriptableObjectDatas/StringTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2b58c394c3efbc4d9c8196d91029b6b
+    m_Address: Assets/ScriptableObjectDatas/LobbyOptionTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f362470f8e63e8843a95fc50940a723f
+    m_Address: Assets/ScriptableObjectDatas/VillageShopTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7876c4381e32de4c9b007ac1df00f0b
+    m_Address: Assets/ScriptableObjectDatas/LobbyRuleTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa26837e237f6474eabe72bbaad72f15
+    m_Address: Assets/ScriptableObjectDatas/ConsumableTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd21b2f21645fb841836d3617ea57611
+    m_Address: Assets/ScriptableObjectDatas/LobbyStartingEquipmentTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe2cd72bc232fe444852bda6784b90c2
+    m_Address: Assets/ScriptableObjectDatas/GroundTableData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fed2c73cfd0c34846a69dc497c4121d2
+    m_Address: Assets/ScriptableObjectDatas/RuneShopRuleTableData.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

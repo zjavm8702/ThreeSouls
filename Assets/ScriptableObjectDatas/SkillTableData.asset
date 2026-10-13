@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29aacbbcd0b4924190403c8cfd01cc8, type: 3}
+  m_Name: SkillTableData
+  m_EditorClassIdentifier: Assembly-CSharp::ThreeSouls.Data.Generated.SkillTableDataTable
+  Items:
+  - Key: HeavySlash
+    HeroKey: Key_night
+    InitialDelay: 2
+    Cooldown: 6
+    CastRange: 1.6
+    HitDelay: 0.24
+    DamageMultiplier: 3
+    IsArea: 0
+    CenterOnCaster: 0
+    Radius: 0
+    EffectOffset: {x: 0, y: 0.5}
+    SkillIconKey: Icon_Knight_HeavySlash
+    AttackClipKey: HeavySlashAttack
+    EffectPrefabKey: HeavySlash
+  - Key: Whirlwind
+    HeroKey: Key_night
+    InitialDelay: 5
+    Cooldown: 10
+    CastRange: 1.7
+    HitDelay: 0.22
+    DamageMultiplier: 2
+    IsArea: 1
+    CenterOnCaster: 1
+    Radius: 1.7
+    EffectOffset: {x: 0, y: 0}
+    SkillIconKey: Icon_Knight_Whirlwind
+    AttackClipKey: WhirlwindAttack
+    EffectPrefabKey: Whirlwind
+  - Key: PrecisionShot
+    HeroKey: Key_archer
+    InitialDelay: 2.5
+    Cooldown: 5
+    CastRange: 4.5
+    HitDelay: 0.17
+    DamageMultiplier: 2.5
+    IsArea: 0
+    CenterOnCaster: 0
+    Radius: 0
+    EffectOffset: {x: 0, y: 0.5}
+    SkillIconKey: Icon_Archer_PrecisionShot
+    AttackClipKey: PrecisionShotAttack
+    EffectPrefabKey: PrecisionShot
+  - Key: ArrowRain
+    HeroKey: Key_archer
+    InitialDelay: 6
+    Cooldown: 10
+    CastRange: 4.5
+    HitDelay: 0.35
+    DamageMultiplier: 1.5
+    IsArea: 1
+    CenterOnCaster: 0
+    Radius: 2
+    EffectOffset: {x: 0, y: 0}
+    SkillIconKey: Icon_Archer_ArrowRain
+    AttackClipKey: ArrowRainAttack
+    EffectPrefabKey: ArrowRain
+  - Key: FireBolt
+    HeroKey: Key_wizard
+    InitialDelay: 3
+    Cooldown: 6
+    CastRange: 3.5
+    HitDelay: 0.2
+    DamageMultiplier: 2
+    IsArea: 0
+    CenterOnCaster: 0
+    Radius: 0
+    EffectOffset: {x: 0, y: 0.5}
+    SkillIconKey: Icon_Wizard_FireBolt
+    AttackClipKey: FireBoltAttack
+    EffectPrefabKey: FireBolt
+  - Key: FlameNova
+    HeroKey: Key_wizard
+    InitialDelay: 7
+    Cooldown: 11
+    CastRange: 3.5
+    HitDelay: 0.35
+    DamageMultiplier: 1.75
+    IsArea: 1
+    CenterOnCaster: 0
+    Radius: 2.2
+    EffectOffset: {x: 0, y: 0}
+    SkillIconKey: Icon_Wizard_FlameNova
+    AttackClipKey: FlameNovaAttack
+    EffectPrefabKey: FlameNova

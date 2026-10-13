@@ -1,0 +1,28 @@
+{
+    "Items": [
+        {
+            "Index": 0,
+            "EquipSlot": 0,
+            "AttackRatePerLevel": 0.05000000074505806,
+            "HPRatePerLevel": 0.05000000074505806,
+            "SpeedBonusPerLevel": 0.0,
+            "RequirePositiveBaseSpeed": false
+        },
+        {
+            "Index": 1,
+            "EquipSlot": 1,
+            "AttackRatePerLevel": 0.05000000074505806,
+            "HPRatePerLevel": 0.05000000074505806,
+            "SpeedBonusPerLevel": 0.0,
+            "RequirePositiveBaseSpeed": false
+        },
+        {
+            "Index": 2,
+            "EquipSlot": 2,
+            "AttackRatePerLevel": 0.0,
+            "HPRatePerLevel": 0.0,
+            "SpeedBonusPerLevel": 0.0020000000949949028,
+            "RequirePositiveBaseSpeed": true
+        }
+    ]
+}

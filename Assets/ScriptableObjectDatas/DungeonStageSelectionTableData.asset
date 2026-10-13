@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b80c9bf36d695c4e877ebc975ed24dd, type: 3}
+  m_Name: DungeonStageSelectionTableData
+  m_EditorClassIdentifier: Assembly-CSharp::ThreeSouls.Data.Generated.DungeonStageSelectionTableDataTable
+  Items:
+  - Key: Mine_1
+    DungeonKey: Mine
+    StageNumber: 1
+    DisplayName: "\uAD11\uC0B0 \uC785\uAD6C"
+    MapX: 0.13
+    MapY: 0.12
+    Enabled: 1
+  - Key: Mine_2
+    DungeonKey: Mine
+    StageNumber: 2
+    DisplayName: "\uBC84\uB824\uC9C4 \uAC31\uB3C4"
+    MapX: 0.315
+    MapY: 0.12
+    Enabled: 1
+  - Key: Mine_3
+    DungeonKey: Mine
+    StageNumber: 3
+    DisplayName: "\uC9C0\uD558 \uC218\uB85C"
+    MapX: 0.5
+    MapY: 0.12
+    Enabled: 1
+  - Key: Mine_4
+    DungeonKey: Mine
+    StageNumber: 4
+    DisplayName: "\uCC44\uAD74\uC7A5"
+    MapX: 0.685
+    MapY: 0.12
+    Enabled: 1
+  - Key: Mine_5
+    DungeonKey: Mine
+    StageNumber: 5
+    DisplayName: "\uAD11\uC0B0 \uC2EC\uC7A5\uBD80"
+    MapX: 0.87
+    MapY: 0.12
+    Enabled: 1
+  - Key: Ruins_1
+    DungeonKey: Ruins
+    StageNumber: 1
+    DisplayName: "\uC720\uC801 \uC57C\uC601\uC9C0"
+    MapX: 0.13
+    MapY: 0.12
+    Enabled: 1
+  - Key: Ruins_2
+    DungeonKey: Ruins
+    StageNumber: 2
+    DisplayName: "\uBB34\uB108\uC9C4 \uB2E4\uB9AC"
+    MapX: 0.315
+    MapY: 0.12
+    Enabled: 1
+  - Key: Ruins_3
+    DungeonKey: Ruins
+    StageNumber: 3
+    DisplayName: "\uACE0\uB300 \uD68C\uB791"
+    MapX: 0.5
+    MapY: 0.12
+    Enabled: 1
+  - Key: Ruins_4
+    DungeonKey: Ruins
+    StageNumber: 4
+    DisplayName: "\uAC10\uC2DC\uD0D1"
+    MapX: 0.685
+    MapY: 0.12
+    Enabled: 1
+  - Key: Ruins_5
+    DungeonKey: Ruins
+    StageNumber: 5
+    DisplayName: "\uC78A\uD78C \uC131\uCC44"
+    MapX: 0.87
+    MapY: 0.12
+    Enabled: 1
+  - Key: Forest_1
+    DungeonKey: Forest
+    StageNumber: 1
+    DisplayName: "\uC232\uC758 \uC785\uAD6C"
+    MapX: 0.13
+    MapY: 0.12
+    Enabled: 1
+  - Key: Forest_2
+    DungeonKey: Forest
+    StageNumber: 2
+    DisplayName: "\uD3ED\uD3EC \uAE38"
+    MapX: 0.315
+    MapY: 0.12
+    Enabled: 1
+  - Key: Forest_3
+    DungeonKey: Forest
+    StageNumber: 3
+    DisplayName: "\uD478\uB978 \uAC15\uAC00"
+    MapX: 0.5
+    MapY: 0.12
+    Enabled: 1
+  - Key: Forest_4
+    DungeonKey: Forest
+    StageNumber: 4
+    DisplayName: "\uC815\uB839 \uC232\uAE38"
+    MapX: 0.685
+    MapY: 0.12
+    Enabled: 1
+  - Key: Forest_5
+    DungeonKey: Forest
+    StageNumber: 5
+    DisplayName: "\uC815\uB839\uC758 \uC131\uC18C"
+    MapX: 0.87
+    MapY: 0.12
+    Enabled: 1
+  - Key: Frost_1
+    DungeonKey: Frost
+    StageNumber: 1
+    DisplayName: "\uC124\uC6D0 \uC57C\uC601\uC9C0"
+    MapX: 0.13
+    MapY: 0.12
+    Enabled: 1
+  - Key: Frost_2
+    DungeonKey: Frost
+    StageNumber: 2
+    DisplayName: "\uC5BC\uC74C \uB2E4\uB9AC"
+    MapX: 0.315
+    MapY: 0.12
+    Enabled: 1
+  - Key: Frost_3
+    DungeonKey: Frost
+    StageNumber: 3
+    DisplayName: "\uC218\uC815 \uB3D9\uAD74"
+    MapX: 0.5
+    MapY: 0.12
+    Enabled: 1
+  - Key: Frost_4
+    DungeonKey: Frost
+    StageNumber: 4
+    DisplayName: "\uB208\uBC14\uB78C \uC808\uBCBD"
+    MapX: 0.685
+    MapY: 0.12
+    Enabled: 1
+  - Key: Frost_5
+    DungeonKey: Frost
+    StageNumber: 5
+    DisplayName: "\uC5BC\uC74C \uC131\uCC44"
+    MapX: 0.87
+    MapY: 0.12
+    Enabled: 1

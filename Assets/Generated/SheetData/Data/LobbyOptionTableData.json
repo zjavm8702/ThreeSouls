@@ -1,0 +1,164 @@
+{
+    "Items": [
+        {
+            "Index": 0,
+            "Category": "Rarity",
+            "OptionKey": "Normal",
+            "StrKey": "LobbyRarity_Normal",
+            "DisplayOrder": 0,
+            "ColorHex": "#94A6AE"
+        },
+        {
+            "Index": 1,
+            "Category": "Rarity",
+            "OptionKey": "Magic",
+            "StrKey": "LobbyRarity_Magic",
+            "DisplayOrder": 1,
+            "ColorHex": "#74AFE2"
+        },
+        {
+            "Index": 2,
+            "Category": "Rarity",
+            "OptionKey": "Rare",
+            "StrKey": "LobbyRarity_Rare",
+            "DisplayOrder": 2,
+            "ColorHex": "#E2B769"
+        },
+        {
+            "Index": 3,
+            "Category": "EquipSlot",
+            "OptionKey": "Weapon",
+            "StrKey": "LobbyEquipSlot_Weapon",
+            "DisplayOrder": 0,
+            "ColorHex": ""
+        },
+        {
+            "Index": 4,
+            "Category": "EquipSlot",
+            "OptionKey": "Armor",
+            "StrKey": "LobbyEquipSlot_Armor",
+            "DisplayOrder": 1,
+            "ColorHex": ""
+        },
+        {
+            "Index": 5,
+            "Category": "EquipSlot",
+            "OptionKey": "Accessory",
+            "StrKey": "LobbyEquipSlot_Accessory",
+            "DisplayOrder": 2,
+            "ColorHex": ""
+        },
+        {
+            "Index": 6,
+            "Category": "Tab",
+            "OptionKey": "Village",
+            "StrKey": "LobbyTab_Village",
+            "DisplayOrder": 0,
+            "ColorHex": ""
+        },
+        {
+            "Index": 7,
+            "Category": "Tab",
+            "OptionKey": "Inventory",
+            "StrKey": "LobbyTab_Inventory",
+            "DisplayOrder": 1,
+            "ColorHex": ""
+        },
+        {
+            "Index": 8,
+            "Category": "Tab",
+            "OptionKey": "Characters",
+            "StrKey": "LobbyTab_Characters",
+            "DisplayOrder": 2,
+            "ColorHex": ""
+        },
+        {
+            "Index": 9,
+            "Category": "Tab",
+            "OptionKey": "Supplies",
+            "StrKey": "LobbyTab_Supplies",
+            "DisplayOrder": 3,
+            "ColorHex": ""
+        },
+        {
+            "Index": 10,
+            "Category": "Filter",
+            "OptionKey": "All",
+            "StrKey": "LobbyFilter_All",
+            "DisplayOrder": 0,
+            "ColorHex": ""
+        },
+        {
+            "Index": 11,
+            "Category": "Filter",
+            "OptionKey": "Weapon",
+            "StrKey": "LobbyFilter_Weapon",
+            "DisplayOrder": 1,
+            "ColorHex": ""
+        },
+        {
+            "Index": 12,
+            "Category": "Filter",
+            "OptionKey": "Armor",
+            "StrKey": "LobbyFilter_Armor",
+            "DisplayOrder": 2,
+            "ColorHex": ""
+        },
+        {
+            "Index": 13,
+            "Category": "Filter",
+            "OptionKey": "Accessory",
+            "StrKey": "LobbyFilter_Accessory",
+            "DisplayOrder": 3,
+            "ColorHex": ""
+        },
+        {
+            "Index": 14,
+            "Category": "Filter",
+            "OptionKey": "Equipped",
+            "StrKey": "LobbyFilter_Equipped",
+            "DisplayOrder": 4,
+            "ColorHex": ""
+        },
+        {
+            "Index": 15,
+            "Category": "Order",
+            "OptionKey": "Rarity",
+            "StrKey": "LobbyOrder_Rarity",
+            "DisplayOrder": 0,
+            "ColorHex": ""
+        },
+        {
+            "Index": 16,
+            "Category": "Order",
+            "OptionKey": "Name",
+            "StrKey": "LobbyOrder_Name",
+            "DisplayOrder": 1,
+            "ColorHex": ""
+        },
+        {
+            "Index": 17,
+            "Category": "Order",
+            "OptionKey": "Attack",
+            "StrKey": "LobbyOrder_Attack",
+            "DisplayOrder": 2,
+            "ColorHex": ""
+        },
+        {
+            "Index": 18,
+            "Category": "Rarity",
+            "OptionKey": "Epic",
+            "StrKey": "Rarity_Epic",
+            "DisplayOrder": 3,
+            "ColorHex": "#BC85FF"
+        },
+        {
+            "Index": 19,
+            "Category": "Rarity",
+            "OptionKey": "Legendary",
+            "StrKey": "Rarity_Legendary",
+            "DisplayOrder": 4,
+            "ColorHex": "#FF994D"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Items": [
+        {
+            "Key": "LobbySupply",
+            "SlotCount": 2,
+            "MaximumPerSlot": 2,
+            "AllowDuplicateType": true,
+            "LimitToOwned": true,
+            "ConsumeOnAssign": false,
+            "UseEquipmentCapacity": false,
+            "BuyAmounts": [
+                1,
+                5
+            ],
+            "MinPurchase": 1,
+            "MaxPurchase": 99,
+            "MaxOwnedPerType": 2147483647,
+            "DefaultAutoHeal": 2,
+            "PlannedCooldownSeconds": 12.0,
+            "CooldownImplemented": true
+        }
+    ]
+}

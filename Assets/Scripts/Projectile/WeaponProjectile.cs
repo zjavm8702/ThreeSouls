@@ -1,9 +1,7 @@
 using System;
 using ThreeSouls.Character;
-using ThreeSouls.Enumeration;
-using ThreeSouls.Enumeration.AddressableKey;
+using ThreeSouls.Data;
 using ThreeSouls.Interface;
-using ThreeSouls.Utility;
 using UnityEngine;
 using UnityEngine.U2D.Animation;
 
@@ -11,11 +9,11 @@ namespace ThreeSouls.Projectile
 {
     public class WeaponProjectile : MonoBehaviour, IProjectileStateProvider
     {
-        public Vector2 CurrentWorldPosition => ProjectileRigid2D.position;
-        public Vector2 TargetWorldPosition => Target.CurrentWorldPosition;
-        public bool IsTargetAlive => Target != null && Target.CharHealth.IsAlive;
+
         private BaseEntity Source = null;
         private BaseEntity Target = null;
+        private CharacterCombatData SourceData;
+        private CharacterCombatData TargetData;
         private Action<WeaponProjectile> DespawnCallback = null;
         private ProjectileController ProjectileController = null;
         private Rigidbody2D ProjectileRigid2D = null;
@@ -29,31 +27,34 @@ namespace ThreeSouls.Projectile
             ProjectileController = GetComponent<ProjectileController>();
             ProjectileSpriteLibrary = GetComponent<SpriteLibrary>();
             ProjectileSpriteRenderer = GetComponent<SpriteRenderer>();
-            ProjectileController.Initialize(this);
         }
 
-        public void SetUp(BaseEntity source, BaseEntity target, SpriteLibraryAsset libraryAsset, AttackType attackType, Action<WeaponProjectile> despawnCallback)
+        public void SetUp(
+            BaseEntity source,
+            BaseEntity target,
+            SpriteLibraryAsset libraryAsset,
+            Action<WeaponProjectile> despawnCallback)
         {
             Source = source;
             Target = target;
+            SourceData = source.CharacterData;
+            TargetData = target.CharacterData;
             DespawnCallback = despawnCallback;
             IsDespawnRequested = false;
             ProjectileSpriteLibrary.spriteLibraryAsset = libraryAsset;
-
-            ProjectileController.IsPlay = true;
-            ProjectileController.ChangeState(CombatState.MoveToTarget);
+            ProjectileController.BeginFlight(this);
         }
 
         public void Despawn()
         {
-            if (IsDespawnRequested)
+            if (IsDespawnRequested == true)
             {
                 return;
             }
 
             IsDespawnRequested = true;
-            ProjectileController.IsPlay = false;
-            DespawnCallback?.Invoke(this);
+            ProjectileController.Stop();
+            DespawnCallback(this);
         }
 
         public void PrepareForRecycle()
@@ -61,16 +62,35 @@ namespace ThreeSouls.Projectile
             Source = null;
             Target = null;
             DespawnCallback = null;
+            SourceData = null;
+            TargetData = null;
+            IsDespawnRequested = true;
         }
 
         public void ApplyHit()
         {
-            if (Source == null || IsTargetAlive == false)
+            if (IsDespawnRequested == true || Source == null || Source.CharacterData != SourceData ||
+                Source.CharHealth.IsAlive == false || IsTargetAlive() == false)
             {
                 return;
             }
 
-            Target.CharHealth.OnDecreaseHealthPoints(Source.gameObject);
+            ThreeSouls.Combat.CombatHitResolver.ApplyDamage(Source, Target, Source.CharacterData.CharAttackDmg);
+        }
+
+        public Vector2 GetWorldPosition()
+        {
+            return ProjectileRigid2D.position;
+        }
+
+        public Vector2 GetTargetWorldPosition()
+        {
+            return Target.GetWorldPosition();
+        }
+
+        public bool IsTargetAlive()
+        {
+            return Target != null && Target.CharacterData == TargetData && Target.CharHealth.IsAlive == true;
         }
 
         public void SetPosition(Vector3 pos)
@@ -78,19 +98,18 @@ namespace ThreeSouls.Projectile
             ProjectileRigid2D.position = pos;
         }
 
-        public void SetRotation(Quaternion quaternion)
+        /// <summary>
+        /// 왼쪽을 향한 투사체 원본을 타깃 방향으로 회전합니다.
+        /// </summary>
+        public void SetDirection(Vector2 direction)
         {
-            ProjectileRigid2D.SetRotation(quaternion);
-        }
-
-        public void SetSpriteRendererFlip(bool flag)
-        {
-            var prevFlag = ProjectileSpriteRenderer.flipX;
-
-            if (prevFlag != flag)
+            if (direction.sqrMagnitude == 0)
             {
-                ProjectileSpriteRenderer.flipX = flag;
+                return;
             }
+
+            ProjectileSpriteRenderer.flipX = false;
+            ProjectileRigid2D.rotation = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 180f;
         }
     }
 }

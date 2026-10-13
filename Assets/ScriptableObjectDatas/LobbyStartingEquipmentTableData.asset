@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16b51c6475d2ddd4aac575263fa82490, type: 3}
+  m_Name: LobbyStartingEquipmentTableData
+  m_EditorClassIdentifier: Assembly-CSharp::ThreeSouls.Data.Generated.LobbyStartingEquipmentTableDataTable
+  Items:
+  - Index: 0
+    PresetKey: TestVillage
+    ItemKey: Item_Sword_01
+    Count: 1
+    EquipToHeroKey: Key_night
+  - Index: 1
+    PresetKey: TestVillage
+    ItemKey: Item_Bow_01
+    Count: 1
+    EquipToHeroKey: Key_archer
+  - Index: 2
+    PresetKey: TestVillage
+    ItemKey: Item_Staff_01
+    Count: 1
+    EquipToHeroKey: Key_wizard

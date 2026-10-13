@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,8 +134,8 @@ TextureImporter:
         width: 96
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 49, y: 0, z: 47, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b0f3c8c5e70ce214daaeab4b14087261
     internalID: 0
     vertices: []
     indices: 
@@ -162,6 +162,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       20251029darkDwellers9SlicesD_0: -4410988050739708456
+      20251029darkDwellers9SlicesD_1: -933348806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

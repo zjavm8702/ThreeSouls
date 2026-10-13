@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcddbc601529b1243b0e77617432d683, type: 3}
+  m_Name: DungeonMapTableData
+  m_EditorClassIdentifier: Assembly-CSharp::ThreeSouls.Data.Generated.DungeonMapTableDataTable
+  Items:
+  - Key: Mine
+    RegionNumber: 1
+    DisplayName: "\uD3D0\uAD11"
+    TexturePath: Assets/Images/Map/Previews/NativeDungeon_1.png
+    WorldX: 0.27
+    WorldY: 0.75
+    Description: "\uBC84\uB824\uC9C4 \uAC31\uB3C4\uC640 \uAE4A\uC740 \uCC44\uAD74\uC7A5\uC744
+      \uD0D0\uD5D8\uD569\uB2C8\uB2E4."
+  - Key: Ruins
+    RegionNumber: 2
+    DisplayName: "\uC78A\uD78C \uC720\uC801"
+    TexturePath: Assets/Images/Map/Previews/NativeDungeon_2.png
+    WorldX: 0.73
+    WorldY: 0.75
+    Description: "\uBB34\uB108\uC9C4 \uC131\uBCBD \uB108\uBA38 \uC624\uB798\uB41C
+      \uC720\uC801\uC744 \uD0D0\uD5D8\uD569\uB2C8\uB2E4."
+  - Key: Forest
+    RegionNumber: 3
+    DisplayName: "\uC815\uB839\uC758 \uC232"
+    TexturePath: Assets/Images/Map/Previews/NativeDungeon_3.png
+    WorldX: 0.27
+    WorldY: 0.28
+    Description: "\uD3ED\uD3EC\uC640 \uC232\uAE38\uC744 \uC9C0\uB098 \uC815\uB839\uC758
+      \uC131\uC18C\uB85C \uD5A5\uD569\uB2C8\uB2E4."
+  - Key: Frost
+    RegionNumber: 4
+    DisplayName: "\uC5BC\uC74C \uD611\uACE1"
+    TexturePath: Assets/Images/Map/Previews/NativeDungeon_4.png
+    WorldX: 0.73
+    WorldY: 0.28
+    Description: "\uC5BC\uC5B4\uBD99\uC740 \uB2E4\uB9AC\uC640 \uC218\uC815 \uB3D9\uAD74\uC744
+      \uD0D0\uD5D8\uD569\uB2C8\uB2E4."

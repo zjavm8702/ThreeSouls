@@ -1,0 +1,40 @@
+{
+    "Items": [
+        {
+            "Key": "Mine",
+            "RegionNumber": 1,
+            "DisplayName": "폐광",
+            "TexturePath": "Assets/Images/Map/Previews/NativeDungeon_1.png",
+            "WorldX": 0.27000001072883608,
+            "WorldY": 0.75,
+            "Description": "버려진 갱도와 깊은 채굴장을 탐험합니다."
+        },
+        {
+            "Key": "Ruins",
+            "RegionNumber": 2,
+            "DisplayName": "잊힌 유적",
+            "TexturePath": "Assets/Images/Map/Previews/NativeDungeon_2.png",
+            "WorldX": 0.7300000190734863,
+            "WorldY": 0.75,
+            "Description": "무너진 성벽 너머 오래된 유적을 탐험합니다."
+        },
+        {
+            "Key": "Forest",
+            "RegionNumber": 3,
+            "DisplayName": "정령의 숲",
+            "TexturePath": "Assets/Images/Map/Previews/NativeDungeon_3.png",
+            "WorldX": 0.27000001072883608,
+            "WorldY": 0.2800000011920929,
+            "Description": "폭포와 숲길을 지나 정령의 성소로 향합니다."
+        },
+        {
+            "Key": "Frost",
+            "RegionNumber": 4,
+            "DisplayName": "얼음 협곡",
+            "TexturePath": "Assets/Images/Map/Previews/NativeDungeon_4.png",
+            "WorldX": 0.7300000190734863,
+            "WorldY": 0.2800000011920929,
+            "Description": "얼어붙은 다리와 수정 동굴을 탐험합니다."
+        }
+    ]
+}

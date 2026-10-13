@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -9,8 +9,7 @@ namespace ThreeSouls.Global
 	{
 		private static readonly Dictionary<GameObject, List<GameObject>> PooledContainer = new();
 		private static readonly Dictionary<GameObject, GameObject> SpawnedContainer = new();
-		private static readonly Dictionary<GameObject, GameObject> SpawnedParentContainer = new();
-		private static GameObject ParentObject;
+		private static Transform Parent;
 
 		/// <summary>
 		/// 풀 생성
@@ -341,23 +340,13 @@ namespace ThreeSouls.Global
 				return;
 			}
 
-			if (SpawnedParentContainer.ContainsKey(origin) == false)
-			{
-				CreateParentObject();
-
-				var parentObject = new GameObject($"{origin.name} Group");
-				
-				parentObject.transform.SetParent(ParentObject.transform);
-				parentObject.transform.localPosition = Vector3.zero;
-
-				SpawnedParentContainer.Add(origin, parentObject);
-			}
+			Parent = PoolGroup.GetParent();
 
 			var poolList = new List<GameObject>();
 			
 			for (var i = 0; i < initialPoolSize; i++)
 			{
-				var obj = UnityEngine.Object.Instantiate(origin, SpawnedParentContainer[origin].transform, true);
+				var obj = UnityEngine.Object.Instantiate(origin, Parent, true);
 				obj.name =  origin.name;
 				obj.SetActive(false);
 				
@@ -392,7 +381,7 @@ namespace ThreeSouls.Global
 				}
 				else
 				{
-					var instance = UnityEngine.Object.Instantiate(origin, ObjectPool.SpawnedParentContainer[origin].transform, true);
+					var instance = UnityEngine.Object.Instantiate(origin, Parent, true);
 					instance.transform.SetParent(parent);
 					
 					instance.name = origin.name;
@@ -445,7 +434,7 @@ namespace ThreeSouls.Global
 			PooledContainer[origin].Add(prefab);
 			SpawnedContainer.Remove(prefab);
 			
-			prefab.transform.SetParent(SpawnedParentContainer[origin].transform);
+			prefab.transform.SetParent(Parent);
 			prefab.transform.localPosition = Vector3.zero;
 			prefab.SetActive(false);
 		}
@@ -535,18 +524,6 @@ namespace ThreeSouls.Global
 		}
 
 		
-		private static void CreateParentObject()
-		{
-			if (ParentObject)
-			{
-				return;
-			}
-		
-			ParentObject = new GameObject("ObjectPool");
-			ParentObject.transform.position = new Vector3(1000, 1000);
-			UnityEngine.Object.DontDestroyOnLoad(ParentObject);
-		}
-		
 		private static void Release()
 		{
 			using var poolEnumerator = PooledContainer.GetEnumerator();
@@ -574,16 +551,7 @@ namespace ThreeSouls.Global
 			
 			SpawnedContainer.Clear();
 
-			using var parentEnumerator = SpawnedParentContainer.GetEnumerator();
-
-			while (parentEnumerator.MoveNext())
-			{
-				UnityEngine.Object.Destroy(spawnEnumerator.Current.Value);
-			}
-		
-			SpawnedParentContainer.Clear();
-			
-			UnityEngine.Object.Destroy(ParentObject);
+			Parent = null;
 		}
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
@@ -591,8 +559,7 @@ namespace ThreeSouls.Global
         {
             PooledContainer.Clear();
             SpawnedContainer.Clear();
-            SpawnedParentContainer.Clear();
-            ParentObject = null;
+            Parent = null;
         }
 
         #endregion

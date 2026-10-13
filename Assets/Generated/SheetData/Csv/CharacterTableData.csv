@@ -1,13 +1,25 @@
-Index : int,StrKey : string,MoveSpeed : float,IsRunningPlay : bool,RunningSpeed : float,AttackType : Enum<AttackType>,CharacterType: Enum<CharacterType>,MaxHP : float,AttackDmg : float,DistanceToTarget : float,CharacterRole : Enum<CharacterRole>,AttackRange : float,AttackSpeedMultiplier : float,DetectDelay : float,ResourceName : string
-인덱스,스트링 테이블 키,이동 속도,근접 대쉬,근접 속도,무기 타입,캐릭터 타입,체력,공격력,적까지 남은 이동 거리,캐릭터 역할군 타입,공격 범위,공격속도 배율,타겟 찾는 딜레이,SpriteLibrary 이름
-0,Key_night,3,TRUE,2,Single,Hero,500,5,1,Tank,0,0.5,1,Knight
-1,Key_archer,3,FALSE,0,SingleBow,Hero,250,7,4,RangedDealer,0,1,1,Archer
-2,Key_wizard,3,FALSE,0,SingleStaff,Hero,250,15,3,RangedDealer,0,0.5,1,FireWizard
-3,Key_goblin,3,FALSE,0,Single,Monster,50,3,1,MonsterMeleeDealer,0,1,1,Goblin
-4,Key_hog,3,FALSE,0,Single,Monster,50,3,1,MonsterMeleeDealer,0,1,1,Hog
-5,Key_troll,3,FALSE,0,Single,Monster,200,6,1,MonsterMeleeDealer,0,1,1,Troll
-6,Key_blackBear,3,FALSE,0,Single,Monster,50,3,1,MonsterMeleeDealer,0,1,1,BlackBear
-7,Key_blueCrab,3,FALSE,0,Single,Monster,50,3,1,MonsterMeleeDealer,0,1,1,BlueCrab
-8,Key_redCrab,3,FALSE,0,Single,Monster,50,3,1,MonsterMeleeDealer,0,1,1,RedCrab
-9,Key_wolf,3,FALSE,0,Single,Monster,50,3,1,MonsterMeleeDealer,0,1,1,Wolf
-10,Key_purpleBat,3,FALSE,0,Single,Monster,50,3,1,MonsterMeleeDealer,0,1,1,PurpleBat
+Index : int,StrKey : string,MoveSpeed : float,IsRunningPlay : bool,RunningSpeed : float,AttackType : Enum<AttackType>,CharacterType: Enum<CharacterType>,MaxHP : float,AttackDmg : float,DistanceToTarget : float,CharacterRole : Enum<CharacterRole>,AttackRange : float,AttackSpeedMultiplier : float,DetectDelay : float,ResourceName : string,TargetSearchRadius : float
+인덱스,스트링 테이블 키,이동 속도,근접 대쉬,근접 가속 배율,무기 타입,캐릭터 타입,체력,공격력,공격 사거리,캐릭터 역할군 타입,범위 피해 반경,공격속도 배율,타겟 찾는 딜레이,SpriteLibrary 이름,적 탐지 반경
+0,Key_night,3.,FALSE,1.,Single,Hero,500.,5.,1.,Tank,0.,0.45,0.2,Hero_Knight,6.
+1,Key_archer,3.,FALSE,1.,SingleBow,Hero,250.,7.,3.,RangedDealer,0.,0.75,0.2,Hero_Archer,6.
+2,Key_wizard,3.,FALSE,1.,SingleStaff,Hero,250.,15.,4.,RangedDealer,0.,0.25,0.2,Hero_Wizard,6.
+3,Key_goblin,3.,FALSE,0.,Single,Monster,50.,3.,1.,MonsterMeleeDealer,0.,1.,0.2,Monster_Goblin,4.
+4,Key_hog,3.,FALSE,0.,Single,Monster,50.,3.,1.,MonsterMeleeDealer,0.,1.,0.2,Monster_BrownPig,4.
+5,Key_troll,3.,FALSE,0.,Single,Monster,200.,3.,1.,MonsterMeleeDealer,0.,1.,0.2,Monster_Troll,4.
+6,Key_blackBear,3.,FALSE,0.,Single,Monster,50.,3.,1.,MonsterMeleeDealer,0.,1.,0.2,Monster_Bear,4.
+7,Key_blueCrab,3.,FALSE,0.,Single,Monster,50.,3.,1.,MonsterMeleeDealer,0.,1.,0.2,Monster_BlueCrab,4.
+8,Key_redCrab,3.,FALSE,0.,Single,Monster,50.,3.,1.,MonsterMeleeDealer,0.,1.,0.2,Monster_RedCrab,4.
+9,Key_wolf,3.,FALSE,0.,Single,Monster,50.,3.,1.,MonsterMeleeDealer,0.,1.,0.2,Monster_Wolf,4.
+10,Key_purpleBat,3.,FALSE,0.,Single,Monster,50.,7.,1.,MonsterMeleeDealer,0.,1.,0.2,Monster_PurpleBat,4.
+11,Key_goblinArcher,2.6,FALSE,0.,SingleBow,Monster,45.,3.,3.,MonsterMeleeDealer,0.,0.65,0.2,Monster_GoblinArcher,4.
+12,Key_orc,2.2,FALSE,0.,Single,Monster,100.,5.,1.,MonsterMeleeDealer,0.,0.7,0.2,Monster_Orc,4.
+13,Key_blackBoar,2.7,FALSE,0.,Single,Monster,75.,4.,1.,MonsterMeleeDealer,0.,0.8,0.2,Monster_BlackBoar,4.
+14,Key_blueDragon,2.2,FALSE,0.,Single,Monster,160.,6.,1.,MonsterMeleeDealer,0.,0.6,0.2,Monster_BlueDragon,4.
+15,Key_brownRat,3.2,FALSE,0.,Single,Monster,30.,2.,1.,MonsterMeleeDealer,0.,1.1,0.2,Monster_BrownRat,4.
+16,Key_brownStump,1.6,FALSE,0.,Single,Monster,65.,3.,1.,MonsterMeleeDealer,0.,0.7,0.2,Monster_BrownStump,4.
+17,Key_greenDuck,2.4,FALSE,0.,Single,Monster,35.,2.,1.,MonsterMeleeDealer,0.,0.9,0.2,Monster_GreenDuck,4.
+18,Key_greenFlower,1.5,FALSE,0.,Single,Monster,50.,3.,1.,MonsterMeleeDealer,0.,0.65,0.2,Monster_GreenFlower,4.
+19,Key_greenFrog,2.4,FALSE,0.,Single,Monster,35.,3.,1.,MonsterMeleeDealer,0.,0.9,0.2,Monster_GreenFrog,4.
+20,Key_greenOgre,1.8,FALSE,0.,Single,Monster,120.,5.,1.,MonsterMeleeDealer,0.,0.6,0.2,Monster_GreenOgre,4.
+21,Key_greenTortoise,1.5,FALSE,0.,Single,Monster,90.,3.,1.,MonsterMeleeDealer,0.,0.6,0.2,Monster_GreenTortoise,4.
+22,Key_yellowBee,3.2,FALSE,0.,Single,Monster,25.,2.,1.,MonsterMeleeDealer,0.,1.2,0.2,Monster_YellowBee,4.

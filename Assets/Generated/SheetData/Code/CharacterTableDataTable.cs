@@ -17,8 +17,8 @@ namespace ThreeSouls.Data.Generated
         /// <summary>근접 대쉬</summary>
         [global::UnityEngine.Tooltip("\uadfc\uc811 \ub300\uc26c")]
         public bool @IsRunningPlay;
-        /// <summary>근접 속도</summary>
-        [global::UnityEngine.Tooltip("\uadfc\uc811 \uc18d\ub3c4")]
+        /// <summary>근접 가속 배율</summary>
+        [global::UnityEngine.Tooltip("\uadfc\uc811 \uac00\uc18d \ubc30\uc728")]
         public float @RunningSpeed;
         /// <summary>무기 타입</summary>
         [global::UnityEngine.Tooltip("\ubb34\uae30 \ud0c0\uc785")]
@@ -32,14 +32,14 @@ namespace ThreeSouls.Data.Generated
         /// <summary>공격력</summary>
         [global::UnityEngine.Tooltip("\uacf5\uaca9\ub825")]
         public float @AttackDmg;
-        /// <summary>적까지 남은 이동 거리</summary>
-        [global::UnityEngine.Tooltip("\uc801\uae4c\uc9c0 \ub0a8\uc740 \uc774\ub3d9 \uac70\ub9ac")]
+        /// <summary>공격 사거리</summary>
+        [global::UnityEngine.Tooltip("\uacf5\uaca9 \uc0ac\uac70\ub9ac")]
         public float @DistanceToTarget;
         /// <summary>캐릭터 역할군 타입</summary>
         [global::UnityEngine.Tooltip("\uce90\ub9ad\ud130 \uc5ed\ud560\uad70 \ud0c0\uc785")]
         public global::@ThreeSouls.@Enumeration.@CharacterRole @CharacterRole;
-        /// <summary>공격 범위</summary>
-        [global::UnityEngine.Tooltip("\uacf5\uaca9 \ubc94\uc704")]
+        /// <summary>범위 피해 반경</summary>
+        [global::UnityEngine.Tooltip("\ubc94\uc704 \ud53c\ud574 \ubc18\uacbd")]
         public float @AttackRange;
         /// <summary>공격속도 배율</summary>
         [global::UnityEngine.Tooltip("\uacf5\uaca9\uc18d\ub3c4 \ubc30\uc728")]
@@ -50,6 +50,9 @@ namespace ThreeSouls.Data.Generated
         /// <summary>SpriteLibrary 이름</summary>
         [global::UnityEngine.Tooltip("SpriteLibrary \uc774\ub984")]
         public string @ResourceName;
+        /// <summary>적 탐지 반경</summary>
+        [global::UnityEngine.Tooltip("\uc801 \ud0d0\uc9c0 \ubc18\uacbd")]
+        public float @TargetSearchRadius;
     }
     [global::System.Serializable]
     public sealed class CharacterTableDataPayload

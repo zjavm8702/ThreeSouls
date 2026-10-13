@@ -1,0 +1,28 @@
+{
+    "Items": [
+        {
+            "Index": 0,
+            "ConsumableType": 1,
+            "NameStrKey": "ConsumableName_SmallHealingPotion",
+            "GoldPrice": 80,
+            "HealMaxHPRatio": 0.25,
+            "TargetScope": "SingleHero",
+            "EffectStrKey": "ConsumableEffect_SmallHealingPotion",
+            "IconPath": "Assets/Images/UIIcon/Potions.png",
+            "IconSpriteName": "Potions_8",
+            "CombatHealImplemented": true
+        },
+        {
+            "Index": 1,
+            "ConsumableType": 2,
+            "NameStrKey": "ConsumableName_PartyHealingPotion",
+            "GoldPrice": 180,
+            "HealMaxHPRatio": 0.15000000596046449,
+            "TargetScope": "LivingParty",
+            "EffectStrKey": "ConsumableEffect_PartyHealingPotion",
+            "IconPath": "Assets/Images/UIIcon/Potions.png",
+            "IconSpriteName": "Potions_2",
+            "CombatHealImplemented": true
+        }
+    ]
+}

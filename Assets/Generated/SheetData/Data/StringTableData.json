@@ -59,6 +59,918 @@
             "StrKey": "Key_wolf",
             "KrValue": "늑대",
             "EnValue": "Wolf"
+        },
+        {
+            "Index": 10,
+            "StrKey": "ItemName_Sword_01",
+            "KrValue": "낡은 검",
+            "EnValue": "Item_Sword_01"
+        },
+        {
+            "Index": 11,
+            "StrKey": "ItemName_Bow_01",
+            "KrValue": "사냥꾼의 활",
+            "EnValue": "Item_Bow_01"
+        },
+        {
+            "Index": 12,
+            "StrKey": "ItemName_Staff_01",
+            "KrValue": "수습 마법사의 지팡이",
+            "EnValue": "Item_Staff_01"
+        },
+        {
+            "Index": 13,
+            "StrKey": "ItemName_Armor_01",
+            "KrValue": "튼튼한 방어구",
+            "EnValue": "Item_Armor_01"
+        },
+        {
+            "Index": 14,
+            "StrKey": "ItemName_Ring_01",
+            "KrValue": "신속의 반지",
+            "EnValue": "Item_Ring_01"
+        },
+        {
+            "Index": 15,
+            "StrKey": "ItemName_Sword_02",
+            "KrValue": "정예 기사의 검",
+            "EnValue": "Item_Sword_02"
+        },
+        {
+            "Index": 16,
+            "StrKey": "ItemName_Bow_02",
+            "KrValue": "정예 사냥꾼의 활",
+            "EnValue": "Item_Bow_02"
+        },
+        {
+            "Index": 17,
+            "StrKey": "ItemName_Staff_02",
+            "KrValue": "정예 마법사의 지팡이",
+            "EnValue": "Item_Staff_02"
+        },
+        {
+            "Index": 18,
+            "StrKey": "ConsumableName_SmallHealingPotion",
+            "KrValue": "소형 회복 물약",
+            "EnValue": "Small Healing Potion"
+        },
+        {
+            "Index": 19,
+            "StrKey": "ConsumableName_PartyHealingPotion",
+            "KrValue": "부대 회복 물약",
+            "EnValue": "Party Healing Potion"
+        },
+        {
+            "Index": 20,
+            "StrKey": "ConsumableEffect_SmallHealingPotion",
+            "KrValue": "영웅 1명 · 최대 HP의 25% 회복",
+            "EnValue": "Restores 25% of one hero’s maximum HP"
+        },
+        {
+            "Index": 21,
+            "StrKey": "ConsumableEffect_PartyHealingPotion",
+            "KrValue": "생존 영웅 전체 · 최대 HP 15% 회복",
+            "EnValue": "Restores 15% of each living hero’s maximum HP"
+        },
+        {
+            "Index": 22,
+            "StrKey": "AutoHeal_Disabled",
+            "KrValue": "사용 안 함",
+            "EnValue": "Disabled"
+        },
+        {
+            "Index": 23,
+            "StrKey": "AutoHeal_At20Percent",
+            "KrValue": "HP 20% 이하",
+            "EnValue": "HP at or below 20%"
+        },
+        {
+            "Index": 24,
+            "StrKey": "AutoHeal_At30Percent",
+            "KrValue": "HP 30% 이하",
+            "EnValue": "HP at or below 30%"
+        },
+        {
+            "Index": 25,
+            "StrKey": "AutoHeal_At40Percent",
+            "KrValue": "HP 40% 이하",
+            "EnValue": "HP at or below 40%"
+        },
+        {
+            "Index": 26,
+            "StrKey": "LobbyHeroName_Knight",
+            "KrValue": "기사",
+            "EnValue": "Knight"
+        },
+        {
+            "Index": 27,
+            "StrKey": "LobbyHeroName_Archer",
+            "KrValue": "궁수",
+            "EnValue": "Archer"
+        },
+        {
+            "Index": 28,
+            "StrKey": "LobbyHeroName_Wizard",
+            "KrValue": "마법사",
+            "EnValue": "Wizard"
+        },
+        {
+            "Index": 29,
+            "StrKey": "LobbyRarity_Normal",
+            "KrValue": "일반",
+            "EnValue": "Normal"
+        },
+        {
+            "Index": 30,
+            "StrKey": "LobbyRarity_Magic",
+            "KrValue": "마법",
+            "EnValue": "Magic"
+        },
+        {
+            "Index": 31,
+            "StrKey": "LobbyRarity_Rare",
+            "KrValue": "희귀",
+            "EnValue": "Rare"
+        },
+        {
+            "Index": 32,
+            "StrKey": "LobbyEquipSlot_Weapon",
+            "KrValue": "무기",
+            "EnValue": "Weapon"
+        },
+        {
+            "Index": 33,
+            "StrKey": "LobbyEquipSlot_Armor",
+            "KrValue": "방어구",
+            "EnValue": "Armor"
+        },
+        {
+            "Index": 34,
+            "StrKey": "LobbyEquipSlot_Accessory",
+            "KrValue": "장신구",
+            "EnValue": "Accessory"
+        },
+        {
+            "Index": 35,
+            "StrKey": "LobbyTab_Village",
+            "KrValue": "마을",
+            "EnValue": "Village"
+        },
+        {
+            "Index": 36,
+            "StrKey": "LobbyTab_Inventory",
+            "KrValue": "인벤토리",
+            "EnValue": "Inventory"
+        },
+        {
+            "Index": 37,
+            "StrKey": "LobbyTab_Characters",
+            "KrValue": "캐릭터",
+            "EnValue": "Characters"
+        },
+        {
+            "Index": 38,
+            "StrKey": "LobbyTab_Supplies",
+            "KrValue": "준비",
+            "EnValue": "Supplies"
+        },
+        {
+            "Index": 39,
+            "StrKey": "LobbyFilter_All",
+            "KrValue": "전체",
+            "EnValue": "All"
+        },
+        {
+            "Index": 40,
+            "StrKey": "LobbyFilter_Weapon",
+            "KrValue": "무기",
+            "EnValue": "Weapons"
+        },
+        {
+            "Index": 41,
+            "StrKey": "LobbyFilter_Armor",
+            "KrValue": "방어구",
+            "EnValue": "Armor"
+        },
+        {
+            "Index": 42,
+            "StrKey": "LobbyFilter_Accessory",
+            "KrValue": "장신구",
+            "EnValue": "Accessories"
+        },
+        {
+            "Index": 43,
+            "StrKey": "LobbyFilter_Equipped",
+            "KrValue": "장착 중",
+            "EnValue": "Equipped"
+        },
+        {
+            "Index": 44,
+            "StrKey": "LobbyOrder_Rarity",
+            "KrValue": "등급순 ↓",
+            "EnValue": "Rarity descending"
+        },
+        {
+            "Index": 45,
+            "StrKey": "LobbyOrder_Name",
+            "KrValue": "이름순 ↑",
+            "EnValue": "Name ascending"
+        },
+        {
+            "Index": 46,
+            "StrKey": "LobbyOrder_Attack",
+            "KrValue": "공격력순 ↓",
+            "EnValue": "Attack descending"
+        },
+        {
+            "Index": 47,
+            "StrKey": "Key_purpleBat",
+            "KrValue": "보라 박쥐",
+            "EnValue": "Purple Bat"
+        },
+        {
+            "Index": 48,
+            "StrKey": "Key_goblinArcher",
+            "KrValue": "고블린 궁수",
+            "EnValue": "Goblin Archer"
+        },
+        {
+            "Index": 49,
+            "StrKey": "Key_orc",
+            "KrValue": "오크",
+            "EnValue": "Orc"
+        },
+        {
+            "Index": 50,
+            "StrKey": "Key_blackBoar",
+            "KrValue": "검은 멧돼지",
+            "EnValue": "Black Boar"
+        },
+        {
+            "Index": 51,
+            "StrKey": "Key_blueDragon",
+            "KrValue": "청룡",
+            "EnValue": "Blue Dragon"
+        },
+        {
+            "Index": 52,
+            "StrKey": "Key_brownRat",
+            "KrValue": "갈색 쥐",
+            "EnValue": "Brown Rat"
+        },
+        {
+            "Index": 53,
+            "StrKey": "Key_brownStump",
+            "KrValue": "살아있는 그루터기",
+            "EnValue": "Living Stump"
+        },
+        {
+            "Index": 54,
+            "StrKey": "Key_greenDuck",
+            "KrValue": "초록 오리",
+            "EnValue": "Green Duck"
+        },
+        {
+            "Index": 55,
+            "StrKey": "Key_greenFlower",
+            "KrValue": "초록 식충식물",
+            "EnValue": "Green Carnivorous Plant"
+        },
+        {
+            "Index": 56,
+            "StrKey": "Key_greenFrog",
+            "KrValue": "초록 개구리",
+            "EnValue": "Green Frog"
+        },
+        {
+            "Index": 57,
+            "StrKey": "Key_greenOgre",
+            "KrValue": "초록 오거",
+            "EnValue": "Green Ogre"
+        },
+        {
+            "Index": 58,
+            "StrKey": "Key_greenTortoise",
+            "KrValue": "초록 거북",
+            "EnValue": "Green Tortoise"
+        },
+        {
+            "Index": 59,
+            "StrKey": "Key_yellowBee",
+            "KrValue": "노란 벌",
+            "EnValue": "Yellow Bee"
+        },
+        {
+            "Index": 60,
+            "StrKey": "Name_Farm_Sword_01",
+            "KrValue": "채굴꾼의 검",
+            "EnValue": "채굴꾼 Sword"
+        },
+        {
+            "Index": 61,
+            "StrKey": "Name_Farm_Sword_02",
+            "KrValue": "갱도 수색자의 검",
+            "EnValue": "갱도 수색자 Sword"
+        },
+        {
+            "Index": 62,
+            "StrKey": "Name_Farm_Sword_03",
+            "KrValue": "수로 파수꾼의 검",
+            "EnValue": "수로 파수꾼 Sword"
+        },
+        {
+            "Index": 63,
+            "StrKey": "Name_Farm_Sword_04",
+            "KrValue": "광산 기사의 검",
+            "EnValue": "광산 기사 Sword"
+        },
+        {
+            "Index": 64,
+            "StrKey": "Name_Farm_Sword_05",
+            "KrValue": "새벽 광부의 검",
+            "EnValue": "새벽 광부 Sword"
+        },
+        {
+            "Index": 65,
+            "StrKey": "Name_Farm_Sword_06",
+            "KrValue": "모래 순례자의 검",
+            "EnValue": "모래 순례자 Sword"
+        },
+        {
+            "Index": 66,
+            "StrKey": "Name_Farm_Sword_07",
+            "KrValue": "유적 수호자의 검",
+            "EnValue": "유적 수호자 Sword"
+        },
+        {
+            "Index": 67,
+            "StrKey": "Name_Farm_Sword_08",
+            "KrValue": "고대 문양의 검",
+            "EnValue": "고대 문양 Sword"
+        },
+        {
+            "Index": 68,
+            "StrKey": "Name_Farm_Sword_09",
+            "KrValue": "감시탑 맹세의 검",
+            "EnValue": "감시탑 맹세 Sword"
+        },
+        {
+            "Index": 69,
+            "StrKey": "Name_Farm_Sword_10",
+            "KrValue": "잊힌 왕국의 검",
+            "EnValue": "잊힌 왕국 Sword"
+        },
+        {
+            "Index": 70,
+            "StrKey": "Name_Farm_Sword_11",
+            "KrValue": "초록 방랑자의 검",
+            "EnValue": "초록 방랑자 Sword"
+        },
+        {
+            "Index": 71,
+            "StrKey": "Name_Farm_Sword_12",
+            "KrValue": "물안개의 검",
+            "EnValue": "물안개 Sword"
+        },
+        {
+            "Index": 72,
+            "StrKey": "Name_Farm_Sword_13",
+            "KrValue": "강물의 기억의 검",
+            "EnValue": "강물의 기억 Sword"
+        },
+        {
+            "Index": 73,
+            "StrKey": "Name_Farm_Sword_14",
+            "KrValue": "바람의 노래의 검",
+            "EnValue": "바람의 노래 Sword"
+        },
+        {
+            "Index": 74,
+            "StrKey": "Name_Farm_Sword_15",
+            "KrValue": "숲의 심장의 검",
+            "EnValue": "숲의 심장 Sword"
+        },
+        {
+            "Index": 75,
+            "StrKey": "Name_Farm_Sword_16",
+            "KrValue": "서리 사냥꾼의 검",
+            "EnValue": "서리 사냥꾼 Sword"
+        },
+        {
+            "Index": 76,
+            "StrKey": "Name_Farm_Sword_17",
+            "KrValue": "빙하 수호자의 검",
+            "EnValue": "빙하 수호자 Sword"
+        },
+        {
+            "Index": 77,
+            "StrKey": "Name_Farm_Sword_18",
+            "KrValue": "수정 별빛의 검",
+            "EnValue": "수정 별빛 Sword"
+        },
+        {
+            "Index": 78,
+            "StrKey": "Name_Farm_Sword_19",
+            "KrValue": "설원의 왕관의 검",
+            "EnValue": "설원의 왕관 Sword"
+        },
+        {
+            "Index": 79,
+            "StrKey": "Name_Farm_Sword_20",
+            "KrValue": "세 영혼의 새벽의 검",
+            "EnValue": "세 영혼의 새벽 Sword"
+        },
+        {
+            "Index": 80,
+            "StrKey": "Name_Farm_Bow_01",
+            "KrValue": "채굴꾼의 활",
+            "EnValue": "채굴꾼 Bow"
+        },
+        {
+            "Index": 81,
+            "StrKey": "Name_Farm_Bow_02",
+            "KrValue": "갱도 수색자의 활",
+            "EnValue": "갱도 수색자 Bow"
+        },
+        {
+            "Index": 82,
+            "StrKey": "Name_Farm_Bow_03",
+            "KrValue": "수로 파수꾼의 활",
+            "EnValue": "수로 파수꾼 Bow"
+        },
+        {
+            "Index": 83,
+            "StrKey": "Name_Farm_Bow_04",
+            "KrValue": "광산 기사의 활",
+            "EnValue": "광산 기사 Bow"
+        },
+        {
+            "Index": 84,
+            "StrKey": "Name_Farm_Bow_05",
+            "KrValue": "새벽 광부의 활",
+            "EnValue": "새벽 광부 Bow"
+        },
+        {
+            "Index": 85,
+            "StrKey": "Name_Farm_Bow_06",
+            "KrValue": "모래 순례자의 활",
+            "EnValue": "모래 순례자 Bow"
+        },
+        {
+            "Index": 86,
+            "StrKey": "Name_Farm_Bow_07",
+            "KrValue": "유적 수호자의 활",
+            "EnValue": "유적 수호자 Bow"
+        },
+        {
+            "Index": 87,
+            "StrKey": "Name_Farm_Bow_08",
+            "KrValue": "고대 문양의 활",
+            "EnValue": "고대 문양 Bow"
+        },
+        {
+            "Index": 88,
+            "StrKey": "Name_Farm_Bow_09",
+            "KrValue": "감시탑 맹세의 활",
+            "EnValue": "감시탑 맹세 Bow"
+        },
+        {
+            "Index": 89,
+            "StrKey": "Name_Farm_Bow_10",
+            "KrValue": "잊힌 왕국의 활",
+            "EnValue": "잊힌 왕국 Bow"
+        },
+        {
+            "Index": 90,
+            "StrKey": "Name_Farm_Bow_11",
+            "KrValue": "초록 방랑자의 활",
+            "EnValue": "초록 방랑자 Bow"
+        },
+        {
+            "Index": 91,
+            "StrKey": "Name_Farm_Bow_12",
+            "KrValue": "물안개의 활",
+            "EnValue": "물안개 Bow"
+        },
+        {
+            "Index": 92,
+            "StrKey": "Name_Farm_Bow_13",
+            "KrValue": "강물의 기억의 활",
+            "EnValue": "강물의 기억 Bow"
+        },
+        {
+            "Index": 93,
+            "StrKey": "Name_Farm_Bow_14",
+            "KrValue": "바람의 노래의 활",
+            "EnValue": "바람의 노래 Bow"
+        },
+        {
+            "Index": 94,
+            "StrKey": "Name_Farm_Bow_15",
+            "KrValue": "숲의 심장의 활",
+            "EnValue": "숲의 심장 Bow"
+        },
+        {
+            "Index": 95,
+            "StrKey": "Name_Farm_Bow_16",
+            "KrValue": "서리 사냥꾼의 활",
+            "EnValue": "서리 사냥꾼 Bow"
+        },
+        {
+            "Index": 96,
+            "StrKey": "Name_Farm_Bow_17",
+            "KrValue": "빙하 수호자의 활",
+            "EnValue": "빙하 수호자 Bow"
+        },
+        {
+            "Index": 97,
+            "StrKey": "Name_Farm_Bow_18",
+            "KrValue": "수정 별빛의 활",
+            "EnValue": "수정 별빛 Bow"
+        },
+        {
+            "Index": 98,
+            "StrKey": "Name_Farm_Bow_19",
+            "KrValue": "설원의 왕관의 활",
+            "EnValue": "설원의 왕관 Bow"
+        },
+        {
+            "Index": 99,
+            "StrKey": "Name_Farm_Bow_20",
+            "KrValue": "세 영혼의 새벽의 활",
+            "EnValue": "세 영혼의 새벽 Bow"
+        },
+        {
+            "Index": 100,
+            "StrKey": "Name_Farm_Staff_01",
+            "KrValue": "채굴꾼의 지팡이",
+            "EnValue": "채굴꾼 Staff"
+        },
+        {
+            "Index": 101,
+            "StrKey": "Name_Farm_Staff_02",
+            "KrValue": "갱도 수색자의 지팡이",
+            "EnValue": "갱도 수색자 Staff"
+        },
+        {
+            "Index": 102,
+            "StrKey": "Name_Farm_Staff_03",
+            "KrValue": "수로 파수꾼의 지팡이",
+            "EnValue": "수로 파수꾼 Staff"
+        },
+        {
+            "Index": 103,
+            "StrKey": "Name_Farm_Staff_04",
+            "KrValue": "광산 기사의 지팡이",
+            "EnValue": "광산 기사 Staff"
+        },
+        {
+            "Index": 104,
+            "StrKey": "Name_Farm_Staff_05",
+            "KrValue": "새벽 광부의 지팡이",
+            "EnValue": "새벽 광부 Staff"
+        },
+        {
+            "Index": 105,
+            "StrKey": "Name_Farm_Staff_06",
+            "KrValue": "모래 순례자의 지팡이",
+            "EnValue": "모래 순례자 Staff"
+        },
+        {
+            "Index": 106,
+            "StrKey": "Name_Farm_Staff_07",
+            "KrValue": "유적 수호자의 지팡이",
+            "EnValue": "유적 수호자 Staff"
+        },
+        {
+            "Index": 107,
+            "StrKey": "Name_Farm_Staff_08",
+            "KrValue": "고대 문양의 지팡이",
+            "EnValue": "고대 문양 Staff"
+        },
+        {
+            "Index": 108,
+            "StrKey": "Name_Farm_Staff_09",
+            "KrValue": "감시탑 맹세의 지팡이",
+            "EnValue": "감시탑 맹세 Staff"
+        },
+        {
+            "Index": 109,
+            "StrKey": "Name_Farm_Staff_10",
+            "KrValue": "잊힌 왕국의 지팡이",
+            "EnValue": "잊힌 왕국 Staff"
+        },
+        {
+            "Index": 110,
+            "StrKey": "Name_Farm_Staff_11",
+            "KrValue": "초록 방랑자의 지팡이",
+            "EnValue": "초록 방랑자 Staff"
+        },
+        {
+            "Index": 111,
+            "StrKey": "Name_Farm_Staff_12",
+            "KrValue": "물안개의 지팡이",
+            "EnValue": "물안개 Staff"
+        },
+        {
+            "Index": 112,
+            "StrKey": "Name_Farm_Staff_13",
+            "KrValue": "강물의 기억의 지팡이",
+            "EnValue": "강물의 기억 Staff"
+        },
+        {
+            "Index": 113,
+            "StrKey": "Name_Farm_Staff_14",
+            "KrValue": "바람의 노래의 지팡이",
+            "EnValue": "바람의 노래 Staff"
+        },
+        {
+            "Index": 114,
+            "StrKey": "Name_Farm_Staff_15",
+            "KrValue": "숲의 심장의 지팡이",
+            "EnValue": "숲의 심장 Staff"
+        },
+        {
+            "Index": 115,
+            "StrKey": "Name_Farm_Staff_16",
+            "KrValue": "서리 사냥꾼의 지팡이",
+            "EnValue": "서리 사냥꾼 Staff"
+        },
+        {
+            "Index": 116,
+            "StrKey": "Name_Farm_Staff_17",
+            "KrValue": "빙하 수호자의 지팡이",
+            "EnValue": "빙하 수호자 Staff"
+        },
+        {
+            "Index": 117,
+            "StrKey": "Name_Farm_Staff_18",
+            "KrValue": "수정 별빛의 지팡이",
+            "EnValue": "수정 별빛 Staff"
+        },
+        {
+            "Index": 118,
+            "StrKey": "Name_Farm_Staff_19",
+            "KrValue": "설원의 왕관의 지팡이",
+            "EnValue": "설원의 왕관 Staff"
+        },
+        {
+            "Index": 119,
+            "StrKey": "Name_Farm_Staff_20",
+            "KrValue": "세 영혼의 새벽의 지팡이",
+            "EnValue": "세 영혼의 새벽 Staff"
+        },
+        {
+            "Index": 120,
+            "StrKey": "Name_Farm_Armor_01",
+            "KrValue": "채굴꾼의 갑옷",
+            "EnValue": "채굴꾼 Armor"
+        },
+        {
+            "Index": 121,
+            "StrKey": "Name_Farm_Armor_02",
+            "KrValue": "갱도 수색자의 갑옷",
+            "EnValue": "갱도 수색자 Armor"
+        },
+        {
+            "Index": 122,
+            "StrKey": "Name_Farm_Armor_03",
+            "KrValue": "수로 파수꾼의 갑옷",
+            "EnValue": "수로 파수꾼 Armor"
+        },
+        {
+            "Index": 123,
+            "StrKey": "Name_Farm_Armor_04",
+            "KrValue": "광산 기사의 갑옷",
+            "EnValue": "광산 기사 Armor"
+        },
+        {
+            "Index": 124,
+            "StrKey": "Name_Farm_Armor_05",
+            "KrValue": "새벽 광부의 갑옷",
+            "EnValue": "새벽 광부 Armor"
+        },
+        {
+            "Index": 125,
+            "StrKey": "Name_Farm_Armor_06",
+            "KrValue": "모래 순례자의 갑옷",
+            "EnValue": "모래 순례자 Armor"
+        },
+        {
+            "Index": 126,
+            "StrKey": "Name_Farm_Armor_07",
+            "KrValue": "유적 수호자의 갑옷",
+            "EnValue": "유적 수호자 Armor"
+        },
+        {
+            "Index": 127,
+            "StrKey": "Name_Farm_Armor_08",
+            "KrValue": "고대 문양의 갑옷",
+            "EnValue": "고대 문양 Armor"
+        },
+        {
+            "Index": 128,
+            "StrKey": "Name_Farm_Armor_09",
+            "KrValue": "감시탑 맹세의 갑옷",
+            "EnValue": "감시탑 맹세 Armor"
+        },
+        {
+            "Index": 129,
+            "StrKey": "Name_Farm_Armor_10",
+            "KrValue": "잊힌 왕국의 갑옷",
+            "EnValue": "잊힌 왕국 Armor"
+        },
+        {
+            "Index": 130,
+            "StrKey": "Name_Farm_Armor_11",
+            "KrValue": "초록 방랑자의 갑옷",
+            "EnValue": "초록 방랑자 Armor"
+        },
+        {
+            "Index": 131,
+            "StrKey": "Name_Farm_Armor_12",
+            "KrValue": "물안개의 갑옷",
+            "EnValue": "물안개 Armor"
+        },
+        {
+            "Index": 132,
+            "StrKey": "Name_Farm_Armor_13",
+            "KrValue": "강물의 기억의 갑옷",
+            "EnValue": "강물의 기억 Armor"
+        },
+        {
+            "Index": 133,
+            "StrKey": "Name_Farm_Armor_14",
+            "KrValue": "바람의 노래의 갑옷",
+            "EnValue": "바람의 노래 Armor"
+        },
+        {
+            "Index": 134,
+            "StrKey": "Name_Farm_Armor_15",
+            "KrValue": "숲의 심장의 갑옷",
+            "EnValue": "숲의 심장 Armor"
+        },
+        {
+            "Index": 135,
+            "StrKey": "Name_Farm_Armor_16",
+            "KrValue": "서리 사냥꾼의 갑옷",
+            "EnValue": "서리 사냥꾼 Armor"
+        },
+        {
+            "Index": 136,
+            "StrKey": "Name_Farm_Armor_17",
+            "KrValue": "빙하 수호자의 갑옷",
+            "EnValue": "빙하 수호자 Armor"
+        },
+        {
+            "Index": 137,
+            "StrKey": "Name_Farm_Armor_18",
+            "KrValue": "수정 별빛의 갑옷",
+            "EnValue": "수정 별빛 Armor"
+        },
+        {
+            "Index": 138,
+            "StrKey": "Name_Farm_Armor_19",
+            "KrValue": "설원의 왕관의 갑옷",
+            "EnValue": "설원의 왕관 Armor"
+        },
+        {
+            "Index": 139,
+            "StrKey": "Name_Farm_Armor_20",
+            "KrValue": "세 영혼의 새벽의 갑옷",
+            "EnValue": "세 영혼의 새벽 Armor"
+        },
+        {
+            "Index": 140,
+            "StrKey": "Name_Farm_Ring_01",
+            "KrValue": "채굴꾼의 장신구",
+            "EnValue": "채굴꾼 Ring"
+        },
+        {
+            "Index": 141,
+            "StrKey": "Name_Farm_Ring_02",
+            "KrValue": "갱도 수색자의 장신구",
+            "EnValue": "갱도 수색자 Ring"
+        },
+        {
+            "Index": 142,
+            "StrKey": "Name_Farm_Ring_03",
+            "KrValue": "수로 파수꾼의 장신구",
+            "EnValue": "수로 파수꾼 Ring"
+        },
+        {
+            "Index": 143,
+            "StrKey": "Name_Farm_Ring_04",
+            "KrValue": "광산 기사의 장신구",
+            "EnValue": "광산 기사 Ring"
+        },
+        {
+            "Index": 144,
+            "StrKey": "Name_Farm_Ring_05",
+            "KrValue": "새벽 광부의 장신구",
+            "EnValue": "새벽 광부 Ring"
+        },
+        {
+            "Index": 145,
+            "StrKey": "Name_Farm_Ring_06",
+            "KrValue": "모래 순례자의 장신구",
+            "EnValue": "모래 순례자 Ring"
+        },
+        {
+            "Index": 146,
+            "StrKey": "Name_Farm_Ring_07",
+            "KrValue": "유적 수호자의 장신구",
+            "EnValue": "유적 수호자 Ring"
+        },
+        {
+            "Index": 147,
+            "StrKey": "Name_Farm_Ring_08",
+            "KrValue": "고대 문양의 장신구",
+            "EnValue": "고대 문양 Ring"
+        },
+        {
+            "Index": 148,
+            "StrKey": "Name_Farm_Ring_09",
+            "KrValue": "감시탑 맹세의 장신구",
+            "EnValue": "감시탑 맹세 Ring"
+        },
+        {
+            "Index": 149,
+            "StrKey": "Name_Farm_Ring_10",
+            "KrValue": "잊힌 왕국의 장신구",
+            "EnValue": "잊힌 왕국 Ring"
+        },
+        {
+            "Index": 150,
+            "StrKey": "Name_Farm_Ring_11",
+            "KrValue": "초록 방랑자의 장신구",
+            "EnValue": "초록 방랑자 Ring"
+        },
+        {
+            "Index": 151,
+            "StrKey": "Name_Farm_Ring_12",
+            "KrValue": "물안개의 장신구",
+            "EnValue": "물안개 Ring"
+        },
+        {
+            "Index": 152,
+            "StrKey": "Name_Farm_Ring_13",
+            "KrValue": "강물의 기억의 장신구",
+            "EnValue": "강물의 기억 Ring"
+        },
+        {
+            "Index": 153,
+            "StrKey": "Name_Farm_Ring_14",
+            "KrValue": "바람의 노래의 장신구",
+            "EnValue": "바람의 노래 Ring"
+        },
+        {
+            "Index": 154,
+            "StrKey": "Name_Farm_Ring_15",
+            "KrValue": "숲의 심장의 장신구",
+            "EnValue": "숲의 심장 Ring"
+        },
+        {
+            "Index": 155,
+            "StrKey": "Name_Farm_Ring_16",
+            "KrValue": "서리 사냥꾼의 장신구",
+            "EnValue": "서리 사냥꾼 Ring"
+        },
+        {
+            "Index": 156,
+            "StrKey": "Name_Farm_Ring_17",
+            "KrValue": "빙하 수호자의 장신구",
+            "EnValue": "빙하 수호자 Ring"
+        },
+        {
+            "Index": 157,
+            "StrKey": "Name_Farm_Ring_18",
+            "KrValue": "수정 별빛의 장신구",
+            "EnValue": "수정 별빛 Ring"
+        },
+        {
+            "Index": 158,
+            "StrKey": "Name_Farm_Ring_19",
+            "KrValue": "설원의 왕관의 장신구",
+            "EnValue": "설원의 왕관 Ring"
+        },
+        {
+            "Index": 159,
+            "StrKey": "Name_Farm_Ring_20",
+            "KrValue": "세 영혼의 새벽의 장신구",
+            "EnValue": "세 영혼의 새벽 Ring"
+        },
+        {
+            "Index": 160,
+            "StrKey": "Rarity_Epic",
+            "KrValue": "영웅",
+            "EnValue": "Epic"
+        },
+        {
+            "Index": 161,
+            "StrKey": "Rarity_Legendary",
+            "KrValue": "전설",
+            "EnValue": "Legendary"
         }
     ]
 }

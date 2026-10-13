@@ -1,0 +1,29 @@
+Key : string,RequiredProgress : int,Weight : float
+룬 키,구매/획득 전 선행 클리어 번호,승리 추첨 가중치
+Shrine_Loot,0,1.
+Shrine_Gold,0,1.
+Shrine_Ward,0,1.
+HeavySlash_Power,0,1.
+HeavySlash_Haste,0,1.
+Whirlwind_Power,0,1.
+Whirlwind_Area,0,1.
+PrecisionShot_Power,0,1.
+PrecisionShot_Haste,0,1.
+ArrowRain_Power,0,1.
+ArrowRain_Area,0,1.
+FireBolt_Power,0,1.
+FireBolt_Haste,0,1.
+FlameNova_Power,0,1.
+FlameNova_Area,0,1.
+HeavySlash_Momentum,5,1.
+HeavySlash_Reach,10,1.
+Whirlwind_Momentum,5,1.
+Whirlwind_Reach,10,1.
+PrecisionShot_Momentum,5,1.
+PrecisionShot_Reach,10,1.
+ArrowRain_Momentum,5,1.
+ArrowRain_Reach,10,1.
+FireBolt_Momentum,5,1.
+FireBolt_Reach,10,1.
+FlameNova_Momentum,5,1.
+FlameNova_Reach,10,1.

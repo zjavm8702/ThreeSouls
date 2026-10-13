@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SpriteAtlases
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: SpriteAtlases
+  m_GUID: 8459a1d46b2056b48a29306ffcd470ee
+  m_SerializeEntries:
+  - m_GUID: 01cb829b8e3db1c47af71bd3f6d99cfd
+    m_Address: ThreeSoulsAtlas_World_Monster_GreenFlower
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 021bb7aa58f741948ab17058962b9845
+    m_Address: ThreeSoulsAtlas_World_Environment_Wilderness
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b03d8c6fc39f4642b50580bdab5f80d
+    m_Address: ThreeSoulsAtlas_Map_Previews
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 178ab750400230440b614f5460a8755d
+    m_Address: ThreeSoulsAtlas_World_Monster_Bear
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d10395de9995b84198a56b9b6c3a943
+    m_Address: ThreeSoulsAtlas_World_Monster_GreenDuck
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 234272a01f8536c40b679d7fdade4ea7
+    m_Address: ThreeSoulsAtlas_Hero_Hero_Archer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2469bd2178bd2b342818d3ad1a06123a
+    m_Address: ThreeSoulsAtlas_World_Monster_Goblin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 306f6cf55165786489d8ec2351d407c9
+    m_Address: ThreeSoulsAtlas_Map_Stages_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3972d3bd2251dd4488e21ef0e9905b62
+    m_Address: ThreeSoulsAtlas_World_Skill_Archer_ArrowRain
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a9da03fe64a2a1408f5d76e0005b0d1
+    m_Address: ThreeSoulsAtlas_World_Sunnyside
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c686f7a445229c42938b1f12732cf57
+    m_Address: ThreeSoulsAtlas_World_Monster_Orc
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c8a148e4ff3fd14dbb640802faba919
+    m_Address: ThreeSoulsAtlas_World_Tiles_Tileset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f5ca2725afee7949bf6de5a08db8cff
+    m_Address: ThreeSoulsAtlas_World_Skill_Knight_HeavySlash
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fa087a6879aac14191c46eb099a3b09
+    m_Address: ThreeSoulsAtlas_World_Tiles_Elements_VFX_Glint
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4430627a440d287449a6626ef0b61490
+    m_Address: ThreeSoulsAtlas_World_Monster_GreenFrog
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a2056b111a20ab489a55a5230bfcd84
+    m_Address: ThreeSoulsAtlas_World_Projectile
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5430cb9113be34a4b99f12aef6ee84fc
+    m_Address: ThreeSoulsAtlas_World_Tiles_Elements_Crops
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5467b85f59d95e84a86063230f1ba651
+    m_Address: ThreeSoulsAtlas_World_Monster_YellowBee
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c0e9b164b0d8c04e813a9e66472e330
+    m_Address: ThreeSoulsAtlas_World_Tiles_Elements_VFX_Fire
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e9fbb0fe67ed264c91359ea328e0b83
+    m_Address: ThreeSoulsAtlas_World_Particle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62768be2455db7b488442c57de67f178
+    m_Address: ThreeSoulsAtlas_Map_Original_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6633bdeec0c89fd40a7455894f9f3e71
+    m_Address: ThreeSoulsAtlas_World_Monster_BlackBoar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 674d555844a39e648a28abbb39628ede
+    m_Address: ThreeSoulsAtlas_World_Tiles_Elements_VFX_Chimney_Smoke
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b0b565e9d3702848a027cae8da07392
+    m_Address: ThreeSoulsAtlas_World_Tiles_Elements_Other
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ed0b8899254a6645ace4db323834593
+    m_Address: ThreeSoulsAtlas_Hero_Hero_Wizard
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78d2c494a9b08b04ab145b5928ab02c9
+    m_Address: ThreeSoulsAtlas_Map_Original_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b9e5c81107d1854f80d11e7a56bb2f3
+    m_Address: ThreeSoulsAtlas_World_Monster_Troll
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ee6ea678aaaf3f48b92ca3b27972f27
+    m_Address: ThreeSoulsAtlas_World_Monster_GoblinArcher
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80cf04e1b4074844d833be14c88ab41e
+    m_Address: ThreeSoulsAtlas_World_Monster_GreenTortoise
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 899fc17720423f44f8ff9085823cd1bb
+    m_Address: ThreeSoulsAtlas_World_Tiles_Elements_Plants
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c0f0b2b2851de44586efcc963da98d2
+    m_Address: ThreeSoulsAtlas_Map_Stages_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8efbb9967b42234428e2a9ec60310d68
+    m_Address: ThreeSoulsAtlas_World_Skill_Wizard_FlameNova
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 911f85998324a87479dc30afc10dac6a
+    m_Address: ThreeSoulsAtlas_Hero_Hero_Knight
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91f0f522a45d4ff45a758fdb4b2b1320
+    m_Address: ThreeSoulsAtlas_Map_Original_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 928d5894622085440b62af877c21bf44
+    m_Address: ThreeSoulsAtlas_World_Monster_PurpleBat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97be734145ad28b4ba4d2f12954284ee
+    m_Address: ThreeSoulsAtlas_World_Skill_Wizard_FireBolt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b33b1337e7ccb349a514ee9034a26df
+    m_Address: ThreeSoulsAtlas_Map_Original_TotalMap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e724613c5a10bd42ae72251d6a198a8
+    m_Address: ThreeSoulsAtlas_World_Monster_BrownRat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f86fe9a11dda33408e234c298830ba6
+    m_Address: ThreeSoulsAtlas_World_NPC
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab8ba82f23bd5a8479614d8eced29c9c
+    m_Address: ThreeSoulsAtlas_World_Environment_Ruins
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afff6a9630a71bb438ca2867bec5bfc1
+    m_Address: ThreeSoulsAtlas_World_Tiles
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1ab82688d30f10418a8667a7439ccd3
+    m_Address: ThreeSoulsAtlas_World_Monster_RedCrab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b42043340ff6ed149aa47dffb339552d
+    m_Address: ThreeSoulsAtlas_UI_Common
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6ea2c2df67b2aa48bf61581f3f04254
+    m_Address: ThreeSoulsAtlas_World_Monster_BrownStump
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba2df5d4045e302458058ac75bd23ec1
+    m_Address: ThreeSoulsAtlas_World_Tiles_Shrine_BlueRune
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb7a182e3bf90e042ac2936f50ddebba
+    m_Address: ThreeSoulsAtlas_Map_Original_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: beb8e90c5eb169d4781cd9ddd7abf575
+    m_Address: ThreeSoulsAtlas_Map_Stages_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c71d07f94a9e63f48934230c2e5050cf
+    m_Address: ThreeSoulsAtlas_World_VillageSummer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c938f5652deb07f43a082e4cbe680c17
+    m_Address: ThreeSoulsAtlas_Map_Village
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e211ee5821806bf46889fba39254d036
+    m_Address: ThreeSoulsAtlas_Map_Stages_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e919e137343a82f48ad26610f830dda8
+    m_Address: ThreeSoulsAtlas_World_Monster_GreenOgre
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecebdc75c77fc84458428281b0e1bc3a
+    m_Address: ThreeSoulsAtlas_World_Monster_Wolf
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ede331bcc59d54b45855615a218ccb59
+    m_Address: ThreeSoulsAtlas_World_Monster_BrownPig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f083d6327846b11419e1b4b35521cc18
+    m_Address: ThreeSoulsAtlas_World_Skill_Archer_PrecisionShot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1d4f021f693fba4aa78ff1fa149beb6
+    m_Address: ThreeSoulsAtlas_UI_Portraits
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f50f739e1911d174fb9ed303793802f7
+    m_Address: ThreeSoulsAtlas_World_Monster_BlueCrab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8f210ee43f2f7e47a347c36ecaa745f
+    m_Address: ThreeSoulsAtlas_UI_Skills
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f906caffce4eb74438444b562e8e7f22
+    m_Address: ThreeSoulsAtlas_World_Skill_Knight_Whirlwind
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9309b1900c609144a2e5638f21af724
+    m_Address: ThreeSoulsAtlas_World_Monster_BlueDragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9b6944a77a18294198ea7875aec1afd
+    m_Address: ThreeSoulsAtlas_World_Tiles_Elements_Animals
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fae4515d827ca3545966644690a9ebb6
+    m_Address: ThreeSoulsAtlas_UI_SkillArchive
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThreeSouls.SpriteAtlas
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ff1df453a29880544a7a15ac1dc2d604, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8bea8bd9a3abd8a4885bd61f2a977303, type: 2}
+    - {fileID: 11400000, guid: f15f2957f6c939f4581fc2534ecf2a4c, type: 2}

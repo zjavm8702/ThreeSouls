@@ -1,0 +1,8 @@
+Key : string,HeroKey : string,InitialDelay : float,Cooldown : float,CastRange : float,HitDelay : float,DamageMultiplier : float,IsArea : bool,CenterOnCaster : bool,Radius : float,EffectOffset : Vector2,SkillIconKey : string,AttackClipKey : string,EffectPrefabKey : string
+고유 키,히어로 사용 키,첫 사용이 가능한 시간,발동한 순간부터 다음 사용 시간,시전자가 타깃을 선택할 수 있는 최대 거리,실제 피해 적용 시점(초),시전자 공격력(배율),범위인지,시전자 위치,범위 공격 반경,연출 보정,스킬 아이콘 키,클립 키,프리팹 키
+HeavySlash,Key_night,2.,6.,1.6,0.24,3.,FALSE,FALSE,0.,"(0,0.5)",Icon_Knight_HeavySlash,HeavySlashAttack,HeavySlash
+Whirlwind,Key_night,5.,10.,1.7,0.22,2.,TRUE,TRUE,1.7,"(0,0)",Icon_Knight_Whirlwind,WhirlwindAttack,Whirlwind
+PrecisionShot,Key_archer,2.5,5.,4.5,0.17,2.5,FALSE,FALSE,0.,"(0,0.5)",Icon_Archer_PrecisionShot,PrecisionShotAttack,PrecisionShot
+ArrowRain,Key_archer,6.,10.,4.5,0.35,1.5,TRUE,FALSE,2.,"(0,0)",Icon_Archer_ArrowRain,ArrowRainAttack,ArrowRain
+FireBolt,Key_wizard,3.,6.,3.5,0.2,2.,FALSE,FALSE,0.,"(0,0.5)",Icon_Wizard_FireBolt,FireBoltAttack,FireBolt
+FlameNova,Key_wizard,7.,11.,3.5,0.35,1.75,TRUE,FALSE,2.2,"(0,0)",Icon_Wizard_FlameNova,FlameNovaAttack,FlameNova

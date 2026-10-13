@@ -1,101 +1,63 @@
-using System;
+using ThreeSouls.Data.Generated;
 using ThreeSouls.Enumeration;
 using UnityEngine;
 
 namespace ThreeSouls.Data
 {
-    [Serializable]
-    public class CharacterCombatData
+    /// <summary>
+    /// 한 번의 스폰에 속한 공격과 이동 수치를 보관합니다. 현재 체력은 EntityHealth가 소유합니다.
+    /// </summary>
+    public sealed class CharacterCombatData
     {
+        public string CharacterKey { get; }
         public CharacterType CharacterType { get; }
         public CharacterRole CharacterRole { get; }
         public AttackType CharacterAttackType { get; }
+        public float CharAttackDmg { get; private set; }
+        public float CharAttackInterval { get; private set; }
+        public float CharMoveSpeed { get; }
+        public float CharRunningSpeed { get; }
+        public float CharDistanceToTarget { get; }
+        public bool CharIsRunningPlay { get; }
+        public float CharDetectDelay { get; }
+        public float CharAttackRange { get; }
+        public float CharTargetSearchRadius { get; }
+        public float CriticalChance { get; private set; }
+        public float CriticalMultiplier { get; private set; } = 1;
 
-        /// <summary>
-        /// 캐릭터 HP
-        /// </summary>
-        private float CharHP;
-        public float CharHealthPoint
+        internal CharacterCombatData(CharacterTableDataRow character, ThreeSoulsRuleDataRow rule)
         {
-            get => CharHP;
-            set => CharHP = Mathf.Max(0, value);
+            CharacterKey = character.StrKey;
+            CharacterType = character.CharacterType;
+            CharacterRole = character.CharacterRole;
+            CharacterAttackType = character.AttackType;
+            SetAttackStats(character.AttackDmg, rule.BaseAttackInterval / character.AttackSpeedMultiplier);
+            CharMoveSpeed = Mathf.Max(1, character.MoveSpeed);
+            CharRunningSpeed = character.RunningSpeed;
+            CharDistanceToTarget = Mathf.Max(0, character.DistanceToTarget);
+            CharIsRunningPlay = character.IsRunningPlay;
+            CharDetectDelay = character.DetectDelay;
+            CharAttackRange = character.AttackRange;
+            CharTargetSearchRadius = character.TargetSearchRadius;
         }
 
-        /// <summary>
-        /// 캐릭터 데미지
-        /// </summary>
-        private float CharDmg;
-        public float CharAttackDmg
+
+        internal void SetAttackStats(float attackDamage, float attackInterval)
         {
-            get => CharDmg;
-            set => CharDmg = Mathf.Max(0, value);
+            CharAttackDmg = Mathf.Max(0, attackDamage);
+            CharAttackInterval = Mathf.Max(0.01f, attackInterval);
         }
 
-        /// <summary>
-        /// 캐릭터 공격 딜레이
-        /// </summary>
-        private float AttackInterval;
-        public float CharAttackInterval
+        internal void SetCriticalStats(float chance, float multiplier)
         {
-            get => AttackInterval;
-            set => AttackInterval = Mathf.Max(value, 0.01f);
-        }
+            if (float.IsNaN(chance) == true || chance < 0 || chance > 1 ||
+                float.IsNaN(multiplier) == true || float.IsInfinity(multiplier) == true || multiplier < 1)
+            {
+                throw new System.ArgumentOutOfRangeException(nameof(chance));
+            }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        private float MoveSpeed;
-        public float CharMoveSpeed
-        { 
-            get => MoveSpeed;
-            set => MoveSpeed = Mathf.Max(value, 1f);
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        private float RunningSpeed;
-        public float CharRunningSpeed
-        { 
-            get => RunningSpeed;
-            set => RunningSpeed = value;
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        private float DistanceToTarget;
-        public float CharDistanceToTarget
-        { 
-            get => DistanceToTarget;
-            set => DistanceToTarget = Mathf.Max(value, 0);
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        private bool IsRunningPlay;
-        public bool CharIsRunningPlay
-        { 
-            get => IsRunningPlay;
-            set => IsRunningPlay = value;
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        private float DetectDelay;
-        public float CharDetectDelay
-        { 
-            get => DetectDelay;
-            set => DetectDelay = value;
-        }
-
-        public CharacterCombatData(CharacterType charType, CharacterRole charRole, AttackType charAttackType)
-        {
-            CharacterAttackType = charAttackType;
-            CharacterType = charType;
-            CharacterRole = charRole;
+            CriticalChance = chance;
+            CriticalMultiplier = multiplier;
         }
     }
 }

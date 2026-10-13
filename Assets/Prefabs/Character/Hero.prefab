@@ -82,7 +82,7 @@ Animator:
   m_GameObject: {fileID: 1795541172195329565}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5b2905789421483fbbed0750bf55ace0, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2a3077c37ff56984080bd4aebb4eaeae, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -109,7 +109,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -117,10 +117,10 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1400983188908220313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,6 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d25b619a3db5d94994950e96e096786, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ThreeSouls.Character.Hero
+  HitFlashMaterial: {fileID: 2100000, guid: 8f0d349887ae2c74abf1eb14e458743c, type: 2}
 --- !u!114 &5855174833181693571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,7 +158,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 125baeabb774ce7418fab52bdb9095e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Sky.Scripts.Character.Entity.EntityHealth
-  OnDecreaseHealthColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &4802838900248565302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,6 +170,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41152595315821747a89c2266bceeb3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ThreeSouls.Weapon.CharacterWeapon
+  RightMuzzleOffset: {x: 0.48, y: 0.45}
+  DownMuzzleOffset: {x: 0.14, y: 0.12}
+  UpMuzzleOffset: {x: 0.14, y: 0.85}
 --- !u!58 &7315767104852086747
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -204,8 +207,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.5}
-  m_Radius: 0.5
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.2
 --- !u!1 &3561722886091644524
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,12 +292,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 5546671543968653177, guid: 38997c349637440cbf906e61e06416e1, type: 3}
+  m_Sprite: {fileID: -5740475854085864765, guid: d40596f261fb5f74da4a94bde28446ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.5, y: 2}
+  m_Size: {x: 1.0625, y: 1.0625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -312,10 +315,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.2D.Animation.Runtime::UnityEngine.U2D.Animation.SpriteResolver
-  m_CategoryHash: 0.009161512
-  m_labelHash: 0.00000040954276
+  m_CategoryHash: 0.003882417
+  m_labelHash: 4.6095534e-19
   m_SpriteKey: 0
-  m_SpriteHash: 288431053
+  m_SpriteHash: 381710979
 --- !u!114 &7549901649366092023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,7 +332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.2D.Animation.Runtime::UnityEngine.U2D.Animation.SpriteLibrary
   m_Library: []
-  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: cccfc153d9850984da2708554185cd01, type: 3}
+  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: 5e8d54d16cc573e4ca57f8f98b29be9f, type: 3}
 --- !u!1001 &143144451672565015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -338,6 +341,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1669459241702614007}
     m_Modifications:
+    - target: {fileID: 2338074926210679327, guid: dd0a27a457bd55f458517d62d4bee0d7, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338074926210679327, guid: dd0a27a457bd55f458517d62d4bee0d7, type: 3}
+      propertyPath: m_AllowRoll
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3896840890567579739, guid: dd0a27a457bd55f458517d62d4bee0d7, type: 3}
       propertyPath: m_Name
       value: RunningParticle

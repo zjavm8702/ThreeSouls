@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!612988286 &1
+SpriteAtlasAsset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ThreeSoulsAtlas_World_Sunnyside
+  serializedVersion: 2
+  m_MasterAtlas: {fileID: 0}
+  m_ImporterData:
+    packables:
+    - {fileID: 2800000, guid: 5bbe6f8505768484db82c1f156da08a3, type: 3}
+    - {fileID: 2800000, guid: d1d77f03ff24504419a0cb9c2cbffed4, type: 3}
+    - {fileID: 2800000, guid: e4d54aa2436b69f448ddff7e3c2b80b4, type: 3}
+    - {fileID: 2800000, guid: 988f61d8a0d246948b7c028cc7d1bca9, type: 3}
+    - {fileID: 2800000, guid: 9f68df5731b458445bdda30d37a9e017, type: 3}
+    - {fileID: 2800000, guid: 3d118c7e4fea94841b5addaa7f1ef461, type: 3}
+    - {fileID: 2800000, guid: 38a50624929f73b4f96496f1c45855cb, type: 3}
+    - {fileID: 2800000, guid: 6833b04ac75e88e4d958a66bd701d4d0, type: 3}
+    - {fileID: 2800000, guid: a0e38b11cb327e649b57baee67eeb203, type: 3}
+    - {fileID: 2800000, guid: 6779fbc2c3c43a542b01490bdff3baad, type: 3}
+    - {fileID: 2800000, guid: 93e645e36a08a9c44ad4435e4bdf6587, type: 3}
+    - {fileID: 2800000, guid: 6937f88a08c9a424c9522ae4c6f840d9, type: 3}
+    - {fileID: 2800000, guid: 4004b9d50bb21ef44b93b8745d09c289, type: 3}
+    - {fileID: 2800000, guid: 4b5747f5da6b1b349acd98e3be0cd5a6, type: 3}
+    - {fileID: 2800000, guid: 5942debaa8dfd1c44babf50cf0355a5c, type: 3}
+  m_IsVariant: 0
+  m_ScriptablePacker: {fileID: 0}

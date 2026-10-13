@@ -1,0 +1,22 @@
+Index : int,Category : string,OptionKey : string,StrKey : string,DisplayOrder : int,ColorHex : string
+인덱스,Rarity / EquipSlot / Tab / Filter / Order,현재 코드의 옵션 이름,표시 문자열 키,카테고리 안의 표시 순서,등급 색상 (해당 없으면 빈 값)
+0,Rarity,Normal,LobbyRarity_Normal,0,#94A6AE
+1,Rarity,Magic,LobbyRarity_Magic,1,#74AFE2
+2,Rarity,Rare,LobbyRarity_Rare,2,#E2B769
+3,EquipSlot,Weapon,LobbyEquipSlot_Weapon,0,
+4,EquipSlot,Armor,LobbyEquipSlot_Armor,1,
+5,EquipSlot,Accessory,LobbyEquipSlot_Accessory,2,
+6,Tab,Village,LobbyTab_Village,0,
+7,Tab,Inventory,LobbyTab_Inventory,1,
+8,Tab,Characters,LobbyTab_Characters,2,
+9,Tab,Supplies,LobbyTab_Supplies,3,
+10,Filter,All,LobbyFilter_All,0,
+11,Filter,Weapon,LobbyFilter_Weapon,1,
+12,Filter,Armor,LobbyFilter_Armor,2,
+13,Filter,Accessory,LobbyFilter_Accessory,3,
+14,Filter,Equipped,LobbyFilter_Equipped,4,
+15,Order,Rarity,LobbyOrder_Rarity,0,
+16,Order,Name,LobbyOrder_Name,1,
+17,Order,Attack,LobbyOrder_Attack,2,
+18,Rarity,Epic,Rarity_Epic,3,#BC85FF
+19,Rarity,Legendary,Rarity_Legendary,4,#FF994D

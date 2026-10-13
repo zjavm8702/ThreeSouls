@@ -1,0 +1,25 @@
+{
+    "Items": [
+        {
+            "Index": 0,
+            "HeroKey": "Key_night",
+            "InitialLevel": 1,
+            "InitialExperience": 0,
+            "Note": "고정 영웅. 최초 강화 단계 0."
+        },
+        {
+            "Index": 1,
+            "HeroKey": "Key_archer",
+            "InitialLevel": 1,
+            "InitialExperience": 0,
+            "Note": "고정 영웅. 최초 강화 단계 0."
+        },
+        {
+            "Index": 2,
+            "HeroKey": "Key_wizard",
+            "InitialLevel": 1,
+            "InitialExperience": 0,
+            "Note": "고정 영웅. 최초 강화 단계 0."
+        }
+    ]
+}

@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 7c53c1dd9000bef42b969543bee963a5
   m_currentHash:
     serializedVersion: 2
-    Hash: 51926bad1bf4d9bdaddbf692f8bc6b00
+    Hash: 00000000000000000000000000000000
   m_ExtractTypeTreeData: 0
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
@@ -60,7 +60,7 @@ MonoBehaviour:
   m_ContentStateBuildPathProfileVariableName: <default settings path>
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
-  m_BuildAddressablesWithPlayerBuild: 0
+  m_BuildAddressablesWithPlayerBuild: 2
   m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
   m_GroupAssets:
   - {fileID: 11400000, guid: 40b120380b6c1f34cafb98976c429418, type: 2}
@@ -68,10 +68,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cff2e41b15d19a645ab49f2c64b7702f, type: 2}
   - {fileID: 11400000, guid: 0694fa8afda6e1a4ba720aac2dc22640, type: 2}
   - {fileID: 11400000, guid: 8666de27995df914abff548f92441ead, type: 2}
+  - {fileID: 11400000, guid: 5d9c5ed3851d2a34b9f89d1edb421da7, type: 2}
   - {fileID: 11400000, guid: f956dbcda4176f643adb36438f9de186, type: 2}
   - {fileID: 11400000, guid: d9021a4683df8f54eafcbc4a5dda64e4, type: 2}
   - {fileID: 11400000, guid: ef842f79d68e5e742ad355ed911613c5, type: 2}
   - {fileID: 11400000, guid: ea3ab5888d700ac48896f832c2d56ff8, type: 2}
+  - {fileID: 11400000, guid: e28a46c8781e5374c9ecac7ba27fb22b, type: 2}
   m_BuildSettings:
     m_LogResourceManagerExceptions: 1
     m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
@@ -125,6 +127,7 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - ThreeSouls.SpriteAtlas
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: ba158e1eb974b964794ccb56cf753d28, type: 2}
@@ -134,10 +137,11 @@ MonoBehaviour:
   m_CertificateHandlerType:
     m_AssemblyName: 
     m_ClassName: 
-  m_ActivePlayerDataBuilderIndex: 2
+  m_ActivePlayerDataBuilderIndex: 4
   m_DataBuilders:
   - {fileID: 11400000, guid: 4e8031c9028e7884f9f7e90948002bfa, type: 2}
   - {fileID: 11400000, guid: eb826c17ae6e49f459d3f57da198cea9, type: 2}
   - {fileID: 11400000, guid: 8237d78f883b21f4d9119a656c9716e3, type: 2}
   - {fileID: 11400000, guid: 7686576f5f7062d4a9269e93f3ca8c8e, type: 2}
+  - {fileID: 11400000, guid: 98aa6bdd19b91ce4c9542f843af1bfa9, type: 2}
   m_ActiveProfileId: cf36cc5d0e19f944aa45d7d87a73d2ee

@@ -14,6 +14,9 @@ namespace ThreeSouls.Data.Generated
         /// <summary>기본 공격 딜레이</summary>
         [global::UnityEngine.Tooltip("\uae30\ubcf8 \uacf5\uaca9 \ub51c\ub808\uc774")]
         public float @BaseAttackInterval;
+        /// <summary>성소 몬스터 아이템 드랍기본 배율</summary>
+        [global::UnityEngine.Tooltip("\uc131\uc18c \ubaac\uc2a4\ud130 \uc544\uc774\ud15c \ub4dc\ub78d\uae30\ubcf8 \ubc30\uc728")]
+        public float @SpecialItemDropMultiplier;
     }
     [global::System.Serializable]
     public sealed class ThreeSoulsRuleDataPayload

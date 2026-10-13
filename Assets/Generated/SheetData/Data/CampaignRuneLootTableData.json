@@ -1,0 +1,139 @@
+{
+    "Items": [
+        {
+            "Key": "Shrine_Loot",
+            "RequiredProgress": 0,
+            "Weight": 1.0
+        },
+        {
+            "Key": "Shrine_Gold",
+            "RequiredProgress": 0,
+            "Weight": 1.0
+        },
+        {
+            "Key": "Shrine_Ward",
+            "RequiredProgress": 0,
+            "Weight": 1.0
+        },
+        {
+            "Key": "HeavySlash_Power",
+            "RequiredProgress": 0,
+            "Weight": 1.0
+        },
+        {
+            "Key": "HeavySlash_Haste",
+            "RequiredProgress": 0,
+            "Weight": 1.0
+        },
+        {
+            "Key": "Whirlwind_Power",
+            "RequiredProgress": 0,
+            "Weight": 1.0
+        },
+        {
+            "Key": "Whirlwind_Area",
+            "RequiredProgress": 0,
+            "Weight": 1.0
+        },
+        {
+            "Key": "PrecisionShot_Power",
+            "RequiredProgress": 0,
+            "Weight": 1.0
+        },
+        {
+            "Key": "PrecisionShot_Haste",
+            "RequiredProgress": 0,
+            "Weight": 1.0
+        },
+        {
+            "Key": "ArrowRain_Power",
+            "RequiredProgress": 0,
+            "Weight": 1.0
+        },
+        {
+            "Key": "ArrowRain_Area",
+            "RequiredProgress": 0,
+            "Weight": 1.0
+        },
+        {
+            "Key": "FireBolt_Power",
+            "RequiredProgress": 0,
+            "Weight": 1.0
+        },
+        {
+            "Key": "FireBolt_Haste",
+            "RequiredProgress": 0,
+            "Weight": 1.0
+        },
+        {
+            "Key": "FlameNova_Power",
+            "RequiredProgress": 0,
+            "Weight": 1.0
+        },
+        {
+            "Key": "FlameNova_Area",
+            "RequiredProgress": 0,
+            "Weight": 1.0
+        },
+        {
+            "Key": "HeavySlash_Momentum",
+            "RequiredProgress": 5,
+            "Weight": 1.0
+        },
+        {
+            "Key": "HeavySlash_Reach",
+            "RequiredProgress": 10,
+            "Weight": 1.0
+        },
+        {
+            "Key": "Whirlwind_Momentum",
+            "RequiredProgress": 5,
+            "Weight": 1.0
+        },
+        {
+            "Key": "Whirlwind_Reach",
+            "RequiredProgress": 10,
+            "Weight": 1.0
+        },
+        {
+            "Key": "PrecisionShot_Momentum",
+            "RequiredProgress": 5,
+            "Weight": 1.0
+        },
+        {
+            "Key": "PrecisionShot_Reach",
+            "RequiredProgress": 10,
+            "Weight": 1.0
+        },
+        {
+            "Key": "ArrowRain_Momentum",
+            "RequiredProgress": 5,
+            "Weight": 1.0
+        },
+        {
+            "Key": "ArrowRain_Reach",
+            "RequiredProgress": 10,
+            "Weight": 1.0
+        },
+        {
+            "Key": "FireBolt_Momentum",
+            "RequiredProgress": 5,
+            "Weight": 1.0
+        },
+        {
+            "Key": "FireBolt_Reach",
+            "RequiredProgress": 10,
+            "Weight": 1.0
+        },
+        {
+            "Key": "FlameNova_Momentum",
+            "RequiredProgress": 5,
+            "Weight": 1.0
+        },
+        {
+            "Key": "FlameNova_Reach",
+            "RequiredProgress": 10,
+            "Weight": 1.0
+        }
+    ]
+}

@@ -36,23 +36,6 @@ namespace ThreeSouls.Data
         }
     }
 
-    public readonly struct Event_CombatMoveCompleted : IEventValue
-    {
-        public readonly ICombatStateProvider Entity;
-        public readonly GameObject Target;
-        public readonly CombatState NextState;
-
-        public Event_CombatMoveCompleted(
-            ICombatStateProvider entity,
-            GameObject target,
-            CombatState nextState)
-        {
-            Entity = entity;
-            Target = target;
-            NextState = nextState;
-        }
-    }
-
     public readonly struct Event_CombatAttackCycleCompleted : IEventValue
     {
         public readonly ICombatStateProvider Entity;
@@ -73,6 +56,24 @@ namespace ThreeSouls.Data
         {
             Entity = entity;
         }
+    }
+
+    public readonly struct Event_CombatHolyPlaceStarted : IEventValue
+    {
+        public readonly string RoundKey;
+        public readonly int RoundNumber;
+        public readonly Vector2 Position;
+        public Event_CombatHolyPlaceStarted(string roundKey, int roundNumber, Vector2 position)
+        { RoundKey = roundKey; RoundNumber = roundNumber; Position = position; }
+    }
+
+    public readonly struct Event_CombatStageCompleted : IEventValue
+    {
+        public readonly int RegionNumber;
+        public readonly int StageNumber;
+        public readonly bool IsVictory;
+        public Event_CombatStageCompleted(int regionNumber, int stageNumber, bool victory)
+        { RegionNumber = regionNumber; StageNumber = stageNumber; IsVictory = victory; }
     }
 
     public struct Event_CombatState : IEventValue 

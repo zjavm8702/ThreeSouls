@@ -1,0 +1,1485 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60793fde25b372a409078f546ba04f17, type: 3}
+  m_Name: EquipmentTableData
+  m_EditorClassIdentifier: Assembly-CSharp::ThreeSouls.Data.Generated.EquipmentTableDataTable
+  Items:
+  - Index: 0
+    ItemKey: Item_Sword_01
+    StrKey: ItemName_Sword_01
+    EquipSlot: 0
+    Rarity: 0
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_01.png
+    AttackDmgMin: 1
+    AttackDmgMax: 2
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 1
+    ItemKey: Item_Bow_01
+    StrKey: ItemName_Bow_01
+    EquipSlot: 0
+    Rarity: 0
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_01.png
+    AttackDmgMin: 1
+    AttackDmgMax: 2
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 2
+    ItemKey: Item_Staff_01
+    StrKey: ItemName_Staff_01
+    EquipSlot: 0
+    Rarity: 0
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_01.png
+    AttackDmgMin: 2
+    AttackDmgMax: 4
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 3
+    ItemKey: Item_Armor_01
+    StrKey: ItemName_Armor_01
+    EquipSlot: 1
+    Rarity: 0
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_01.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 20
+    MaxHPMax: 40
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 4
+    ItemKey: Item_Ring_01
+    StrKey: ItemName_Ring_01
+    EquipSlot: 2
+    Rarity: 1
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_04.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.03
+    AttackSpeedBonusMax: 0.05
+  - Index: 5
+    ItemKey: Item_Sword_02
+    StrKey: ItemName_Sword_02
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_08.png
+    AttackDmgMin: 3
+    AttackDmgMax: 5
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 6
+    ItemKey: Item_Bow_02
+    StrKey: ItemName_Bow_02
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_08.png
+    AttackDmgMin: 3
+    AttackDmgMax: 5
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 7
+    ItemKey: Item_Staff_02
+    StrKey: ItemName_Staff_02
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_08.png
+    AttackDmgMin: 5
+    AttackDmgMax: 8
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 8
+    ItemKey: Farm_Sword_01
+    StrKey: Name_Farm_Sword_01
+    EquipSlot: 0
+    Rarity: 0
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_01.png
+    AttackDmgMin: 1.848
+    AttackDmgMax: 2.352
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 9
+    ItemKey: Farm_Sword_02
+    StrKey: Name_Farm_Sword_02
+    EquipSlot: 0
+    Rarity: 0
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_02.png
+    AttackDmgMin: 2.144
+    AttackDmgMax: 2.728
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 10
+    ItemKey: Farm_Sword_03
+    StrKey: Name_Farm_Sword_03
+    EquipSlot: 0
+    Rarity: 0
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_03.png
+    AttackDmgMin: 2.487
+    AttackDmgMax: 3.165
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 11
+    ItemKey: Farm_Sword_04
+    StrKey: Name_Farm_Sword_04
+    EquipSlot: 0
+    Rarity: 1
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_04.png
+    AttackDmgMin: 2.885
+    AttackDmgMax: 3.671
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 12
+    ItemKey: Farm_Sword_05
+    StrKey: Name_Farm_Sword_05
+    EquipSlot: 0
+    Rarity: 1
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_05.png
+    AttackDmgMin: 3.346
+    AttackDmgMax: 4.259
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 13
+    ItemKey: Farm_Sword_06
+    StrKey: Name_Farm_Sword_06
+    EquipSlot: 0
+    Rarity: 1
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_06.png
+    AttackDmgMin: 3.881
+    AttackDmgMax: 4.94
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 14
+    ItemKey: Farm_Sword_07
+    StrKey: Name_Farm_Sword_07
+    EquipSlot: 0
+    Rarity: 1
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_07.png
+    AttackDmgMin: 4.502
+    AttackDmgMax: 5.73
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 15
+    ItemKey: Farm_Sword_08
+    StrKey: Name_Farm_Sword_08
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_08.png
+    AttackDmgMin: 5.223
+    AttackDmgMax: 6.647
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0141
+    AttackSpeedBonusMax: 0.0179
+  - Index: 16
+    ItemKey: Farm_Sword_09
+    StrKey: Name_Farm_Sword_09
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_09.png
+    AttackDmgMin: 6.059
+    AttackDmgMax: 7.711
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0158
+    AttackSpeedBonusMax: 0.0202
+  - Index: 17
+    ItemKey: Farm_Sword_10
+    StrKey: Name_Farm_Sword_10
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_10.png
+    AttackDmgMin: 7.028
+    AttackDmgMax: 8.945
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0176
+    AttackSpeedBonusMax: 0.0224
+  - Index: 18
+    ItemKey: Farm_Sword_11
+    StrKey: Name_Farm_Sword_11
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_11.png
+    AttackDmgMin: 8.152
+    AttackDmgMax: 10.376
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0194
+    AttackSpeedBonusMax: 0.0246
+  - Index: 19
+    ItemKey: Farm_Sword_12
+    StrKey: Name_Farm_Sword_12
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_12.png
+    AttackDmgMin: 9.457
+    AttackDmgMax: 12.036
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0211
+    AttackSpeedBonusMax: 0.0269
+  - Index: 20
+    ItemKey: Farm_Sword_13
+    StrKey: Name_Farm_Sword_13
+    EquipSlot: 0
+    Rarity: 3
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_13.png
+    AttackDmgMin: 10.97
+    AttackDmgMax: 13.962
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0229
+    AttackSpeedBonusMax: 0.0291
+  - Index: 21
+    ItemKey: Farm_Sword_14
+    StrKey: Name_Farm_Sword_14
+    EquipSlot: 0
+    Rarity: 3
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_14.png
+    AttackDmgMin: 12.725
+    AttackDmgMax: 16.195
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0246
+    AttackSpeedBonusMax: 0.0314
+  - Index: 22
+    ItemKey: Farm_Sword_15
+    StrKey: Name_Farm_Sword_15
+    EquipSlot: 0
+    Rarity: 3
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_15.png
+    AttackDmgMin: 14.761
+    AttackDmgMax: 18.787
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0264
+    AttackSpeedBonusMax: 0.0336
+  - Index: 23
+    ItemKey: Farm_Sword_16
+    StrKey: Name_Farm_Sword_16
+    EquipSlot: 0
+    Rarity: 3
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_16.png
+    AttackDmgMin: 17.123
+    AttackDmgMax: 21.793
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0282
+    AttackSpeedBonusMax: 0.0358
+  - Index: 24
+    ItemKey: Farm_Sword_17
+    StrKey: Name_Farm_Sword_17
+    EquipSlot: 0
+    Rarity: 3
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_17.png
+    AttackDmgMin: 19.862
+    AttackDmgMax: 25.279
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0299
+    AttackSpeedBonusMax: 0.0381
+  - Index: 25
+    ItemKey: Farm_Sword_18
+    StrKey: Name_Farm_Sword_18
+    EquipSlot: 0
+    Rarity: 4
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_18.png
+    AttackDmgMin: 23.04
+    AttackDmgMax: 29.324
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0317
+    AttackSpeedBonusMax: 0.0403
+  - Index: 26
+    ItemKey: Farm_Sword_19
+    StrKey: Name_Farm_Sword_19
+    EquipSlot: 0
+    Rarity: 4
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_19.png
+    AttackDmgMin: 26.727
+    AttackDmgMax: 34.016
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0334
+    AttackSpeedBonusMax: 0.0426
+  - Index: 27
+    ItemKey: Farm_Sword_20
+    StrKey: Name_Farm_Sword_20
+    EquipSlot: 0
+    Rarity: 4
+    AllowedCharacterKeys:
+    - Key_night
+    IconKey: Assets/Images/EquipMent/Farm_Sword_20.png
+    AttackDmgMin: 31.003
+    AttackDmgMax: 39.458
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0352
+    AttackSpeedBonusMax: 0.0448
+  - Index: 28
+    ItemKey: Farm_Bow_01
+    StrKey: Name_Farm_Bow_01
+    EquipSlot: 0
+    Rarity: 0
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_01.png
+    AttackDmgMin: 1.848
+    AttackDmgMax: 2.352
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 29
+    ItemKey: Farm_Bow_02
+    StrKey: Name_Farm_Bow_02
+    EquipSlot: 0
+    Rarity: 0
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_02.png
+    AttackDmgMin: 2.144
+    AttackDmgMax: 2.728
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 30
+    ItemKey: Farm_Bow_03
+    StrKey: Name_Farm_Bow_03
+    EquipSlot: 0
+    Rarity: 0
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_03.png
+    AttackDmgMin: 2.487
+    AttackDmgMax: 3.165
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 31
+    ItemKey: Farm_Bow_04
+    StrKey: Name_Farm_Bow_04
+    EquipSlot: 0
+    Rarity: 1
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_04.png
+    AttackDmgMin: 2.885
+    AttackDmgMax: 3.671
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 32
+    ItemKey: Farm_Bow_05
+    StrKey: Name_Farm_Bow_05
+    EquipSlot: 0
+    Rarity: 1
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_05.png
+    AttackDmgMin: 3.346
+    AttackDmgMax: 4.259
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 33
+    ItemKey: Farm_Bow_06
+    StrKey: Name_Farm_Bow_06
+    EquipSlot: 0
+    Rarity: 1
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_06.png
+    AttackDmgMin: 3.881
+    AttackDmgMax: 4.94
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 34
+    ItemKey: Farm_Bow_07
+    StrKey: Name_Farm_Bow_07
+    EquipSlot: 0
+    Rarity: 1
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_07.png
+    AttackDmgMin: 4.502
+    AttackDmgMax: 5.73
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 35
+    ItemKey: Farm_Bow_08
+    StrKey: Name_Farm_Bow_08
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_08.png
+    AttackDmgMin: 5.223
+    AttackDmgMax: 6.647
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0141
+    AttackSpeedBonusMax: 0.0179
+  - Index: 36
+    ItemKey: Farm_Bow_09
+    StrKey: Name_Farm_Bow_09
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_09.png
+    AttackDmgMin: 6.059
+    AttackDmgMax: 7.711
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0158
+    AttackSpeedBonusMax: 0.0202
+  - Index: 37
+    ItemKey: Farm_Bow_10
+    StrKey: Name_Farm_Bow_10
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_10.png
+    AttackDmgMin: 7.028
+    AttackDmgMax: 8.945
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0176
+    AttackSpeedBonusMax: 0.0224
+  - Index: 38
+    ItemKey: Farm_Bow_11
+    StrKey: Name_Farm_Bow_11
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_11.png
+    AttackDmgMin: 8.152
+    AttackDmgMax: 10.376
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0194
+    AttackSpeedBonusMax: 0.0246
+  - Index: 39
+    ItemKey: Farm_Bow_12
+    StrKey: Name_Farm_Bow_12
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_12.png
+    AttackDmgMin: 9.457
+    AttackDmgMax: 12.036
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0211
+    AttackSpeedBonusMax: 0.0269
+  - Index: 40
+    ItemKey: Farm_Bow_13
+    StrKey: Name_Farm_Bow_13
+    EquipSlot: 0
+    Rarity: 3
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_13.png
+    AttackDmgMin: 10.97
+    AttackDmgMax: 13.962
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0229
+    AttackSpeedBonusMax: 0.0291
+  - Index: 41
+    ItemKey: Farm_Bow_14
+    StrKey: Name_Farm_Bow_14
+    EquipSlot: 0
+    Rarity: 3
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_14.png
+    AttackDmgMin: 12.725
+    AttackDmgMax: 16.195
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0246
+    AttackSpeedBonusMax: 0.0314
+  - Index: 42
+    ItemKey: Farm_Bow_15
+    StrKey: Name_Farm_Bow_15
+    EquipSlot: 0
+    Rarity: 3
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_15.png
+    AttackDmgMin: 14.761
+    AttackDmgMax: 18.787
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0264
+    AttackSpeedBonusMax: 0.0336
+  - Index: 43
+    ItemKey: Farm_Bow_16
+    StrKey: Name_Farm_Bow_16
+    EquipSlot: 0
+    Rarity: 3
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_16.png
+    AttackDmgMin: 17.123
+    AttackDmgMax: 21.793
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0282
+    AttackSpeedBonusMax: 0.0358
+  - Index: 44
+    ItemKey: Farm_Bow_17
+    StrKey: Name_Farm_Bow_17
+    EquipSlot: 0
+    Rarity: 3
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_17.png
+    AttackDmgMin: 19.862
+    AttackDmgMax: 25.279
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0299
+    AttackSpeedBonusMax: 0.0381
+  - Index: 45
+    ItemKey: Farm_Bow_18
+    StrKey: Name_Farm_Bow_18
+    EquipSlot: 0
+    Rarity: 4
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_18.png
+    AttackDmgMin: 23.04
+    AttackDmgMax: 29.324
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0317
+    AttackSpeedBonusMax: 0.0403
+  - Index: 46
+    ItemKey: Farm_Bow_19
+    StrKey: Name_Farm_Bow_19
+    EquipSlot: 0
+    Rarity: 4
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_19.png
+    AttackDmgMin: 26.727
+    AttackDmgMax: 34.016
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0334
+    AttackSpeedBonusMax: 0.0426
+  - Index: 47
+    ItemKey: Farm_Bow_20
+    StrKey: Name_Farm_Bow_20
+    EquipSlot: 0
+    Rarity: 4
+    AllowedCharacterKeys:
+    - Key_archer
+    IconKey: Assets/Images/EquipMent/Farm_Bow_20.png
+    AttackDmgMin: 31.003
+    AttackDmgMax: 39.458
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0352
+    AttackSpeedBonusMax: 0.0448
+  - Index: 48
+    ItemKey: Farm_Staff_01
+    StrKey: Name_Farm_Staff_01
+    EquipSlot: 0
+    Rarity: 0
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_01.png
+    AttackDmgMin: 3.696
+    AttackDmgMax: 4.704
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 49
+    ItemKey: Farm_Staff_02
+    StrKey: Name_Farm_Staff_02
+    EquipSlot: 0
+    Rarity: 0
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_02.png
+    AttackDmgMin: 4.287
+    AttackDmgMax: 5.457
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 50
+    ItemKey: Farm_Staff_03
+    StrKey: Name_Farm_Staff_03
+    EquipSlot: 0
+    Rarity: 0
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_03.png
+    AttackDmgMin: 4.973
+    AttackDmgMax: 6.33
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 51
+    ItemKey: Farm_Staff_04
+    StrKey: Name_Farm_Staff_04
+    EquipSlot: 0
+    Rarity: 1
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_04.png
+    AttackDmgMin: 5.769
+    AttackDmgMax: 7.342
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 52
+    ItemKey: Farm_Staff_05
+    StrKey: Name_Farm_Staff_05
+    EquipSlot: 0
+    Rarity: 1
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_05.png
+    AttackDmgMin: 6.692
+    AttackDmgMax: 8.517
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 53
+    ItemKey: Farm_Staff_06
+    StrKey: Name_Farm_Staff_06
+    EquipSlot: 0
+    Rarity: 1
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_06.png
+    AttackDmgMin: 7.763
+    AttackDmgMax: 9.88
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 54
+    ItemKey: Farm_Staff_07
+    StrKey: Name_Farm_Staff_07
+    EquipSlot: 0
+    Rarity: 1
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_07.png
+    AttackDmgMin: 9.005
+    AttackDmgMax: 11.461
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 55
+    ItemKey: Farm_Staff_08
+    StrKey: Name_Farm_Staff_08
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_08.png
+    AttackDmgMin: 10.446
+    AttackDmgMax: 13.295
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0141
+    AttackSpeedBonusMax: 0.0179
+  - Index: 56
+    ItemKey: Farm_Staff_09
+    StrKey: Name_Farm_Staff_09
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_09.png
+    AttackDmgMin: 12.117
+    AttackDmgMax: 15.422
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0158
+    AttackSpeedBonusMax: 0.0202
+  - Index: 57
+    ItemKey: Farm_Staff_10
+    StrKey: Name_Farm_Staff_10
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_10.png
+    AttackDmgMin: 14.056
+    AttackDmgMax: 17.889
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0176
+    AttackSpeedBonusMax: 0.0224
+  - Index: 58
+    ItemKey: Farm_Staff_11
+    StrKey: Name_Farm_Staff_11
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_11.png
+    AttackDmgMin: 16.305
+    AttackDmgMax: 20.751
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0194
+    AttackSpeedBonusMax: 0.0246
+  - Index: 59
+    ItemKey: Farm_Staff_12
+    StrKey: Name_Farm_Staff_12
+    EquipSlot: 0
+    Rarity: 2
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_12.png
+    AttackDmgMin: 18.913
+    AttackDmgMax: 24.072
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0211
+    AttackSpeedBonusMax: 0.0269
+  - Index: 60
+    ItemKey: Farm_Staff_13
+    StrKey: Name_Farm_Staff_13
+    EquipSlot: 0
+    Rarity: 3
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_13.png
+    AttackDmgMin: 21.94
+    AttackDmgMax: 27.923
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0229
+    AttackSpeedBonusMax: 0.0291
+  - Index: 61
+    ItemKey: Farm_Staff_14
+    StrKey: Name_Farm_Staff_14
+    EquipSlot: 0
+    Rarity: 3
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_14.png
+    AttackDmgMin: 25.45
+    AttackDmgMax: 32.391
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0246
+    AttackSpeedBonusMax: 0.0314
+  - Index: 62
+    ItemKey: Farm_Staff_15
+    StrKey: Name_Farm_Staff_15
+    EquipSlot: 0
+    Rarity: 3
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_15.png
+    AttackDmgMin: 29.522
+    AttackDmgMax: 37.573
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0264
+    AttackSpeedBonusMax: 0.0336
+  - Index: 63
+    ItemKey: Farm_Staff_16
+    StrKey: Name_Farm_Staff_16
+    EquipSlot: 0
+    Rarity: 3
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_16.png
+    AttackDmgMin: 34.245
+    AttackDmgMax: 43.585
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0282
+    AttackSpeedBonusMax: 0.0358
+  - Index: 64
+    ItemKey: Farm_Staff_17
+    StrKey: Name_Farm_Staff_17
+    EquipSlot: 0
+    Rarity: 3
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_17.png
+    AttackDmgMin: 39.725
+    AttackDmgMax: 50.559
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0299
+    AttackSpeedBonusMax: 0.0381
+  - Index: 65
+    ItemKey: Farm_Staff_18
+    StrKey: Name_Farm_Staff_18
+    EquipSlot: 0
+    Rarity: 4
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_18.png
+    AttackDmgMin: 46.081
+    AttackDmgMax: 58.648
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0317
+    AttackSpeedBonusMax: 0.0403
+  - Index: 66
+    ItemKey: Farm_Staff_19
+    StrKey: Name_Farm_Staff_19
+    EquipSlot: 0
+    Rarity: 4
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_19.png
+    AttackDmgMin: 53.453
+    AttackDmgMax: 68.032
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0334
+    AttackSpeedBonusMax: 0.0426
+  - Index: 67
+    ItemKey: Farm_Staff_20
+    StrKey: Name_Farm_Staff_20
+    EquipSlot: 0
+    Rarity: 4
+    AllowedCharacterKeys:
+    - Key_wizard
+    IconKey: Assets/Images/EquipMent/Farm_Staff_20.png
+    AttackDmgMin: 62.006
+    AttackDmgMax: 78.917
+    MaxHPMin: 0
+    MaxHPMax: 0
+    AttackSpeedBonusMin: 0.0352
+    AttackSpeedBonusMax: 0.0448
+  - Index: 68
+    ItemKey: Farm_Armor_01
+    StrKey: Name_Farm_Armor_01
+    EquipSlot: 1
+    Rarity: 0
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_01.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 39.6
+    MaxHPMax: 50.4
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 69
+    ItemKey: Farm_Armor_02
+    StrKey: Name_Farm_Armor_02
+    EquipSlot: 1
+    Rarity: 0
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_02.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 45.936
+    MaxHPMax: 58.464
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 70
+    ItemKey: Farm_Armor_03
+    StrKey: Name_Farm_Armor_03
+    EquipSlot: 1
+    Rarity: 0
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_03.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 53.286
+    MaxHPMax: 67.818
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 71
+    ItemKey: Farm_Armor_04
+    StrKey: Name_Farm_Armor_04
+    EquipSlot: 1
+    Rarity: 1
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_04.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 61.811
+    MaxHPMax: 78.669
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 72
+    ItemKey: Farm_Armor_05
+    StrKey: Name_Farm_Armor_05
+    EquipSlot: 1
+    Rarity: 1
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_05.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 71.701
+    MaxHPMax: 91.256
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 73
+    ItemKey: Farm_Armor_06
+    StrKey: Name_Farm_Armor_06
+    EquipSlot: 1
+    Rarity: 1
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_06.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 83.174
+    MaxHPMax: 105.857
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 74
+    ItemKey: Farm_Armor_07
+    StrKey: Name_Farm_Armor_07
+    EquipSlot: 1
+    Rarity: 1
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_07.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 96.481
+    MaxHPMax: 122.794
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 75
+    ItemKey: Farm_Armor_08
+    StrKey: Name_Farm_Armor_08
+    EquipSlot: 1
+    Rarity: 2
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_08.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 111.918
+    MaxHPMax: 142.441
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 76
+    ItemKey: Farm_Armor_09
+    StrKey: Name_Farm_Armor_09
+    EquipSlot: 1
+    Rarity: 2
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_09.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 129.825
+    MaxHPMax: 165.232
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 77
+    ItemKey: Farm_Armor_10
+    StrKey: Name_Farm_Armor_10
+    EquipSlot: 1
+    Rarity: 2
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_10.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 150.597
+    MaxHPMax: 191.669
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 78
+    ItemKey: Farm_Armor_11
+    StrKey: Name_Farm_Armor_11
+    EquipSlot: 1
+    Rarity: 2
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_11.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 174.693
+    MaxHPMax: 222.336
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 79
+    ItemKey: Farm_Armor_12
+    StrKey: Name_Farm_Armor_12
+    EquipSlot: 1
+    Rarity: 2
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_12.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 202.644
+    MaxHPMax: 257.91
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 80
+    ItemKey: Farm_Armor_13
+    StrKey: Name_Farm_Armor_13
+    EquipSlot: 1
+    Rarity: 3
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_13.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 235.067
+    MaxHPMax: 299.176
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 81
+    ItemKey: Farm_Armor_14
+    StrKey: Name_Farm_Armor_14
+    EquipSlot: 1
+    Rarity: 3
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_14.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 272.677
+    MaxHPMax: 347.044
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 82
+    ItemKey: Farm_Armor_15
+    StrKey: Name_Farm_Armor_15
+    EquipSlot: 1
+    Rarity: 3
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_15.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 316.306
+    MaxHPMax: 402.571
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 83
+    ItemKey: Farm_Armor_16
+    StrKey: Name_Farm_Armor_16
+    EquipSlot: 1
+    Rarity: 3
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_16.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 366.915
+    MaxHPMax: 466.982
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 84
+    ItemKey: Farm_Armor_17
+    StrKey: Name_Farm_Armor_17
+    EquipSlot: 1
+    Rarity: 3
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_17.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 425.621
+    MaxHPMax: 541.699
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 85
+    ItemKey: Farm_Armor_18
+    StrKey: Name_Farm_Armor_18
+    EquipSlot: 1
+    Rarity: 4
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_18.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 493.72
+    MaxHPMax: 628.371
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 86
+    ItemKey: Farm_Armor_19
+    StrKey: Name_Farm_Armor_19
+    EquipSlot: 1
+    Rarity: 4
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_19.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 572.716
+    MaxHPMax: 728.911
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 87
+    ItemKey: Farm_Armor_20
+    StrKey: Name_Farm_Armor_20
+    EquipSlot: 1
+    Rarity: 4
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Armor_20.png
+    AttackDmgMin: 0
+    AttackDmgMax: 0
+    MaxHPMin: 664.35
+    MaxHPMax: 845.536
+    AttackSpeedBonusMin: 0
+    AttackSpeedBonusMax: 0
+  - Index: 88
+    ItemKey: Farm_Ring_01
+    StrKey: Name_Farm_Ring_01
+    EquipSlot: 2
+    Rarity: 0
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_01.png
+    AttackDmgMin: 0.308
+    AttackDmgMax: 0.392
+    MaxHPMin: 7.92
+    MaxHPMax: 10.08
+    AttackSpeedBonusMin: 0.0119
+    AttackSpeedBonusMax: 0.0151
+  - Index: 89
+    ItemKey: Farm_Ring_02
+    StrKey: Name_Farm_Ring_02
+    EquipSlot: 2
+    Rarity: 0
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_02.png
+    AttackDmgMin: 0.357
+    AttackDmgMax: 0.455
+    MaxHPMin: 9.187
+    MaxHPMax: 11.693
+    AttackSpeedBonusMin: 0.0132
+    AttackSpeedBonusMax: 0.0168
+  - Index: 90
+    ItemKey: Farm_Ring_03
+    StrKey: Name_Farm_Ring_03
+    EquipSlot: 2
+    Rarity: 0
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_03.png
+    AttackDmgMin: 0.414
+    AttackDmgMax: 0.527
+    MaxHPMin: 10.657
+    MaxHPMax: 13.564
+    AttackSpeedBonusMin: 0.0145
+    AttackSpeedBonusMax: 0.0185
+  - Index: 91
+    ItemKey: Farm_Ring_04
+    StrKey: Name_Farm_Ring_04
+    EquipSlot: 2
+    Rarity: 1
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_04.png
+    AttackDmgMin: 0.481
+    AttackDmgMax: 0.612
+    MaxHPMin: 12.362
+    MaxHPMax: 15.734
+    AttackSpeedBonusMin: 0.0158
+    AttackSpeedBonusMax: 0.0202
+  - Index: 92
+    ItemKey: Farm_Ring_05
+    StrKey: Name_Farm_Ring_05
+    EquipSlot: 2
+    Rarity: 1
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_05.png
+    AttackDmgMin: 0.558
+    AttackDmgMax: 0.71
+    MaxHPMin: 14.34
+    MaxHPMax: 18.251
+    AttackSpeedBonusMin: 0.0172
+    AttackSpeedBonusMax: 0.0218
+  - Index: 93
+    ItemKey: Farm_Ring_06
+    StrKey: Name_Farm_Ring_06
+    EquipSlot: 2
+    Rarity: 1
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_06.png
+    AttackDmgMin: 0.647
+    AttackDmgMax: 0.823
+    MaxHPMin: 16.635
+    MaxHPMax: 21.171
+    AttackSpeedBonusMin: 0.0185
+    AttackSpeedBonusMax: 0.0235
+  - Index: 94
+    ItemKey: Farm_Ring_07
+    StrKey: Name_Farm_Ring_07
+    EquipSlot: 2
+    Rarity: 1
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_07.png
+    AttackDmgMin: 0.75
+    AttackDmgMax: 0.955
+    MaxHPMin: 19.296
+    MaxHPMax: 24.559
+    AttackSpeedBonusMin: 0.0198
+    AttackSpeedBonusMax: 0.0252
+  - Index: 95
+    ItemKey: Farm_Ring_08
+    StrKey: Name_Farm_Ring_08
+    EquipSlot: 2
+    Rarity: 2
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_08.png
+    AttackDmgMin: 0.87
+    AttackDmgMax: 1.108
+    MaxHPMin: 22.384
+    MaxHPMax: 28.488
+    AttackSpeedBonusMin: 0.0211
+    AttackSpeedBonusMax: 0.0269
+  - Index: 96
+    ItemKey: Farm_Ring_09
+    StrKey: Name_Farm_Ring_09
+    EquipSlot: 2
+    Rarity: 2
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_09.png
+    AttackDmgMin: 1.01
+    AttackDmgMax: 1.285
+    MaxHPMin: 25.965
+    MaxHPMax: 33.046
+    AttackSpeedBonusMin: 0.0224
+    AttackSpeedBonusMax: 0.0286
+  - Index: 97
+    ItemKey: Farm_Ring_10
+    StrKey: Name_Farm_Ring_10
+    EquipSlot: 2
+    Rarity: 2
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_10.png
+    AttackDmgMin: 1.171
+    AttackDmgMax: 1.491
+    MaxHPMin: 30.119
+    MaxHPMax: 38.334
+    AttackSpeedBonusMin: 0.0238
+    AttackSpeedBonusMax: 0.0302
+  - Index: 98
+    ItemKey: Farm_Ring_11
+    StrKey: Name_Farm_Ring_11
+    EquipSlot: 2
+    Rarity: 2
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_11.png
+    AttackDmgMin: 1.359
+    AttackDmgMax: 1.729
+    MaxHPMin: 34.939
+    MaxHPMax: 44.467
+    AttackSpeedBonusMin: 0.0251
+    AttackSpeedBonusMax: 0.0319
+  - Index: 99
+    ItemKey: Farm_Ring_12
+    StrKey: Name_Farm_Ring_12
+    EquipSlot: 2
+    Rarity: 2
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_12.png
+    AttackDmgMin: 1.576
+    AttackDmgMax: 2.006
+    MaxHPMin: 40.529
+    MaxHPMax: 51.582
+    AttackSpeedBonusMin: 0.0264
+    AttackSpeedBonusMax: 0.0336
+  - Index: 100
+    ItemKey: Farm_Ring_13
+    StrKey: Name_Farm_Ring_13
+    EquipSlot: 2
+    Rarity: 3
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_13.png
+    AttackDmgMin: 1.828
+    AttackDmgMax: 2.327
+    MaxHPMin: 47.013
+    MaxHPMax: 59.835
+    AttackSpeedBonusMin: 0.0277
+    AttackSpeedBonusMax: 0.0353
+  - Index: 101
+    ItemKey: Farm_Ring_14
+    StrKey: Name_Farm_Ring_14
+    EquipSlot: 2
+    Rarity: 3
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_14.png
+    AttackDmgMin: 2.121
+    AttackDmgMax: 2.699
+    MaxHPMin: 54.535
+    MaxHPMax: 69.409
+    AttackSpeedBonusMin: 0.029
+    AttackSpeedBonusMax: 0.037
+  - Index: 102
+    ItemKey: Farm_Ring_15
+    StrKey: Name_Farm_Ring_15
+    EquipSlot: 2
+    Rarity: 3
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_15.png
+    AttackDmgMin: 2.46
+    AttackDmgMax: 3.131
+    MaxHPMin: 63.261
+    MaxHPMax: 80.514
+    AttackSpeedBonusMin: 0.0304
+    AttackSpeedBonusMax: 0.0386
+  - Index: 103
+    ItemKey: Farm_Ring_16
+    StrKey: Name_Farm_Ring_16
+    EquipSlot: 2
+    Rarity: 3
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_16.png
+    AttackDmgMin: 2.854
+    AttackDmgMax: 3.632
+    MaxHPMin: 73.383
+    MaxHPMax: 93.396
+    AttackSpeedBonusMin: 0.0317
+    AttackSpeedBonusMax: 0.0403
+  - Index: 104
+    ItemKey: Farm_Ring_17
+    StrKey: Name_Farm_Ring_17
+    EquipSlot: 2
+    Rarity: 3
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_17.png
+    AttackDmgMin: 3.31
+    AttackDmgMax: 4.213
+    MaxHPMin: 85.124
+    MaxHPMax: 108.34
+    AttackSpeedBonusMin: 0.033
+    AttackSpeedBonusMax: 0.042
+  - Index: 105
+    ItemKey: Farm_Ring_18
+    StrKey: Name_Farm_Ring_18
+    EquipSlot: 2
+    Rarity: 4
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_18.png
+    AttackDmgMin: 3.84
+    AttackDmgMax: 4.887
+    MaxHPMin: 98.744
+    MaxHPMax: 125.674
+    AttackSpeedBonusMin: 0.0343
+    AttackSpeedBonusMax: 0.0437
+  - Index: 106
+    ItemKey: Farm_Ring_19
+    StrKey: Name_Farm_Ring_19
+    EquipSlot: 2
+    Rarity: 4
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_19.png
+    AttackDmgMin: 4.454
+    AttackDmgMax: 5.669
+    MaxHPMin: 114.543
+    MaxHPMax: 145.782
+    AttackSpeedBonusMin: 0.0356
+    AttackSpeedBonusMax: 0.0454
+  - Index: 107
+    ItemKey: Farm_Ring_20
+    StrKey: Name_Farm_Ring_20
+    EquipSlot: 2
+    Rarity: 4
+    AllowedCharacterKeys: []
+    IconKey: Assets/Images/EquipMent/Farm_Ring_20.png
+    AttackDmgMin: 5.167
+    AttackDmgMax: 6.576
+    MaxHPMin: 132.87
+    MaxHPMax: 169.107
+    AttackSpeedBonusMin: 0.037
+    AttackSpeedBonusMax: 0.047

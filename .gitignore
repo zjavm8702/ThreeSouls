@@ -46,3 +46,11 @@ sysinfo.txt
 /AGENTS.md
 /Docs/
 
+# Local verification, backups and signing credentials
+/CodexBackups/
+*.keystore
+*.jks
+.env
+.env.*
+*credentials*.json
+

@@ -1,0 +1,71 @@
+[
+  {
+    "pack": "interface-sounds",
+    "page": "https://kenney.nl/assets/interface-sounds",
+    "download": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "pack": "rpg-audio",
+    "page": "https://kenney.nl/assets/rpg-audio",
+    "download": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "pack": "music-jingles",
+    "page": "https://kenney.nl/assets/music-jingles",
+    "download": "https://kenney.nl/media/pages/assets/music-jingles/f37e530b9e-1677590399/kenney_music-jingles.zip",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "name": "Village",
+    "page": "https://opengameart.org/content/town-theme-rpg",
+    "download": "https://opengameart.org/sites/default/files/TownTheme.mp3",
+    "license": "CC0",
+    "author": "cynicmusic",
+    "file": "Assets/Audio/Web/Music/Village.mp3",
+    "sha256": "2657861d5107d4a3c01ef81cb6a4d61ddd5e7a054b6da57e658373d79d0c3466"
+  },
+  {
+    "name": "Battle",
+    "page": "https://opengameart.org/content/battle-theme-a",
+    "download": "https://opengameart.org/sites/default/files/battleThemeA.mp3",
+    "license": "CC0",
+    "author": "cynicmusic",
+    "file": "Assets/Audio/Web/Music/Battle.mp3",
+    "sha256": "6042399782e581d753d616bc703e66483d5eccb5fb687a20c9a552d68c49e620"
+  },
+  {
+    "name": "Cave",
+    "page": "https://opengameart.org/content/cave-theme",
+    "download": "https://opengameart.org/sites/default/files/cave%20themeb4.ogg",
+    "license": "CC0",
+    "author": "Brandon75689 / HaelDB",
+    "file": "Assets/Audio/Web/Music/Cave.ogg",
+    "sha256": "1ddf7a0845c808136edfda7ea829e48fa2b7c57793e008d706dadbb5917dff9c"
+  },
+  {
+    "pack": "impact-sounds",
+    "page": "https://kenney.nl/assets/impact-sounds",
+    "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "pack": "digital-audio",
+    "page": "https://kenney.nl/assets/digital-audio",
+    "download": "https://kenney.nl/media/pages/assets/digital-audio/216eac4753-1677590265/kenney_digital-audio.zip",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "pack": "80-cc0-rpg-sfx",
+    "page": "https://opengameart.org/content/80-cc0-rpg-sfx",
+    "download": "https://opengameart.org/sites/default/files/80-CC0-RPG-SFX_0.zip",
+    "license": "CC0",
+    "author": "rubberduck"
+  }
+]

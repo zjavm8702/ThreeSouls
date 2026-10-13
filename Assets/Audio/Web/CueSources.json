@@ -1,0 +1,193 @@
+[
+  {
+    "cue": "Click",
+    "pack": "interface-sounds",
+    "source": "interface-sounds/Audio/click_003.ogg",
+    "file": "Assets/Audio/Web/Effects/Click.ogg",
+    "sha256": "2fa929138bc3a0f432696588f66eac94b8f6d463905ec8808c6461ce4b054292"
+  },
+  {
+    "cue": "Open",
+    "pack": "interface-sounds",
+    "source": "interface-sounds/Audio/open_001.ogg",
+    "file": "Assets/Audio/Web/Effects/Open.ogg",
+    "sha256": "a27c6bb0df7da1e6af5dd5937593c98bc58b6e513f42fe6a3254cd6a6949c648"
+  },
+  {
+    "cue": "Close",
+    "pack": "interface-sounds",
+    "source": "interface-sounds/Audio/close_001.ogg",
+    "file": "Assets/Audio/Web/Effects/Close.ogg",
+    "sha256": "44af8249b933e0fd35ec957a638bb1a0b01f85b53fbe9674bf77bd3ca3168ef4"
+  },
+  {
+    "cue": "Error",
+    "pack": "interface-sounds",
+    "source": "interface-sounds/Audio/error_004.ogg",
+    "file": "Assets/Audio/Web/Effects/Error.ogg",
+    "sha256": "0b574cea597d96507e782ae9764f88482ce49f46e931e57054bf7150047f2d69"
+  },
+  {
+    "cue": "Trade",
+    "pack": "rpg-audio",
+    "source": "rpg-audio/Audio/handleCoins.ogg",
+    "file": "Assets/Audio/Web/Effects/Trade.ogg",
+    "sha256": "8a91f969e932df709df80ee124d86a51389eed9b67f22e5e716bc2bbf60d8dab"
+  },
+  {
+    "cue": "Equip",
+    "pack": "rpg-audio",
+    "source": "rpg-audio/Audio/metalLatch.ogg",
+    "file": "Assets/Audio/Web/Effects/Equip.ogg",
+    "sha256": "ba9ba60b172b3ebc131a940f25793cd2e207aca7af73dc80d637277f060f1708"
+  },
+  {
+    "cue": "Sword",
+    "pack": "rpg-audio",
+    "source": "rpg-audio/Audio/knifeSlice.ogg",
+    "file": "Assets/Audio/Web/Effects/Sword.ogg",
+    "sha256": "4cd96dc630bed9840c15f1dd2306da2cc56a4da26a5d3f1a03c5a7265ac5e54f"
+  },
+  {
+    "cue": "Bow",
+    "pack": "rpg-audio",
+    "source": "rpg-audio/Audio/knifeSlice2.ogg",
+    "file": "Assets/Audio/Web/Effects/Bow.ogg",
+    "sha256": "6c2064d0ef988d1ec3d56868e823ea8823a5cac00f2742560052633529407def"
+  },
+  {
+    "cue": "Book",
+    "pack": "rpg-audio",
+    "source": "rpg-audio/Audio/bookOpen.ogg",
+    "file": "Assets/Audio/Web/Effects/Book.ogg",
+    "sha256": "953390534377222bee89ac8cd9e60a58fdc037c71a4d7c18c43cd647c7f34ba8"
+  },
+  {
+    "cue": "Upgrade",
+    "pack": "digital-audio",
+    "source": "digital-audio/Audio/powerUp3.ogg",
+    "file": "Assets/Audio/Web/Effects/Upgrade.ogg",
+    "sha256": "59e7591f7a068882767bc1fd61edabf479b78787466d3a70bc49dfa0533777d2"
+  },
+  {
+    "cue": "Rune",
+    "pack": "digital-audio",
+    "source": "digital-audio/Audio/threeTone1.ogg",
+    "file": "Assets/Audio/Web/Effects/Rune.ogg",
+    "sha256": "bdf21eb12e65507f091d074886fdac820e1ccae51d060caa168e5567acadb84b"
+  },
+  {
+    "cue": "Magic",
+    "pack": "80-cc0-rpg-sfx",
+    "source": "rpg80/spell_fire_07.ogg",
+    "file": "Assets/Audio/Web/Effects/Magic.ogg",
+    "sha256": "bb13cef9c0b0b4ec7f9335c356b14814c88418abd85dd3747cb62469e9ada93f",
+    "author": "rubberduck",
+    "page": "https://opengameart.org/content/80-cc0-rpg-sfx"
+  },
+  {
+    "cue": "Heal",
+    "pack": "digital-audio",
+    "source": "digital-audio/Audio/powerUp1.ogg",
+    "file": "Assets/Audio/Web/Effects/Heal.ogg",
+    "sha256": "8c361b624b560c0bc30ea3063b71212bc30caebf425c9df2481c13b25561485c"
+  },
+  {
+    "cue": "Sanctuary",
+    "pack": "digital-audio",
+    "source": "digital-audio/Audio/highUp.ogg",
+    "file": "Assets/Audio/Web/Effects/Sanctuary.ogg",
+    "sha256": "cbc1c3c7ccf5d7903818144a4c3f5b2ed2385095792f29d8d7c76360ba4fa559"
+  },
+  {
+    "cue": "Hit",
+    "pack": "impact-sounds",
+    "source": "impact-sounds/Audio/impactPunch_medium_000.ogg",
+    "file": "Assets/Audio/Web/Effects/Hit.ogg",
+    "sha256": "486988aa2d6440ffc4c62a0e8ccf3c23673ba84424bd4723378d451b7255eb5c"
+  },
+  {
+    "cue": "Death",
+    "pack": "impact-sounds",
+    "source": "impact-sounds/Audio/impactSoft_heavy_000.ogg",
+    "file": "Assets/Audio/Web/Effects/Death.ogg",
+    "sha256": "49e7ca88743fca974bb8676ea138b751cfd8f9033b5e7af8736c2a215d6edbc1"
+  },
+  {
+    "cue": "Dismantle",
+    "pack": "impact-sounds",
+    "source": "impact-sounds/Audio/impactMetal_medium_001.ogg",
+    "file": "Assets/Audio/Web/Effects/Dismantle.ogg",
+    "sha256": "e8a9eaba7c4d27422e4eeb3e6c7100d5d7dc0f83e005efc98c960adcc5265337"
+  },
+  {
+    "cue": "Quest",
+    "pack": "interface-sounds",
+    "source": "interface-sounds/Audio/confirmation_002.ogg",
+    "file": "Assets/Audio/Web/Effects/Quest.ogg",
+    "sha256": "33b17a9a9a2397c62b285c52c33a907fdffb476909c99e42dde603f6a7a8b12c"
+  },
+  {
+    "cue": "Loot",
+    "pack": "interface-sounds",
+    "source": "interface-sounds/Audio/glass_001.ogg",
+    "file": "Assets/Audio/Web/Effects/Loot.ogg",
+    "sha256": "183eebee20eb0a532b0b85104d139cbf2673eb66d95c3cc733ac9ea98362e7e8"
+  },
+  {
+    "cue": "FootGrass1",
+    "pack": "impact-sounds",
+    "source": "impact-sounds/Audio/footstep_grass_000.ogg",
+    "file": "Assets/Audio/Web/Effects/FootGrass1.ogg",
+    "sha256": "9d49497777405d78d7cf7f2888e28277f3a23192300cfd1d79d54876b20f479f"
+  },
+  {
+    "cue": "FootGrass2",
+    "pack": "impact-sounds",
+    "source": "impact-sounds/Audio/footstep_grass_001.ogg",
+    "file": "Assets/Audio/Web/Effects/FootGrass2.ogg",
+    "sha256": "fb28781bd22b2eefdc14077f1adf5c94d7fe9c3a130194633b55f3e0d39d9f04"
+  },
+  {
+    "cue": "FootStone1",
+    "pack": "impact-sounds",
+    "source": "impact-sounds/Audio/footstep_concrete_000.ogg",
+    "file": "Assets/Audio/Web/Effects/FootStone1.ogg",
+    "sha256": "d7267e183067757c92c169de2a379abea592cfca6b39bb2e8feea15221ad79fe"
+  },
+  {
+    "cue": "FootStone2",
+    "pack": "impact-sounds",
+    "source": "impact-sounds/Audio/footstep_concrete_001.ogg",
+    "file": "Assets/Audio/Web/Effects/FootStone2.ogg",
+    "sha256": "507a75eb19b897087855a3be3cf11a12d7fa37d143ad535eeebe0b8031c7325d"
+  },
+  {
+    "cue": "FootSnow1",
+    "pack": "impact-sounds",
+    "source": "impact-sounds/Audio/footstep_snow_000.ogg",
+    "file": "Assets/Audio/Web/Effects/FootSnow1.ogg",
+    "sha256": "c05fa4a9dc9a7aabc04996466fb589537e49af76de9998d8f9e6270ec92dcef7"
+  },
+  {
+    "cue": "FootSnow2",
+    "pack": "impact-sounds",
+    "source": "impact-sounds/Audio/footstep_snow_001.ogg",
+    "file": "Assets/Audio/Web/Effects/FootSnow2.ogg",
+    "sha256": "980fb9a1c9227aed7995067b0357f373053337f2416316db8ea0438418542fb4"
+  },
+  {
+    "cue": "Victory",
+    "pack": "music-jingles",
+    "source": "music-jingles/Audio/Pizzicato jingles/jingles_PIZZI15.ogg",
+    "file": "Assets/Audio/Web/Effects/Victory.ogg",
+    "sha256": "ae6c65768979a16ec802e8fb911c362a6b1423e92302d59d35dab10407324bc3"
+  },
+  {
+    "cue": "Defeat",
+    "pack": "music-jingles",
+    "source": "music-jingles/Audio/Pizzicato jingles/jingles_PIZZI16.ogg",
+    "file": "Assets/Audio/Web/Effects/Defeat.ogg",
+    "sha256": "1b1211b6360aae37ea685fee057bcabd034a749c1dfac6a9d643086d96e9b9aa"
+  }
+]

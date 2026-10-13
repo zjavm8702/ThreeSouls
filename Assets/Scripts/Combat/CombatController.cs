@@ -9,25 +9,14 @@ public class CombatController : MonoBehaviour
 {
     private readonly StateMachine<ICombatStateProvider> CharacterStateMachine = new();
     private readonly Dictionary<CombatState, ICombatState> CharacterStateContainer = new();
-
-    private CombatState PreviousCombatState = CombatState.None;
     private CombatState CurrentCombatState = CombatState.None;
     private ICombatWorld CombatWorld = null;
-
-    public bool IsPlay { get; set; } = false;
+    private ICombatStateProvider Entity;
+    private bool IsPlay;
 
     public void Initialize(ICombatStateProvider provider, ICombatWorld combatWorld)
     {
-        if (provider == null)
-        {
-            throw new ArgumentNullException(nameof(provider));
-        }
-
-        if (combatWorld == null)
-        {
-            throw new ArgumentNullException(nameof(combatWorld));
-        }
-
+        Entity = provider;
         if (ReferenceEquals(CombatWorld, combatWorld) == false)
         {
             CombatWorld = combatWorld;
@@ -36,13 +25,12 @@ public class CombatController : MonoBehaviour
 
         CharacterStateMachine.Release();
         CharacterStateMachine.Initialize(provider);
-        PreviousCombatState = CombatState.None;
         CurrentCombatState = CombatState.None;
     }
 
     public void ChangeState(CombatState newState)
     {
-        if (CharacterStateContainer.ContainsKey(newState) == false || IsPlay == false)
+        if (IsPlay == false)
         {
             return;
         }
@@ -52,18 +40,30 @@ public class CombatController : MonoBehaviour
             return;
         }
 
-        PreviousCombatState = CurrentCombatState;
+        var previousState = CurrentCombatState;
+        var nextState = CharacterStateContainer[newState];
         CurrentCombatState = newState;
+        CharacterStateMachine.ChangeState(previousState, nextState);
+    }
 
-        CharacterStateMachine.ChangeState(PreviousCombatState, CharacterStateContainer[newState]);
+    internal void Play()
+    {
+        IsPlay = true;
+    }
+
+    internal void Stop()
+    {
+        IsPlay = false;
+        CharacterStateMachine.Release();
+        CurrentCombatState = CombatState.None;
     }
 
     private void SetStateContainer(ICombatWorld combatWorld)
     {
         CharacterStateContainer.Clear();
         CharacterStateContainer.Add(CombatState.Wait, new CombatWaitState());
-        CharacterStateContainer.Add(CombatState.MoveToDestination, new CombatMoveToDestinationState());
         CharacterStateContainer.Add(CombatState.DetectTarget, new CombatDetectTargetState(combatWorld));
+        CharacterStateContainer.Add(CombatState.MoveToDestination, new CombatMoveToDestinationState(combatWorld));
         CharacterStateContainer.Add(CombatState.MoveToTarget, new CombatMoveToTargetState(combatWorld));
         CharacterStateContainer.Add(CombatState.Attack, new CombatAttackState(combatWorld));
         CharacterStateContainer.Add(CombatState.Dead, new CombatDeadState());
@@ -71,7 +71,7 @@ public class CombatController : MonoBehaviour
 
     private void Update()
     {
-        if (IsPlay == true)
+        if (IsPlay == true && Entity.IsForcedMovementActive() == false)
         {
             CharacterStateMachine.Update();
         }
@@ -81,7 +81,10 @@ public class CombatController : MonoBehaviour
     {
         if (IsPlay == true)
         {
-            CharacterStateMachine.PhysicsUpdate();
+            if (Entity.TryUpdateForcedMovement(Time.fixedDeltaTime) == false)
+            {
+                CharacterStateMachine.PhysicsUpdate();
+            }
         }
     }
 }

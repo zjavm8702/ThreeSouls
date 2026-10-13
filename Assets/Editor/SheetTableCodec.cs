@@ -139,6 +139,10 @@ namespace ThreeSouls.EditorTools.Sheets
                 case "double": type = typeof(double); break;
                 case "bool": type = typeof(bool); break;
                 case "string": type = typeof(string); break;
+                case "Vector2":
+                case "UnityEngine.Vector2":
+                    type = ResolveVector2Type();
+                    break;
                 default:
                     var match = Regex.Match(element, @"\AEnum<\s*([A-Za-z_][A-Za-z0-9_.]*)\s*>\z");
                     if (!match.Success) throw new FormatException("지원하지 않는 타입: " + name);
@@ -146,6 +150,26 @@ namespace ThreeSouls.EditorTools.Sheets
                     break;
             }
             return array ? type.MakeArrayType() : type;
+        }
+
+        /// <summary>
+        /// Unity를 직접 참조하지 않고 로드된 어셈블리에서 Vector2 타입을 조회합니다.
+        /// </summary>
+        private static Type ResolveVector2Type()
+        {
+            var assemblies = AppDomain.CurrentDomain.GetAssemblies();
+
+            for (int i = 0; i < assemblies.Length; i++)
+            {
+                var type = assemblies[i].GetType("UnityEngine.Vector2", false);
+
+                if (type != null)
+                {
+                    return type;
+                }
+            }
+
+            throw new FormatException("Vector2 타입을 찾을 수 없습니다. Unity 에디터에서 시트를 가져오세요.");
         }
 
         private static Type ResolveEnum(string name, bool allowMissing = false)
@@ -214,6 +238,11 @@ namespace ThreeSouls.EditorTools.Sheets
                 return "global::" + string.Join(".", (GeneratedNamespace + "." + column.GeneratedEnum.Name).Split('.').Select(p => "@" + p)) +
                     (column.TypeName.EndsWith("[]", StringComparison.Ordinal) ? "[]" : "");
             Type type = column.Type.IsArray ? column.Type.GetElementType() : column.Type;
+            if (type.FullName == "UnityEngine.Vector2")
+            {
+                return "global::UnityEngine.Vector2" + (column.Type.IsArray == true ? "[]" : "");
+            }
+
             if (!type.IsEnum) return column.TypeName;
             // namespace 충돌과 C# 예약어를 피하고 중첩 enum도 올바르게 생성합니다.
             return "global::" + string.Join(".", type.FullName.Replace('+', '.').Split('.').Select(p => "@" + p)) +
@@ -226,13 +255,18 @@ namespace ThreeSouls.EditorTools.Sheets
             if (type.IsArray)
             {
                 Type element = type.GetElementType();
-                string[] parts = ParseArrayCell(value);
+                string[] parts = ParseArrayCell(value, element.FullName == "UnityEngine.Vector2");
                 Array array = Array.CreateInstance(element, parts.Length);
                 for (int i = 0; i < parts.Length; i++) array.SetValue(ConvertCell(parts[i], element), i);
                 return array;
             }
             value = value.Trim();
-            if (value.Length == 0) throw new FormatException("숫자/bool/enum 셀은 비워 둘 수 없습니다.");
+            if (value.Length == 0) throw new FormatException("숫자/bool/enum/Vector2 셀은 비워 둘 수 없습니다.");
+            if (type.FullName == "UnityEngine.Vector2")
+            {
+                return ConvertVector2Cell(value, type);
+            }
+
             if (type.IsEnum)
             {
                 try
@@ -269,7 +303,42 @@ namespace ThreeSouls.EditorTools.Sheets
             throw new FormatException("지원하지 않는 타입: " + type);
         }
 
-        private static string[] ParseArrayCell(string value)
+        /// <summary>
+        /// x,y 또는 괄호로 감싼 두 좌표를 유한한 float 값으로 변환합니다.
+        /// 소수점과 지수 표기는 기존 숫자 셀과 같은 고정 문화권 규칙을 사용합니다.
+        /// </summary>
+        private static object ConvertVector2Cell(string value, Type type)
+        {
+            if (value.StartsWith("(", StringComparison.Ordinal) == true ||
+                value.StartsWith("[", StringComparison.Ordinal) == true)
+            {
+                var closing = value[0] == '(' ? ")" : "]";
+
+                if (value.EndsWith(closing, StringComparison.Ordinal) == false)
+                {
+                    throw new FormatException("Vector2 좌표의 괄호를 올바르게 닫아주세요: " + value);
+                }
+
+                value = value.Substring(1, value.Length - 2);
+            }
+
+            var parts = value.Split(',');
+
+            if (parts.Length != 2)
+            {
+                throw new FormatException("Vector2는 x,y 형식의 두 좌표가 필요합니다. 예: 0,0.5 또는 (0,0.5)");
+            }
+
+            var x = (float)ConvertCell(parts[0], typeof(float));
+            var y = (float)ConvertCell(parts[1], typeof(float));
+            return Activator.CreateInstance(type, x, y);
+        }
+
+        /// <summary>
+        /// 대괄호 배열 또는 파이프로 구분한 배열을 읽고 빈 배열 및 원소 형식을 검증합니다.
+        /// Vector2 배열은 좌표 내부의 구분자를 보존합니다.
+        /// </summary>
+        private static string[] ParseArrayCell(string value, bool vectorElements = false)
         {
             if (string.IsNullOrWhiteSpace(value)) return new string[0];
 
@@ -283,7 +352,7 @@ namespace ThreeSouls.EditorTools.Sheets
             if (content.Length == 0) return new string[0];
 
             char separator = startsWithBracket ? ',' : '|';
-            string[] parts = content.Split(separator);
+            string[] parts = vectorElements == true ? SplitVectorArray(content, separator) : content.Split(separator);
             for (int i = 0; i < parts.Length; i++)
             {
                 parts[i] = parts[i].Trim();
@@ -291,6 +360,47 @@ namespace ThreeSouls.EditorTools.Sheets
                     throw new FormatException("배열에 빈 값을 사용할 수 없습니다: " + value);
             }
             return parts;
+        }
+
+        /// <summary>
+        /// Vector2 내부 좌표의 쉼표를 유지하고 괄호 밖의 구분자로만 배열 원소를 나눕니다.
+        /// 기존 단순 타입 배열의 파싱 형식에는 영향을 주지 않습니다.
+        /// </summary>
+        private static string[] SplitVectorArray(string content, char separator)
+        {
+            var parts = new List<string>();
+            var brackets = new Stack<char>();
+            var start = 0;
+
+            for (int i = 0; i < content.Length; i++)
+            {
+                var character = content[i];
+
+                if (character == '(' || character == '[')
+                {
+                    brackets.Push(character);
+                }
+                else if (character == ')' || character == ']')
+                {
+                    if (brackets.Count == 0 || brackets.Pop() != (character == ')' ? '(' : '['))
+                    {
+                        throw new FormatException("Vector2 배열의 괄호를 올바르게 닫아주세요: " + content);
+                    }
+                }
+                else if (character == separator && brackets.Count == 0)
+                {
+                    parts.Add(content.Substring(start, i - start));
+                    start = i + 1;
+                }
+            }
+
+            if (brackets.Count != 0)
+            {
+                throw new FormatException("Vector2 배열의 괄호를 올바르게 닫아주세요: " + content);
+            }
+
+            parts.Add(content.Substring(start));
+            return parts.ToArray();
         }
 
         public static Table Read(string name, string csv, string uniqueKey = "", Dictionary<string, EnumDefinition> generatedEnums = null)

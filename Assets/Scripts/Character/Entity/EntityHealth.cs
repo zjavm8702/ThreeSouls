@@ -1,9 +1,5 @@
-using Sky.Utility;
 using System;
-using System.Collections;
 using ThreeSouls.Data;
-using ThreeSouls.Global;
-using ThreeSouls.Manager;
 using ThreeSouls.Utility;
 using UnityEngine;
 
@@ -11,96 +7,126 @@ namespace ThreeSouls.Character
 {
     public class EntityHealth : MonoBehaviour
     {
-        [SerializeField] private Color OnDecreaseHealthColor;
+        public delegate void OnHealthChangeDelegate(
+            bool takeDamage,
+            float maxHealth,
+            float currentHealth,
+            float damage,
+            BaseEntity sourceEntity);
 
-        private readonly WaitForSeconds ColorSeconds = new(0.1f);
-        private Coroutine CoHealthColorCoroutine = null;
-        private Color InitColor;
+        private OnHealthChangeDelegate onHealthChangeEventHandler = null;
+        public event OnHealthChangeDelegate OnHealthChangeEventHandler
+        {
+            add
+            {
+                onHealthChangeEventHandler -= value;
+                onHealthChangeEventHandler += value;
+            }
+            remove
+            {
+                onHealthChangeEventHandler -= value;
+            }
+        }
 
-        public bool IsAlive { get; private set; }
-        public float CurrentHealth { get; private set; }
-        public float MaxHealth { get; private set; }
-        public event Action<float, float> HealthChanged;
+        public bool IsAlive { get; private set; } = true;
+        public ThreeSouls.Combat.CombatDamageInfo LastHit { get; private set; }
 
-        public void Initialize(float maxHealth)
+        private BaseEntity Entity = null;
+        private float CurrentHealth = 0;
+        private float MaxHealth = 0;
+       
+        private void Awake()
+        {
+            Entity = GetComponent<BaseEntity>();
+
+            if (Entity == null)
+            {
+                throw new InvalidOperationException($"EntityHealth의 BaseEntity 누락 : {name}");
+            }
+        }
+
+        internal void Initialize(float maxHealth)
         {
             MaxHealth = Mathf.Max(0, maxHealth);
             CurrentHealth = MaxHealth;
             IsAlive = true;
-            HealthChanged?.Invoke(CurrentHealth, MaxHealth);
+            LastHit = default;
+            onHealthChangeEventHandler?.Invoke(false, MaxHealth, CurrentHealth, 0, null);
         }
 
-        public void OnDecreaseHealthPoints(GameObject source)
+        internal void UpdateMaximumHealth(float maxHealth)
         {
-            var sourceEntity = GameCombatManager.Get().GetCharacterInstance(source);
-            var entity = GameCombatManager.Get().GetCharacterInstance(gameObject);
+            float ratio = MaxHealth > 0 ? CurrentHealth / MaxHealth : 0;
+            MaxHealth = Mathf.Max(0, maxHealth);
+            CurrentHealth = IsAlive == true ? Mathf.Clamp(ratio * MaxHealth, 0, MaxHealth) : 0;
+            onHealthChangeEventHandler?.Invoke(false, MaxHealth, CurrentHealth, 0, null);
+        }
 
-            if (entity == null || sourceEntity == null)
+        /// <summary>
+        /// 새 구독자가 최초 표시를 구성할 수 있도록 현재 체력 상태를 제공합니다.
+        /// </summary>
+        public void GetHealth(out float maximum, out float current)
+        {
+            maximum = MaxHealth;
+            current = CurrentHealth;
+        }
+
+        public bool TryHeal(float amount)
+        {
+            if (float.IsNaN(amount) == true || float.IsInfinity(amount) == true || amount <= 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(amount));
+            }
+            if (IsAlive == false || CurrentHealth >= MaxHealth)
+            {
+                return false;
+            }
+            CurrentHealth = Mathf.Min(MaxHealth, CurrentHealth + amount);
+            onHealthChangeEventHandler?.Invoke(false, MaxHealth, CurrentHealth, 0, null);
+            return true;
+        }
+
+        /// <summary>
+        /// 일반 공격과 스킬의 명시적 피해량을 같은 HP, 피격 UI와 사망 이벤트 경로로 적용합니다.
+        /// </summary>
+        public void ApplyDamage(BaseEntity sourceEntity, float damage)
+        {
+            ApplyDamage(sourceEntity, new ThreeSouls.Combat.CombatDamageInfo(damage));
+        }
+
+        public void ApplyDamage(BaseEntity sourceEntity, ThreeSouls.Combat.CombatDamageInfo hit)
+        {
+            var damage = hit.Amount;
+            var entity = Entity;
+
+            if (float.IsNaN(damage) == true || float.IsInfinity(damage) == true || damage < 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(damage), "피해량은 유한한 음이 아닌 값이어야 합니다.");
+            }
+
+            if (sourceEntity == null || sourceEntity.CharHealth.IsAlive == false || damage == 0)
             {
                 return;
             }
 
-            if (entity.EnemyTarget == null)
-            {
-                ThreeSoulsLog.Info($"<color=yellow>{gameObject.name}</color>] EnemyTarget null");
-                return;
-            }
-
-            var charBattleData = entity.CharacterData;
-
-            if (IsAlive == false)
+            if (IsAlive == false || entity.CanTakeDamage() == false)
             {
                 return;
             }
 
-            charBattleData.CharHealthPoint = Mathf.Max(
-                0,
-                charBattleData.CharHealthPoint - sourceEntity.CharacterData.CharAttackDmg);
-            CurrentHealth = charBattleData.CharHealthPoint;
-            HealthChanged?.Invoke(CurrentHealth, MaxHealth);
+            CurrentHealth = Mathf.Max(0, CurrentHealth - damage);
+            LastHit = hit;
 
-            ThreeSoulsLog.Info($"{gameObject.name} : [HealthPoint : <color=yellow>{charBattleData.CharHealthPoint}</color>]");
+            var isFatalDamage = CurrentHealth <= 0;
+            IsAlive = isFatalDamage == false;
+            onHealthChangeEventHandler?.Invoke(true, MaxHealth, CurrentHealth, damage, sourceEntity);
 
-            if (charBattleData.CharHealthPoint > 0)
+            ThreeSoulsLog.Info($"{gameObject.name} : [HealthPoint : <color=yellow>{CurrentHealth}</color>]");
+
+            if (isFatalDamage == true)
             {
-                entity.SetAnimator(Enumeration.AnimatorStateParams.Hit, true);
-            }
-            else
-            {
-                IsAlive = false;
-                ClearCoroutine();
-
-                entity.CharSpriteRenderer.material.SetColor(StringConstants.CHAR_TEXTURE_COLOR_V, InitColor);
-
                 EventUtility.TriggerEvent(this, new Event_CharacterHealthDepleted(entity));
             }
-        }
-
-        private IEnumerator SetColor()
-        {
-            var entity = GameCombatManager.Get().GetCharacterInstance(gameObject);
-
-            if (entity == null)
-            {
-                yield break;
-            }
-
-            var material = entity.CharSpriteRenderer.material;
-
-            material.SetColor(StringConstants.CHAR_TEXTURE_COLOR_V, OnDecreaseHealthColor);
-            yield return ColorSeconds;
-            material.SetColor(StringConstants.CHAR_TEXTURE_COLOR_V, InitColor);
-        }
-
-        private void ClearCoroutine()
-        {
-            if (CoHealthColorCoroutine == null)
-            {
-                return;
-            }
-
-            StopCoroutine(CoHealthColorCoroutine);
-            CoHealthColorCoroutine = null;
         }
     }
 }

@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using ThreeSouls.Data.Generated;
 using ThreeSouls.Character;
 using ThreeSouls.Data;
 using ThreeSouls.Enumeration;
@@ -16,31 +18,49 @@ namespace ThreeSouls.Combat
     /// <summary>
     /// 전투 객체의 풀, 스폰 설정, 활성/생존 목록과 최종 풀 반환을 소유합니다.
     /// </summary>
-    public sealed class CombatSpawnHandler : IEventListener<Event_DeathAnimationCompleted>
+    internal sealed class CombatSpawnHandler : IEventListener<Event_DeathAnimationCompleted>, IProjectileSpawner
     {
         public int CallbackOrder => 0;
-        public int CurrentMonsterSpawnGroupIndex { get; private set; }
-        public int MonsterSpawnGroupCount => MonsterSpawnGroups.Count;
-        public IReadOnlyList<BaseEntity> AliveHeroes => AliveHeroContainer;
-        public IReadOnlyList<BaseEntity> AliveMonsters => AliveMonsterContainer;
-        public IReadOnlyList<BaseEntity> CurrentMonsterSpawnGroup =>
-            MonsterSpawnGroups.Count == 0
-                ? Array.Empty<BaseEntity>()
-                : MonsterSpawnGroups[CurrentMonsterSpawnGroupIndex];
 
         private readonly List<BaseEntity> SpawnCharacterContainer = new();
         private readonly List<WeaponProjectile> SpawnProjectileContainer = new();
         private readonly List<BaseEntity> AliveHeroContainer = new();
         private readonly List<BaseEntity> AliveMonsterContainer = new();
         private readonly Dictionary<GameObject, BaseEntity> CharacterInstanceContainer = new();
-        private readonly List<List<BaseEntity>> MonsterSpawnGroups = new();
         private readonly Dictionary<CharacterType, ComponentPool<BaseEntity>> CharacterPoolContainer = new();
         private readonly ComponentPool<WeaponProjectile> ProjectilePool = new();
-
         private CombatHealthBarHandler HealthBarHandler = null;
         private bool IsInitialized;
+        private IHeroEquipmentSource EquipmentSource;
+        private IHeroGrowthSource GrowthSource;
+        private ICombatRewardWorld RewardWorld;
+        private readonly IReadOnlyList<BaseEntity> AliveHeroesView;
+        private readonly IReadOnlyList<BaseEntity> AliveMonstersView;
 
-        public void Initialize(CombatHealthBarHandler healthBarHandler)
+        /// <summary>
+        /// 현재 생존한 영웅 목록을 복사 없이 조회한다.
+        /// </summary>
+        public IReadOnlyList<BaseEntity> GetAliveHeroes()
+        {
+            return AliveHeroesView;
+        }
+
+        /// <summary>
+        /// 현재 생존한 몬스터 목록을 복사 없이 조회한다.
+        /// </summary>
+        public IReadOnlyList<BaseEntity> GetAliveMonsters()
+        {
+            return AliveMonstersView;
+        }
+
+        public CombatSpawnHandler()
+        {
+            AliveHeroesView = AliveHeroContainer.AsReadOnly();
+            AliveMonstersView = AliveMonsterContainer.AsReadOnly();
+        }
+
+        public void Initialize(CombatHealthBarHandler healthBarHandler, IHeroEquipmentSource equipmentSource,
+            IHeroGrowthSource growthSource, ICombatRewardWorld rewardWorld)
         {
             if (IsInitialized == true)
             {
@@ -48,6 +68,9 @@ namespace ThreeSouls.Combat
             }
 
             HealthBarHandler = healthBarHandler ?? throw new ArgumentNullException(nameof(healthBarHandler));
+            EquipmentSource = equipmentSource ?? throw new ArgumentNullException(nameof(equipmentSource));
+            GrowthSource = growthSource ?? throw new ArgumentNullException(nameof(growthSource));
+            RewardWorld = rewardWorld ?? throw new ArgumentNullException(nameof(rewardWorld));
             InitializePool();
             EventUtility.AddListener(this);
             IsInitialized = true;
@@ -64,7 +87,42 @@ namespace ThreeSouls.Combat
             CharacterRelease();
             ProjectileRelease();
             HealthBarHandler = null;
+            EquipmentSource = null;
+            GrowthSource = null;
+            RewardWorld = null;
             IsInitialized = false;
+        }
+
+        internal void SpawnHeroes(CombatGroundHandler ground, Vector3 spawnPoint, Transform parent, ICombatWorld world, ThreeSoulsRuleDataRow ruleTableData)
+        {
+            var maxPlayer = ruleTableData.MaxCharacterCombat;
+            var origin = AddressableManager.Get().LoadAsset<GameObject>(Prefabs.Hero.ToAddress());
+            var collider = origin.GetComponent<CircleCollider2D>();
+            var radius = collider.radius * Mathf.Max(Mathf.Abs(origin.transform.lossyScale.x), Mathf.Abs(origin.transform.lossyScale.y));
+            var cells = ground.GetWalkableCellsAround(spawnPoint, 4)
+                .Where(cell => ground.CanMove(ground.CellToWorldCenter(cell), ground.CellToWorldCenter(cell), radius, Vector2.zero))
+                .OrderBy(cell => Vector2.SqrMagnitude((Vector2)ground.CellToWorldCenter(cell) - (Vector2)spawnPoint))
+                .ToArray();
+
+            if (cells.Length < maxPlayer)
+            {
+                throw new InvalidOperationException("영웅 스폰 공간 부족");
+            }
+
+            for (int i = 0; i < maxPlayer; i++)
+            {
+                var pos = ground.CellToWorldCenter(cells[i]);
+                var characterTableData = TableManager.Get().GetCharacterTableDataTable(ruleTableData.BaseCharacterID[i]);
+                var request = new CharacterSpawnRequest(
+                    CharacterType.Hero,
+                    characterTableData,
+                    ruleTableData,
+                    characterTableData.ResourceName,
+                    parent,
+                    pos,
+                    world);
+                SpawnCharacter(request);
+            }
         }
 
         public BaseEntity SpawnCharacter(in CharacterSpawnRequest request)
@@ -73,10 +131,22 @@ namespace ThreeSouls.Combat
             var spriteLibrary = GetSpriteLibraryAsset(request.SpriteLibraryName);
             var entity = pool.Spawn(request.Parent, request.Position);
 
-            entity.SetUp(request.CharacterData, request.RuleData, spriteLibrary, request.CombatWorld);
+            if (entity is Monster monster)
+            {
+                monster.BindRewardWorld(RewardWorld);
+            }
+
+            entity.SetUp(request.CharacterData, request.RuleData, spriteLibrary, request.CombatWorld, this);
+
+            if (entity is Hero hero)
+            {
+                hero.BindEquipment(EquipmentSource, GrowthSource, request.CharacterData, request.RuleData);
+            }
+
             SpawnCharacterContainer.Add(entity);
             CharacterInstanceContainer.Add(entity.gameObject, entity);
             HealthBarHandler.Register(entity);
+
             if (request.CharacterType == CharacterType.Hero)
             {
                 AliveHeroContainer.Add(entity);
@@ -84,39 +154,33 @@ namespace ThreeSouls.Combat
             else
             {
                 AliveMonsterContainer.Add(entity);
-                RegisterMonsterGroup(entity, request.MonsterGroupIndex);
             }
 
             entity.ChangeState(CombatState.Wait);
+
             return entity;
         }
 
-        public WeaponProjectile SpawnProjectile(Transform parent, Vector3 spawnPosition, SpriteLibrarys sprLibraryName, BaseEntity source, BaseEntity target)
+        public WeaponProjectile SpawnProjectile(
+            Transform parent,
+            Vector3 spawnPosition,
+            SpriteLibrarys sprLibraryName,
+            BaseEntity source,
+            BaseEntity target)
         {
             var projectile = ProjectilePool.Spawn(parent, spawnPosition);
             SpawnProjectileContainer.Add(projectile);
             var asset = GetSpriteLibraryAsset(sprLibraryName.ToString());
-            projectile.SetUp(source, target, asset, source.CharacterData.CharacterAttackType, DespawnProjectile);
+            projectile.SetUp(source, target, asset, DespawnProjectile);
+
             return projectile;
-        }
-
-        public void DespawnProjectile(GameObject projectileObject)
-        {
-            var projectile = GetProjectileInstance(projectileObject);
-
-            if (projectile == null)
-            {
-                return;
-            }
-
-            projectile.Despawn();
         }
 
         private void DespawnProjectile(WeaponProjectile projectile)
         {
-            if (projectile == null || SpawnProjectileContainer.Remove(projectile) == false)
+            if (SpawnProjectileContainer.Remove(projectile) == false)
             {
-                return;
+                throw new InvalidOperationException("활성 투사체 목록에 없는 객체의 반환 요청입니다.");
             }
 
             projectile.PrepareForRecycle();
@@ -125,14 +189,7 @@ namespace ThreeSouls.Combat
 
         public BaseEntity GetCharacterInstance(GameObject spawnObject)
         {
-            return spawnObject != null && CharacterInstanceContainer.TryGetValue(spawnObject, out var entity)
-                ? entity
-                : null;
-        }
-
-        public WeaponProjectile GetProjectileInstance(GameObject spawnObject)
-        {
-            return SpawnProjectileContainer.Find(projectile => projectile.gameObject == spawnObject);
+            return spawnObject != null && CharacterInstanceContainer.TryGetValue(spawnObject, out var entity) == true ? entity : null;
         }
 
         public bool IsAlive(GameObject target)
@@ -147,48 +204,25 @@ namespace ThreeSouls.Combat
             return entity.CharHealth.IsAlive;
         }
 
-        public void ResetMonsterGroups()
-        {
-            MonsterSpawnGroups.Clear();
-            CurrentMonsterSpawnGroupIndex = 0;
-        }
-
-        public IReadOnlyList<BaseEntity> GetMonsterSpawnGroup(int index)
-        {
-            return MonsterSpawnGroups[index];
-        }
-
-        public bool TryAdvanceMonsterGroup()
-        {
-            if (CurrentMonsterSpawnGroup.Count > 0 ||
-                CurrentMonsterSpawnGroupIndex + 1 >= MonsterSpawnGroups.Count)
-            {
-                return false;
-            }
-
-            CurrentMonsterSpawnGroupIndex++;
-            RefreshEnemyTargets();
-            return true;
-        }
-
         public void MarkHealthDepleted(BaseEntity entity)
         {
-            if (entity.CharHealth.IsAlive)
+            if (entity.CharHealth.IsAlive == true)
             {
                 throw new InvalidOperationException($"Entity health is not depleted: {entity.name}");
             }
 
             if (entity is Hero)
             {
-                AliveHeroContainer.Remove(entity);
+                if (AliveHeroContainer.Remove(entity) == false)
+                {
+                    throw new InvalidOperationException($"생존 목록에 없는 영웅의 체력 소진 이벤트 : {entity.name}");
+                }
             }
             else
             {
-                AliveMonsterContainer.Remove(entity);
-
-                for (var i = 0; i < MonsterSpawnGroups.Count; i++)
+                if (AliveMonsterContainer.Remove(entity) == false)
                 {
-                    MonsterSpawnGroups[i].Remove(entity);
+                    throw new InvalidOperationException($"생존 목록에 없는 몬스터의 체력 소진 이벤트 : {entity.name}");
                 }
             }
 
@@ -198,18 +232,17 @@ namespace ThreeSouls.Combat
         public void RefreshEnemyTargets()
         {
             var heroTargets = CreateTargetArray(AliveHeroContainer);
-            var monsterTargets = CreateTargetArray(CurrentMonsterSpawnGroup);
+            var monsterTargets = CreateTargetArray(GetAliveMonsters());
 
             for (var i = 0; i < AliveHeroContainer.Count; i++)
             {
-                AliveHeroContainer[i].EnemySpawnTargets = monsterTargets;
+                AliveHeroContainer[i].SetEnemySpawnTargets(monsterTargets);
             }
 
             for (var i = 0; i < AliveMonsterContainer.Count; i++)
             {
                 var monster = AliveMonsterContainer[i];
-                monster.EnemySpawnTargets = heroTargets;
-                monster.ChangeState(CombatState.Wait);
+                monster.SetEnemySpawnTargets(heroTargets);
             }
         }
 
@@ -237,22 +270,7 @@ namespace ThreeSouls.Combat
             CharacterPoolContainer[entity.CharacterData.CharacterType].Recycle(entity);
         }
 
-        private void RegisterMonsterGroup(BaseEntity monster, int groupIndex)
-        {
-            if (groupIndex < 0)
-            {
-                throw new ArgumentOutOfRangeException(nameof(groupIndex));
-            }
-
-            while (MonsterSpawnGroups.Count <= groupIndex)
-            {
-                MonsterSpawnGroups.Add(new List<BaseEntity>());
-            }
-
-            MonsterSpawnGroups[groupIndex].Add(monster);
-        }
-
-        private static GameObject[] CreateTargetArray(IReadOnlyList<BaseEntity> entities)
+        private static IReadOnlyList<GameObject> CreateTargetArray(IReadOnlyList<BaseEntity> entities)
         {
             var result = new GameObject[entities.Count];
 
@@ -261,17 +279,16 @@ namespace ThreeSouls.Combat
                 result[i] = entities[i].gameObject;
             }
 
-            return result;
+            return Array.AsReadOnly(result);
         }
 
         private void InitializePool()
         {
-            var heroEntity = LoadRequiredComponent<BaseEntity>(Prefabs.Hero.ToAddress());
-            var monsterEntity = LoadRequiredComponent<BaseEntity>(Prefabs.Monster.ToAddress());
+            var heroEntity = LoadRequiredComponent<Hero>(Prefabs.Hero.ToAddress());
+            var monsterEntity = LoadRequiredComponent<Monster>(Prefabs.Monster.ToAddress());
             var projectile = LoadRequiredComponent<WeaponProjectile>(Prefabs.Projectile.ToAddress());
             var heroPool = new ComponentPool<BaseEntity>();
             var monsterPool = new ComponentPool<BaseEntity>();
-
             heroPool.CreatePool(heroEntity, 3);
             monsterPool.CreatePool(monsterEntity, 10);
             ProjectilePool.CreatePool(projectile, 10);
@@ -279,7 +296,8 @@ namespace ThreeSouls.Combat
             CharacterPoolContainer.Add(CharacterType.Monster, monsterPool);
         }
 
-        private static T LoadRequiredComponent<T>(string address) where T : Component
+        private static T LoadRequiredComponent<T>(string address)
+            where T : Component
         {
             var asset = AddressableManager.Get().LoadAsset<GameObject>(address);
 
@@ -290,21 +308,25 @@ namespace ThreeSouls.Combat
 
             if (asset.TryGetComponent<T>(out var component) == false)
             {
-                throw new InvalidOperationException(
-                    $"Required component {typeof(T).Name} was not found: {address}");
+                throw new InvalidOperationException($"Required component {typeof(T).Name} was not found: {address}");
             }
 
             return component;
         }
 
-        private static SpriteLibraryAsset GetSpriteLibraryAsset(string libraryName)
+        public static string GetSpriteLibraryAddress(string libraryName)
         {
-            if (Enum.TryParse<SpriteLibrarys>(libraryName, true, out var key) == false)
+            if (Enum.TryParse<SpriteLibrarys>(libraryName, true, out var key) == true)
             {
-                throw new InvalidOperationException($"SpriteLibrary key does not match: {libraryName}");
+                return key.ToAddress();
             }
 
-            var address = key.ToAddress();
+            return $"Assets/SpriteLibrarys/Character/{libraryName}.spriteLib";
+        }
+
+        private static SpriteLibraryAsset GetSpriteLibraryAsset(string libraryName)
+        {
+            var address = GetSpriteLibraryAddress(libraryName);
             var spriteLibrary = AddressableManager.Get().LoadAsset<SpriteLibraryAsset>(address);
 
             if (spriteLibrary == null)
@@ -319,12 +341,15 @@ namespace ThreeSouls.Combat
         {
             for (var i = 0; i < SpawnCharacterContainer.Count; i++)
             {
+                SpawnCharacterContainer[i].Despawn();
                 HealthBarHandler.Unregister(SpawnCharacterContainer[i]);
             }
 
-            foreach (var pool in CharacterPoolContainer.Values)
+            using var pools = CharacterPoolContainer.Values.GetEnumerator();
+
+            while (pools.MoveNext() == true)
             {
-                pool.Release();
+                pools.Current.Release();
             }
 
             CharacterPoolContainer.Clear();
@@ -332,8 +357,6 @@ namespace ThreeSouls.Combat
             AliveHeroContainer.Clear();
             AliveMonsterContainer.Clear();
             CharacterInstanceContainer.Clear();
-            MonsterSpawnGroups.Clear();
-            CurrentMonsterSpawnGroupIndex = 0;
         }
 
         private void ProjectileRelease()

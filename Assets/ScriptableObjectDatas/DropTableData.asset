@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351d061ebefbb1447a76bac316a568bf, type: 3}
+  m_Name: DropTableData
+  m_EditorClassIdentifier: Assembly-CSharp::ThreeSouls.Data.Generated.DropTableDataTable
+  Items:
+  - Index: 0
+    DropTableKey: Drop_goblin
+    MonsterKey: Key_goblin
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 1
+    DropTableKey: Drop_hog
+    MonsterKey: Key_hog
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 2
+    DropTableKey: Drop_troll
+    MonsterKey: Key_troll
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 3
+    DropTableKey: Drop_blackBear
+    MonsterKey: Key_blackBear
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 4
+    DropTableKey: Drop_blueCrab
+    MonsterKey: Key_blueCrab
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 5
+    DropTableKey: Drop_redCrab
+    MonsterKey: Key_redCrab
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 6
+    DropTableKey: Drop_wolf
+    MonsterKey: Key_wolf
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 7
+    DropTableKey: Drop_purpleBat
+    MonsterKey: Key_purpleBat
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 8
+    DropTableKey: Drop_goblinArcher
+    MonsterKey: Key_goblinArcher
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 9
+    DropTableKey: Drop_orc
+    MonsterKey: Key_orc
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 10
+    DropTableKey: Drop_blackBoar
+    MonsterKey: Key_blackBoar
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 11
+    DropTableKey: Drop_blueDragon
+    MonsterKey: Key_blueDragon
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 12
+    DropTableKey: Drop_brownRat
+    MonsterKey: Key_brownRat
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 13
+    DropTableKey: Drop_brownStump
+    MonsterKey: Key_brownStump
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 14
+    DropTableKey: Drop_greenDuck
+    MonsterKey: Key_greenDuck
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 15
+    DropTableKey: Drop_greenFlower
+    MonsterKey: Key_greenFlower
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 16
+    DropTableKey: Drop_greenFrog
+    MonsterKey: Key_greenFrog
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 17
+    DropTableKey: Drop_greenOgre
+    MonsterKey: Key_greenOgre
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 18
+    DropTableKey: Drop_greenTortoise
+    MonsterKey: Key_greenTortoise
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1
+  - Index: 19
+    DropTableKey: Drop_yellowBee
+    MonsterKey: Key_yellowBee
+    RewardType: 0
+    RewardKey: Key_gold
+    MinAmount: 2
+    MaxAmount: 4
+    StageAmountWeight: 0
+    RollCount: 1
+    DropChance: 1

@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 535e5824fd700ba479789707f3e5a00a, type: 3}
+  m_Name: HolyPlaceTableData
+  m_EditorClassIdentifier: Assembly-CSharp::ThreeSouls.Data.Generated.HolyPlaceTableDataTable
+  Items:
+  - Index: 0
+    RoundKey: Round_01_01
+    RoundNumber: 1
+    Monsters:
+    - Key_purpleBat
+    - Key_brownRat
+    SpawnCounts: 0a0000000a000000
+  - Index: 1
+    RoundKey: Round_01_02
+    RoundNumber: 2
+    Monsters:
+    - Key_goblin
+    - Key_goblinArcher
+    SpawnCounts: 0a0000000a000000
+  - Index: 2
+    RoundKey: Round_01_03
+    RoundNumber: 3
+    Monsters:
+    - Key_goblin
+    - Key_troll
+    SpawnCounts: 0a0000000a000000
+  - Index: 3
+    RoundKey: Round_02_01
+    RoundNumber: 1
+    Monsters:
+    - Key_purpleBat
+    - Key_goblin
+    SpawnCounts: 0b0000000b000000
+  - Index: 4
+    RoundKey: Round_02_02
+    RoundNumber: 2
+    Monsters:
+    - Key_brownRat
+    - Key_goblinArcher
+    SpawnCounts: 0b0000000b000000
+  - Index: 5
+    RoundKey: Round_02_03
+    RoundNumber: 3
+    Monsters:
+    - Key_goblin
+    - Key_orc
+    SpawnCounts: 0b0000000b000000
+  - Index: 6
+    RoundKey: Round_03_01
+    RoundNumber: 1
+    Monsters:
+    - Key_blueCrab
+    - Key_redCrab
+    SpawnCounts: 0c0000000c000000
+  - Index: 7
+    RoundKey: Round_03_02
+    RoundNumber: 2
+    Monsters:
+    - Key_brownRat
+    - Key_goblin
+    SpawnCounts: 0c0000000c000000
+  - Index: 8
+    RoundKey: Round_03_03
+    RoundNumber: 3
+    Monsters:
+    - Key_goblin
+    - Key_troll
+    SpawnCounts: 0c0000000c000000
+  - Index: 9
+    RoundKey: Round_04_01
+    RoundNumber: 1
+    Monsters:
+    - Key_purpleBat
+    - Key_brownRat
+    SpawnCounts: 0d0000000d000000
+  - Index: 10
+    RoundKey: Round_04_02
+    RoundNumber: 2
+    Monsters:
+    - Key_goblin
+    - Key_goblinArcher
+    SpawnCounts: 0d0000000d000000
+  - Index: 11
+    RoundKey: Round_04_03
+    RoundNumber: 3
+    Monsters:
+    - Key_orc
+    - Key_troll
+    SpawnCounts: 0d0000000d000000
+  - Index: 12
+    RoundKey: Round_05_01
+    RoundNumber: 1
+    Monsters:
+    - Key_purpleBat
+    - Key_goblinArcher
+    SpawnCounts: 0e0000000e000000
+  - Index: 13
+    RoundKey: Round_05_02
+    RoundNumber: 2
+    Monsters:
+    - Key_orc
+    - Key_goblin
+    SpawnCounts: 0e0000000e000000
+  - Index: 14
+    RoundKey: Round_05_03
+    RoundNumber: 3
+    Monsters:
+    - Key_troll
+    - Key_greenOgre
+    SpawnCounts: 0e0000000e000000
+  - Index: 15
+    RoundKey: Ruins_01_01
+    RoundNumber: 1
+    Monsters:
+    - Key_goblin
+    - Key_goblinArcher
+    SpawnCounts: 1000000010000000
+  - Index: 16
+    RoundKey: Ruins_01_02
+    RoundNumber: 2
+    Monsters:
+    - Key_redCrab
+    - Key_blueCrab
+    SpawnCounts: 1000000010000000
+  - Index: 17
+    RoundKey: Ruins_01_03
+    RoundNumber: 3
+    Monsters:
+    - Key_orc
+    - Key_troll
+    SpawnCounts: 1000000010000000
+  - Index: 18
+    RoundKey: Ruins_02_01
+    RoundNumber: 1
+    Monsters:
+    - Key_blueCrab
+    - Key_redCrab
+    SpawnCounts: 1100000011000000
+  - Index: 19
+    RoundKey: Ruins_02_02
+    RoundNumber: 2
+    Monsters:
+    - Key_goblin
+    - Key_goblinArcher
+    SpawnCounts: 1100000011000000
+  - Index: 20
+    RoundKey: Ruins_02_03
+    RoundNumber: 3
+    Monsters:
+    - Key_orc
+    - Key_greenOgre
+    SpawnCounts: 1100000011000000
+  - Index: 21
+    RoundKey: Ruins_03_01
+    RoundNumber: 1
+    Monsters:
+    - Key_goblin
+    - Key_goblinArcher
+    SpawnCounts: 1200000012000000
+  - Index: 22
+    RoundKey: Ruins_03_02
+    RoundNumber: 2
+    Monsters:
+    - Key_orc
+    - Key_redCrab
+    SpawnCounts: 1200000012000000
+  - Index: 23
+    RoundKey: Ruins_03_03
+    RoundNumber: 3
+    Monsters:
+    - Key_troll
+    - Key_greenOgre
+    SpawnCounts: 1200000012000000
+  - Index: 24
+    RoundKey: Ruins_04_01
+    RoundNumber: 1
+    Monsters:
+    - Key_goblinArcher
+    - Key_goblin
+    SpawnCounts: 1300000013000000
+  - Index: 25
+    RoundKey: Ruins_04_02
+    RoundNumber: 2
+    Monsters:
+    - Key_orc
+    - Key_troll
+    SpawnCounts: 1300000013000000
+  - Index: 26
+    RoundKey: Ruins_04_03
+    RoundNumber: 3
+    Monsters:
+    - Key_greenOgre
+    - Key_troll
+    SpawnCounts: 1300000013000000
+  - Index: 27
+    RoundKey: Ruins_05_01
+    RoundNumber: 1
+    Monsters:
+    - Key_orc
+    - Key_goblinArcher
+    SpawnCounts: 1400000014000000
+  - Index: 28
+    RoundKey: Ruins_05_02
+    RoundNumber: 2
+    Monsters:
+    - Key_troll
+    - Key_greenOgre
+    SpawnCounts: 1400000014000000
+  - Index: 29
+    RoundKey: Ruins_05_03
+    RoundNumber: 3
+    Monsters:
+    - Key_greenOgre
+    - Key_blueDragon
+    SpawnCounts: 1400000014000000
+  - Index: 30
+    RoundKey: Forest_01_01
+    RoundNumber: 1
+    Monsters:
+    - Key_hog
+    - Key_blackBoar
+    SpawnCounts: 1500000015000000
+  - Index: 31
+    RoundKey: Forest_01_02
+    RoundNumber: 2
+    Monsters:
+    - Key_yellowBee
+    - Key_greenFlower
+    SpawnCounts: 1500000015000000
+  - Index: 32
+    RoundKey: Forest_01_03
+    RoundNumber: 3
+    Monsters:
+    - Key_brownStump
+    - Key_greenOgre
+    SpawnCounts: 1500000015000000
+  - Index: 33
+    RoundKey: Forest_02_01
+    RoundNumber: 1
+    Monsters:
+    - Key_greenDuck
+    - Key_greenFrog
+    SpawnCounts: 1600000016000000
+  - Index: 34
+    RoundKey: Forest_02_02
+    RoundNumber: 2
+    Monsters:
+    - Key_greenFrog
+    - Key_blueCrab
+    SpawnCounts: 1600000016000000
+  - Index: 35
+    RoundKey: Forest_02_03
+    RoundNumber: 3
+    Monsters:
+    - Key_greenTortoise
+    - Key_brownStump
+    SpawnCounts: 1600000016000000
+  - Index: 36
+    RoundKey: Forest_03_01
+    RoundNumber: 1
+    Monsters:
+    - Key_greenFlower
+    - Key_yellowBee
+    SpawnCounts: 1700000017000000
+  - Index: 37
+    RoundKey: Forest_03_02
+    RoundNumber: 2
+    Monsters:
+    - Key_brownStump
+    - Key_greenFrog
+    SpawnCounts: 1700000017000000
+  - Index: 38
+    RoundKey: Forest_03_03
+    RoundNumber: 3
+    Monsters:
+    - Key_blackBoar
+    - Key_blackBear
+    SpawnCounts: 1700000017000000
+  - Index: 39
+    RoundKey: Forest_04_01
+    RoundNumber: 1
+    Monsters:
+    - Key_wolf
+    - Key_hog
+    SpawnCounts: 1800000018000000
+  - Index: 40
+    RoundKey: Forest_04_02
+    RoundNumber: 2
+    Monsters:
+    - Key_blackBoar
+    - Key_brownStump
+    SpawnCounts: 1800000018000000
+  - Index: 41
+    RoundKey: Forest_04_03
+    RoundNumber: 3
+    Monsters:
+    - Key_blackBear
+    - Key_greenOgre
+    SpawnCounts: 1800000018000000
+  - Index: 42
+    RoundKey: Forest_05_01
+    RoundNumber: 1
+    Monsters:
+    - Key_yellowBee
+    - Key_greenFlower
+    SpawnCounts: 1900000019000000
+  - Index: 43
+    RoundKey: Forest_05_02
+    RoundNumber: 2
+    Monsters:
+    - Key_brownStump
+    - Key_blackBear
+    SpawnCounts: 1900000019000000
+  - Index: 44
+    RoundKey: Forest_05_03
+    RoundNumber: 3
+    Monsters:
+    - Key_greenOgre
+    - Key_blackBoar
+    SpawnCounts: 1900000019000000
+  - Index: 45
+    RoundKey: Frost_01_01
+    RoundNumber: 1
+    Monsters:
+    - Key_wolf
+    - Key_blackBoar
+    SpawnCounts: 1a0000001a000000
+  - Index: 46
+    RoundKey: Frost_01_02
+    RoundNumber: 2
+    Monsters:
+    - Key_blackBear
+    - Key_blueCrab
+    SpawnCounts: 1a0000001a000000
+  - Index: 47
+    RoundKey: Frost_01_03
+    RoundNumber: 3
+    Monsters:
+    - Key_blueCrab
+    - Key_troll
+    SpawnCounts: 1a0000001a000000
+  - Index: 48
+    RoundKey: Frost_02_01
+    RoundNumber: 1
+    Monsters:
+    - Key_blueCrab
+    - Key_greenTortoise
+    SpawnCounts: 1b0000001b000000
+  - Index: 49
+    RoundKey: Frost_02_02
+    RoundNumber: 2
+    Monsters:
+    - Key_wolf
+    - Key_blackBear
+    SpawnCounts: 1b0000001b000000
+  - Index: 50
+    RoundKey: Frost_02_03
+    RoundNumber: 3
+    Monsters:
+    - Key_troll
+    - Key_blueDragon
+    SpawnCounts: 1b0000001b000000
+  - Index: 51
+    RoundKey: Frost_03_01
+    RoundNumber: 1
+    Monsters:
+    - Key_purpleBat
+    - Key_blueCrab
+    SpawnCounts: 1c0000001c000000
+  - Index: 52
+    RoundKey: Frost_03_02
+    RoundNumber: 2
+    Monsters:
+    - Key_blueCrab
+    - Key_troll
+    SpawnCounts: 1c0000001c000000
+  - Index: 53
+    RoundKey: Frost_03_03
+    RoundNumber: 3
+    Monsters:
+    - Key_blueDragon
+    - Key_wolf
+    SpawnCounts: 1c0000001c000000
+  - Index: 54
+    RoundKey: Frost_04_01
+    RoundNumber: 1
+    Monsters:
+    - Key_wolf
+    - Key_blackBear
+    SpawnCounts: 1d0000001d000000
+  - Index: 55
+    RoundKey: Frost_04_02
+    RoundNumber: 2
+    Monsters:
+    - Key_troll
+    - Key_greenOgre
+    SpawnCounts: 1d0000001d000000
+  - Index: 56
+    RoundKey: Frost_04_03
+    RoundNumber: 3
+    Monsters:
+    - Key_greenOgre
+    - Key_blueDragon
+    SpawnCounts: 1d0000001d000000
+  - Index: 57
+    RoundKey: Frost_05_01
+    RoundNumber: 1
+    Monsters:
+    - Key_wolf
+    - Key_blackBear
+    SpawnCounts: 1e0000001e000000
+  - Index: 58
+    RoundKey: Frost_05_02
+    RoundNumber: 2
+    Monsters:
+    - Key_troll
+    - Key_greenOgre
+    SpawnCounts: 1e0000001e000000
+  - Index: 59
+    RoundKey: Frost_05_03
+    RoundNumber: 3
+    Monsters:
+    - Key_blueDragon
+    - Key_troll
+    SpawnCounts: 1e0000001e000000

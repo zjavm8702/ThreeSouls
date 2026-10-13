@@ -15,13 +15,158 @@ MonoBehaviour:
   m_GroupName: SpriteLibrarys
   m_GUID: 75c0273c5387f6249b224a9e50a2f7b8
   m_SerializeEntries:
+  - m_GUID: 034590a752c30754280baa1b3957ee68
+    m_Address: Assets/SpriteLibrarys/Skill/FlameNova.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17854df6ba212f1469973c287ffc5d3e
+    m_Address: Assets/SpriteLibrarys/Character/Monster_BlackBoar.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19b1a5ea6bdc0d34f9a0150043a07362
+    m_Address: Assets/SpriteLibrarys/Character/Monster_Troll.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d56bc955be253e4a9c27e6a2c7297a7
+    m_Address: Assets/SpriteLibrarys/Character/Monster_BrownStump.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f27f6d8e067c154985e04c3001d9e46
+    m_Address: Assets/SpriteLibrarys/Character/Monster_BlueCrab.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f77e742d82e2c649a20a09c9028dde7
+    m_Address: Assets/SpriteLibrarys/Character/Monster_YellowBee.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5182045a8eacfcf4aaea3f48333368ee
+    m_Address: Assets/SpriteLibrarys/Character/Monster_BlueDragon.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5232e461513ff6e48bcc91034e35ea20
+    m_Address: Assets/SpriteLibrarys/Character/Monster_Bear.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59f75cc78fa1d7143b754d8c093db3b8
+    m_Address: Assets/SpriteLibrarys/Skill/Whirlwind.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e8d54d16cc573e4ca57f8f98b29be9f
+    m_Address: Assets/SpriteLibrarys/Character/Hero_Archer.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 616083b7b8780b3439f8839f760e911c
+    m_Address: Assets/SpriteLibrarys/Skill/ArrowRain.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 760ecfbacbe712b4487f24b474a13654
+    m_Address: Assets/SpriteLibrarys/Character/Monster_GreenFlower.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7df20e4927849ef4c9ddfe159b9f04f3
+    m_Address: Assets/SpriteLibrarys/Character/Monster_BrownRat.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7eb2715c14bc4d24493425857f300173
+    m_Address: Assets/SpriteLibrarys/Character/Monster_GreenDuck.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 80fc27bcc1a0c344380643908f988f19
     m_Address: Assets/SpriteLibrarys/Character
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d1c7bf3b4864a54a84bba0471ed8a32
+    m_Address: Assets/SpriteLibrarys/Projectile/ArcherArrow.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 920e55e66be61714791c956ee979268d
+    m_Address: Assets/SpriteLibrarys/Character/Monster_GreenOgre.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aace30d85f88b844cb58d56289d876d0
+    m_Address: Assets/SpriteLibrarys/Skill/FireBolt.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad5ff3c9ea7302d4e8ed91d1c007d5cc
+    m_Address: Assets/SpriteLibrarys/Character/Monster_PurpleBat.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba7e75717db10534498c02dadf94f2b4
+    m_Address: Assets/SpriteLibrarys/Character/Monster_Goblin.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bed53e63f798ce541ae31923035016fc
     m_Address: Assets/SpriteLibrarys/Projectile
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c90ab7cd5ad3218458a6b61356b769e9
+    m_Address: Assets/SpriteLibrarys/Character/Monster_GreenTortoise.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: caccb6cff7571d14cbdc03c25745a9be
+    m_Address: Assets/SpriteLibrarys/Character/Monster_GoblinArcher.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce90e645b61196d4bbb17cc22477713b
+    m_Address: Assets/SpriteLibrarys/Character/Monster_Wolf.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d72a91d901cd0214ca79ac06d8ca68e1
+    m_Address: Assets/SpriteLibrarys/Character/Monster_Orc.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9f96cf43a59a9942b203dc235985294
+    m_Address: Assets/SpriteLibrarys/Skill
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd03abcb98f028246960762e23a8bdf6
+    m_Address: Assets/SpriteLibrarys/Character/Monster_BrownPig.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4e2f05a1f2666e4f94f6aab84f39f93
+    m_Address: Assets/SpriteLibrarys/Character/Monster_GreenFrog.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef4b0984cfe7bd14c9f35d2604adf07d
+    m_Address: Assets/SpriteLibrarys/Skill/PrecisionShot.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4e56b536577681419a489364ef44a81
+    m_Address: Assets/SpriteLibrarys/Skill/HeavySlash.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f972bb71e7662a447aae93f59c09e2e4
+    m_Address: Assets/SpriteLibrarys/Character/Monster_RedCrab.spriteLib
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

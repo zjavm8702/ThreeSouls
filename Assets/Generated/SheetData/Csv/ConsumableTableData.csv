@@ -1,0 +1,4 @@
+Index : int,ConsumableType : Enum<ThreeSouls.Data.ConsumableType>,NameStrKey : string,GoldPrice : int,HealMaxHPRatio : float,TargetScope : string,EffectStrKey : string,IconPath : string,IconSpriteName : string,CombatHealImplemented : bool
+인덱스,현재 코드의 물약 종류,이름 스트링 키,개당 골드 가격,최대 HP 대비 회복 비율,SingleHero / LivingParty,회복 효과 설명 키,로비 이미지 경로,이미지 내 Sprite 이름,전투 회복 구현 여부
+0,SmallHealingPotion,ConsumableName_SmallHealingPotion,80,0.25,SingleHero,ConsumableEffect_SmallHealingPotion,Assets/Images/UIIcon/Potions.png,Potions_8,TRUE
+1,PartyHealingPotion,ConsumableName_PartyHealingPotion,180,0.15,LivingParty,ConsumableEffect_PartyHealingPotion,Assets/Images/UIIcon/Potions.png,Potions_2,TRUE

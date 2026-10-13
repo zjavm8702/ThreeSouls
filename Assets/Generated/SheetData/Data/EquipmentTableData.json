@@ -1,0 +1,1756 @@
+{
+    "Items": [
+        {
+            "Index": 0,
+            "ItemKey": "Item_Sword_01",
+            "StrKey": "ItemName_Sword_01",
+            "EquipSlot": 0,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_01.png",
+            "AttackDmgMin": 1.0,
+            "AttackDmgMax": 2.0,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 1,
+            "ItemKey": "Item_Bow_01",
+            "StrKey": "ItemName_Bow_01",
+            "EquipSlot": 0,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_01.png",
+            "AttackDmgMin": 1.0,
+            "AttackDmgMax": 2.0,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 2,
+            "ItemKey": "Item_Staff_01",
+            "StrKey": "ItemName_Staff_01",
+            "EquipSlot": 0,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_01.png",
+            "AttackDmgMin": 2.0,
+            "AttackDmgMax": 4.0,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 3,
+            "ItemKey": "Item_Armor_01",
+            "StrKey": "ItemName_Armor_01",
+            "EquipSlot": 1,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_01.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 20.0,
+            "MaxHPMax": 40.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 4,
+            "ItemKey": "Item_Ring_01",
+            "StrKey": "ItemName_Ring_01",
+            "EquipSlot": 2,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_04.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.029999999329447748,
+            "AttackSpeedBonusMax": 0.05000000074505806
+        },
+        {
+            "Index": 5,
+            "ItemKey": "Item_Sword_02",
+            "StrKey": "ItemName_Sword_02",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_08.png",
+            "AttackDmgMin": 3.0,
+            "AttackDmgMax": 5.0,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 6,
+            "ItemKey": "Item_Bow_02",
+            "StrKey": "ItemName_Bow_02",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_08.png",
+            "AttackDmgMin": 3.0,
+            "AttackDmgMax": 5.0,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 7,
+            "ItemKey": "Item_Staff_02",
+            "StrKey": "ItemName_Staff_02",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_08.png",
+            "AttackDmgMin": 5.0,
+            "AttackDmgMax": 8.0,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 8,
+            "ItemKey": "Farm_Sword_01",
+            "StrKey": "Name_Farm_Sword_01",
+            "EquipSlot": 0,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_01.png",
+            "AttackDmgMin": 1.8480000495910645,
+            "AttackDmgMax": 2.3519999980926515,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 9,
+            "ItemKey": "Farm_Sword_02",
+            "StrKey": "Name_Farm_Sword_02",
+            "EquipSlot": 0,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_02.png",
+            "AttackDmgMin": 2.1440000534057619,
+            "AttackDmgMax": 2.7279999256134035,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 10,
+            "ItemKey": "Farm_Sword_03",
+            "StrKey": "Name_Farm_Sword_03",
+            "EquipSlot": 0,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_03.png",
+            "AttackDmgMin": 2.486999988555908,
+            "AttackDmgMax": 3.1649999618530275,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 11,
+            "ItemKey": "Farm_Sword_04",
+            "StrKey": "Name_Farm_Sword_04",
+            "EquipSlot": 0,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_04.png",
+            "AttackDmgMin": 2.884999990463257,
+            "AttackDmgMax": 3.6710000038146974,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 12,
+            "ItemKey": "Farm_Sword_05",
+            "StrKey": "Name_Farm_Sword_05",
+            "EquipSlot": 0,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_05.png",
+            "AttackDmgMin": 3.3459999561309816,
+            "AttackDmgMax": 4.258999824523926,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 13,
+            "ItemKey": "Farm_Sword_06",
+            "StrKey": "Name_Farm_Sword_06",
+            "EquipSlot": 0,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_06.png",
+            "AttackDmgMin": 3.88100004196167,
+            "AttackDmgMax": 4.940000057220459,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 14,
+            "ItemKey": "Farm_Sword_07",
+            "StrKey": "Name_Farm_Sword_07",
+            "EquipSlot": 0,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_07.png",
+            "AttackDmgMin": 4.501999855041504,
+            "AttackDmgMax": 5.730000019073486,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 15,
+            "ItemKey": "Farm_Sword_08",
+            "StrKey": "Name_Farm_Sword_08",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_08.png",
+            "AttackDmgMin": 5.2230000495910648,
+            "AttackDmgMax": 6.646999835968018,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.014100000262260437,
+            "AttackSpeedBonusMax": 0.017899999395012857
+        },
+        {
+            "Index": 16,
+            "ItemKey": "Farm_Sword_09",
+            "StrKey": "Name_Farm_Sword_09",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_09.png",
+            "AttackDmgMin": 6.059000015258789,
+            "AttackDmgMax": 7.710999965667725,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.015799999237060548,
+            "AttackSpeedBonusMax": 0.02019999921321869
+        },
+        {
+            "Index": 17,
+            "ItemKey": "Farm_Sword_10",
+            "StrKey": "Name_Farm_Sword_10",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_10.png",
+            "AttackDmgMin": 7.0279998779296879,
+            "AttackDmgMax": 8.944999694824219,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.01759999990463257,
+            "AttackSpeedBonusMax": 0.02239999920129776
+        },
+        {
+            "Index": 18,
+            "ItemKey": "Farm_Sword_11",
+            "StrKey": "Name_Farm_Sword_11",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_11.png",
+            "AttackDmgMin": 8.152000427246094,
+            "AttackDmgMax": 10.37600040435791,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.01940000057220459,
+            "AttackSpeedBonusMax": 0.02459999918937683
+        },
+        {
+            "Index": 19,
+            "ItemKey": "Farm_Sword_12",
+            "StrKey": "Name_Farm_Sword_12",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_12.png",
+            "AttackDmgMin": 9.456999778747559,
+            "AttackDmgMax": 12.03600025177002,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0210999995470047,
+            "AttackSpeedBonusMax": 0.026900000870227815
+        },
+        {
+            "Index": 20,
+            "ItemKey": "Farm_Sword_13",
+            "StrKey": "Name_Farm_Sword_13",
+            "EquipSlot": 0,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_13.png",
+            "AttackDmgMin": 10.970000267028809,
+            "AttackDmgMax": 13.961999893188477,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.02290000021457672,
+            "AttackSpeedBonusMax": 0.029100000858306886
+        },
+        {
+            "Index": 21,
+            "ItemKey": "Farm_Sword_14",
+            "StrKey": "Name_Farm_Sword_14",
+            "EquipSlot": 0,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_14.png",
+            "AttackDmgMin": 12.725000381469727,
+            "AttackDmgMax": 16.19499969482422,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.02459999918937683,
+            "AttackSpeedBonusMax": 0.03139999881386757
+        },
+        {
+            "Index": 22,
+            "ItemKey": "Farm_Sword_15",
+            "StrKey": "Name_Farm_Sword_15",
+            "EquipSlot": 0,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_15.png",
+            "AttackDmgMin": 14.76099967956543,
+            "AttackDmgMax": 18.78700065612793,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.026399999856948854,
+            "AttackSpeedBonusMax": 0.03359999880194664
+        },
+        {
+            "Index": 23,
+            "ItemKey": "Farm_Sword_16",
+            "StrKey": "Name_Farm_Sword_16",
+            "EquipSlot": 0,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_16.png",
+            "AttackDmgMin": 17.12299919128418,
+            "AttackDmgMax": 21.792999267578126,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.028200000524520875,
+            "AttackSpeedBonusMax": 0.03579999879002571
+        },
+        {
+            "Index": 24,
+            "ItemKey": "Farm_Sword_17",
+            "StrKey": "Name_Farm_Sword_17",
+            "EquipSlot": 0,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_17.png",
+            "AttackDmgMin": 19.86199951171875,
+            "AttackDmgMax": 25.27899932861328,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.029899999499320985,
+            "AttackSpeedBonusMax": 0.038100000470876697
+        },
+        {
+            "Index": 25,
+            "ItemKey": "Farm_Sword_18",
+            "StrKey": "Name_Farm_Sword_18",
+            "EquipSlot": 0,
+            "Rarity": 4,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_18.png",
+            "AttackDmgMin": 23.040000915527345,
+            "AttackDmgMax": 29.323999404907228,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.031700000166893008,
+            "AttackSpeedBonusMax": 0.040300000458955768
+        },
+        {
+            "Index": 26,
+            "ItemKey": "Farm_Sword_19",
+            "StrKey": "Name_Farm_Sword_19",
+            "EquipSlot": 0,
+            "Rarity": 4,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_19.png",
+            "AttackDmgMin": 26.726999282836915,
+            "AttackDmgMax": 34.01599884033203,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.033399999141693118,
+            "AttackSpeedBonusMax": 0.04259999841451645
+        },
+        {
+            "Index": 27,
+            "ItemKey": "Farm_Sword_20",
+            "StrKey": "Name_Farm_Sword_20",
+            "EquipSlot": 0,
+            "Rarity": 4,
+            "AllowedCharacterKeys": [
+                "Key_night"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Sword_20.png",
+            "AttackDmgMin": 31.003000259399415,
+            "AttackDmgMax": 39.45800018310547,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.03519999980926514,
+            "AttackSpeedBonusMax": 0.04479999840259552
+        },
+        {
+            "Index": 28,
+            "ItemKey": "Farm_Bow_01",
+            "StrKey": "Name_Farm_Bow_01",
+            "EquipSlot": 0,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_01.png",
+            "AttackDmgMin": 1.8480000495910645,
+            "AttackDmgMax": 2.3519999980926515,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 29,
+            "ItemKey": "Farm_Bow_02",
+            "StrKey": "Name_Farm_Bow_02",
+            "EquipSlot": 0,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_02.png",
+            "AttackDmgMin": 2.1440000534057619,
+            "AttackDmgMax": 2.7279999256134035,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 30,
+            "ItemKey": "Farm_Bow_03",
+            "StrKey": "Name_Farm_Bow_03",
+            "EquipSlot": 0,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_03.png",
+            "AttackDmgMin": 2.486999988555908,
+            "AttackDmgMax": 3.1649999618530275,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 31,
+            "ItemKey": "Farm_Bow_04",
+            "StrKey": "Name_Farm_Bow_04",
+            "EquipSlot": 0,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_04.png",
+            "AttackDmgMin": 2.884999990463257,
+            "AttackDmgMax": 3.6710000038146974,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 32,
+            "ItemKey": "Farm_Bow_05",
+            "StrKey": "Name_Farm_Bow_05",
+            "EquipSlot": 0,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_05.png",
+            "AttackDmgMin": 3.3459999561309816,
+            "AttackDmgMax": 4.258999824523926,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 33,
+            "ItemKey": "Farm_Bow_06",
+            "StrKey": "Name_Farm_Bow_06",
+            "EquipSlot": 0,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_06.png",
+            "AttackDmgMin": 3.88100004196167,
+            "AttackDmgMax": 4.940000057220459,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 34,
+            "ItemKey": "Farm_Bow_07",
+            "StrKey": "Name_Farm_Bow_07",
+            "EquipSlot": 0,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_07.png",
+            "AttackDmgMin": 4.501999855041504,
+            "AttackDmgMax": 5.730000019073486,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 35,
+            "ItemKey": "Farm_Bow_08",
+            "StrKey": "Name_Farm_Bow_08",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_08.png",
+            "AttackDmgMin": 5.2230000495910648,
+            "AttackDmgMax": 6.646999835968018,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.014100000262260437,
+            "AttackSpeedBonusMax": 0.017899999395012857
+        },
+        {
+            "Index": 36,
+            "ItemKey": "Farm_Bow_09",
+            "StrKey": "Name_Farm_Bow_09",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_09.png",
+            "AttackDmgMin": 6.059000015258789,
+            "AttackDmgMax": 7.710999965667725,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.015799999237060548,
+            "AttackSpeedBonusMax": 0.02019999921321869
+        },
+        {
+            "Index": 37,
+            "ItemKey": "Farm_Bow_10",
+            "StrKey": "Name_Farm_Bow_10",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_10.png",
+            "AttackDmgMin": 7.0279998779296879,
+            "AttackDmgMax": 8.944999694824219,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.01759999990463257,
+            "AttackSpeedBonusMax": 0.02239999920129776
+        },
+        {
+            "Index": 38,
+            "ItemKey": "Farm_Bow_11",
+            "StrKey": "Name_Farm_Bow_11",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_11.png",
+            "AttackDmgMin": 8.152000427246094,
+            "AttackDmgMax": 10.37600040435791,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.01940000057220459,
+            "AttackSpeedBonusMax": 0.02459999918937683
+        },
+        {
+            "Index": 39,
+            "ItemKey": "Farm_Bow_12",
+            "StrKey": "Name_Farm_Bow_12",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_12.png",
+            "AttackDmgMin": 9.456999778747559,
+            "AttackDmgMax": 12.03600025177002,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0210999995470047,
+            "AttackSpeedBonusMax": 0.026900000870227815
+        },
+        {
+            "Index": 40,
+            "ItemKey": "Farm_Bow_13",
+            "StrKey": "Name_Farm_Bow_13",
+            "EquipSlot": 0,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_13.png",
+            "AttackDmgMin": 10.970000267028809,
+            "AttackDmgMax": 13.961999893188477,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.02290000021457672,
+            "AttackSpeedBonusMax": 0.029100000858306886
+        },
+        {
+            "Index": 41,
+            "ItemKey": "Farm_Bow_14",
+            "StrKey": "Name_Farm_Bow_14",
+            "EquipSlot": 0,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_14.png",
+            "AttackDmgMin": 12.725000381469727,
+            "AttackDmgMax": 16.19499969482422,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.02459999918937683,
+            "AttackSpeedBonusMax": 0.03139999881386757
+        },
+        {
+            "Index": 42,
+            "ItemKey": "Farm_Bow_15",
+            "StrKey": "Name_Farm_Bow_15",
+            "EquipSlot": 0,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_15.png",
+            "AttackDmgMin": 14.76099967956543,
+            "AttackDmgMax": 18.78700065612793,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.026399999856948854,
+            "AttackSpeedBonusMax": 0.03359999880194664
+        },
+        {
+            "Index": 43,
+            "ItemKey": "Farm_Bow_16",
+            "StrKey": "Name_Farm_Bow_16",
+            "EquipSlot": 0,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_16.png",
+            "AttackDmgMin": 17.12299919128418,
+            "AttackDmgMax": 21.792999267578126,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.028200000524520875,
+            "AttackSpeedBonusMax": 0.03579999879002571
+        },
+        {
+            "Index": 44,
+            "ItemKey": "Farm_Bow_17",
+            "StrKey": "Name_Farm_Bow_17",
+            "EquipSlot": 0,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_17.png",
+            "AttackDmgMin": 19.86199951171875,
+            "AttackDmgMax": 25.27899932861328,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.029899999499320985,
+            "AttackSpeedBonusMax": 0.038100000470876697
+        },
+        {
+            "Index": 45,
+            "ItemKey": "Farm_Bow_18",
+            "StrKey": "Name_Farm_Bow_18",
+            "EquipSlot": 0,
+            "Rarity": 4,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_18.png",
+            "AttackDmgMin": 23.040000915527345,
+            "AttackDmgMax": 29.323999404907228,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.031700000166893008,
+            "AttackSpeedBonusMax": 0.040300000458955768
+        },
+        {
+            "Index": 46,
+            "ItemKey": "Farm_Bow_19",
+            "StrKey": "Name_Farm_Bow_19",
+            "EquipSlot": 0,
+            "Rarity": 4,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_19.png",
+            "AttackDmgMin": 26.726999282836915,
+            "AttackDmgMax": 34.01599884033203,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.033399999141693118,
+            "AttackSpeedBonusMax": 0.04259999841451645
+        },
+        {
+            "Index": 47,
+            "ItemKey": "Farm_Bow_20",
+            "StrKey": "Name_Farm_Bow_20",
+            "EquipSlot": 0,
+            "Rarity": 4,
+            "AllowedCharacterKeys": [
+                "Key_archer"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Bow_20.png",
+            "AttackDmgMin": 31.003000259399415,
+            "AttackDmgMax": 39.45800018310547,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.03519999980926514,
+            "AttackSpeedBonusMax": 0.04479999840259552
+        },
+        {
+            "Index": 48,
+            "ItemKey": "Farm_Staff_01",
+            "StrKey": "Name_Farm_Staff_01",
+            "EquipSlot": 0,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_01.png",
+            "AttackDmgMin": 3.696000099182129,
+            "AttackDmgMax": 4.703999996185303,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 49,
+            "ItemKey": "Farm_Staff_02",
+            "StrKey": "Name_Farm_Staff_02",
+            "EquipSlot": 0,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_02.png",
+            "AttackDmgMin": 4.2870001792907719,
+            "AttackDmgMax": 5.456999778747559,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 50,
+            "ItemKey": "Farm_Staff_03",
+            "StrKey": "Name_Farm_Staff_03",
+            "EquipSlot": 0,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_03.png",
+            "AttackDmgMin": 4.9730000495910648,
+            "AttackDmgMax": 6.329999923706055,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 51,
+            "ItemKey": "Farm_Staff_04",
+            "StrKey": "Name_Farm_Staff_04",
+            "EquipSlot": 0,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_04.png",
+            "AttackDmgMin": 5.769000053405762,
+            "AttackDmgMax": 7.3420000076293949,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 52,
+            "ItemKey": "Farm_Staff_05",
+            "StrKey": "Name_Farm_Staff_05",
+            "EquipSlot": 0,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_05.png",
+            "AttackDmgMin": 6.691999912261963,
+            "AttackDmgMax": 8.517000198364258,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 53,
+            "ItemKey": "Farm_Staff_06",
+            "StrKey": "Name_Farm_Staff_06",
+            "EquipSlot": 0,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_06.png",
+            "AttackDmgMin": 7.763000011444092,
+            "AttackDmgMax": 9.880000114440918,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 54,
+            "ItemKey": "Farm_Staff_07",
+            "StrKey": "Name_Farm_Staff_07",
+            "EquipSlot": 0,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_07.png",
+            "AttackDmgMin": 9.005000114440918,
+            "AttackDmgMax": 11.461000442504883,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 55,
+            "ItemKey": "Farm_Staff_08",
+            "StrKey": "Name_Farm_Staff_08",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_08.png",
+            "AttackDmgMin": 10.446000099182129,
+            "AttackDmgMax": 13.295000076293946,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.014100000262260437,
+            "AttackSpeedBonusMax": 0.017899999395012857
+        },
+        {
+            "Index": 56,
+            "ItemKey": "Farm_Staff_09",
+            "StrKey": "Name_Farm_Staff_09",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_09.png",
+            "AttackDmgMin": 12.116999626159668,
+            "AttackDmgMax": 15.42199993133545,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.015799999237060548,
+            "AttackSpeedBonusMax": 0.02019999921321869
+        },
+        {
+            "Index": 57,
+            "ItemKey": "Farm_Staff_10",
+            "StrKey": "Name_Farm_Staff_10",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_10.png",
+            "AttackDmgMin": 14.055999755859375,
+            "AttackDmgMax": 17.888999938964845,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.01759999990463257,
+            "AttackSpeedBonusMax": 0.02239999920129776
+        },
+        {
+            "Index": 58,
+            "ItemKey": "Farm_Staff_11",
+            "StrKey": "Name_Farm_Staff_11",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_11.png",
+            "AttackDmgMin": 16.30500030517578,
+            "AttackDmgMax": 20.750999450683595,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.01940000057220459,
+            "AttackSpeedBonusMax": 0.02459999918937683
+        },
+        {
+            "Index": 59,
+            "ItemKey": "Farm_Staff_12",
+            "StrKey": "Name_Farm_Staff_12",
+            "EquipSlot": 0,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_12.png",
+            "AttackDmgMin": 18.913000106811525,
+            "AttackDmgMax": 24.07200050354004,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.0210999995470047,
+            "AttackSpeedBonusMax": 0.026900000870227815
+        },
+        {
+            "Index": 60,
+            "ItemKey": "Farm_Staff_13",
+            "StrKey": "Name_Farm_Staff_13",
+            "EquipSlot": 0,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_13.png",
+            "AttackDmgMin": 21.940000534057618,
+            "AttackDmgMax": 27.92300033569336,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.02290000021457672,
+            "AttackSpeedBonusMax": 0.029100000858306886
+        },
+        {
+            "Index": 61,
+            "ItemKey": "Farm_Staff_14",
+            "StrKey": "Name_Farm_Staff_14",
+            "EquipSlot": 0,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_14.png",
+            "AttackDmgMin": 25.450000762939454,
+            "AttackDmgMax": 32.39099884033203,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.02459999918937683,
+            "AttackSpeedBonusMax": 0.03139999881386757
+        },
+        {
+            "Index": 62,
+            "ItemKey": "Farm_Staff_15",
+            "StrKey": "Name_Farm_Staff_15",
+            "EquipSlot": 0,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_15.png",
+            "AttackDmgMin": 29.52199935913086,
+            "AttackDmgMax": 37.573001861572269,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.026399999856948854,
+            "AttackSpeedBonusMax": 0.03359999880194664
+        },
+        {
+            "Index": 63,
+            "ItemKey": "Farm_Staff_16",
+            "StrKey": "Name_Farm_Staff_16",
+            "EquipSlot": 0,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_16.png",
+            "AttackDmgMin": 34.244998931884769,
+            "AttackDmgMax": 43.584999084472659,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.028200000524520875,
+            "AttackSpeedBonusMax": 0.03579999879002571
+        },
+        {
+            "Index": 64,
+            "ItemKey": "Farm_Staff_17",
+            "StrKey": "Name_Farm_Staff_17",
+            "EquipSlot": 0,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_17.png",
+            "AttackDmgMin": 39.724998474121097,
+            "AttackDmgMax": 50.558998107910159,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.029899999499320985,
+            "AttackSpeedBonusMax": 0.038100000470876697
+        },
+        {
+            "Index": 65,
+            "ItemKey": "Farm_Staff_18",
+            "StrKey": "Name_Farm_Staff_18",
+            "EquipSlot": 0,
+            "Rarity": 4,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_18.png",
+            "AttackDmgMin": 46.08100128173828,
+            "AttackDmgMax": 58.64799880981445,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.031700000166893008,
+            "AttackSpeedBonusMax": 0.040300000458955768
+        },
+        {
+            "Index": 66,
+            "ItemKey": "Farm_Staff_19",
+            "StrKey": "Name_Farm_Staff_19",
+            "EquipSlot": 0,
+            "Rarity": 4,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_19.png",
+            "AttackDmgMin": 53.452999114990237,
+            "AttackDmgMax": 68.03199768066406,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.033399999141693118,
+            "AttackSpeedBonusMax": 0.04259999841451645
+        },
+        {
+            "Index": 67,
+            "ItemKey": "Farm_Staff_20",
+            "StrKey": "Name_Farm_Staff_20",
+            "EquipSlot": 0,
+            "Rarity": 4,
+            "AllowedCharacterKeys": [
+                "Key_wizard"
+            ],
+            "IconKey": "Assets/Images/EquipMent/Farm_Staff_20.png",
+            "AttackDmgMin": 62.00600051879883,
+            "AttackDmgMax": 78.91699981689453,
+            "MaxHPMin": 0.0,
+            "MaxHPMax": 0.0,
+            "AttackSpeedBonusMin": 0.03519999980926514,
+            "AttackSpeedBonusMax": 0.04479999840259552
+        },
+        {
+            "Index": 68,
+            "ItemKey": "Farm_Armor_01",
+            "StrKey": "Name_Farm_Armor_01",
+            "EquipSlot": 1,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_01.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 39.599998474121097,
+            "MaxHPMax": 50.400001525878909,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 69,
+            "ItemKey": "Farm_Armor_02",
+            "StrKey": "Name_Farm_Armor_02",
+            "EquipSlot": 1,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_02.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 45.93600082397461,
+            "MaxHPMax": 58.4640007019043,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 70,
+            "ItemKey": "Farm_Armor_03",
+            "StrKey": "Name_Farm_Armor_03",
+            "EquipSlot": 1,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_03.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 53.2859992980957,
+            "MaxHPMax": 67.81800079345703,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 71,
+            "ItemKey": "Farm_Armor_04",
+            "StrKey": "Name_Farm_Armor_04",
+            "EquipSlot": 1,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_04.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 61.81100082397461,
+            "MaxHPMax": 78.66899871826172,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 72,
+            "ItemKey": "Farm_Armor_05",
+            "StrKey": "Name_Farm_Armor_05",
+            "EquipSlot": 1,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_05.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 71.70099639892578,
+            "MaxHPMax": 91.25599670410156,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 73,
+            "ItemKey": "Farm_Armor_06",
+            "StrKey": "Name_Farm_Armor_06",
+            "EquipSlot": 1,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_06.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 83.17400360107422,
+            "MaxHPMax": 105.85700225830078,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 74,
+            "ItemKey": "Farm_Armor_07",
+            "StrKey": "Name_Farm_Armor_07",
+            "EquipSlot": 1,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_07.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 96.48100280761719,
+            "MaxHPMax": 122.79399871826172,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 75,
+            "ItemKey": "Farm_Armor_08",
+            "StrKey": "Name_Farm_Armor_08",
+            "EquipSlot": 1,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_08.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 111.91799926757813,
+            "MaxHPMax": 142.4409942626953,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 76,
+            "ItemKey": "Farm_Armor_09",
+            "StrKey": "Name_Farm_Armor_09",
+            "EquipSlot": 1,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_09.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 129.8249969482422,
+            "MaxHPMax": 165.23199462890626,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 77,
+            "ItemKey": "Farm_Armor_10",
+            "StrKey": "Name_Farm_Armor_10",
+            "EquipSlot": 1,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_10.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 150.5970001220703,
+            "MaxHPMax": 191.66900634765626,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 78,
+            "ItemKey": "Farm_Armor_11",
+            "StrKey": "Name_Farm_Armor_11",
+            "EquipSlot": 1,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_11.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 174.6929931640625,
+            "MaxHPMax": 222.33599853515626,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 79,
+            "ItemKey": "Farm_Armor_12",
+            "StrKey": "Name_Farm_Armor_12",
+            "EquipSlot": 1,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_12.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 202.6439971923828,
+            "MaxHPMax": 257.9100036621094,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 80,
+            "ItemKey": "Farm_Armor_13",
+            "StrKey": "Name_Farm_Armor_13",
+            "EquipSlot": 1,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_13.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 235.06700134277345,
+            "MaxHPMax": 299.1759948730469,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 81,
+            "ItemKey": "Farm_Armor_14",
+            "StrKey": "Name_Farm_Armor_14",
+            "EquipSlot": 1,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_14.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 272.677001953125,
+            "MaxHPMax": 347.04400634765627,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 82,
+            "ItemKey": "Farm_Armor_15",
+            "StrKey": "Name_Farm_Armor_15",
+            "EquipSlot": 1,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_15.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 316.3059997558594,
+            "MaxHPMax": 402.5710144042969,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 83,
+            "ItemKey": "Farm_Armor_16",
+            "StrKey": "Name_Farm_Armor_16",
+            "EquipSlot": 1,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_16.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 366.9150085449219,
+            "MaxHPMax": 466.98199462890627,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 84,
+            "ItemKey": "Farm_Armor_17",
+            "StrKey": "Name_Farm_Armor_17",
+            "EquipSlot": 1,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_17.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 425.6210021972656,
+            "MaxHPMax": 541.698974609375,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 85,
+            "ItemKey": "Farm_Armor_18",
+            "StrKey": "Name_Farm_Armor_18",
+            "EquipSlot": 1,
+            "Rarity": 4,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_18.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 493.7200012207031,
+            "MaxHPMax": 628.3709716796875,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 86,
+            "ItemKey": "Farm_Armor_19",
+            "StrKey": "Name_Farm_Armor_19",
+            "EquipSlot": 1,
+            "Rarity": 4,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_19.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 572.7160034179688,
+            "MaxHPMax": 728.9110107421875,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 87,
+            "ItemKey": "Farm_Armor_20",
+            "StrKey": "Name_Farm_Armor_20",
+            "EquipSlot": 1,
+            "Rarity": 4,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Armor_20.png",
+            "AttackDmgMin": 0.0,
+            "AttackDmgMax": 0.0,
+            "MaxHPMin": 664.3499755859375,
+            "MaxHPMax": 845.5360107421875,
+            "AttackSpeedBonusMin": 0.0,
+            "AttackSpeedBonusMax": 0.0
+        },
+        {
+            "Index": 88,
+            "ItemKey": "Farm_Ring_01",
+            "StrKey": "Name_Farm_Ring_01",
+            "EquipSlot": 2,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_01.png",
+            "AttackDmgMin": 0.30799999833106997,
+            "AttackDmgMax": 0.3919999897480011,
+            "MaxHPMin": 7.920000076293945,
+            "MaxHPMax": 10.079999923706055,
+            "AttackSpeedBonusMin": 0.011900000274181366,
+            "AttackSpeedBonusMax": 0.01510000042617321
+        },
+        {
+            "Index": 89,
+            "ItemKey": "Farm_Ring_02",
+            "StrKey": "Name_Farm_Ring_02",
+            "EquipSlot": 2,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_02.png",
+            "AttackDmgMin": 0.3569999933242798,
+            "AttackDmgMax": 0.45500001311302187,
+            "MaxHPMin": 9.187000274658204,
+            "MaxHPMax": 11.692999839782715,
+            "AttackSpeedBonusMin": 0.013199999928474427,
+            "AttackSpeedBonusMax": 0.01679999940097332
+        },
+        {
+            "Index": 90,
+            "ItemKey": "Farm_Ring_03",
+            "StrKey": "Name_Farm_Ring_03",
+            "EquipSlot": 2,
+            "Rarity": 0,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_03.png",
+            "AttackDmgMin": 0.414000004529953,
+            "AttackDmgMax": 0.5270000100135803,
+            "MaxHPMin": 10.656999588012696,
+            "MaxHPMax": 13.564000129699707,
+            "AttackSpeedBonusMin": 0.014499999582767487,
+            "AttackSpeedBonusMax": 0.01850000023841858
+        },
+        {
+            "Index": 91,
+            "ItemKey": "Farm_Ring_04",
+            "StrKey": "Name_Farm_Ring_04",
+            "EquipSlot": 2,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_04.png",
+            "AttackDmgMin": 0.48100000619888308,
+            "AttackDmgMax": 0.6119999885559082,
+            "MaxHPMin": 12.362000465393067,
+            "MaxHPMax": 15.734000205993653,
+            "AttackSpeedBonusMin": 0.015799999237060548,
+            "AttackSpeedBonusMax": 0.02019999921321869
+        },
+        {
+            "Index": 92,
+            "ItemKey": "Farm_Ring_05",
+            "StrKey": "Name_Farm_Ring_05",
+            "EquipSlot": 2,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_05.png",
+            "AttackDmgMin": 0.5580000281333923,
+            "AttackDmgMax": 0.7099999785423279,
+            "MaxHPMin": 14.34000015258789,
+            "MaxHPMax": 18.250999450683595,
+            "AttackSpeedBonusMin": 0.01720000058412552,
+            "AttackSpeedBonusMax": 0.021800000220537187
+        },
+        {
+            "Index": 93,
+            "ItemKey": "Farm_Ring_06",
+            "StrKey": "Name_Farm_Ring_06",
+            "EquipSlot": 2,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_06.png",
+            "AttackDmgMin": 0.6470000147819519,
+            "AttackDmgMax": 0.8230000138282776,
+            "MaxHPMin": 16.635000228881837,
+            "MaxHPMax": 21.17099952697754,
+            "AttackSpeedBonusMin": 0.01850000023841858,
+            "AttackSpeedBonusMax": 0.023499999195337297
+        },
+        {
+            "Index": 94,
+            "ItemKey": "Farm_Ring_07",
+            "StrKey": "Name_Farm_Ring_07",
+            "EquipSlot": 2,
+            "Rarity": 1,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_07.png",
+            "AttackDmgMin": 0.75,
+            "AttackDmgMax": 0.9549999833106995,
+            "MaxHPMin": 19.29599952697754,
+            "MaxHPMax": 24.55900001525879,
+            "AttackSpeedBonusMin": 0.01979999989271164,
+            "AttackSpeedBonusMax": 0.025200000032782556
+        },
+        {
+            "Index": 95,
+            "ItemKey": "Farm_Ring_08",
+            "StrKey": "Name_Farm_Ring_08",
+            "EquipSlot": 2,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_08.png",
+            "AttackDmgMin": 0.8700000047683716,
+            "AttackDmgMax": 1.1080000400543213,
+            "MaxHPMin": 22.384000778198243,
+            "MaxHPMax": 28.488000869750978,
+            "AttackSpeedBonusMin": 0.0210999995470047,
+            "AttackSpeedBonusMax": 0.026900000870227815
+        },
+        {
+            "Index": 96,
+            "ItemKey": "Farm_Ring_09",
+            "StrKey": "Name_Farm_Ring_09",
+            "EquipSlot": 2,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_09.png",
+            "AttackDmgMin": 1.0099999904632569,
+            "AttackDmgMax": 1.284999966621399,
+            "MaxHPMin": 25.96500015258789,
+            "MaxHPMax": 33.04600143432617,
+            "AttackSpeedBonusMin": 0.02239999920129776,
+            "AttackSpeedBonusMax": 0.028599999845027925
+        },
+        {
+            "Index": 97,
+            "ItemKey": "Farm_Ring_10",
+            "StrKey": "Name_Farm_Ring_10",
+            "EquipSlot": 2,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_10.png",
+            "AttackDmgMin": 1.1710000038146973,
+            "AttackDmgMax": 1.4910000562667847,
+            "MaxHPMin": 30.118999481201173,
+            "MaxHPMax": 38.33399963378906,
+            "AttackSpeedBonusMin": 0.023800000548362733,
+            "AttackSpeedBonusMax": 0.03020000085234642
+        },
+        {
+            "Index": 98,
+            "ItemKey": "Farm_Ring_11",
+            "StrKey": "Name_Farm_Ring_11",
+            "EquipSlot": 2,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_11.png",
+            "AttackDmgMin": 1.3589999675750733,
+            "AttackDmgMax": 1.7289999723434449,
+            "MaxHPMin": 34.93899917602539,
+            "MaxHPMax": 44.46699905395508,
+            "AttackSpeedBonusMin": 0.025100000202655793,
+            "AttackSpeedBonusMax": 0.03189999982714653
+        },
+        {
+            "Index": 99,
+            "ItemKey": "Farm_Ring_12",
+            "StrKey": "Name_Farm_Ring_12",
+            "EquipSlot": 2,
+            "Rarity": 2,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_12.png",
+            "AttackDmgMin": 1.5759999752044678,
+            "AttackDmgMax": 2.00600004196167,
+            "MaxHPMin": 40.52899932861328,
+            "MaxHPMax": 51.582000732421878,
+            "AttackSpeedBonusMin": 0.026399999856948854,
+            "AttackSpeedBonusMax": 0.03359999880194664
+        },
+        {
+            "Index": 100,
+            "ItemKey": "Farm_Ring_13",
+            "StrKey": "Name_Farm_Ring_13",
+            "EquipSlot": 2,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_13.png",
+            "AttackDmgMin": 1.8279999494552613,
+            "AttackDmgMax": 2.3269999027252199,
+            "MaxHPMin": 47.01300048828125,
+            "MaxHPMax": 59.834999084472659,
+            "AttackSpeedBonusMin": 0.027699999511241914,
+            "AttackSpeedBonusMax": 0.03530000150203705
+        },
+        {
+            "Index": 101,
+            "ItemKey": "Farm_Ring_14",
+            "StrKey": "Name_Farm_Ring_14",
+            "EquipSlot": 2,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_14.png",
+            "AttackDmgMin": 2.121000051498413,
+            "AttackDmgMax": 2.6989998817443849,
+            "MaxHPMin": 54.53499984741211,
+            "MaxHPMax": 69.40899658203125,
+            "AttackSpeedBonusMin": 0.028999999165534974,
+            "AttackSpeedBonusMax": 0.03700000047683716
+        },
+        {
+            "Index": 102,
+            "ItemKey": "Farm_Ring_15",
+            "StrKey": "Name_Farm_Ring_15",
+            "EquipSlot": 2,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_15.png",
+            "AttackDmgMin": 2.4600000381469728,
+            "AttackDmgMax": 3.13100004196167,
+            "MaxHPMin": 63.26100158691406,
+            "MaxHPMax": 80.51399993896485,
+            "AttackSpeedBonusMin": 0.030400000512599946,
+            "AttackSpeedBonusMax": 0.038600001484155658
+        },
+        {
+            "Index": 103,
+            "ItemKey": "Farm_Ring_16",
+            "StrKey": "Name_Farm_Ring_16",
+            "EquipSlot": 2,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_16.png",
+            "AttackDmgMin": 2.8540000915527345,
+            "AttackDmgMax": 3.631999969482422,
+            "MaxHPMin": 73.38300323486328,
+            "MaxHPMax": 93.39600372314453,
+            "AttackSpeedBonusMin": 0.031700000166893008,
+            "AttackSpeedBonusMax": 0.040300000458955768
+        },
+        {
+            "Index": 104,
+            "ItemKey": "Farm_Ring_17",
+            "StrKey": "Name_Farm_Ring_17",
+            "EquipSlot": 2,
+            "Rarity": 3,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_17.png",
+            "AttackDmgMin": 3.309999942779541,
+            "AttackDmgMax": 4.2129998207092289,
+            "MaxHPMin": 85.1240005493164,
+            "MaxHPMax": 108.33999633789063,
+            "AttackSpeedBonusMin": 0.032999999821186069,
+            "AttackSpeedBonusMax": 0.041999999433755878
+        },
+        {
+            "Index": 105,
+            "ItemKey": "Farm_Ring_18",
+            "StrKey": "Name_Farm_Ring_18",
+            "EquipSlot": 2,
+            "Rarity": 4,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_18.png",
+            "AttackDmgMin": 3.8399999141693117,
+            "AttackDmgMax": 4.88700008392334,
+            "MaxHPMin": 98.74400329589844,
+            "MaxHPMax": 125.67400360107422,
+            "AttackSpeedBonusMin": 0.034299999475479129,
+            "AttackSpeedBonusMax": 0.043699998408555987
+        },
+        {
+            "Index": 106,
+            "ItemKey": "Farm_Ring_19",
+            "StrKey": "Name_Farm_Ring_19",
+            "EquipSlot": 2,
+            "Rarity": 4,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_19.png",
+            "AttackDmgMin": 4.453999996185303,
+            "AttackDmgMax": 5.669000148773193,
+            "MaxHPMin": 114.54299926757813,
+            "MaxHPMax": 145.78199768066407,
+            "AttackSpeedBonusMin": 0.035599999129772189,
+            "AttackSpeedBonusMax": 0.04540000110864639
+        },
+        {
+            "Index": 107,
+            "ItemKey": "Farm_Ring_20",
+            "StrKey": "Name_Farm_Ring_20",
+            "EquipSlot": 2,
+            "Rarity": 4,
+            "AllowedCharacterKeys": [],
+            "IconKey": "Assets/Images/EquipMent/Farm_Ring_20.png",
+            "AttackDmgMin": 5.166999816894531,
+            "AttackDmgMax": 6.576000213623047,
+            "MaxHPMin": 132.8699951171875,
+            "MaxHPMax": 169.10699462890626,
+            "AttackSpeedBonusMin": 0.03700000047683716,
+            "AttackSpeedBonusMax": 0.04699999839067459
+        }
+    ]
+}

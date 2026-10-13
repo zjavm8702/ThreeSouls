@@ -53,3 +53,611 @@ MonoBehaviour:
     StrKey: Key_wolf
     KrValue: "\uB291\uB300"
     EnValue: Wolf
+  - Index: 10
+    StrKey: ItemName_Sword_01
+    KrValue: "\uB0A1\uC740 \uAC80"
+    EnValue: Item_Sword_01
+  - Index: 11
+    StrKey: ItemName_Bow_01
+    KrValue: "\uC0AC\uB0E5\uAFBC\uC758 \uD65C"
+    EnValue: Item_Bow_01
+  - Index: 12
+    StrKey: ItemName_Staff_01
+    KrValue: "\uC218\uC2B5 \uB9C8\uBC95\uC0AC\uC758 \uC9C0\uD321\uC774"
+    EnValue: Item_Staff_01
+  - Index: 13
+    StrKey: ItemName_Armor_01
+    KrValue: "\uD2BC\uD2BC\uD55C \uBC29\uC5B4\uAD6C"
+    EnValue: Item_Armor_01
+  - Index: 14
+    StrKey: ItemName_Ring_01
+    KrValue: "\uC2E0\uC18D\uC758 \uBC18\uC9C0"
+    EnValue: Item_Ring_01
+  - Index: 15
+    StrKey: ItemName_Sword_02
+    KrValue: "\uC815\uC608 \uAE30\uC0AC\uC758 \uAC80"
+    EnValue: Item_Sword_02
+  - Index: 16
+    StrKey: ItemName_Bow_02
+    KrValue: "\uC815\uC608 \uC0AC\uB0E5\uAFBC\uC758 \uD65C"
+    EnValue: Item_Bow_02
+  - Index: 17
+    StrKey: ItemName_Staff_02
+    KrValue: "\uC815\uC608 \uB9C8\uBC95\uC0AC\uC758 \uC9C0\uD321\uC774"
+    EnValue: Item_Staff_02
+  - Index: 18
+    StrKey: ConsumableName_SmallHealingPotion
+    KrValue: "\uC18C\uD615 \uD68C\uBCF5 \uBB3C\uC57D"
+    EnValue: Small Healing Potion
+  - Index: 19
+    StrKey: ConsumableName_PartyHealingPotion
+    KrValue: "\uBD80\uB300 \uD68C\uBCF5 \uBB3C\uC57D"
+    EnValue: Party Healing Potion
+  - Index: 20
+    StrKey: ConsumableEffect_SmallHealingPotion
+    KrValue: "\uC601\uC6C5 1\uBA85 \xB7 \uCD5C\uB300 HP\uC758 25% \uD68C\uBCF5"
+    EnValue: "Restores 25% of one hero\u2019s maximum HP"
+  - Index: 21
+    StrKey: ConsumableEffect_PartyHealingPotion
+    KrValue: "\uC0DD\uC874 \uC601\uC6C5 \uC804\uCCB4 \xB7 \uCD5C\uB300 HP 15% \uD68C\uBCF5"
+    EnValue: "Restores 15% of each living hero\u2019s maximum HP"
+  - Index: 22
+    StrKey: AutoHeal_Disabled
+    KrValue: "\uC0AC\uC6A9 \uC548 \uD568"
+    EnValue: Disabled
+  - Index: 23
+    StrKey: AutoHeal_At20Percent
+    KrValue: "HP 20% \uC774\uD558"
+    EnValue: HP at or below 20%
+  - Index: 24
+    StrKey: AutoHeal_At30Percent
+    KrValue: "HP 30% \uC774\uD558"
+    EnValue: HP at or below 30%
+  - Index: 25
+    StrKey: AutoHeal_At40Percent
+    KrValue: "HP 40% \uC774\uD558"
+    EnValue: HP at or below 40%
+  - Index: 26
+    StrKey: LobbyHeroName_Knight
+    KrValue: "\uAE30\uC0AC"
+    EnValue: Knight
+  - Index: 27
+    StrKey: LobbyHeroName_Archer
+    KrValue: "\uAD81\uC218"
+    EnValue: Archer
+  - Index: 28
+    StrKey: LobbyHeroName_Wizard
+    KrValue: "\uB9C8\uBC95\uC0AC"
+    EnValue: Wizard
+  - Index: 29
+    StrKey: LobbyRarity_Normal
+    KrValue: "\uC77C\uBC18"
+    EnValue: Normal
+  - Index: 30
+    StrKey: LobbyRarity_Magic
+    KrValue: "\uB9C8\uBC95"
+    EnValue: Magic
+  - Index: 31
+    StrKey: LobbyRarity_Rare
+    KrValue: "\uD76C\uADC0"
+    EnValue: Rare
+  - Index: 32
+    StrKey: LobbyEquipSlot_Weapon
+    KrValue: "\uBB34\uAE30"
+    EnValue: Weapon
+  - Index: 33
+    StrKey: LobbyEquipSlot_Armor
+    KrValue: "\uBC29\uC5B4\uAD6C"
+    EnValue: Armor
+  - Index: 34
+    StrKey: LobbyEquipSlot_Accessory
+    KrValue: "\uC7A5\uC2E0\uAD6C"
+    EnValue: Accessory
+  - Index: 35
+    StrKey: LobbyTab_Village
+    KrValue: "\uB9C8\uC744"
+    EnValue: Village
+  - Index: 36
+    StrKey: LobbyTab_Inventory
+    KrValue: "\uC778\uBCA4\uD1A0\uB9AC"
+    EnValue: Inventory
+  - Index: 37
+    StrKey: LobbyTab_Characters
+    KrValue: "\uCE90\uB9AD\uD130"
+    EnValue: Characters
+  - Index: 38
+    StrKey: LobbyTab_Supplies
+    KrValue: "\uC900\uBE44"
+    EnValue: Supplies
+  - Index: 39
+    StrKey: LobbyFilter_All
+    KrValue: "\uC804\uCCB4"
+    EnValue: All
+  - Index: 40
+    StrKey: LobbyFilter_Weapon
+    KrValue: "\uBB34\uAE30"
+    EnValue: Weapons
+  - Index: 41
+    StrKey: LobbyFilter_Armor
+    KrValue: "\uBC29\uC5B4\uAD6C"
+    EnValue: Armor
+  - Index: 42
+    StrKey: LobbyFilter_Accessory
+    KrValue: "\uC7A5\uC2E0\uAD6C"
+    EnValue: Accessories
+  - Index: 43
+    StrKey: LobbyFilter_Equipped
+    KrValue: "\uC7A5\uCC29 \uC911"
+    EnValue: Equipped
+  - Index: 44
+    StrKey: LobbyOrder_Rarity
+    KrValue: "\uB4F1\uAE09\uC21C \u2193"
+    EnValue: Rarity descending
+  - Index: 45
+    StrKey: LobbyOrder_Name
+    KrValue: "\uC774\uB984\uC21C \u2191"
+    EnValue: Name ascending
+  - Index: 46
+    StrKey: LobbyOrder_Attack
+    KrValue: "\uACF5\uACA9\uB825\uC21C \u2193"
+    EnValue: Attack descending
+  - Index: 47
+    StrKey: Key_purpleBat
+    KrValue: "\uBCF4\uB77C \uBC15\uC950"
+    EnValue: Purple Bat
+  - Index: 48
+    StrKey: Key_goblinArcher
+    KrValue: "\uACE0\uBE14\uB9B0 \uAD81\uC218"
+    EnValue: Goblin Archer
+  - Index: 49
+    StrKey: Key_orc
+    KrValue: "\uC624\uD06C"
+    EnValue: Orc
+  - Index: 50
+    StrKey: Key_blackBoar
+    KrValue: "\uAC80\uC740 \uBA67\uB3FC\uC9C0"
+    EnValue: Black Boar
+  - Index: 51
+    StrKey: Key_blueDragon
+    KrValue: "\uCCAD\uB8E1"
+    EnValue: Blue Dragon
+  - Index: 52
+    StrKey: Key_brownRat
+    KrValue: "\uAC08\uC0C9 \uC950"
+    EnValue: Brown Rat
+  - Index: 53
+    StrKey: Key_brownStump
+    KrValue: "\uC0B4\uC544\uC788\uB294 \uADF8\uB8E8\uD130\uAE30"
+    EnValue: Living Stump
+  - Index: 54
+    StrKey: Key_greenDuck
+    KrValue: "\uCD08\uB85D \uC624\uB9AC"
+    EnValue: Green Duck
+  - Index: 55
+    StrKey: Key_greenFlower
+    KrValue: "\uCD08\uB85D \uC2DD\uCDA9\uC2DD\uBB3C"
+    EnValue: Green Carnivorous Plant
+  - Index: 56
+    StrKey: Key_greenFrog
+    KrValue: "\uCD08\uB85D \uAC1C\uAD6C\uB9AC"
+    EnValue: Green Frog
+  - Index: 57
+    StrKey: Key_greenOgre
+    KrValue: "\uCD08\uB85D \uC624\uAC70"
+    EnValue: Green Ogre
+  - Index: 58
+    StrKey: Key_greenTortoise
+    KrValue: "\uCD08\uB85D \uAC70\uBD81"
+    EnValue: Green Tortoise
+  - Index: 59
+    StrKey: Key_yellowBee
+    KrValue: "\uB178\uB780 \uBC8C"
+    EnValue: Yellow Bee
+  - Index: 60
+    StrKey: Name_Farm_Sword_01
+    KrValue: "\uCC44\uAD74\uAFBC\uC758 \uAC80"
+    EnValue: "\uCC44\uAD74\uAFBC Sword"
+  - Index: 61
+    StrKey: Name_Farm_Sword_02
+    KrValue: "\uAC31\uB3C4 \uC218\uC0C9\uC790\uC758 \uAC80"
+    EnValue: "\uAC31\uB3C4 \uC218\uC0C9\uC790 Sword"
+  - Index: 62
+    StrKey: Name_Farm_Sword_03
+    KrValue: "\uC218\uB85C \uD30C\uC218\uAFBC\uC758 \uAC80"
+    EnValue: "\uC218\uB85C \uD30C\uC218\uAFBC Sword"
+  - Index: 63
+    StrKey: Name_Farm_Sword_04
+    KrValue: "\uAD11\uC0B0 \uAE30\uC0AC\uC758 \uAC80"
+    EnValue: "\uAD11\uC0B0 \uAE30\uC0AC Sword"
+  - Index: 64
+    StrKey: Name_Farm_Sword_05
+    KrValue: "\uC0C8\uBCBD \uAD11\uBD80\uC758 \uAC80"
+    EnValue: "\uC0C8\uBCBD \uAD11\uBD80 Sword"
+  - Index: 65
+    StrKey: Name_Farm_Sword_06
+    KrValue: "\uBAA8\uB798 \uC21C\uB840\uC790\uC758 \uAC80"
+    EnValue: "\uBAA8\uB798 \uC21C\uB840\uC790 Sword"
+  - Index: 66
+    StrKey: Name_Farm_Sword_07
+    KrValue: "\uC720\uC801 \uC218\uD638\uC790\uC758 \uAC80"
+    EnValue: "\uC720\uC801 \uC218\uD638\uC790 Sword"
+  - Index: 67
+    StrKey: Name_Farm_Sword_08
+    KrValue: "\uACE0\uB300 \uBB38\uC591\uC758 \uAC80"
+    EnValue: "\uACE0\uB300 \uBB38\uC591 Sword"
+  - Index: 68
+    StrKey: Name_Farm_Sword_09
+    KrValue: "\uAC10\uC2DC\uD0D1 \uB9F9\uC138\uC758 \uAC80"
+    EnValue: "\uAC10\uC2DC\uD0D1 \uB9F9\uC138 Sword"
+  - Index: 69
+    StrKey: Name_Farm_Sword_10
+    KrValue: "\uC78A\uD78C \uC655\uAD6D\uC758 \uAC80"
+    EnValue: "\uC78A\uD78C \uC655\uAD6D Sword"
+  - Index: 70
+    StrKey: Name_Farm_Sword_11
+    KrValue: "\uCD08\uB85D \uBC29\uB791\uC790\uC758 \uAC80"
+    EnValue: "\uCD08\uB85D \uBC29\uB791\uC790 Sword"
+  - Index: 71
+    StrKey: Name_Farm_Sword_12
+    KrValue: "\uBB3C\uC548\uAC1C\uC758 \uAC80"
+    EnValue: "\uBB3C\uC548\uAC1C Sword"
+  - Index: 72
+    StrKey: Name_Farm_Sword_13
+    KrValue: "\uAC15\uBB3C\uC758 \uAE30\uC5B5\uC758 \uAC80"
+    EnValue: "\uAC15\uBB3C\uC758 \uAE30\uC5B5 Sword"
+  - Index: 73
+    StrKey: Name_Farm_Sword_14
+    KrValue: "\uBC14\uB78C\uC758 \uB178\uB798\uC758 \uAC80"
+    EnValue: "\uBC14\uB78C\uC758 \uB178\uB798 Sword"
+  - Index: 74
+    StrKey: Name_Farm_Sword_15
+    KrValue: "\uC232\uC758 \uC2EC\uC7A5\uC758 \uAC80"
+    EnValue: "\uC232\uC758 \uC2EC\uC7A5 Sword"
+  - Index: 75
+    StrKey: Name_Farm_Sword_16
+    KrValue: "\uC11C\uB9AC \uC0AC\uB0E5\uAFBC\uC758 \uAC80"
+    EnValue: "\uC11C\uB9AC \uC0AC\uB0E5\uAFBC Sword"
+  - Index: 76
+    StrKey: Name_Farm_Sword_17
+    KrValue: "\uBE59\uD558 \uC218\uD638\uC790\uC758 \uAC80"
+    EnValue: "\uBE59\uD558 \uC218\uD638\uC790 Sword"
+  - Index: 77
+    StrKey: Name_Farm_Sword_18
+    KrValue: "\uC218\uC815 \uBCC4\uBE5B\uC758 \uAC80"
+    EnValue: "\uC218\uC815 \uBCC4\uBE5B Sword"
+  - Index: 78
+    StrKey: Name_Farm_Sword_19
+    KrValue: "\uC124\uC6D0\uC758 \uC655\uAD00\uC758 \uAC80"
+    EnValue: "\uC124\uC6D0\uC758 \uC655\uAD00 Sword"
+  - Index: 79
+    StrKey: Name_Farm_Sword_20
+    KrValue: "\uC138 \uC601\uD63C\uC758 \uC0C8\uBCBD\uC758 \uAC80"
+    EnValue: "\uC138 \uC601\uD63C\uC758 \uC0C8\uBCBD Sword"
+  - Index: 80
+    StrKey: Name_Farm_Bow_01
+    KrValue: "\uCC44\uAD74\uAFBC\uC758 \uD65C"
+    EnValue: "\uCC44\uAD74\uAFBC Bow"
+  - Index: 81
+    StrKey: Name_Farm_Bow_02
+    KrValue: "\uAC31\uB3C4 \uC218\uC0C9\uC790\uC758 \uD65C"
+    EnValue: "\uAC31\uB3C4 \uC218\uC0C9\uC790 Bow"
+  - Index: 82
+    StrKey: Name_Farm_Bow_03
+    KrValue: "\uC218\uB85C \uD30C\uC218\uAFBC\uC758 \uD65C"
+    EnValue: "\uC218\uB85C \uD30C\uC218\uAFBC Bow"
+  - Index: 83
+    StrKey: Name_Farm_Bow_04
+    KrValue: "\uAD11\uC0B0 \uAE30\uC0AC\uC758 \uD65C"
+    EnValue: "\uAD11\uC0B0 \uAE30\uC0AC Bow"
+  - Index: 84
+    StrKey: Name_Farm_Bow_05
+    KrValue: "\uC0C8\uBCBD \uAD11\uBD80\uC758 \uD65C"
+    EnValue: "\uC0C8\uBCBD \uAD11\uBD80 Bow"
+  - Index: 85
+    StrKey: Name_Farm_Bow_06
+    KrValue: "\uBAA8\uB798 \uC21C\uB840\uC790\uC758 \uD65C"
+    EnValue: "\uBAA8\uB798 \uC21C\uB840\uC790 Bow"
+  - Index: 86
+    StrKey: Name_Farm_Bow_07
+    KrValue: "\uC720\uC801 \uC218\uD638\uC790\uC758 \uD65C"
+    EnValue: "\uC720\uC801 \uC218\uD638\uC790 Bow"
+  - Index: 87
+    StrKey: Name_Farm_Bow_08
+    KrValue: "\uACE0\uB300 \uBB38\uC591\uC758 \uD65C"
+    EnValue: "\uACE0\uB300 \uBB38\uC591 Bow"
+  - Index: 88
+    StrKey: Name_Farm_Bow_09
+    KrValue: "\uAC10\uC2DC\uD0D1 \uB9F9\uC138\uC758 \uD65C"
+    EnValue: "\uAC10\uC2DC\uD0D1 \uB9F9\uC138 Bow"
+  - Index: 89
+    StrKey: Name_Farm_Bow_10
+    KrValue: "\uC78A\uD78C \uC655\uAD6D\uC758 \uD65C"
+    EnValue: "\uC78A\uD78C \uC655\uAD6D Bow"
+  - Index: 90
+    StrKey: Name_Farm_Bow_11
+    KrValue: "\uCD08\uB85D \uBC29\uB791\uC790\uC758 \uD65C"
+    EnValue: "\uCD08\uB85D \uBC29\uB791\uC790 Bow"
+  - Index: 91
+    StrKey: Name_Farm_Bow_12
+    KrValue: "\uBB3C\uC548\uAC1C\uC758 \uD65C"
+    EnValue: "\uBB3C\uC548\uAC1C Bow"
+  - Index: 92
+    StrKey: Name_Farm_Bow_13
+    KrValue: "\uAC15\uBB3C\uC758 \uAE30\uC5B5\uC758 \uD65C"
+    EnValue: "\uAC15\uBB3C\uC758 \uAE30\uC5B5 Bow"
+  - Index: 93
+    StrKey: Name_Farm_Bow_14
+    KrValue: "\uBC14\uB78C\uC758 \uB178\uB798\uC758 \uD65C"
+    EnValue: "\uBC14\uB78C\uC758 \uB178\uB798 Bow"
+  - Index: 94
+    StrKey: Name_Farm_Bow_15
+    KrValue: "\uC232\uC758 \uC2EC\uC7A5\uC758 \uD65C"
+    EnValue: "\uC232\uC758 \uC2EC\uC7A5 Bow"
+  - Index: 95
+    StrKey: Name_Farm_Bow_16
+    KrValue: "\uC11C\uB9AC \uC0AC\uB0E5\uAFBC\uC758 \uD65C"
+    EnValue: "\uC11C\uB9AC \uC0AC\uB0E5\uAFBC Bow"
+  - Index: 96
+    StrKey: Name_Farm_Bow_17
+    KrValue: "\uBE59\uD558 \uC218\uD638\uC790\uC758 \uD65C"
+    EnValue: "\uBE59\uD558 \uC218\uD638\uC790 Bow"
+  - Index: 97
+    StrKey: Name_Farm_Bow_18
+    KrValue: "\uC218\uC815 \uBCC4\uBE5B\uC758 \uD65C"
+    EnValue: "\uC218\uC815 \uBCC4\uBE5B Bow"
+  - Index: 98
+    StrKey: Name_Farm_Bow_19
+    KrValue: "\uC124\uC6D0\uC758 \uC655\uAD00\uC758 \uD65C"
+    EnValue: "\uC124\uC6D0\uC758 \uC655\uAD00 Bow"
+  - Index: 99
+    StrKey: Name_Farm_Bow_20
+    KrValue: "\uC138 \uC601\uD63C\uC758 \uC0C8\uBCBD\uC758 \uD65C"
+    EnValue: "\uC138 \uC601\uD63C\uC758 \uC0C8\uBCBD Bow"
+  - Index: 100
+    StrKey: Name_Farm_Staff_01
+    KrValue: "\uCC44\uAD74\uAFBC\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uCC44\uAD74\uAFBC Staff"
+  - Index: 101
+    StrKey: Name_Farm_Staff_02
+    KrValue: "\uAC31\uB3C4 \uC218\uC0C9\uC790\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uAC31\uB3C4 \uC218\uC0C9\uC790 Staff"
+  - Index: 102
+    StrKey: Name_Farm_Staff_03
+    KrValue: "\uC218\uB85C \uD30C\uC218\uAFBC\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uC218\uB85C \uD30C\uC218\uAFBC Staff"
+  - Index: 103
+    StrKey: Name_Farm_Staff_04
+    KrValue: "\uAD11\uC0B0 \uAE30\uC0AC\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uAD11\uC0B0 \uAE30\uC0AC Staff"
+  - Index: 104
+    StrKey: Name_Farm_Staff_05
+    KrValue: "\uC0C8\uBCBD \uAD11\uBD80\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uC0C8\uBCBD \uAD11\uBD80 Staff"
+  - Index: 105
+    StrKey: Name_Farm_Staff_06
+    KrValue: "\uBAA8\uB798 \uC21C\uB840\uC790\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uBAA8\uB798 \uC21C\uB840\uC790 Staff"
+  - Index: 106
+    StrKey: Name_Farm_Staff_07
+    KrValue: "\uC720\uC801 \uC218\uD638\uC790\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uC720\uC801 \uC218\uD638\uC790 Staff"
+  - Index: 107
+    StrKey: Name_Farm_Staff_08
+    KrValue: "\uACE0\uB300 \uBB38\uC591\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uACE0\uB300 \uBB38\uC591 Staff"
+  - Index: 108
+    StrKey: Name_Farm_Staff_09
+    KrValue: "\uAC10\uC2DC\uD0D1 \uB9F9\uC138\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uAC10\uC2DC\uD0D1 \uB9F9\uC138 Staff"
+  - Index: 109
+    StrKey: Name_Farm_Staff_10
+    KrValue: "\uC78A\uD78C \uC655\uAD6D\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uC78A\uD78C \uC655\uAD6D Staff"
+  - Index: 110
+    StrKey: Name_Farm_Staff_11
+    KrValue: "\uCD08\uB85D \uBC29\uB791\uC790\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uCD08\uB85D \uBC29\uB791\uC790 Staff"
+  - Index: 111
+    StrKey: Name_Farm_Staff_12
+    KrValue: "\uBB3C\uC548\uAC1C\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uBB3C\uC548\uAC1C Staff"
+  - Index: 112
+    StrKey: Name_Farm_Staff_13
+    KrValue: "\uAC15\uBB3C\uC758 \uAE30\uC5B5\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uAC15\uBB3C\uC758 \uAE30\uC5B5 Staff"
+  - Index: 113
+    StrKey: Name_Farm_Staff_14
+    KrValue: "\uBC14\uB78C\uC758 \uB178\uB798\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uBC14\uB78C\uC758 \uB178\uB798 Staff"
+  - Index: 114
+    StrKey: Name_Farm_Staff_15
+    KrValue: "\uC232\uC758 \uC2EC\uC7A5\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uC232\uC758 \uC2EC\uC7A5 Staff"
+  - Index: 115
+    StrKey: Name_Farm_Staff_16
+    KrValue: "\uC11C\uB9AC \uC0AC\uB0E5\uAFBC\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uC11C\uB9AC \uC0AC\uB0E5\uAFBC Staff"
+  - Index: 116
+    StrKey: Name_Farm_Staff_17
+    KrValue: "\uBE59\uD558 \uC218\uD638\uC790\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uBE59\uD558 \uC218\uD638\uC790 Staff"
+  - Index: 117
+    StrKey: Name_Farm_Staff_18
+    KrValue: "\uC218\uC815 \uBCC4\uBE5B\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uC218\uC815 \uBCC4\uBE5B Staff"
+  - Index: 118
+    StrKey: Name_Farm_Staff_19
+    KrValue: "\uC124\uC6D0\uC758 \uC655\uAD00\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uC124\uC6D0\uC758 \uC655\uAD00 Staff"
+  - Index: 119
+    StrKey: Name_Farm_Staff_20
+    KrValue: "\uC138 \uC601\uD63C\uC758 \uC0C8\uBCBD\uC758 \uC9C0\uD321\uC774"
+    EnValue: "\uC138 \uC601\uD63C\uC758 \uC0C8\uBCBD Staff"
+  - Index: 120
+    StrKey: Name_Farm_Armor_01
+    KrValue: "\uCC44\uAD74\uAFBC\uC758 \uAC11\uC637"
+    EnValue: "\uCC44\uAD74\uAFBC Armor"
+  - Index: 121
+    StrKey: Name_Farm_Armor_02
+    KrValue: "\uAC31\uB3C4 \uC218\uC0C9\uC790\uC758 \uAC11\uC637"
+    EnValue: "\uAC31\uB3C4 \uC218\uC0C9\uC790 Armor"
+  - Index: 122
+    StrKey: Name_Farm_Armor_03
+    KrValue: "\uC218\uB85C \uD30C\uC218\uAFBC\uC758 \uAC11\uC637"
+    EnValue: "\uC218\uB85C \uD30C\uC218\uAFBC Armor"
+  - Index: 123
+    StrKey: Name_Farm_Armor_04
+    KrValue: "\uAD11\uC0B0 \uAE30\uC0AC\uC758 \uAC11\uC637"
+    EnValue: "\uAD11\uC0B0 \uAE30\uC0AC Armor"
+  - Index: 124
+    StrKey: Name_Farm_Armor_05
+    KrValue: "\uC0C8\uBCBD \uAD11\uBD80\uC758 \uAC11\uC637"
+    EnValue: "\uC0C8\uBCBD \uAD11\uBD80 Armor"
+  - Index: 125
+    StrKey: Name_Farm_Armor_06
+    KrValue: "\uBAA8\uB798 \uC21C\uB840\uC790\uC758 \uAC11\uC637"
+    EnValue: "\uBAA8\uB798 \uC21C\uB840\uC790 Armor"
+  - Index: 126
+    StrKey: Name_Farm_Armor_07
+    KrValue: "\uC720\uC801 \uC218\uD638\uC790\uC758 \uAC11\uC637"
+    EnValue: "\uC720\uC801 \uC218\uD638\uC790 Armor"
+  - Index: 127
+    StrKey: Name_Farm_Armor_08
+    KrValue: "\uACE0\uB300 \uBB38\uC591\uC758 \uAC11\uC637"
+    EnValue: "\uACE0\uB300 \uBB38\uC591 Armor"
+  - Index: 128
+    StrKey: Name_Farm_Armor_09
+    KrValue: "\uAC10\uC2DC\uD0D1 \uB9F9\uC138\uC758 \uAC11\uC637"
+    EnValue: "\uAC10\uC2DC\uD0D1 \uB9F9\uC138 Armor"
+  - Index: 129
+    StrKey: Name_Farm_Armor_10
+    KrValue: "\uC78A\uD78C \uC655\uAD6D\uC758 \uAC11\uC637"
+    EnValue: "\uC78A\uD78C \uC655\uAD6D Armor"
+  - Index: 130
+    StrKey: Name_Farm_Armor_11
+    KrValue: "\uCD08\uB85D \uBC29\uB791\uC790\uC758 \uAC11\uC637"
+    EnValue: "\uCD08\uB85D \uBC29\uB791\uC790 Armor"
+  - Index: 131
+    StrKey: Name_Farm_Armor_12
+    KrValue: "\uBB3C\uC548\uAC1C\uC758 \uAC11\uC637"
+    EnValue: "\uBB3C\uC548\uAC1C Armor"
+  - Index: 132
+    StrKey: Name_Farm_Armor_13
+    KrValue: "\uAC15\uBB3C\uC758 \uAE30\uC5B5\uC758 \uAC11\uC637"
+    EnValue: "\uAC15\uBB3C\uC758 \uAE30\uC5B5 Armor"
+  - Index: 133
+    StrKey: Name_Farm_Armor_14
+    KrValue: "\uBC14\uB78C\uC758 \uB178\uB798\uC758 \uAC11\uC637"
+    EnValue: "\uBC14\uB78C\uC758 \uB178\uB798 Armor"
+  - Index: 134
+    StrKey: Name_Farm_Armor_15
+    KrValue: "\uC232\uC758 \uC2EC\uC7A5\uC758 \uAC11\uC637"
+    EnValue: "\uC232\uC758 \uC2EC\uC7A5 Armor"
+  - Index: 135
+    StrKey: Name_Farm_Armor_16
+    KrValue: "\uC11C\uB9AC \uC0AC\uB0E5\uAFBC\uC758 \uAC11\uC637"
+    EnValue: "\uC11C\uB9AC \uC0AC\uB0E5\uAFBC Armor"
+  - Index: 136
+    StrKey: Name_Farm_Armor_17
+    KrValue: "\uBE59\uD558 \uC218\uD638\uC790\uC758 \uAC11\uC637"
+    EnValue: "\uBE59\uD558 \uC218\uD638\uC790 Armor"
+  - Index: 137
+    StrKey: Name_Farm_Armor_18
+    KrValue: "\uC218\uC815 \uBCC4\uBE5B\uC758 \uAC11\uC637"
+    EnValue: "\uC218\uC815 \uBCC4\uBE5B Armor"
+  - Index: 138
+    StrKey: Name_Farm_Armor_19
+    KrValue: "\uC124\uC6D0\uC758 \uC655\uAD00\uC758 \uAC11\uC637"
+    EnValue: "\uC124\uC6D0\uC758 \uC655\uAD00 Armor"
+  - Index: 139
+    StrKey: Name_Farm_Armor_20
+    KrValue: "\uC138 \uC601\uD63C\uC758 \uC0C8\uBCBD\uC758 \uAC11\uC637"
+    EnValue: "\uC138 \uC601\uD63C\uC758 \uC0C8\uBCBD Armor"
+  - Index: 140
+    StrKey: Name_Farm_Ring_01
+    KrValue: "\uCC44\uAD74\uAFBC\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uCC44\uAD74\uAFBC Ring"
+  - Index: 141
+    StrKey: Name_Farm_Ring_02
+    KrValue: "\uAC31\uB3C4 \uC218\uC0C9\uC790\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uAC31\uB3C4 \uC218\uC0C9\uC790 Ring"
+  - Index: 142
+    StrKey: Name_Farm_Ring_03
+    KrValue: "\uC218\uB85C \uD30C\uC218\uAFBC\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uC218\uB85C \uD30C\uC218\uAFBC Ring"
+  - Index: 143
+    StrKey: Name_Farm_Ring_04
+    KrValue: "\uAD11\uC0B0 \uAE30\uC0AC\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uAD11\uC0B0 \uAE30\uC0AC Ring"
+  - Index: 144
+    StrKey: Name_Farm_Ring_05
+    KrValue: "\uC0C8\uBCBD \uAD11\uBD80\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uC0C8\uBCBD \uAD11\uBD80 Ring"
+  - Index: 145
+    StrKey: Name_Farm_Ring_06
+    KrValue: "\uBAA8\uB798 \uC21C\uB840\uC790\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uBAA8\uB798 \uC21C\uB840\uC790 Ring"
+  - Index: 146
+    StrKey: Name_Farm_Ring_07
+    KrValue: "\uC720\uC801 \uC218\uD638\uC790\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uC720\uC801 \uC218\uD638\uC790 Ring"
+  - Index: 147
+    StrKey: Name_Farm_Ring_08
+    KrValue: "\uACE0\uB300 \uBB38\uC591\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uACE0\uB300 \uBB38\uC591 Ring"
+  - Index: 148
+    StrKey: Name_Farm_Ring_09
+    KrValue: "\uAC10\uC2DC\uD0D1 \uB9F9\uC138\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uAC10\uC2DC\uD0D1 \uB9F9\uC138 Ring"
+  - Index: 149
+    StrKey: Name_Farm_Ring_10
+    KrValue: "\uC78A\uD78C \uC655\uAD6D\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uC78A\uD78C \uC655\uAD6D Ring"
+  - Index: 150
+    StrKey: Name_Farm_Ring_11
+    KrValue: "\uCD08\uB85D \uBC29\uB791\uC790\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uCD08\uB85D \uBC29\uB791\uC790 Ring"
+  - Index: 151
+    StrKey: Name_Farm_Ring_12
+    KrValue: "\uBB3C\uC548\uAC1C\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uBB3C\uC548\uAC1C Ring"
+  - Index: 152
+    StrKey: Name_Farm_Ring_13
+    KrValue: "\uAC15\uBB3C\uC758 \uAE30\uC5B5\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uAC15\uBB3C\uC758 \uAE30\uC5B5 Ring"
+  - Index: 153
+    StrKey: Name_Farm_Ring_14
+    KrValue: "\uBC14\uB78C\uC758 \uB178\uB798\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uBC14\uB78C\uC758 \uB178\uB798 Ring"
+  - Index: 154
+    StrKey: Name_Farm_Ring_15
+    KrValue: "\uC232\uC758 \uC2EC\uC7A5\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uC232\uC758 \uC2EC\uC7A5 Ring"
+  - Index: 155
+    StrKey: Name_Farm_Ring_16
+    KrValue: "\uC11C\uB9AC \uC0AC\uB0E5\uAFBC\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uC11C\uB9AC \uC0AC\uB0E5\uAFBC Ring"
+  - Index: 156
+    StrKey: Name_Farm_Ring_17
+    KrValue: "\uBE59\uD558 \uC218\uD638\uC790\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uBE59\uD558 \uC218\uD638\uC790 Ring"
+  - Index: 157
+    StrKey: Name_Farm_Ring_18
+    KrValue: "\uC218\uC815 \uBCC4\uBE5B\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uC218\uC815 \uBCC4\uBE5B Ring"
+  - Index: 158
+    StrKey: Name_Farm_Ring_19
+    KrValue: "\uC124\uC6D0\uC758 \uC655\uAD00\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uC124\uC6D0\uC758 \uC655\uAD00 Ring"
+  - Index: 159
+    StrKey: Name_Farm_Ring_20
+    KrValue: "\uC138 \uC601\uD63C\uC758 \uC0C8\uBCBD\uC758 \uC7A5\uC2E0\uAD6C"
+    EnValue: "\uC138 \uC601\uD63C\uC758 \uC0C8\uBCBD Ring"
+  - Index: 160
+    StrKey: Rarity_Epic
+    KrValue: "\uC601\uC6C5"
+    EnValue: Epic
+  - Index: 161
+    StrKey: Rarity_Legendary
+    KrValue: "\uC804\uC124"
+    EnValue: Legendary

@@ -14,7 +14,6 @@ namespace ThreeSouls.Combat
         public Transform Parent { get; }
         public Vector3 Position { get; }
         public ICombatWorld CombatWorld { get; }
-        public int MonsterGroupIndex { get; }
 
         public CharacterSpawnRequest(
             CharacterType characterType,
@@ -23,8 +22,7 @@ namespace ThreeSouls.Combat
             string spriteLibraryName,
             Transform parent,
             Vector3 position,
-            ICombatWorld combatWorld,
-            int monsterGroupIndex = -1)
+            ICombatWorld combatWorld)
         {
             CharacterType = characterType;
             CharacterData = characterData;
@@ -33,7 +31,6 @@ namespace ThreeSouls.Combat
             Parent = parent;
             Position = position;
             CombatWorld = combatWorld;
-            MonsterGroupIndex = monsterGroupIndex;
         }
     }
 }

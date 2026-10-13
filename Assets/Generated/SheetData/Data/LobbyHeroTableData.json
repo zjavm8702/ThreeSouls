@@ -1,0 +1,28 @@
+{
+    "Items": [
+        {
+            "Index": 0,
+            "HeroKey": "Key_night",
+            "NameStrKey": "LobbyHeroName_Knight",
+            "PortraitImagePath": "Assets/Images/Character/Hero/Hero_Knight.png",
+            "PortraitSpriteName": "Idle_Down_2",
+            "VillageAnimatorPath": "Assets/Animations/Character/HeroController.controller"
+        },
+        {
+            "Index": 1,
+            "HeroKey": "Key_archer",
+            "NameStrKey": "LobbyHeroName_Archer",
+            "PortraitImagePath": "Assets/Images/Character/Hero/Hero_Archer.png",
+            "PortraitSpriteName": "Idle_Down_2",
+            "VillageAnimatorPath": "Assets/Animations/Character/HeroController.controller"
+        },
+        {
+            "Index": 2,
+            "HeroKey": "Key_wizard",
+            "NameStrKey": "LobbyHeroName_Wizard",
+            "PortraitImagePath": "Assets/Images/Character/Hero/Hero_Wizard.png",
+            "PortraitSpriteName": "Idle_Down_2",
+            "VillageAnimatorPath": "Assets/Animations/Character/HeroController.controller"
+        }
+    ]
+}

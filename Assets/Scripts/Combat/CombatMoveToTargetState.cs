@@ -1,16 +1,19 @@
-using ThreeSouls.Enumeration;
-using ThreeSouls.Data;
+﻿using ThreeSouls.Enumeration;
 using ThreeSouls.Global;
 using ThreeSouls.Interface;
-using ThreeSouls.Utility;
 using UnityEngine;
 
 public class CombatMoveToTargetState : ICombatState
 {
     private readonly ICombatWorld CombatWorld;
-    private bool IsOnceEffect;
     private Vector2[] CurrentPath;
     private int CurrentPathIndex;
+    private Vector2 PathTargetPosition;
+    private Vector2 PreviousPosition;
+    private float NextPathCheckTime;
+    private float NextPathRequestTime;
+    private float StuckTimer;
+    private bool IsDirectMove;
 
     public CombatMoveToTargetState(ICombatWorld combatWorld)
     {
@@ -19,124 +22,149 @@ public class CombatMoveToTargetState : ICombatState
 
     public void OnStateEnter(CombatState previousCombatState, ICombatStateProvider entity)
     {
-        IsOnceEffect = false;
         CurrentPath = null;
         CurrentPathIndex = 0;
-
-        CombatWorld.TryGetMovePath(entity, out CurrentPath);
-
-        entity.SetAnimator(AnimatorStateParams.Walking, true);
+        NextPathCheckTime = 0;
+        NextPathRequestTime = 0;
+        StuckTimer = 0;
+        PreviousPosition = entity.GetWorldPosition();
+        IsDirectMove = true;
+        entity.SetAnimator(AnimatorStateParams.Walking, entity.CharacterData.CharacterType != CharacterType.Hero);
+        entity.SetAnimator(AnimatorStateParams.Running, entity.CharacterData.CharacterType == CharacterType.Hero);
     }
 
     public void OnStateUpdate(ICombatStateProvider entity)
     {
-        if (CombatWorld.IsTargetAlive(entity.EnemyTarget) == false)
+    }
+
+    public void OnStatePhysicsUpdate(ICombatStateProvider entity)
+    {
+        if (CombatWorld.CanEngageTarget(entity, entity.EnemyTarget) == false)
         {
-            var completedTarget = entity.EnemyTarget;
-            entity.EnemyTarget = null;
-            CompleteMove(entity, completedTarget, CombatState.DetectTarget);
+            entity.SetEnemyTarget(null);
+            entity.ChangeState(CombatState.DetectTarget);
+
             return;
         }
 
-        var charData = entity.CharacterData;
-        var targetPosition = (Vector2)entity.EnemyTarget.transform.position;
-
-        // 공격 타입과 관계없이 실제 사거리에 들어온 시점에만 공격 타겟을 다시 결정한다.
-        if (CombatWorld.IsTargetInAttackRange(entity, entity.EnemyTarget))
+        if (CombatWorld.IsTargetInAttackRange(entity, entity.EnemyTarget) == true)
         {
-            CompleteMove(entity, entity.EnemyTarget, charData.CharacterType == CharacterType.Hero
-                ? CombatState.DetectTarget
-                : CombatState.Attack);
+            entity.ChangeState(CombatState.Attack);
+
             return;
         }
 
-        if (CurrentPath == null || CurrentPathIndex >= CurrentPath.Length)
+        var position = entity.GetWorldPosition();
+        var targetPosition = CombatWorld.GetTargetPosition(entity.EnemyTarget);
+        var direction = targetPosition - position;
+        var stopDistance = Mathf.Min(entity.CharacterData.CharDistanceToTarget, direction.magnitude);
+        var destination = targetPosition - direction.normalized * stopDistance;
+
+        if (Time.time >= NextPathCheckTime)
         {
-            CompleteMove(entity, entity.EnemyTarget, charData.CharacterType == CharacterType.Hero
-                ? CombatState.DetectTarget
-                : CombatState.Attack);
-            return;
-        }
+            NextPathCheckTime = Time.time + Constants.MOVE_PATH_CHECK_INTERVAL;
+            IsDirectMove = CombatWorld.CanMoveDirectly(entity, destination) == true && CombatWorld.CanMoveDirectly(entity, targetPosition) == true;
 
-        var waypoint = CurrentPath[CurrentPathIndex];
-        var remainingDistance = GetRemainingPathDistance(entity.CurrentWorldPosition);
-        var moveSpeed = charData.CharMoveSpeed;
-
-        if (charData.CharIsRunningPlay == true)
-        {
-            var runningDistance = charData.CharDistanceToTarget + Constants.RUNNING_DISTANCE;
-            var curRunning = entity.IsAnimationPlay(AnimatorStateParams.Running);
-
-            if (remainingDistance <= runningDistance)
+            if (IsDirectMove == true)
             {
-                moveSpeed *= charData.CharRunningSpeed;
-
-                if (IsOnceEffect == false)
-                {
-                    entity.SetEffect(CombatState.MoveToTarget, true);
-                    IsOnceEffect = true;
-                }
-
-                if (curRunning == false)
-                {
-                    entity.SetAnimator(AnimatorStateParams.Walking, false);
-                    entity.SetAnimator(AnimatorStateParams.Running, true);
-                }
+                CurrentPath = null;
+                CurrentPathIndex = 0;
+            }
+            else if (Vector2.SqrMagnitude(targetPosition - PathTargetPosition) > 0.25f)
+            {
+                CurrentPath = null;
             }
         }
 
-        var newPos = Vector2.MoveTowards(entity.CurrentWorldPosition, waypoint, moveSpeed * Time.deltaTime);
-
-        entity.SetPosition(newPos);
-        entity.SetSpriteRendererFlip(entity.CurrentWorldPosition.x > waypoint.x);
-
-        if (Vector2.Distance(newPos, waypoint) <= Constants.PATH_ARRIVAL_DISTANCE)
+        if (IsDirectMove == false)
         {
-            entity.SetPosition(waypoint);
-            CurrentPathIndex++;
+            if (CurrentPath == null || CurrentPathIndex >= CurrentPath.Length)
+            {
+                if (Time.time < NextPathRequestTime)
+                {
+                    entity.StopMove();
+
+                    return;
+                }
+
+                var result = CombatWorld.GetMovePath(entity, out CurrentPath);
+
+                if (result == MovePathResult.Pending)
+                {
+                    entity.StopMove();
+
+                    return;
+                }
+
+                NextPathRequestTime = Time.time + Constants.MOVE_PATH_REQUEST_INTERVAL;
+
+                if (result == MovePathResult.NotFound)
+                {
+                    CombatWorld.ExcludeTarget(entity, entity.EnemyTarget);
+                    entity.SetEnemyTarget(null);
+                    entity.ChangeState(CombatState.DetectTarget);
+
+                    return;
+                }
+
+                CurrentPathIndex = 0;
+                PathTargetPosition = targetPosition;
+                StuckTimer = 0;
+            }
+
+            // 예약 위치가 아니라 실제 Rigidbody2D 위치로 도착을 판단한다.
+            while (CurrentPathIndex < CurrentPath.Length &&
+                Vector2.Distance(position, CurrentPath[CurrentPathIndex]) <= Constants.PATH_ARRIVAL_DISTANCE &&
+                (CurrentPathIndex + 1 == CurrentPath.Length ||
+                CombatWorld.CanMoveDirectly(entity, CurrentPath[CurrentPathIndex + 1]) == true))
+            {
+                CurrentPathIndex++;
+            }
+
+            if (CurrentPathIndex >= CurrentPath.Length)
+            {
+                CurrentPath = null;
+                NextPathRequestTime = 0;
+
+                return;
+            }
+
+            destination = CurrentPath[CurrentPathIndex];
+        }
+
+        var isRunning = entity.CharacterData.CharacterType == CharacterType.Hero;
+        var speed = entity.CharacterData.CharMoveSpeed;
+        entity.SetAnimator(AnimatorStateParams.Walking, !isRunning);
+        entity.SetAnimator(AnimatorStateParams.Running, isRunning);
+        entity.SetMovementEffect(false);
+
+        if (Vector2.SqrMagnitude(position - PreviousPosition) < 0.000001f)
+        {
+            StuckTimer += Time.fixedDeltaTime;
+        }
+        else
+        {
+            StuckTimer = 0;
+        }
+
+        PreviousPosition = position;
+
+        if (CombatWorld.MoveTowards(entity, destination, speed) == false || StuckTimer >= Constants.MOVE_STUCK_TIME)
+        {
+            IsDirectMove = false;
+            CurrentPath = null;
+            NextPathCheckTime = Time.time + Constants.MOVE_PATH_CHECK_INTERVAL;
+            StuckTimer = 0;
         }
     }
-
-    public void OnStatePhysicsUpdate(ICombatStateProvider entity) { }
 
     public void OnStateExit(ICombatStateProvider entity)
     {
+        entity.StopMove();
         entity.SetAnimator(AnimatorStateParams.Running, false);
         entity.SetAnimator(AnimatorStateParams.Walking, false);
-        entity.SetEffect(CombatState.MoveToTarget, false);
+        entity.SetMovementEffect(false);
         CurrentPath = null;
         CurrentPathIndex = 0;
-    }
-
-    private void CompleteMove(
-        ICombatStateProvider entity,
-        GameObject target,
-        CombatState nextState)
-    {
-        EventUtility.TriggerEvent(
-            this,
-            new Event_CombatMoveCompleted(entity, target, nextState));
-        entity.ChangeState(nextState);
-    }
-
-    /// <summary>
-    /// 현재 위치부터 남은 A* 웨이포인트까지의 실제 경로 길이를 계산한다.
-    /// 직선거리가 아니라 경로 길이를 사용하므로 코너가 있어도 가속 시작 시점이 일정하다.
-    /// </summary>
-    private float GetRemainingPathDistance(Vector2 currentPosition)
-    {
-        if (CurrentPath == null || CurrentPathIndex >= CurrentPath.Length)
-        {
-            return 0;
-        }
-
-        var result = Vector2.Distance(currentPosition, CurrentPath[CurrentPathIndex]);
-
-        for (var i = CurrentPathIndex; i < CurrentPath.Length - 1; i++)
-        {
-            result += Vector2.Distance(CurrentPath[i], CurrentPath[i + 1]);
-        }
-
-        return result;
     }
 }

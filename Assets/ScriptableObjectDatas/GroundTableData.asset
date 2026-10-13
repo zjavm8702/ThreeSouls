@@ -14,26 +14,302 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ThreeSouls.Data.Generated.GroundTableDataTable
   Items:
   - Index: 0
+    RegionId: 1
     Stage: 1
+    RegionKey: test_region_1
+    StageKey: test_stage_1
     Monsters:
-    - Key_goblin
     - Key_purpleBat
-    - Key_troll
-    MapName: 3
-    SpawnCounts: 030000000300000001000000
+    - Key_brownRat
+    - Key_goblin
+    MapName: 2
+    SpawnCounts: 140000001400000014000000
+    RoundKeys:
+    - Round_01_01
+    - Round_01_02
+    - Round_01_03
   - Index: 1
+    RegionId: 1
     Stage: 2
+    RegionKey: test_region_1
+    StageKey: test_stage_2
     Monsters:
-    - Key_goblin
+    - Key_brownRat
     - Key_purpleBat
-    - Key_troll
+    - Key_goblin
     MapName: 3
-    SpawnCounts: 030000000300000001000000
+    SpawnCounts: 160000001600000018000000
+    RoundKeys:
+    - Round_02_01
+    - Round_02_02
+    - Round_02_03
   - Index: 2
+    RegionId: 1
     Stage: 3
+    RegionKey: test_region_1
+    StageKey: test_stage_3
+    Monsters:
+    - Key_blueCrab
+    - Key_brownRat
+    - Key_purpleBat
+    MapName: 4
+    SpawnCounts: 18000000180000001c000000
+    RoundKeys:
+    - Round_03_01
+    - Round_03_02
+    - Round_03_03
+  - Index: 3
+    RegionId: 1
+    Stage: 4
+    RegionKey: test_region_1
+    StageKey: test_stage_4
     Monsters:
     - Key_goblin
+    - Key_goblinArcher
+    - Key_orc
+    MapName: 5
+    SpawnCounts: 1a0000001a00000020000000
+    RoundKeys:
+    - Round_04_01
+    - Round_04_02
+    - Round_04_03
+  - Index: 4
+    RegionId: 1
+    Stage: 5
+    RegionKey: test_region_1
+    StageKey: test_stage_5
+    Monsters:
     - Key_purpleBat
+    - Key_orc
     - Key_troll
-    MapName: 3
-    SpawnCounts: 030000000300000001000000
+    MapName: 6
+    SpawnCounts: 1c0000001c00000024000000
+    RoundKeys:
+    - Round_05_01
+    - Round_05_02
+    - Round_05_03
+  - Index: 5
+    RegionId: 2
+    Stage: 1
+    RegionKey: ruins
+    StageKey: ruins_stage_1
+    Monsters:
+    - Key_goblin
+    - Key_redCrab
+    - Key_orc
+    MapName: 17
+    SpawnCounts: 1e0000001e00000022000000
+    RoundKeys:
+    - Ruins_01_01
+    - Ruins_01_02
+    - Ruins_01_03
+  - Index: 6
+    RegionId: 2
+    Stage: 2
+    RegionKey: ruins
+    StageKey: ruins_stage_2
+    Monsters:
+    - Key_blueCrab
+    - Key_redCrab
+    - Key_goblinArcher
+    MapName: 18
+    SpawnCounts: 200000002000000024000000
+    RoundKeys:
+    - Ruins_02_01
+    - Ruins_02_02
+    - Ruins_02_03
+  - Index: 7
+    RegionId: 2
+    Stage: 3
+    RegionKey: ruins
+    StageKey: ruins_stage_3
+    Monsters:
+    - Key_goblinArcher
+    - Key_orc
+    - Key_troll
+    MapName: 19
+    SpawnCounts: 220000002200000026000000
+    RoundKeys:
+    - Ruins_03_01
+    - Ruins_03_02
+    - Ruins_03_03
+  - Index: 8
+    RegionId: 2
+    Stage: 4
+    RegionKey: ruins
+    StageKey: ruins_stage_4
+    Monsters:
+    - Key_orc
+    - Key_goblinArcher
+    - Key_greenOgre
+    MapName: 20
+    SpawnCounts: 240000002400000028000000
+    RoundKeys:
+    - Ruins_04_01
+    - Ruins_04_02
+    - Ruins_04_03
+  - Index: 9
+    RegionId: 2
+    Stage: 5
+    RegionKey: ruins
+    StageKey: ruins_stage_5
+    Monsters:
+    - Key_orc
+    - Key_troll
+    - Key_greenOgre
+    MapName: 21
+    SpawnCounts: 26000000260000002c000000
+    RoundKeys:
+    - Ruins_05_01
+    - Ruins_05_02
+    - Ruins_05_03
+  - Index: 10
+    RegionId: 3
+    Stage: 1
+    RegionKey: forest
+    StageKey: forest_stage_1
+    Monsters:
+    - Key_hog
+    - Key_yellowBee
+    - Key_brownStump
+    MapName: 7
+    SpawnCounts: 28000000280000002e000000
+    RoundKeys:
+    - Forest_01_01
+    - Forest_01_02
+    - Forest_01_03
+  - Index: 11
+    RegionId: 3
+    Stage: 2
+    RegionKey: forest
+    StageKey: forest_stage_2
+    Monsters:
+    - Key_greenDuck
+    - Key_greenFrog
+    - Key_greenTortoise
+    MapName: 8
+    SpawnCounts: 2a0000002a00000030000000
+    RoundKeys:
+    - Forest_02_01
+    - Forest_02_02
+    - Forest_02_03
+  - Index: 12
+    RegionId: 3
+    Stage: 3
+    RegionKey: forest
+    StageKey: forest_stage_3
+    Monsters:
+    - Key_greenFlower
+    - Key_brownStump
+    - Key_blackBoar
+    MapName: 9
+    SpawnCounts: 2c0000002c00000032000000
+    RoundKeys:
+    - Forest_03_01
+    - Forest_03_02
+    - Forest_03_03
+  - Index: 13
+    RegionId: 3
+    Stage: 4
+    RegionKey: forest
+    StageKey: forest_stage_4
+    Monsters:
+    - Key_wolf
+    - Key_blackBoar
+    - Key_blackBear
+    MapName: 10
+    SpawnCounts: 2e0000002e00000034000000
+    RoundKeys:
+    - Forest_04_01
+    - Forest_04_02
+    - Forest_04_03
+  - Index: 14
+    RegionId: 3
+    Stage: 5
+    RegionKey: forest
+    StageKey: forest_stage_5
+    Monsters:
+    - Key_brownStump
+    - Key_greenFlower
+    - Key_greenOgre
+    MapName: 11
+    SpawnCounts: 300000003000000036000000
+    RoundKeys:
+    - Forest_05_01
+    - Forest_05_02
+    - Forest_05_03
+  - Index: 15
+    RegionId: 4
+    Stage: 1
+    RegionKey: frost
+    StageKey: frost_stage_1
+    Monsters:
+    - Key_wolf
+    - Key_blackBear
+    - Key_blueCrab
+    MapName: 12
+    SpawnCounts: 320000003200000038000000
+    RoundKeys:
+    - Frost_01_01
+    - Frost_01_02
+    - Frost_01_03
+  - Index: 16
+    RegionId: 4
+    Stage: 2
+    RegionKey: frost
+    StageKey: frost_stage_2
+    Monsters:
+    - Key_blueCrab
+    - Key_wolf
+    - Key_troll
+    MapName: 13
+    SpawnCounts: 34000000340000003a000000
+    RoundKeys:
+    - Frost_02_01
+    - Frost_02_02
+    - Frost_02_03
+  - Index: 17
+    RegionId: 4
+    Stage: 3
+    RegionKey: frost
+    StageKey: frost_stage_3
+    Monsters:
+    - Key_purpleBat
+    - Key_blueCrab
+    - Key_blueDragon
+    MapName: 14
+    SpawnCounts: 36000000360000003c000000
+    RoundKeys:
+    - Frost_03_01
+    - Frost_03_02
+    - Frost_03_03
+  - Index: 18
+    RegionId: 4
+    Stage: 4
+    RegionKey: frost
+    StageKey: frost_stage_4
+    Monsters:
+    - Key_wolf
+    - Key_troll
+    - Key_greenOgre
+    MapName: 15
+    SpawnCounts: 38000000380000003e000000
+    RoundKeys:
+    - Frost_04_01
+    - Frost_04_02
+    - Frost_04_03
+  - Index: 19
+    RegionId: 4
+    Stage: 5
+    RegionKey: frost
+    StageKey: frost_stage_5
+    Monsters:
+    - Key_blackBear
+    - Key_troll
+    - Key_blueDragon
+    MapName: 16
+    SpawnCounts: 3a0000003a00000040000000
+    RoundKeys:
+    - Frost_05_01
+    - Frost_05_02
+    - Frost_05_03

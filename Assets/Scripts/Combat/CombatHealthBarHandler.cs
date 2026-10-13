@@ -12,10 +12,9 @@ namespace ThreeSouls.Combat
     /// 전투 캐릭터와 체력바의 바인딩 수명을 관리합니다.
     /// UI 인스턴스의 생성과 풀 반환은 UIManager에 위임합니다.
     /// </summary>
-    public sealed class CombatHealthBarHandler
+    internal sealed class CombatHealthBarHandler
     {
         private const float OverlapSpacing = 3f;
-
         private readonly Dictionary<BaseEntity, UI_Item_HealthBar> HealthBarContainer = new();
         private readonly List<HealthBarLayout> LayoutContainer = new();
         private readonly List<Rect> PlacedRectContainer = new();
@@ -24,7 +23,7 @@ namespace ThreeSouls.Combat
         public void Initialize()
         {
             var asset = AddressableManager.Get().LoadAsset<GameObject>(Prefabs.UI_Item_HealthBar.ToAddress());
-          
+
             if (asset == null)
             {
                 throw new InvalidOperationException($"Required combat asset was not loaded: {Prefabs.UI_Item_HealthBar.ToAddress()}");
@@ -32,8 +31,7 @@ namespace ThreeSouls.Combat
 
             if (asset.TryGetComponent<UI_Item_HealthBar>(out var component) == false)
             {
-                throw new InvalidOperationException(
-                    $"Required component {typeof(UI_Item_HealthBar).Name} was not found: {Prefabs.UI_Item_HealthBar.ToAddress()}");
+                throw new InvalidOperationException($"Required component {typeof(UI_Item_HealthBar).Name} was not found: {Prefabs.UI_Item_HealthBar.ToAddress()}");
             }
 
             HealthBarOriginPrefab = component;
@@ -49,7 +47,7 @@ namespace ThreeSouls.Combat
                 throw new ArgumentNullException(nameof(entity));
             }
 
-            if (HealthBarContainer.ContainsKey(entity))
+            if (HealthBarContainer.ContainsKey(entity) == true)
             {
                 throw new InvalidOperationException($"Health bar is already registered: {entity.name}");
             }
@@ -73,10 +71,11 @@ namespace ThreeSouls.Combat
         public void Release()
         {
             Canvas.willRenderCanvases -= UpdateLayout;
+            using var healthBars = HealthBarContainer.Values.GetEnumerator();
 
-            foreach (var healthBar in HealthBarContainer.Values)
+            while (healthBars.MoveNext() == true)
             {
-                UIManager.Get().ReleaseUIItem(healthBar);
+                UIManager.Get().ReleaseUIItem(healthBars.Current);
             }
 
             HealthBarContainer.Clear();
@@ -89,11 +88,16 @@ namespace ThreeSouls.Combat
         {
             LayoutContainer.Clear();
             PlacedRectContainer.Clear();
+        
+            using var healthBars = HealthBarContainer.Values.GetEnumerator();
 
-            foreach (var healthBar in HealthBarContainer.Values)
+            while (healthBars.MoveNext() == true)
             {
-                if (healthBar != null && healthBar.isActiveAndEnabled &&
-                    healthBar.TryGetDesiredPosition(out var desiredPosition))
+                var healthBar = healthBars.Current;
+
+                if (healthBar != null &&
+                    healthBar.isActiveAndEnabled == true &&
+                    healthBar.TryGetDesiredPosition(out var desiredPosition) == true)
                 {
                     LayoutContainer.Add(new HealthBarLayout(healthBar, desiredPosition));
                 }
@@ -129,9 +133,8 @@ namespace ThreeSouls.Combat
         private static int CompareLayout(HealthBarLayout left, HealthBarLayout right)
         {
             var yCompare = left.DesiredPosition.y.CompareTo(right.DesiredPosition.y);
-            return yCompare != 0
-                ? yCompare
-                : left.DesiredPosition.x.CompareTo(right.DesiredPosition.x);
+
+            return yCompare != 0 ? yCompare : left.DesiredPosition.x.CompareTo(right.DesiredPosition.x);
         }
 
         private readonly struct HealthBarLayout

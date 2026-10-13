@@ -1,0 +1,40 @@
+{
+    "Items": [
+        {
+            "Index": 0,
+            "Threshold": 0,
+            "StrKey": "AutoHeal_Disabled",
+            "Enabled": false,
+            "HPRatio": 0.0,
+            "IsDefault": false,
+            "AutoUseImplemented": true
+        },
+        {
+            "Index": 1,
+            "Threshold": 1,
+            "StrKey": "AutoHeal_At20Percent",
+            "Enabled": true,
+            "HPRatio": 0.20000000298023225,
+            "IsDefault": false,
+            "AutoUseImplemented": true
+        },
+        {
+            "Index": 2,
+            "Threshold": 2,
+            "StrKey": "AutoHeal_At30Percent",
+            "Enabled": true,
+            "HPRatio": 0.30000001192092898,
+            "IsDefault": true,
+            "AutoUseImplemented": true
+        },
+        {
+            "Index": 3,
+            "Threshold": 3,
+            "StrKey": "AutoHeal_At40Percent",
+            "Enabled": true,
+            "HPRatio": 0.4000000059604645,
+            "IsDefault": false,
+            "AutoUseImplemented": true
+        }
+    ]
+}

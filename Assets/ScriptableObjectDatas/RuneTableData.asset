@@ -1,0 +1,349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6483e0aad4867884e9f9ed8c99e90923, type: 3}
+  m_Name: RuneTableData
+  m_EditorClassIdentifier: Assembly-CSharp::ThreeSouls.Data.Generated.RuneTableDataTable
+  Items:
+  - Key: Shrine_Loot
+    Category: 0
+    Effect: 0
+    SkillKey: 
+    DisplayName: "\uBC1C\uACAC\uC758 \uB8EC"
+    GainPerRank: 0.04
+    CraftGold: 600
+    CraftStones: 2
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC131\uC18C \uBAAC\uC2A4\uD130 \uC7A5\uBE44 \uB4DC\uB86D \uD655\uB960
+      \uBCF4\uB108\uC2A4. \uAE30\uC874 \uD2B9\uBCC4 \uBC30\uC728 \uBC0F \uD589\uC6B4\uACFC
+      \uACF1\uC5F0\uC0B0."
+  - Key: Shrine_Gold
+    Category: 0
+    Effect: 1
+    SkillKey: 
+    DisplayName: "\uD48D\uC694\uC758 \uB8EC"
+    GainPerRank: 0.06
+    CraftGold: 600
+    CraftStones: 2
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC131\uC18C \uBAAC\uC2A4\uD130\uC758 \uACE8\uB4DC \uBCF4\uC0C1\uC744
+      \uC99D\uAC00. \uB358\uC804 \uC2B9\uB9AC \uB54C\uB9CC \uC9C0\uAE09."
+  - Key: Shrine_Gems
+    Category: 0
+    Effect: 2
+    SkillKey: 
+    DisplayName: "\uBCF4\uC11D\uC758 \uB8EC"
+    GainPerRank: 0.04
+    CraftGold: 600
+    CraftStones: 2
+    Enabled: 0
+    TestGrant: 0
+    Note: "\uCD94\uD6C4 \uBCF4\uC11D \uBCF4\uC0C1 \uC5F0\uB3D9 \uC608\uC815. \uD604\uC7AC
+      \uC81C\uC791\xB7\uAC15\uD654\xB7\uC7A5\uCC29 \uBD88\uAC00."
+  - Key: Shrine_Ward
+    Category: 0
+    Effect: 3
+    SkillKey: 
+    DisplayName: "\uC218\uD638\uC758 \uB8EC"
+    GainPerRank: 0.02
+    CraftGold: 600
+    CraftStones: 2
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uBB34\uC791\uC704 \uC131\uC18C \uC804\uD22C \uB514\uBC84\uD504 \uAC10\uC18C\uB7C9\uC744
+      \uB2E8\uACC4\uB9C8\uB2E4 2%p \uC644\uD654."
+  - Key: HeavySlash_Power
+    Category: 1
+    Effect: 4
+    SkillKey: HeavySlash
+    DisplayName: "\uAC15\uD0C0 \xB7 \uC704\uB825"
+    GainPerRank: 0.08
+    CraftGold: 1000
+    CraftStones: 3
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2A4\uD0AC \uD53C\uD574\uB9CC \uB2E8\uACC4\uB9C8\uB2E4 8% \uC99D\uAC00.
+      \uAE30\uBCF8 \uACF5\uACA9\uC740 \uC720\uC9C0."
+  - Key: HeavySlash_Haste
+    Category: 1
+    Effect: 5
+    SkillKey: HeavySlash
+    DisplayName: "\uAC15\uD0C0 \xB7 \uC21C\uD658"
+    GainPerRank: 0.04
+    CraftGold: 1000
+    CraftStones: 3
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uCCAB \uC0AC\uC6A9 \uB51C\uB808\uC774\uC640 \uCFE8\uD0C0\uC784\uC744
+      \uB2E8\uACC4\uB9C8\uB2E4 4% \uAC10\uC18C. \uCD5C\uB300 20%."
+  - Key: Whirlwind_Power
+    Category: 1
+    Effect: 4
+    SkillKey: Whirlwind
+    DisplayName: "\uD68C\uC804 \uBCA0\uAE30 \xB7 \uC704\uB825"
+    GainPerRank: 0.08
+    CraftGold: 1000
+    CraftStones: 3
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2A4\uD0AC \uD53C\uD574\uB9CC \uB2E8\uACC4\uB9C8\uB2E4 8% \uC99D\uAC00.
+      \uAE30\uBCF8 \uACF5\uACA9\uC740 \uC720\uC9C0."
+  - Key: Whirlwind_Area
+    Category: 1
+    Effect: 6
+    SkillKey: Whirlwind
+    DisplayName: "\uD68C\uC804 \uBCA0\uAE30 \xB7 \uD655\uC7A5"
+    GainPerRank: 0.06
+    CraftGold: 1000
+    CraftStones: 3
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2A4\uD0AC \uBC18\uACBD\uC744 \uB2E8\uACC4\uB9C8\uB2E4 6% \uC99D\uAC00."
+  - Key: PrecisionShot_Power
+    Category: 1
+    Effect: 4
+    SkillKey: PrecisionShot
+    DisplayName: "\uC815\uBC00 \uC0AC\uACA9 \xB7 \uC704\uB825"
+    GainPerRank: 0.08
+    CraftGold: 1000
+    CraftStones: 3
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2A4\uD0AC \uD53C\uD574\uB9CC \uB2E8\uACC4\uB9C8\uB2E4 8% \uC99D\uAC00.
+      \uAE30\uBCF8 \uACF5\uACA9\uC740 \uC720\uC9C0."
+  - Key: PrecisionShot_Haste
+    Category: 1
+    Effect: 5
+    SkillKey: PrecisionShot
+    DisplayName: "\uC815\uBC00 \uC0AC\uACA9 \xB7 \uC21C\uD658"
+    GainPerRank: 0.04
+    CraftGold: 1000
+    CraftStones: 3
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uCCAB \uC0AC\uC6A9 \uB51C\uB808\uC774\uC640 \uCFE8\uD0C0\uC784\uC744
+      \uB2E8\uACC4\uB9C8\uB2E4 4% \uAC10\uC18C. \uCD5C\uB300 20%."
+  - Key: ArrowRain_Power
+    Category: 1
+    Effect: 4
+    SkillKey: ArrowRain
+    DisplayName: "\uD654\uC0B4\uBE44 \xB7 \uC704\uB825"
+    GainPerRank: 0.08
+    CraftGold: 1000
+    CraftStones: 3
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2A4\uD0AC \uD53C\uD574\uB9CC \uB2E8\uACC4\uB9C8\uB2E4 8% \uC99D\uAC00.
+      \uAE30\uBCF8 \uACF5\uACA9\uC740 \uC720\uC9C0."
+  - Key: ArrowRain_Area
+    Category: 1
+    Effect: 6
+    SkillKey: ArrowRain
+    DisplayName: "\uD654\uC0B4\uBE44 \xB7 \uD655\uC7A5"
+    GainPerRank: 0.06
+    CraftGold: 1000
+    CraftStones: 3
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2A4\uD0AC \uBC18\uACBD\uC744 \uB2E8\uACC4\uB9C8\uB2E4 6% \uC99D\uAC00."
+  - Key: FireBolt_Power
+    Category: 1
+    Effect: 4
+    SkillKey: FireBolt
+    DisplayName: "\uD654\uC5FC\uD0C4 \xB7 \uC704\uB825"
+    GainPerRank: 0.08
+    CraftGold: 1000
+    CraftStones: 3
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2A4\uD0AC \uD53C\uD574\uB9CC \uB2E8\uACC4\uB9C8\uB2E4 8% \uC99D\uAC00.
+      \uAE30\uBCF8 \uACF5\uACA9\uC740 \uC720\uC9C0."
+  - Key: FireBolt_Haste
+    Category: 1
+    Effect: 5
+    SkillKey: FireBolt
+    DisplayName: "\uD654\uC5FC\uD0C4 \xB7 \uC21C\uD658"
+    GainPerRank: 0.04
+    CraftGold: 1000
+    CraftStones: 3
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uCCAB \uC0AC\uC6A9 \uB51C\uB808\uC774\uC640 \uCFE8\uD0C0\uC784\uC744
+      \uB2E8\uACC4\uB9C8\uB2E4 4% \uAC10\uC18C. \uCD5C\uB300 20%."
+  - Key: FlameNova_Power
+    Category: 1
+    Effect: 4
+    SkillKey: FlameNova
+    DisplayName: "\uD654\uC5FC \uD3ED\uBC1C \xB7 \uC704\uB825"
+    GainPerRank: 0.08
+    CraftGold: 1000
+    CraftStones: 3
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2A4\uD0AC \uD53C\uD574\uB9CC \uB2E8\uACC4\uB9C8\uB2E4 8% \uC99D\uAC00.
+      \uAE30\uBCF8 \uACF5\uACA9\uC740 \uC720\uC9C0."
+  - Key: FlameNova_Area
+    Category: 1
+    Effect: 6
+    SkillKey: FlameNova
+    DisplayName: "\uD654\uC5FC \uD3ED\uBC1C \xB7 \uD655\uC7A5"
+    GainPerRank: 0.06
+    CraftGold: 1000
+    CraftStones: 3
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2A4\uD0AC \uBC18\uACBD\uC744 \uB2E8\uACC4\uB9C8\uB2E4 6% \uC99D\uAC00."
+  - Key: HeavySlash_Momentum
+    Category: 1
+    Effect: 7
+    SkillKey: HeavySlash
+    DisplayName: "\uAC15\uD0C0 \xB7 \uB9F9\uACF5"
+    GainPerRank: 0.025
+    CraftGold: 2600
+    CraftStones: 6
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2A4\uD0AC \uD53C\uD574 +2.5%\uC640 \uCFE8\uD0C0\uC784 -1.25%\uB97C
+      \uB2E8\uACC4\uB9C8\uB2E4 \uD568\uAED8 \uC801\uC6A9."
+  - Key: HeavySlash_Reach
+    Category: 1
+    Effect: 8
+    SkillKey: HeavySlash
+    DisplayName: "\uAC15\uD0C0 \xB7 \uC6D0\uAC70\uB9AC"
+    GainPerRank: 0.04
+    CraftGold: 4200
+    CraftStones: 9
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2DC\uC804 \uC0AC\uAC70\uB9AC +4%; \uAD11\uC5ED \uC2A4\uD0AC\uC740 \uBC94\uC704
+      +2%\uB97C \uB2E8\uACC4\uB9C8\uB2E4 \uC801\uC6A9."
+  - Key: Whirlwind_Momentum
+    Category: 1
+    Effect: 7
+    SkillKey: Whirlwind
+    DisplayName: "\uD68C\uC804 \uBCA0\uAE30 \xB7 \uB9F9\uACF5"
+    GainPerRank: 0.025
+    CraftGold: 2600
+    CraftStones: 6
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2A4\uD0AC \uD53C\uD574 +2.5%\uC640 \uCFE8\uD0C0\uC784 -1.25%\uB97C
+      \uB2E8\uACC4\uB9C8\uB2E4 \uD568\uAED8 \uC801\uC6A9."
+  - Key: Whirlwind_Reach
+    Category: 1
+    Effect: 8
+    SkillKey: Whirlwind
+    DisplayName: "\uD68C\uC804 \uBCA0\uAE30 \xB7 \uC6D0\uAC70\uB9AC"
+    GainPerRank: 0.04
+    CraftGold: 4200
+    CraftStones: 9
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2DC\uC804 \uC0AC\uAC70\uB9AC +4%; \uAD11\uC5ED \uC2A4\uD0AC\uC740 \uBC94\uC704
+      +2%\uB97C \uB2E8\uACC4\uB9C8\uB2E4 \uC801\uC6A9."
+  - Key: PrecisionShot_Momentum
+    Category: 1
+    Effect: 7
+    SkillKey: PrecisionShot
+    DisplayName: "\uC815\uBC00 \uC0AC\uACA9 \xB7 \uB9F9\uACF5"
+    GainPerRank: 0.025
+    CraftGold: 2600
+    CraftStones: 6
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2A4\uD0AC \uD53C\uD574 +2.5%\uC640 \uCFE8\uD0C0\uC784 -1.25%\uB97C
+      \uB2E8\uACC4\uB9C8\uB2E4 \uD568\uAED8 \uC801\uC6A9."
+  - Key: PrecisionShot_Reach
+    Category: 1
+    Effect: 8
+    SkillKey: PrecisionShot
+    DisplayName: "\uC815\uBC00 \uC0AC\uACA9 \xB7 \uC6D0\uAC70\uB9AC"
+    GainPerRank: 0.04
+    CraftGold: 4200
+    CraftStones: 9
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2DC\uC804 \uC0AC\uAC70\uB9AC +4%; \uAD11\uC5ED \uC2A4\uD0AC\uC740 \uBC94\uC704
+      +2%\uB97C \uB2E8\uACC4\uB9C8\uB2E4 \uC801\uC6A9."
+  - Key: ArrowRain_Momentum
+    Category: 1
+    Effect: 7
+    SkillKey: ArrowRain
+    DisplayName: "\uD654\uC0B4\uBE44 \xB7 \uB9F9\uACF5"
+    GainPerRank: 0.025
+    CraftGold: 2600
+    CraftStones: 6
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2A4\uD0AC \uD53C\uD574 +2.5%\uC640 \uCFE8\uD0C0\uC784 -1.25%\uB97C
+      \uB2E8\uACC4\uB9C8\uB2E4 \uD568\uAED8 \uC801\uC6A9."
+  - Key: ArrowRain_Reach
+    Category: 1
+    Effect: 8
+    SkillKey: ArrowRain
+    DisplayName: "\uD654\uC0B4\uBE44 \xB7 \uC6D0\uAC70\uB9AC"
+    GainPerRank: 0.04
+    CraftGold: 4200
+    CraftStones: 9
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2DC\uC804 \uC0AC\uAC70\uB9AC +4%; \uAD11\uC5ED \uC2A4\uD0AC\uC740 \uBC94\uC704
+      +2%\uB97C \uB2E8\uACC4\uB9C8\uB2E4 \uC801\uC6A9."
+  - Key: FireBolt_Momentum
+    Category: 1
+    Effect: 7
+    SkillKey: FireBolt
+    DisplayName: "\uD654\uC5FC\uD0C4 \xB7 \uB9F9\uACF5"
+    GainPerRank: 0.025
+    CraftGold: 2600
+    CraftStones: 6
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2A4\uD0AC \uD53C\uD574 +2.5%\uC640 \uCFE8\uD0C0\uC784 -1.25%\uB97C
+      \uB2E8\uACC4\uB9C8\uB2E4 \uD568\uAED8 \uC801\uC6A9."
+  - Key: FireBolt_Reach
+    Category: 1
+    Effect: 8
+    SkillKey: FireBolt
+    DisplayName: "\uD654\uC5FC\uD0C4 \xB7 \uC6D0\uAC70\uB9AC"
+    GainPerRank: 0.04
+    CraftGold: 4200
+    CraftStones: 9
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2DC\uC804 \uC0AC\uAC70\uB9AC +4%; \uAD11\uC5ED \uC2A4\uD0AC\uC740 \uBC94\uC704
+      +2%\uB97C \uB2E8\uACC4\uB9C8\uB2E4 \uC801\uC6A9."
+  - Key: FlameNova_Momentum
+    Category: 1
+    Effect: 7
+    SkillKey: FlameNova
+    DisplayName: "\uD654\uC5FC \uD3ED\uBC1C \xB7 \uB9F9\uACF5"
+    GainPerRank: 0.025
+    CraftGold: 2600
+    CraftStones: 6
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2A4\uD0AC \uD53C\uD574 +2.5%\uC640 \uCFE8\uD0C0\uC784 -1.25%\uB97C
+      \uB2E8\uACC4\uB9C8\uB2E4 \uD568\uAED8 \uC801\uC6A9."
+  - Key: FlameNova_Reach
+    Category: 1
+    Effect: 8
+    SkillKey: FlameNova
+    DisplayName: "\uD654\uC5FC \uD3ED\uBC1C \xB7 \uC6D0\uAC70\uB9AC"
+    GainPerRank: 0.04
+    CraftGold: 4200
+    CraftStones: 9
+    Enabled: 1
+    TestGrant: 0
+    Note: "\uC2DC\uC804 \uC0AC\uAC70\uB9AC +4%; \uAD11\uC5ED \uC2A4\uD0AC\uC740 \uBC94\uC704
+      +2%\uB97C \uB2E8\uACC4\uB9C8\uB2E4 \uC801\uC6A9."

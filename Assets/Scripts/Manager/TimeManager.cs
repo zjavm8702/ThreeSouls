@@ -1,4 +1,4 @@
-using ThreeSouls.Interface;
+﻿using ThreeSouls.Interface;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,7 +6,7 @@ using ThreeSouls.Data;
 
 namespace ThreeSouls.Manager
 {
-	public class TimeManager : MonoBehaviour, IManager
+	public class TimeManager : BaseManager, IManager
 	{
 		public static TimeManager Get() { return GameManager.Instance.Get<TimeManager>(); }
 
@@ -156,7 +156,7 @@ namespace ThreeSouls.Manager
             return false;
         }
 
-		public void OnSceneChanged()
+		public override void OnSceneChanged()
 		{
 			var enumerator = TimeContainer.GetEnumerator();
 
@@ -169,8 +169,8 @@ namespace ThreeSouls.Manager
 			}
 		}
 
-		public void Initialize() { }
+		public override void Initialize() { }
 
-		public void Release() { }
+		public override void Release() { }
 	}
 }

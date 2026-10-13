@@ -11,6 +11,10 @@ namespace ThreeSouls.UI
         public IUIAnimation ExitAnimation { get; set; }
         public virtual bool IsShowing => false;
 
+        public virtual void Initialize() { }
+
+        public virtual void Release() { }
+
         private RectTransform rectTransform;
         public virtual RectTransform RectTransform
         {

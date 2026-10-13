@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!612988286 &1
+SpriteAtlasAsset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ThreeSoulsAtlas_Map_Stages_3
+  serializedVersion: 2
+  m_MasterAtlas: {fileID: 0}
+  m_ImporterData:
+    packables:
+    - {fileID: 2800000, guid: 7b9fc0a8675131448865911652d44534, type: 3}
+    - {fileID: 2800000, guid: 3c708f2f95980174fb9d2df5958a8a39, type: 3}
+    - {fileID: 2800000, guid: de29ebeddaa93e34a96bce41f9c54a34, type: 3}
+    - {fileID: 2800000, guid: 28b49e7a295fd8a4db6baa21424b96c8, type: 3}
+    - {fileID: 2800000, guid: 0399d528e4af99946a40fbba0148035a, type: 3}
+  m_IsVariant: 0
+  m_ScriptablePacker: {fileID: 0}

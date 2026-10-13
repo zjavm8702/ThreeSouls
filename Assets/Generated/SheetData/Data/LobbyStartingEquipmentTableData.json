@@ -1,0 +1,25 @@
+{
+    "Items": [
+        {
+            "Index": 0,
+            "PresetKey": "TestVillage",
+            "ItemKey": "Item_Sword_01",
+            "Count": 1,
+            "EquipToHeroKey": "Key_night"
+        },
+        {
+            "Index": 1,
+            "PresetKey": "TestVillage",
+            "ItemKey": "Item_Bow_01",
+            "Count": 1,
+            "EquipToHeroKey": "Key_archer"
+        },
+        {
+            "Index": 2,
+            "PresetKey": "TestVillage",
+            "ItemKey": "Item_Staff_01",
+            "Count": 1,
+            "EquipToHeroKey": "Key_wizard"
+        }
+    ]
+}

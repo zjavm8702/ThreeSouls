@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: a1a4941cc5909ed4ba47fe71183e6e68
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3837342123932582812
+    second: NPC_Potion_0
+  - first:
+      213: 6108760997859422315
+    second: NPC_Potion_1
+  - first:
+      213: 1252486629960850006
+    second: NPC_Potion_2
+  - first:
+      213: -4127757338940705194
+    second: NPC_Potion_3
+  - first:
+      213: -7668566520965043843
+    second: NPC_Potion_4
+  - first:
+      213: 369426305396889577
+    second: NPC_Potion_5
+  - first:
+      213: -7552015824167976338
+    second: NPC_Potion_6
+  - first:
+      213: -5350174361733005350
+    second: NPC_Potion_7
+  - first:
+      213: -5649226700531384989
+    second: NPC_Potion_8
+  - first:
+      213: 8514509590881054755
+    second: NPC_Potion_9
+  - first:
+      213: -2896224927345432497
+    second: NPC_Potion_10
+  - first:
+      213: -7596919255641370743
+    second: NPC_Potion_11
+  - first:
+      213: 5059812836370638267
+    second: NPC_Potion_12
+  - first:
+      213: -2527699627219322981
+    second: NPC_Potion_13
+  - first:
+      213: 6859262462902672081
+    second: NPC_Potion_14
+  - first:
+      213: 241167570766374350
+    second: NPC_Potion_15
+  - first:
+      213: 8107565435478567815
+    second: NPC_Potion_16
+  - first:
+      213: -2949468376422945082
+    second: NPC_Potion_17
+  - first:
+      213: -7719926308185883091
+    second: NPC_Potion_18
+  - first:
+      213: -5990712242700840900
+    second: NPC_Potion_19
+  - first:
+      213: -6843028962220865632
+    second: NPC_Potion_20
+  - first:
+      213: -7874151467009124314
+    second: NPC_Potion_21
+  - first:
+      213: -7218102869326611291
+    second: NPC_Potion_22
+  - first:
+      213: -9068418328189201280
+    second: NPC_Potion_23
+  - first:
+      213: 714608175416744676
+    second: NPC_Potion_24
+  - first:
+      213: 3855407269345538385
+    second: NPC_Potion_25
+  - first:
+      213: 4615897001311652545
+    second: NPC_Potion_26
+  - first:
+      213: -4668693480641768724
+    second: NPC_Potion_27
+  - first:
+      213: 1882606043728266916
+    second: NPC_Potion_28
+  - first:
+      213: -680514855351720763
+    second: NPC_Potion_29
+  - first:
+      213: -8442857521748091592
+    second: NPC_Potion_30
+  - first:
+      213: 7977893435133440713
+    second: NPC_Potion_31
+  - first:
+      213: 5791859174294848338
+    second: NPC_Potion_32
+  - first:
+      213: -9021989564545039255
+    second: NPC_Potion_33
+  - first:
+      213: 3848313758570872346
+    second: NPC_Potion_34
+  - first:
+      213: 3943010909079260524
+    second: NPC_Potion_35
+  - first:
+      213: -236991626325345228
+    second: NPC_Potion_36
+  - first:
+      213: 9126372485790346155
+    second: NPC_Potion_37
+  - first:
+      213: -5931669530682894334
+    second: NPC_Potion_38
+  - first:
+      213: -5027328740195318711
+    second: NPC_Potion_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NPC_Potion_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 839
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46cfa5d5ba50fbac0800000000000000
+      internalID: -3837342123932582812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 839
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60fb2f03cda6c450800000000000000
+      internalID: 6108760997859422315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 775
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a1eb834f9b16110800000000000000
+      internalID: 1252486629960850006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 775
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6567d6de19247b6c0800000000000000
+      internalID: -4127757338940705194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 711
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79ec650167c39590800000000000000
+      internalID: -7668566520965043843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 711
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7ddd77447702500800000000000000
+      internalID: 369426305396889577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_6
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 711
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62c656ce99d13790800000000000000
+      internalID: -7552015824167976338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_7
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 711
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf7082b3cc50c5b0800000000000000
+      internalID: -5350174361733005350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 647
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36dbc2b2f3ae991b0800000000000000
+      internalID: -5649226700531384989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 647
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3203f117c5d992670800000000000000
+      internalID: 8514509590881054755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_10
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 647
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48a1fff5ca8ec7d0800000000000000
+      internalID: -2896224927345432497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_11
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 647
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fcb2cef22529690800000000000000
+      internalID: -7596919255641370743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 583
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb565d577f0183640800000000000000
+      internalID: 5059812836370638267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 583
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9774b4d49ecbecd0800000000000000
+      internalID: -2527699627219322981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_14
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 519
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da1c7a3edef03f50800000000000000
+      internalID: 6859262462902672081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_15
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 519
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5afdab0acc85300800000000000000
+      internalID: 241167570766374350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_16
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 519
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b6feececbd38070800000000000000
+      internalID: 8107565435478567815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_17
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 455
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ceef0b73226117d0800000000000000
+      internalID: -2949468376422945082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_18
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 455
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e3364bcef4dd490800000000000000
+      internalID: -7719926308185883091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 455
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c309b3694f6bcdca0800000000000000
+      internalID: -5990712242700840900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 391
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a78d1f2a6da801a0800000000000000
+      internalID: -6843028962220865632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_21
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 391
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628dc45b5f469b290800000000000000
+      internalID: -7874151467009124314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 391
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac3f89fea524db90800000000000000
+      internalID: -7218102869326611291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_23
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 327
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08414a9b391862280800000000000000
+      internalID: -9068418328189201280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_24
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 327
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea1e41795ccae900800000000000000
+      internalID: 714608175416744676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_25
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 327
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151bcc11c78218530800000000000000
+      internalID: 3855407269345538385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_26
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 327
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cac8faddd5fe0040800000000000000
+      internalID: 4615897001311652545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_27
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 263
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce25a21e308753fb0800000000000000
+      internalID: -4668693480641768724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_28
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 263
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a64d68e83c502a10800000000000000
+      internalID: 1882606043728266916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_29
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 263
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4626638535e86f0800000000000000
+      internalID: -680514855351720763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_30
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 263
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d58fee0d1f4da80800000000000000
+      internalID: -8442857521748091592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_31
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 199
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2bc018fcb27be60800000000000000
+      internalID: 7977893435133440713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_32
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 199
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2538ee08b31d06050800000000000000
+      internalID: 5791859174294848338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_33
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 135
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9640306aa447bc280800000000000000
+      internalID: -9021989564545039255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_34
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 135
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e7dd369f4f76530800000000000000
+      internalID: 3848313758570872346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_35
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 71
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6dc825e78368b630800000000000000
+      internalID: 3943010909079260524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_36
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 71
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cb22a1f5906bcf0800000000000000
+      internalID: -236991626325345228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_37
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 7
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babae671c6367ae70800000000000000
+      internalID: 9126372485790346155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_38
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 7
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20853aa3df97eada0800000000000000
+      internalID: -5931669530682894334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Potion_39
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 7
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944cb8f85275b3ab0800000000000000
+      internalID: -5027328740195318711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NPC_Potion_0: -3837342123932582812
+      NPC_Potion_1: 6108760997859422315
+      NPC_Potion_10: -2896224927345432497
+      NPC_Potion_11: -7596919255641370743
+      NPC_Potion_12: 5059812836370638267
+      NPC_Potion_13: -2527699627219322981
+      NPC_Potion_14: 6859262462902672081
+      NPC_Potion_15: 241167570766374350
+      NPC_Potion_16: 8107565435478567815
+      NPC_Potion_17: -2949468376422945082
+      NPC_Potion_18: -7719926308185883091
+      NPC_Potion_19: -5990712242700840900
+      NPC_Potion_2: 1252486629960850006
+      NPC_Potion_20: -6843028962220865632
+      NPC_Potion_21: -7874151467009124314
+      NPC_Potion_22: -7218102869326611291
+      NPC_Potion_23: -9068418328189201280
+      NPC_Potion_24: 714608175416744676
+      NPC_Potion_25: 3855407269345538385
+      NPC_Potion_26: 4615897001311652545
+      NPC_Potion_27: -4668693480641768724
+      NPC_Potion_28: 1882606043728266916
+      NPC_Potion_29: -680514855351720763
+      NPC_Potion_3: -4127757338940705194
+      NPC_Potion_30: -8442857521748091592
+      NPC_Potion_31: 7977893435133440713
+      NPC_Potion_32: 5791859174294848338
+      NPC_Potion_33: -9021989564545039255
+      NPC_Potion_34: 3848313758570872346
+      NPC_Potion_35: 3943010909079260524
+      NPC_Potion_36: -236991626325345228
+      NPC_Potion_37: 9126372485790346155
+      NPC_Potion_38: -5931669530682894334
+      NPC_Potion_39: -5027328740195318711
+      NPC_Potion_4: -7668566520965043843
+      NPC_Potion_5: 369426305396889577
+      NPC_Potion_6: -7552015824167976338
+      NPC_Potion_7: -5350174361733005350
+      NPC_Potion_8: -5649226700531384989
+      NPC_Potion_9: 8514509590881054755
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

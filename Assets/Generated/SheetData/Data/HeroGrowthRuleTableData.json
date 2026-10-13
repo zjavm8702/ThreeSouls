@@ -1,0 +1,21 @@
+{
+    "Items": [
+        {
+            "Index": 0,
+            "Key": "HeroGrowth",
+            "MaxLevel": 30,
+            "ExperienceBase": 280,
+            "ExperiencePerLevel": 130,
+            "BaseCriticalChance": 0.05000000074505806,
+            "BaseCriticalMultiplier": 1.5,
+            "LuckDropBonusPerPoint": 0.004999999888241291,
+            "MaximumLuckDropBonus": 0.25,
+            "VictoryExperience": 35,
+            "ExperiencePerStage": 8,
+            "VictoryGrowthStones": 2,
+            "StagesPerBonusStone": 5,
+            "TestStartingGrowthStones": 0,
+            "Note": "20~30시간 반복 파밍 목표 초안; 실제 완주 시간 미검증"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 837c61544bdd09e448982958225c079d, type: 3}
+  m_Name: AutoHealTableData
+  m_EditorClassIdentifier: Assembly-CSharp::ThreeSouls.Data.Generated.AutoHealTableDataTable
+  Items:
+  - Index: 0
+    Threshold: 0
+    StrKey: AutoHeal_Disabled
+    Enabled: 0
+    HPRatio: 0
+    IsDefault: 0
+    AutoUseImplemented: 1
+  - Index: 1
+    Threshold: 1
+    StrKey: AutoHeal_At20Percent
+    Enabled: 1
+    HPRatio: 0.2
+    IsDefault: 0
+    AutoUseImplemented: 1
+  - Index: 2
+    Threshold: 2
+    StrKey: AutoHeal_At30Percent
+    Enabled: 1
+    HPRatio: 0.3
+    IsDefault: 1
+    AutoUseImplemented: 1
+  - Index: 3
+    Threshold: 3
+    StrKey: AutoHeal_At40Percent
+    Enabled: 1
+    HPRatio: 0.4
+    IsDefault: 0
+    AutoUseImplemented: 1

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!612988286 &1
+SpriteAtlasAsset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ThreeSoulsAtlas_World_Environment_Wilderness
+  serializedVersion: 2
+  m_MasterAtlas: {fileID: 0}
+  m_ImporterData:
+    packables:
+    - {fileID: 2800000, guid: 0f4a63dfa282400448b61459cb64ff80, type: 3}
+    - {fileID: 2800000, guid: e1957334b3c18b14bb8eaab11d93839f, type: 3}
+  m_IsVariant: 0
+  m_ScriptablePacker: {fileID: 0}

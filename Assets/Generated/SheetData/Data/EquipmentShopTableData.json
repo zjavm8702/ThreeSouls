@@ -1,0 +1,1084 @@
+{
+    "Items": [
+        {
+            "Index": 0,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Item_Sword_01",
+            "BuyGold": 120,
+            "SellGold": 30,
+            "StockCount": 1,
+            "DisplayOrder": 0,
+            "Note": "가격은 밸런스 초안; 장비별 고정 추첨 재고; 세션 중 자동 재입고 없음"
+        },
+        {
+            "Index": 1,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Item_Bow_01",
+            "BuyGold": 120,
+            "SellGold": 30,
+            "StockCount": 1,
+            "DisplayOrder": 1,
+            "Note": "가격은 밸런스 초안; 장비별 고정 추첨 재고; 세션 중 자동 재입고 없음"
+        },
+        {
+            "Index": 2,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Item_Staff_01",
+            "BuyGold": 200,
+            "SellGold": 50,
+            "StockCount": 1,
+            "DisplayOrder": 2,
+            "Note": "가격은 밸런스 초안; 장비별 고정 추첨 재고; 세션 중 자동 재입고 없음"
+        },
+        {
+            "Index": 3,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Item_Armor_01",
+            "BuyGold": 180,
+            "SellGold": 45,
+            "StockCount": 1,
+            "DisplayOrder": 3,
+            "Note": "가격은 밸런스 초안; 장비별 고정 추첨 재고; 세션 중 자동 재입고 없음"
+        },
+        {
+            "Index": 4,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Item_Ring_01",
+            "BuyGold": 400,
+            "SellGold": 100,
+            "StockCount": 1,
+            "DisplayOrder": 4,
+            "Note": "가격은 밸런스 초안; 장비별 고정 추첨 재고; 세션 중 자동 재입고 없음"
+        },
+        {
+            "Index": 5,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Item_Sword_02",
+            "BuyGold": 900,
+            "SellGold": 225,
+            "StockCount": 0,
+            "DisplayOrder": 5,
+            "Note": "가격은 밸런스 초안; 장비별 고정 추첨 재고; 세션 중 자동 재입고 없음"
+        },
+        {
+            "Index": 6,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Item_Bow_02",
+            "BuyGold": 900,
+            "SellGold": 225,
+            "StockCount": 0,
+            "DisplayOrder": 6,
+            "Note": "가격은 밸런스 초안; 장비별 고정 추첨 재고; 세션 중 자동 재입고 없음"
+        },
+        {
+            "Index": 7,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Item_Staff_02",
+            "BuyGold": 1200,
+            "SellGold": 300,
+            "StockCount": 0,
+            "DisplayOrder": 7,
+            "Note": "가격은 밸런스 초안; 장비별 고정 추첨 재고; 세션 중 자동 재입고 없음"
+        },
+        {
+            "Index": 8,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_01",
+            "BuyGold": 350,
+            "SellGold": 30,
+            "StockCount": 0,
+            "DisplayOrder": 8,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 9,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_02",
+            "BuyGold": 406,
+            "SellGold": 34,
+            "StockCount": 0,
+            "DisplayOrder": 9,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 10,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_03",
+            "BuyGold": 471,
+            "SellGold": 38,
+            "StockCount": 0,
+            "DisplayOrder": 10,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 11,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_04",
+            "BuyGold": 546,
+            "SellGold": 42,
+            "StockCount": 0,
+            "DisplayOrder": 11,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 12,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_05",
+            "BuyGold": 634,
+            "SellGold": 47,
+            "StockCount": 0,
+            "DisplayOrder": 12,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 13,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_06",
+            "BuyGold": 735,
+            "SellGold": 53,
+            "StockCount": 0,
+            "DisplayOrder": 13,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 14,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_07",
+            "BuyGold": 853,
+            "SellGold": 59,
+            "StockCount": 0,
+            "DisplayOrder": 14,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 15,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_08",
+            "BuyGold": 989,
+            "SellGold": 66,
+            "StockCount": 0,
+            "DisplayOrder": 15,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 16,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_09",
+            "BuyGold": 1147,
+            "SellGold": 74,
+            "StockCount": 0,
+            "DisplayOrder": 16,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 17,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_10",
+            "BuyGold": 1331,
+            "SellGold": 83,
+            "StockCount": 0,
+            "DisplayOrder": 17,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 18,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_11",
+            "BuyGold": 1544,
+            "SellGold": 93,
+            "StockCount": 0,
+            "DisplayOrder": 18,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 19,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_12",
+            "BuyGold": 1791,
+            "SellGold": 104,
+            "StockCount": 0,
+            "DisplayOrder": 19,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 20,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_13",
+            "BuyGold": 2078,
+            "SellGold": 117,
+            "StockCount": 0,
+            "DisplayOrder": 20,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 21,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_14",
+            "BuyGold": 2410,
+            "SellGold": 131,
+            "StockCount": 0,
+            "DisplayOrder": 21,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 22,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_15",
+            "BuyGold": 2796,
+            "SellGold": 147,
+            "StockCount": 0,
+            "DisplayOrder": 22,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 23,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_16",
+            "BuyGold": 3243,
+            "SellGold": 164,
+            "StockCount": 0,
+            "DisplayOrder": 23,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 24,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_17",
+            "BuyGold": 3762,
+            "SellGold": 184,
+            "StockCount": 0,
+            "DisplayOrder": 24,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 25,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_18",
+            "BuyGold": 4364,
+            "SellGold": 206,
+            "StockCount": 0,
+            "DisplayOrder": 25,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 26,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_19",
+            "BuyGold": 5062,
+            "SellGold": 231,
+            "StockCount": 0,
+            "DisplayOrder": 26,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 27,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Sword_20",
+            "BuyGold": 5872,
+            "SellGold": 258,
+            "StockCount": 0,
+            "DisplayOrder": 27,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 28,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_01",
+            "BuyGold": 350,
+            "SellGold": 30,
+            "StockCount": 0,
+            "DisplayOrder": 28,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 29,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_02",
+            "BuyGold": 406,
+            "SellGold": 34,
+            "StockCount": 0,
+            "DisplayOrder": 29,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 30,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_03",
+            "BuyGold": 471,
+            "SellGold": 38,
+            "StockCount": 0,
+            "DisplayOrder": 30,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 31,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_04",
+            "BuyGold": 546,
+            "SellGold": 42,
+            "StockCount": 0,
+            "DisplayOrder": 31,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 32,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_05",
+            "BuyGold": 634,
+            "SellGold": 47,
+            "StockCount": 0,
+            "DisplayOrder": 32,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 33,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_06",
+            "BuyGold": 735,
+            "SellGold": 53,
+            "StockCount": 0,
+            "DisplayOrder": 33,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 34,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_07",
+            "BuyGold": 853,
+            "SellGold": 59,
+            "StockCount": 0,
+            "DisplayOrder": 34,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 35,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_08",
+            "BuyGold": 989,
+            "SellGold": 66,
+            "StockCount": 0,
+            "DisplayOrder": 35,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 36,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_09",
+            "BuyGold": 1147,
+            "SellGold": 74,
+            "StockCount": 0,
+            "DisplayOrder": 36,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 37,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_10",
+            "BuyGold": 1331,
+            "SellGold": 83,
+            "StockCount": 0,
+            "DisplayOrder": 37,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 38,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_11",
+            "BuyGold": 1544,
+            "SellGold": 93,
+            "StockCount": 0,
+            "DisplayOrder": 38,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 39,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_12",
+            "BuyGold": 1791,
+            "SellGold": 104,
+            "StockCount": 0,
+            "DisplayOrder": 39,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 40,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_13",
+            "BuyGold": 2078,
+            "SellGold": 117,
+            "StockCount": 0,
+            "DisplayOrder": 40,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 41,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_14",
+            "BuyGold": 2410,
+            "SellGold": 131,
+            "StockCount": 0,
+            "DisplayOrder": 41,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 42,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_15",
+            "BuyGold": 2796,
+            "SellGold": 147,
+            "StockCount": 0,
+            "DisplayOrder": 42,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 43,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_16",
+            "BuyGold": 3243,
+            "SellGold": 164,
+            "StockCount": 0,
+            "DisplayOrder": 43,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 44,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_17",
+            "BuyGold": 3762,
+            "SellGold": 184,
+            "StockCount": 0,
+            "DisplayOrder": 44,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 45,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_18",
+            "BuyGold": 4364,
+            "SellGold": 206,
+            "StockCount": 0,
+            "DisplayOrder": 45,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 46,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_19",
+            "BuyGold": 5062,
+            "SellGold": 231,
+            "StockCount": 0,
+            "DisplayOrder": 46,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 47,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Bow_20",
+            "BuyGold": 5872,
+            "SellGold": 258,
+            "StockCount": 0,
+            "DisplayOrder": 47,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 48,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_01",
+            "BuyGold": 350,
+            "SellGold": 30,
+            "StockCount": 0,
+            "DisplayOrder": 48,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 49,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_02",
+            "BuyGold": 406,
+            "SellGold": 34,
+            "StockCount": 0,
+            "DisplayOrder": 49,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 50,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_03",
+            "BuyGold": 471,
+            "SellGold": 38,
+            "StockCount": 0,
+            "DisplayOrder": 50,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 51,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_04",
+            "BuyGold": 546,
+            "SellGold": 42,
+            "StockCount": 0,
+            "DisplayOrder": 51,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 52,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_05",
+            "BuyGold": 634,
+            "SellGold": 47,
+            "StockCount": 0,
+            "DisplayOrder": 52,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 53,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_06",
+            "BuyGold": 735,
+            "SellGold": 53,
+            "StockCount": 0,
+            "DisplayOrder": 53,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 54,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_07",
+            "BuyGold": 853,
+            "SellGold": 59,
+            "StockCount": 0,
+            "DisplayOrder": 54,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 55,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_08",
+            "BuyGold": 989,
+            "SellGold": 66,
+            "StockCount": 0,
+            "DisplayOrder": 55,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 56,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_09",
+            "BuyGold": 1147,
+            "SellGold": 74,
+            "StockCount": 0,
+            "DisplayOrder": 56,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 57,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_10",
+            "BuyGold": 1331,
+            "SellGold": 83,
+            "StockCount": 0,
+            "DisplayOrder": 57,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 58,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_11",
+            "BuyGold": 1544,
+            "SellGold": 93,
+            "StockCount": 0,
+            "DisplayOrder": 58,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 59,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_12",
+            "BuyGold": 1791,
+            "SellGold": 104,
+            "StockCount": 0,
+            "DisplayOrder": 59,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 60,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_13",
+            "BuyGold": 2078,
+            "SellGold": 117,
+            "StockCount": 0,
+            "DisplayOrder": 60,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 61,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_14",
+            "BuyGold": 2410,
+            "SellGold": 131,
+            "StockCount": 0,
+            "DisplayOrder": 61,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 62,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_15",
+            "BuyGold": 2796,
+            "SellGold": 147,
+            "StockCount": 0,
+            "DisplayOrder": 62,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 63,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_16",
+            "BuyGold": 3243,
+            "SellGold": 164,
+            "StockCount": 0,
+            "DisplayOrder": 63,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 64,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_17",
+            "BuyGold": 3762,
+            "SellGold": 184,
+            "StockCount": 0,
+            "DisplayOrder": 64,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 65,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_18",
+            "BuyGold": 4364,
+            "SellGold": 206,
+            "StockCount": 0,
+            "DisplayOrder": 65,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 66,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_19",
+            "BuyGold": 5062,
+            "SellGold": 231,
+            "StockCount": 0,
+            "DisplayOrder": 66,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 67,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Staff_20",
+            "BuyGold": 5872,
+            "SellGold": 258,
+            "StockCount": 0,
+            "DisplayOrder": 67,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 68,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_01",
+            "BuyGold": 350,
+            "SellGold": 30,
+            "StockCount": 0,
+            "DisplayOrder": 68,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 69,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_02",
+            "BuyGold": 406,
+            "SellGold": 34,
+            "StockCount": 0,
+            "DisplayOrder": 69,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 70,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_03",
+            "BuyGold": 471,
+            "SellGold": 38,
+            "StockCount": 0,
+            "DisplayOrder": 70,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 71,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_04",
+            "BuyGold": 546,
+            "SellGold": 42,
+            "StockCount": 0,
+            "DisplayOrder": 71,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 72,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_05",
+            "BuyGold": 634,
+            "SellGold": 47,
+            "StockCount": 0,
+            "DisplayOrder": 72,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 73,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_06",
+            "BuyGold": 735,
+            "SellGold": 53,
+            "StockCount": 0,
+            "DisplayOrder": 73,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 74,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_07",
+            "BuyGold": 853,
+            "SellGold": 59,
+            "StockCount": 0,
+            "DisplayOrder": 74,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 75,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_08",
+            "BuyGold": 989,
+            "SellGold": 66,
+            "StockCount": 0,
+            "DisplayOrder": 75,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 76,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_09",
+            "BuyGold": 1147,
+            "SellGold": 74,
+            "StockCount": 0,
+            "DisplayOrder": 76,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 77,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_10",
+            "BuyGold": 1331,
+            "SellGold": 83,
+            "StockCount": 0,
+            "DisplayOrder": 77,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 78,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_11",
+            "BuyGold": 1544,
+            "SellGold": 93,
+            "StockCount": 0,
+            "DisplayOrder": 78,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 79,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_12",
+            "BuyGold": 1791,
+            "SellGold": 104,
+            "StockCount": 0,
+            "DisplayOrder": 79,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 80,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_13",
+            "BuyGold": 2078,
+            "SellGold": 117,
+            "StockCount": 0,
+            "DisplayOrder": 80,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 81,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_14",
+            "BuyGold": 2410,
+            "SellGold": 131,
+            "StockCount": 0,
+            "DisplayOrder": 81,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 82,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_15",
+            "BuyGold": 2796,
+            "SellGold": 147,
+            "StockCount": 0,
+            "DisplayOrder": 82,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 83,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_16",
+            "BuyGold": 3243,
+            "SellGold": 164,
+            "StockCount": 0,
+            "DisplayOrder": 83,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 84,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_17",
+            "BuyGold": 3762,
+            "SellGold": 184,
+            "StockCount": 0,
+            "DisplayOrder": 84,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 85,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_18",
+            "BuyGold": 4364,
+            "SellGold": 206,
+            "StockCount": 0,
+            "DisplayOrder": 85,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 86,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_19",
+            "BuyGold": 5062,
+            "SellGold": 231,
+            "StockCount": 0,
+            "DisplayOrder": 86,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 87,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Armor_20",
+            "BuyGold": 5872,
+            "SellGold": 258,
+            "StockCount": 0,
+            "DisplayOrder": 87,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 88,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_01",
+            "BuyGold": 350,
+            "SellGold": 30,
+            "StockCount": 0,
+            "DisplayOrder": 88,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 89,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_02",
+            "BuyGold": 406,
+            "SellGold": 34,
+            "StockCount": 0,
+            "DisplayOrder": 89,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 90,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_03",
+            "BuyGold": 471,
+            "SellGold": 38,
+            "StockCount": 0,
+            "DisplayOrder": 90,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 91,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_04",
+            "BuyGold": 546,
+            "SellGold": 42,
+            "StockCount": 0,
+            "DisplayOrder": 91,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 92,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_05",
+            "BuyGold": 634,
+            "SellGold": 47,
+            "StockCount": 0,
+            "DisplayOrder": 92,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 93,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_06",
+            "BuyGold": 735,
+            "SellGold": 53,
+            "StockCount": 0,
+            "DisplayOrder": 93,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 94,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_07",
+            "BuyGold": 853,
+            "SellGold": 59,
+            "StockCount": 0,
+            "DisplayOrder": 94,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 95,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_08",
+            "BuyGold": 989,
+            "SellGold": 66,
+            "StockCount": 0,
+            "DisplayOrder": 95,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 96,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_09",
+            "BuyGold": 1147,
+            "SellGold": 74,
+            "StockCount": 0,
+            "DisplayOrder": 96,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 97,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_10",
+            "BuyGold": 1331,
+            "SellGold": 83,
+            "StockCount": 0,
+            "DisplayOrder": 97,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 98,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_11",
+            "BuyGold": 1544,
+            "SellGold": 93,
+            "StockCount": 0,
+            "DisplayOrder": 98,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 99,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_12",
+            "BuyGold": 1791,
+            "SellGold": 104,
+            "StockCount": 0,
+            "DisplayOrder": 99,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 100,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_13",
+            "BuyGold": 2078,
+            "SellGold": 117,
+            "StockCount": 0,
+            "DisplayOrder": 100,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 101,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_14",
+            "BuyGold": 2410,
+            "SellGold": 131,
+            "StockCount": 0,
+            "DisplayOrder": 101,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 102,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_15",
+            "BuyGold": 2796,
+            "SellGold": 147,
+            "StockCount": 0,
+            "DisplayOrder": 102,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 103,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_16",
+            "BuyGold": 3243,
+            "SellGold": 164,
+            "StockCount": 0,
+            "DisplayOrder": 103,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 104,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_17",
+            "BuyGold": 3762,
+            "SellGold": 184,
+            "StockCount": 0,
+            "DisplayOrder": 104,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 105,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_18",
+            "BuyGold": 4364,
+            "SellGold": 206,
+            "StockCount": 0,
+            "DisplayOrder": 105,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 106,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_19",
+            "BuyGold": 5062,
+            "SellGold": 231,
+            "StockCount": 0,
+            "DisplayOrder": 106,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        },
+        {
+            "Index": 107,
+            "ShopKey": "VillageEquipment",
+            "ItemKey": "Farm_Ring_20",
+            "BuyGold": 5872,
+            "SellGold": 258,
+            "StockCount": 0,
+            "DisplayOrder": 107,
+            "Note": "던전 파밍 전용; 상점은 판매만 취급"
+        }
+    ]
+}

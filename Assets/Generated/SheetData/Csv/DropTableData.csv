@@ -1,0 +1,22 @@
+Index : int,DropTableKey : string,MonsterKey : string,RewardType : Enum<RewardType>,RewardKey : string,MinAmount : int,MaxAmount : int,StageAmountWeight : float,RollCount : int,DropChance : float
+인덱스,드롭 분류 키,몬스터 키,보상 종류,아이템 키 또는 Key_gold,성공 시 최소 수량,성공 시 최대 수량,골드 스테이지 수량 증가,독립 추첨 횟수,추첨 성공 확률 (0~1)
+0,Drop_goblin,Key_goblin,Gold,Key_gold,2,4,0,1,1.000
+1,Drop_hog,Key_hog,Gold,Key_gold,2,4,0,1,1.000
+2,Drop_troll,Key_troll,Gold,Key_gold,2,4,0,1,1.000
+3,Drop_blackBear,Key_blackBear,Gold,Key_gold,2,4,0,1,1.000
+4,Drop_blueCrab,Key_blueCrab,Gold,Key_gold,2,4,0,1,1.000
+5,Drop_redCrab,Key_redCrab,Gold,Key_gold,2,4,0,1,1.000
+6,Drop_wolf,Key_wolf,Gold,Key_gold,2,4,0,1,1.000
+7,Drop_purpleBat,Key_purpleBat,Gold,Key_gold,2,4,0,1,1.000
+8,Drop_goblinArcher,Key_goblinArcher,Gold,Key_gold,2,4,0,1,1.000
+9,Drop_orc,Key_orc,Gold,Key_gold,2,4,0,1,1.000
+10,Drop_blackBoar,Key_blackBoar,Gold,Key_gold,2,4,0,1,1.000
+11,Drop_blueDragon,Key_blueDragon,Gold,Key_gold,2,4,0,1,1.000
+12,Drop_brownRat,Key_brownRat,Gold,Key_gold,2,4,0,1,1.000
+13,Drop_brownStump,Key_brownStump,Gold,Key_gold,2,4,0,1,1.000
+14,Drop_greenDuck,Key_greenDuck,Gold,Key_gold,2,4,0,1,1.000
+15,Drop_greenFlower,Key_greenFlower,Gold,Key_gold,2,4,0,1,1.000
+16,Drop_greenFrog,Key_greenFrog,Gold,Key_gold,2,4,0,1,1.000
+17,Drop_greenOgre,Key_greenOgre,Gold,Key_gold,2,4,0,1,1.000
+18,Drop_greenTortoise,Key_greenTortoise,Gold,Key_gold,2,4,0,1,1.000
+19,Drop_yellowBee,Key_yellowBee,Gold,Key_gold,2,4,0,1,1.000

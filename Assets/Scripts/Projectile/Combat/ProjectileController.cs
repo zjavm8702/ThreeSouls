@@ -1,49 +1,36 @@
-using System.Collections.Generic;
 using ThreeSouls.Enumeration;
 using ThreeSouls.Global;
 using ThreeSouls.Interface;
 using UnityEngine;
-using UnityEngine.InputSystem.LowLevel;
 
+/// <summary>
+/// 투사체마다 보관한 이동 상태를 시작하고 풀 반환 시 중지합니다.
+/// </summary>
 public class ProjectileController : MonoBehaviour
 {
-    public bool IsPlay { get; set; }
+    private readonly StateMachine<IProjectileStateProvider> StateMachine = new();
+    private readonly ProjectileMoveToTargetState MoveState = new();
+    private bool IsPlay;
 
-    private readonly StateMachine<IProjectileStateProvider> ProjectileStateMachine = new();
-    private readonly Dictionary<CombatState, IState<IProjectileStateProvider>> ProjectileStateContainer = new();
-
-    private CombatState PreviousCombatState = CombatState.None;
-    private CombatState CurrentCombatState = CombatState.None;
-
-    public void Initialize(IProjectileStateProvider provider)
+    internal void BeginFlight(IProjectileStateProvider provider)
     {
-        SetStateContainer();
-        ProjectileStateMachine.Initialize(provider);
+        StateMachine.Release();
+        StateMachine.Initialize(provider);
+        StateMachine.ChangeState(CombatState.None, MoveState);
+        IsPlay = true;
     }
 
-    public void ChangeState(CombatState newState)
+    internal void Stop()
     {
-        if (ProjectileStateContainer.ContainsKey(newState) == false || IsPlay == false)
-        {
-            return;
-        }
-
-        if (CurrentCombatState == newState)
-        {
-            return;
-        }
-
-        PreviousCombatState = CurrentCombatState;
-        CurrentCombatState = newState;
-
-        ProjectileStateMachine.ChangeState(PreviousCombatState, ProjectileStateContainer[newState]);
+        IsPlay = false;
+        StateMachine.Release();
     }
 
     private void Update()
     {
         if (IsPlay == true)
         {
-            ProjectileStateMachine.Update();
+            StateMachine.Update();
         }
     }
 
@@ -51,12 +38,7 @@ public class ProjectileController : MonoBehaviour
     {
         if (IsPlay == true)
         {
-            ProjectileStateMachine.PhysicsUpdate();
+            StateMachine.PhysicsUpdate();
         }
-    }
-
-    private void SetStateContainer()
-    {
-        ProjectileStateContainer.Add(CombatState.MoveToTarget, new ProjectileMoveToTargetState());
     }
 }

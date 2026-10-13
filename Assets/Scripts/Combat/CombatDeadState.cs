@@ -22,11 +22,13 @@ public class CombatDeadState : ICombatState
         entity.SetAnimator(AnimatorStateParams.Dead, false);
     }
 
-    public void OnStatePhysicsUpdate(ICombatStateProvider entity) { }
+    public void OnStatePhysicsUpdate(ICombatStateProvider entity)
+    {
+    }
 
     public void OnStateUpdate(ICombatStateProvider entity)
     {
-        if (IsDespawnCompleted)
+        if (IsDespawnCompleted == true)
         {
             return;
         }
@@ -41,8 +43,6 @@ public class CombatDeadState : ICombatState
         }
 
         IsDespawnCompleted = true;
-        EventUtility.TriggerEvent(
-            this,
-            new Event_DeathAnimationCompleted(entity));
+        EventUtility.TriggerEvent(this, new Event_DeathAnimationCompleted(entity));
     }
 }

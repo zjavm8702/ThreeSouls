@@ -1,0 +1,18 @@
+{
+    "Items": [
+        {
+            "Key": "TestVillage",
+            "HeroKeys": [
+                "Key_night",
+                "Key_archer",
+                "Key_wizard"
+            ],
+            "MoveSpeed": 3.0,
+            "Spacing": 1.149999976158142,
+            "BodyRadius": 0.30000001192092898,
+            "MoveInputTabs": [
+                "Village"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+Index : int,Threshold : Enum<ThreeSouls.Data.AutoHealThreshold>,StrKey : string,Enabled : bool,HPRatio : float,IsDefault : bool,AutoUseImplemented : bool
+인덱스,현재 코드의 자동 회복 설정,설정 이름 스트링 키,자동 회복 사용 설정,HP가 이 비율 이하 (비활성은 0),초기 선택값 여부,전투 자동 사용 구현 여부
+0,Disabled,AutoHeal_Disabled,FALSE,0.,FALSE,TRUE
+1,At20Percent,AutoHeal_At20Percent,TRUE,0.2,FALSE,TRUE
+2,At30Percent,AutoHeal_At30Percent,TRUE,0.3,TRUE,TRUE
+3,At40Percent,AutoHeal_At40Percent,TRUE,0.4,FALSE,TRUE

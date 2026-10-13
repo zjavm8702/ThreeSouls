@@ -1,0 +1,20 @@
+{
+    "Items": [
+        {
+            "Key": "TestVillage",
+            "InventoryCapacity": 240,
+            "EquipmentMaxLevel": 10,
+            "InitialEquipmentLevel": 0,
+            "InitialInvestedStones": 0,
+            "InitialLocked": false,
+            "BlockLockedDiscard": true,
+            "BlockEquippedDiscard": true,
+            "BlockLockedDismantle": true,
+            "BlockEquippedDismantle": true,
+            "AllowLockedUpgrade": true,
+            "AllowEquippedUpgrade": true,
+            "SaveImplemented": false,
+            "InitialTab": 0
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using ThreeSouls.Global;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
@@ -8,7 +9,7 @@ public class ComponentPool<T> where T : Component
     private T Origin;
     private readonly Stack<T> Inactive = new();
     private readonly HashSet<T> Active = new();
-    private GameObject PoolParent;
+    private Transform PoolParent;
 
     public void CreatePool(T origin, int initialPoolSize = 1)
     {
@@ -29,17 +30,21 @@ public class ComponentPool<T> where T : Component
                 throw new InvalidOperationException("ComponentPool is already assigned to another origin.");
             }
 
-            EnsurePoolParent();
             return;
         }
 
         Origin = origin;
-        EnsurePoolParent();
+        PoolParent = PoolGroup.GetParent();
 
         for (int i = 0; i < initialPoolSize; i++)
         {
             Inactive.Push(CreateInstance());
         }
+    }
+
+    public T Spawn()
+    {
+        return Spawn(null, Vector3.zero);
     }
 
     public T Spawn(Transform parent, Vector3 position, Quaternion rotation = default)
@@ -48,8 +53,6 @@ public class ComponentPool<T> where T : Component
         {
             throw new InvalidOperationException("CreatePool must be called before Spawn.");
         }
-
-        EnsurePoolParent();
 
         T instance = null;
 
@@ -68,7 +71,8 @@ public class ComponentPool<T> where T : Component
             rotation = Quaternion.identity;
         }
 
-        instance.transform.SetParent(parent, false);
+        instance.transform.SetParent(parent != null ? parent : PoolParent, false);
+
         instance.transform.SetLocalPositionAndRotation(position, rotation);
         instance.gameObject.SetActive(true);
         Active.Add(instance);
@@ -80,11 +84,6 @@ public class ComponentPool<T> where T : Component
     {
         DestroyPooled();
         DestroySpawned();
-
-        if (PoolParent != null)
-        {
-            Object.Destroy(PoolParent);
-        }
 
         PoolParent = null;
         Origin = null;
@@ -133,27 +132,18 @@ public class ComponentPool<T> where T : Component
             return;
         }
 
-        EnsurePoolParent();
-
         instance.gameObject.SetActive(false);
-        instance.transform.SetParent(PoolParent.transform, false);
+        instance.transform.SetParent(PoolParent, false);
         instance.transform.SetLocalPositionAndRotation(Vector3.zero, Quaternion.identity);
         Inactive.Push(instance);
     }
 
     private T CreateInstance()
     {
-        var instance = Object.Instantiate(Origin, PoolParent.transform, false);
+        var instance = Object.Instantiate(Origin, PoolParent, false);
         instance.transform.SetLocalPositionAndRotation(Vector3.zero, Quaternion.identity);
         instance.gameObject.SetActive(false);
         return instance;
     }
 
-    private void EnsurePoolParent()
-    {
-        if (PoolParent == null)
-        {
-            PoolParent = new GameObject($"{typeof(T).Name} Group");
-        }
-    }
 }

@@ -1,6 +1,6 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using ThreeSouls.Character;
 using ThreeSouls.Enumeration;
 using ThreeSouls.Interface;
@@ -9,178 +9,362 @@ using UnityEngine;
 namespace ThreeSouls.Combat
 {
     /// <summary>
-    /// 웨이브 전환 시 영웅을 리더 뒤의 일렬 대형으로 이동시키고 도착 상태를 추적합니다.
+    /// 생존 부대의 리더, 대열 경로와 캐릭터별 목적지를 관리합니다.
     /// </summary>
     internal sealed class CombatFormationHandler
     {
-        private readonly HashSet<BaseEntity> MovingHeroes = new();
-        private readonly List<BaseEntity> OrderedHeroes = new();
-        private readonly HashSet<Vector2Int> ReservedCells = new();
+        public delegate void OnLeaderChangeDelegate(BaseEntity leader);
 
-        public void Begin(IReadOnlyList<BaseEntity> heroes, BaseEntity leader,
-            IReadOnlyList<BaseEntity> monsters,
-            Func<Vector3, Vector2Int> worldToCell,
-            Func<BaseEntity, Vector2Int, Vector2[]> createPath,
-            Func<Vector2Int, bool> isWalkable)
+        private OnLeaderChangeDelegate onLeaderChangeEventHandler = null;
+        public event OnLeaderChangeDelegate OnLeaderChangeEventHandler
         {
-            Clear();
-            OrderedHeroes.Add(leader);
-
-            for (var i = 0; i < heroes.Count; i++)
+            add
             {
-                if (heroes[i] != leader)
-                {
-                    OrderedHeroes.Add(heroes[i]);
-                }
+                onLeaderChangeEventHandler -= value;
+                onLeaderChangeEventHandler += value;
             }
-
-            var targetMonster = FindClosestMonster(leader, monsters);
-            var monsterCell = worldToCell(targetMonster.CurrentWorldPosition);
-            var previewPath = createPath(leader, monsterCell);
-            var travelVector = targetMonster.CurrentWorldPosition - leader.CurrentWorldPosition;
-
-            if (previewPath != null && previewPath.Length > 0)
+            remove
             {
-                travelVector = previewPath[0] - leader.CurrentWorldPosition;
-            }
-
-            var travelDirection = GetCardinalDirection(travelVector);
-            var leaderCell = worldToCell(leader.CurrentWorldPosition);
-            var trailingDirection = -travelDirection;
-
-            for (var i = 0; i < OrderedHeroes.Count; i++)
-            {
-                var hero = OrderedHeroes[i];
-                var targetCell = FindFormationCell(
-                    leaderCell,
-                    trailingDirection,
-                    i,
-                    isWalkable);
-                var path = createPath(hero, targetCell);
-
-                hero.EnemyTarget = null;
-                hero.CurrentDestinations = path ?? Array.Empty<Vector2>();
-                MovingHeroes.Add(hero);
-                hero.ChangeState(CombatState.MoveToDestination);
+                onLeaderChangeEventHandler -= value;
             }
         }
 
-        public IEnumerator StartFollowing(float startDelay)
+        private static readonly Vector2Int[] FormationDirections =
         {
-            for (var i = 0; i < OrderedHeroes.Count; i++)
-            {
-                var hero = OrderedHeroes[i];
+            Vector2Int.up,
+            Vector2Int.down,
+            Vector2Int.left,
+            Vector2Int.right
+        };
 
-                if (hero.CharHealth.IsAlive == false)
+        private readonly CombatSpawnHandler SpawnHandler;
+        private readonly CombatGroundHandler GroundHandler;
+        private readonly AStarPathfinder PathFinder;
+        private readonly Dictionary<ICombatStateProvider, Vector2> HeroDestinations = new();
+        private readonly List<BaseEntity> FormationHeroes = new();
+        private IReadOnlyList<Vector2Int> SpawnCells;
+        private float NavigationRadius;
+        private List<Vector2> FormationRoute = new();
+        private float FormationRouteLength;
+        private float FormationProgress;
+        private const float FormationArrivalDistance = 0.08f;
+        
+        internal BaseEntity Leader { get; private set; }
+
+        internal CombatFormationHandler(CombatSpawnHandler spawns, CombatGroundHandler ground)
+        {
+            SpawnHandler = spawns;
+            GroundHandler = ground;
+            PathFinder = new AStarPathfinder(ground);
+        }
+
+        internal void Initialize(IReadOnlyList<Vector2Int> cells, float radius)
+        {
+            Clear();
+            SpawnCells = cells;
+            NavigationRadius = radius;
+            SetLeader(SelectLeader(SpawnHandler.GetAliveHeroes()));
+        }
+
+        internal void SetLeader(BaseEntity leader)
+        {
+            if (Leader == leader)
+            {
+                return;
+            }
+
+            Leader = leader;
+            onLeaderChangeEventHandler?.Invoke(leader);
+        }
+
+        internal bool NeedsRebuild()
+        {
+            return Leader == null || Leader.CharHealth.IsAlive == false ||
+                FormationHeroes.Count > 0 && FormationHeroes.Count != SpawnHandler.GetAliveHeroes().Count;
+        }
+
+        internal bool IsTravelCompleted()
+        {
+            return FormationProgress >= FormationRouteLength;
+        }
+
+        internal void BeginRally(Vector3 center, Vector3 nextHolyPlace, string roundKey)
+        {
+            BuildFormationRoute(center, nextHolyPlace, roundKey);
+            FormationProgress = (FormationHeroes.Count - 1) * GetFormationSpacing();
+            UpdateFormationDestinations();
+            MoveHeroesToFormation();
+        }
+
+        internal void BeginArrival(Vector3 center, Vector3 nextHolyPlace, string roundKey)
+        {
+            BuildFormationRoute(center, nextHolyPlace, roundKey);
+            FormationProgress = FormationRouteLength;
+            UpdateFormationDestinations();
+            MoveHeroesToFormation();
+        }
+
+        internal bool IsAwayFromDestinations(Vector2 position, float squaredDistance)
+        {
+            using var destinations = HeroDestinations.Values.GetEnumerator();
+
+            while (destinations.MoveNext() == true)
+            {
+                if (Vector2.SqrMagnitude(destinations.Current - position) <= squaredDistance)
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        internal void ClearDestinations()
+        {
+            HeroDestinations.Clear();
+        }
+
+        internal void ClearMembers()
+        {
+            FormationHeroes.Clear();
+        }
+
+        internal void Clear()
+        {
+            HeroDestinations.Clear();
+            FormationHeroes.Clear();
+            FormationRoute.Clear();
+            FormationRouteLength = 0;
+            FormationProgress = 0;
+        }
+
+        internal void Release()
+        {
+            Clear();
+            Leader = null;
+            SpawnCells = null;
+        }
+
+        internal List<Vector2Int> GetFormationCells(Vector3 position, int count)
+        {
+            var center = GroundHandler.WorldToCell(position);
+            var cells = new List<Vector2Int>();
+
+            for (var distance = 1; distance <= 16 && cells.Count < count; distance++)
+            {
+                for (var directionIndex = 0; directionIndex < FormationDirections.Length; directionIndex++)
+                {
+                    var direction = FormationDirections[directionIndex];
+                    var cell = center + direction * distance;
+
+                    if (IsConnectedCell(cell) == true)
+                    {
+                        cells.Add(cell);
+                    }
+                }
+            }
+
+            if (cells.Count < count)
+            {
+                throw new InvalidOperationException($"성소 주변 정렬 공간 부족 : {position}");
+            }
+
+            return cells;
+        }
+
+        private void BuildFormationRoute(Vector3 center, Vector3 nextHolyPlace, string roundKey)
+        {
+            FormationHeroes.Clear();
+            FormationHeroes.AddRange(SpawnHandler.GetAliveHeroes()
+                .OrderBy(hero => hero == Leader ? -1 : GetLeaderRolePriority(hero.CharacterData.CharacterRole)));
+           
+            var span = (FormationHeroes.Count - 1) * GetFormationSpacing();
+            var goalCell = GetFormationCells(center, FormationHeroes.Count)
+                .OrderBy(cell => Vector2.SqrMagnitude((Vector2)GroundHandler.CellToWorldCenter(cell) - (Vector2)nextHolyPlace))
+                .First();
+           
+            var goal = (Vector2)GroundHandler.CellToWorldCenter(goalCell);
+            // 현재 부대 가까이에 대열 전체를 놓을 수 있는 출발 경로를 선택한다.
+          
+            var rallyCenter = GetFormationCenter();
+            var orderedCells = SpawnCells.OrderBy(cell => Vector2.SqrMagnitude((Vector2)GroundHandler.CellToWorldCenter(cell) - rallyCenter))
+                .ToArray();
+
+            for (var cellIndex = 0; cellIndex < orderedCells.Length; cellIndex++)
+            {
+                var startCell = orderedCells[cellIndex];
+                var start = (Vector2)GroundHandler.CellToWorldCenter(startCell);
+
+                if (Vector2.Distance(start, goal) < span + 0.1f)
                 {
                     continue;
                 }
 
-                hero.ChangeState(CombatState.DetectTarget);
+                var nodes = PathFinder.FindPath(
+                    GroundHandler.GetNodeData(startCell),
+                    GroundHandler.GetNodeData(goalCell),
+                    null,
+                    (from, to) => GroundHandler.CanMove(
+                        GroundHandler.CellToWorldCenter(from),
+                        GroundHandler.CellToWorldCenter(to),
+                        NavigationRadius,
+                        Vector2.zero));
 
-                if (i + 1 < OrderedHeroes.Count)
+                if (nodes == null)
                 {
-                    yield return new WaitForSeconds(startDelay);
+                    continue;
                 }
+
+                FormationRoute = nodes.Select(node => (Vector2)GroundHandler.CellToWorldCenter(node.CellPosition)).ToList();
+                FormationRouteLength = 0;
+
+                for (var i = 1; i < FormationRoute.Count; i++)
+                {
+                    FormationRouteLength += Vector2.Distance(FormationRoute[i - 1], FormationRoute[i]);
+                }
+
+                if (FormationRouteLength >= span)
+                {
+                    return;
+                }
+            }
+
+            throw new InvalidOperationException($"탱커 선두 대열의 이동 경로를 찾을 수 없습니다 : {roundKey}");
+        }
+
+        private Vector2 GetFormationPosition(float distance)
+        {
+            distance = Mathf.Clamp(distance, 0, FormationRouteLength);
+
+            for (var i = 1; i < FormationRoute.Count; i++)
+            {
+                var length = Vector2.Distance(FormationRoute[i - 1], FormationRoute[i]);
+
+                if (distance <= length)
+                {
+                    return Vector2.Lerp(FormationRoute[i - 1], FormationRoute[i], distance / length);
+                }
+
+                distance -= length;
+            }
+
+            return FormationRoute[FormationRoute.Count - 1];
+        }
+
+        private void UpdateFormationDestinations()
+        {
+            HeroDestinations.Clear();
+
+            for (var i = 0; i < FormationHeroes.Count; i++)
+            {
+                HeroDestinations.Add(FormationHeroes[i], GetFormationPosition(FormationProgress - i * GetFormationSpacing()));
             }
         }
 
-        public bool TryMarkArrived(ICombatStateProvider entity, out bool allArrived)
+        private bool IsConnectedCell(Vector2Int cell)
         {
-            allArrived = false;
+            return SpawnCells.Contains(cell);
+        }
 
-            var hero = entity as BaseEntity;
+        private float GetFormationSpacing()
+        {
+            return Mathf.Max(0.6f, NavigationRadius * 2f + 0.2f);
+        }
 
-            if (hero == null || MovingHeroes.Remove(hero) == false)
+        private Vector2 GetFormationCenter()
+        {
+            var center = Vector2.zero;
+
+            for (var i = 0; i < FormationHeroes.Count; i++)
             {
-                return false;
+                center += FormationHeroes[i].GetWorldPosition();
             }
 
-            allArrived = MovingHeroes.Count == 0;
+            return center / FormationHeroes.Count;
+        }
+
+        internal void UpdateTravel()
+        {
+            var speed = float.MaxValue;
+
+            for (var i = 0; i < FormationHeroes.Count; i++)
+            {
+                var hero = FormationHeroes[i];
+
+                if (Vector2.Distance(hero.GetWorldPosition(), HeroDestinations[hero]) > 0.35f)
+                {
+                    return;
+                }
+
+                speed = Mathf.Min(speed, hero.CharacterData.CharMoveSpeed);
+            }
+
+            FormationProgress = Mathf.Min(FormationRouteLength, FormationProgress + speed * Time.deltaTime);
+            UpdateFormationDestinations();
+        }
+
+        private void MoveHeroesToFormation()
+        {
+            var heroes = SpawnHandler.GetAliveHeroes();
+
+            for (var i = 0; i < heroes.Count; i++)
+            {
+                heroes[i].SetEnemyTarget(null);
+                heroes[i].ChangeState(CombatState.MoveToDestination);
+            }
+        }
+
+        internal void WaitHeroes()
+        {
+            var heroes = SpawnHandler.GetAliveHeroes();
+
+            for (var i = 0; i < heroes.Count; i++)
+            {
+                heroes[i].ChangeState(CombatState.Wait);
+            }
+        }
+
+        internal bool AreHeroesAtDestinations()
+        {
+            var heroes = SpawnHandler.GetAliveHeroes();
+
+            for (var i = 0; i < heroes.Count; i++)
+            {
+                if (HeroDestinations.TryGetValue(heroes[i], out var destination) == false ||
+                    Vector2.Distance(heroes[i].GetWorldPosition(), destination) > FormationArrivalDistance)
+                {
+                    return false;
+                }
+            }
+
             return true;
         }
 
-        public void Cancel()
+        internal bool TryGetDestination(ICombatStateProvider entity, out Vector2 destination)
         {
-            MovingHeroes.Clear();
+            return HeroDestinations.TryGetValue(entity, out destination);
         }
 
-        public void Clear()
+        internal static BaseEntity SelectLeader(IReadOnlyList<BaseEntity> heroes)
         {
-            MovingHeroes.Clear();
-            OrderedHeroes.Clear();
-            ReservedCells.Clear();
+            return heroes.OrderBy(hero => GetLeaderRolePriority(hero.CharacterData.CharacterRole))
+                .ThenBy(hero => hero.CharacterData.CharDistanceToTarget)
+                .FirstOrDefault();
         }
 
-        private Vector2Int FindFormationCell(
-            Vector2Int leaderCell,
-            Vector2Int trailingDirection,
-            int order,
-            Func<Vector2Int, bool> isWalkable)
+        private static int GetLeaderRolePriority(CharacterRole role)
         {
-            var preferredCell = leaderCell + trailingDirection * order;
-
-            if (TryReserve(preferredCell, isWalkable))
+            switch (role)
             {
-                return preferredCell;
+                case CharacterRole.Tank:
+                    return 0;
+                case CharacterRole.MeleeDealer:
+                    return 1;
+                case CharacterRole.RangedDealer:
+                    return 2;
+                default:
+                    return int.MaxValue;
             }
-
-            for (var offset = 1; offset <= Global.Constants.ENCOUNTER_CELL_SEARCH_RADIUS; offset++)
-            {
-                var candidate = preferredCell + trailingDirection * offset;
-
-                if (TryReserve(candidate, isWalkable))
-                {
-                    return candidate;
-                }
-            }
-
-            ReservedCells.Add(leaderCell);
-            return leaderCell;
-        }
-
-        private bool TryReserve(Vector2Int cell, Func<Vector2Int, bool> isWalkable)
-        {
-            if (ReservedCells.Contains(cell) || isWalkable(cell) == false)
-            {
-                return false;
-            }
-
-            ReservedCells.Add(cell);
-            return true;
-        }
-
-        private static BaseEntity FindClosestMonster(
-            BaseEntity leader,
-            IReadOnlyList<BaseEntity> monsters)
-        {
-            var closest = monsters[0];
-            var closestDistance = Vector2.SqrMagnitude(
-                closest.CurrentWorldPosition - leader.CurrentWorldPosition);
-
-            for (var i = 1; i < monsters.Count; i++)
-            {
-                var distance = Vector2.SqrMagnitude(
-                    monsters[i].CurrentWorldPosition - leader.CurrentWorldPosition);
-
-                if (distance < closestDistance)
-                {
-                    closest = monsters[i];
-                    closestDistance = distance;
-                }
-            }
-
-            return closest;
-        }
-
-        private static Vector2Int GetCardinalDirection(Vector2 direction)
-        {
-            if (Mathf.Abs(direction.x) >= Mathf.Abs(direction.y))
-            {
-                return direction.x >= 0 ? Vector2Int.right : Vector2Int.left;
-            }
-
-            return direction.y >= 0 ? Vector2Int.up : Vector2Int.down;
         }
     }
 }

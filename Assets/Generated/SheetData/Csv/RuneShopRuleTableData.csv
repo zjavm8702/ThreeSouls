@@ -1,0 +1,3 @@
+Key : string,SaleGoldRatio : float,InteractionRadius : float
+규칙 키,누적 골드 비용 환급 비율(강화석 반환 없음),NPC 접근 반경
+VillageRuneShop,0.35,1.

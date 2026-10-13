@@ -1,0 +1,5 @@
+Index : int,HeroKey : string,NameStrKey : string,PortraitImagePath : string,PortraitSpriteName : string,VillageAnimatorPath : string
+선두부터의 영웅 순서,기존 Character 영웅 키,로비 표시 이름 키,로비 초상 이미지 경로,초상 Sprite 이름,마을 Animator Controller 경로
+0,Key_night,LobbyHeroName_Knight,Assets/Images/Character/Hero/Hero_Knight.png,Idle_Down_2,Assets/Animations/Character/HeroController.controller
+1,Key_archer,LobbyHeroName_Archer,Assets/Images/Character/Hero/Hero_Archer.png,Idle_Down_2,Assets/Animations/Character/HeroController.controller
+2,Key_wizard,LobbyHeroName_Wizard,Assets/Images/Character/Hero/Hero_Wizard.png,Idle_Down_2,Assets/Animations/Character/HeroController.controller

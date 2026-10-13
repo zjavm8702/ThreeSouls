@@ -1,0 +1,13 @@
+{
+    "Items": [
+        {
+            "Key": "TestVillage",
+            "IsTestData": false,
+            "StartingGold": 350,
+            "StartingEnhancementStones": 0,
+            "StartingSmallPotions": 4,
+            "StartingPartyPotions": 2,
+            "CopiesPerEquipment": 1
+        }
+    ]
+}

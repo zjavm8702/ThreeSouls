@@ -9,6 +9,7 @@ TagManager:
   - HeroSpawn
   - MonsterSpawn
   - FollowCamera
+  - CanvasGroup
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - UI
   - Monster
   - 
-  - 
+  - CombatObstacle
   - 
   - 
   - 

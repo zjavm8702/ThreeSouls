@@ -1,0 +1,8 @@
+Index : int,StatKey : string,DisplayName : string,UnlockLevel : int,InitialRankLimit : int,RankLimitPerLevel : int,MaximumRank : int,GainMode : string,GainPerRank : float,BaseGoldCost : int,GoldCostPerRank : int,BaseStoneCost : int,RanksPerStoneStep : int,StoneCostPerStep : int,Note : string
+인덱스,능력치 키,이름,해금 레벨,해금 시 강화 한도,레벨당 한도 증가,최대 강화 단계,증가량 방식,단계당 증가량,기본 골드 비용,단계당 추가 골드,기본 성장석,재료 증가 단계 간격,간격당 추가 성장석,설명
+0,Attack,공격력,1,5,2,100,BaseRatio,0.03,100,35,1,5,1,기본 캐릭터 공격력 기준 3%씩 합산. 장비 수치는 별도.
+1,MaxHealth,최대 체력,1,5,2,100,BaseRatio,0.03,100,35,1,5,1,기본 최대 체력 기준 3%씩 합산.
+2,AttackSpeed,공격속도,3,3,1,40,Flat,0.01,150,50,1,5,1,공격속도 보너스 +1%p. 장비 보너스와 합산.
+3,CriticalChance,치명타 확률,5,3,1,50,Flat,0.005,200,60,2,5,1,+0.5%p. 일반 공격과 피해 스킬의 명중마다 독립 판정.
+4,CriticalDamage,치명타 피해,7,3,1,50,Flat,0.02,200,60,2,5,1,기본 150%에 +2%p.
+5,Luck,행운,10,3,1,50,Flat,1.,250,75,2,5,1,행운 +1. 평균 행운 1당 장비 드롭 확률 x1.005; 기존 특수 드롭 배율과 곱하고 최종 확률은 100% 제한.

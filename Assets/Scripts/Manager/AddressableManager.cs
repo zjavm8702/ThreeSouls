@@ -1,4 +1,4 @@
-using ThreeSouls.Interface;
+﻿using ThreeSouls.Interface;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,7 +13,7 @@ using ThreeSouls.Utility;
 
 namespace ThreeSouls.Manager
 {
-    public class AddressableManager : MonoBehaviour, IManager
+    public class AddressableManager : BaseManager, IManager
     {
         private OnAddressableStatusDelegate onAddressableStatusEventHandler = null;
         public event OnAddressableStatusDelegate OnAddressableStatusEventHandler
@@ -38,13 +38,23 @@ namespace ThreeSouls.Manager
         private bool HasCompletedInitialPatch;
         public bool CompletedInitialPatch => HasCompletedInitialPatch;
 
-        public void Initialize() { }
-        public void Release() { }
-        public void OnSceneChanged() { }
+        public override void Initialize() { }
+        public override void Release()
+        {
+            StopDownloadProgressCoroutine();
+            if (DownloadHandle.IsValid() == true)
+            {
+                Addressables.Release(DownloadHandle);
+            }
+            ReleaseAssetAll();
+            ResourceLocations.Clear();
+            onAddressableStatusEventHandler = null;
+        }
+        public override void OnSceneChanged() { }
 
         public static AddressableManager Get()
         {
-            return GameManager.Instance.Get<AddressableManager>();
+            return GameManager.Instance?.Get<AddressableManager>();
         }
 
         /// <summary>
@@ -130,6 +140,10 @@ namespace ThreeSouls.Manager
             {
                 if (cached.AssetHandle.IsValid())
                 {
+                    if (sceneChangeRelease == false)
+                    {
+                        cached.RetainForSession();
+                    }
                     if (cached.AssetHandle.IsDone && cached.AssetHandle.Status == AsyncOperationStatus.Succeeded)
                     {
                         callback?.Invoke(cached);
@@ -150,6 +164,34 @@ namespace ThreeSouls.Manager
             LoadedAssets.Add(key, assetData);
             handle.Completed += OnAddressableLoadAsset;
             return handle;
+        }
+
+        /// <summary>Bounded concurrent loads reuse the same cache and release ownership as single loads.</summary>
+        public IEnumerator PreLoadBatch<T>(IEnumerable<string> keys, bool sceneChangeRelease = false, int concurrency = 8)
+            where T : UnityEngine.Object
+        {
+            if (keys == null) throw new ArgumentNullException(nameof(keys));
+            if (concurrency < 1 || concurrency > 32) throw new ArgumentOutOfRangeException(nameof(concurrency));
+            var queue = new Queue<string>(keys.Distinct(StringComparer.Ordinal));
+            var pending = new List<(string key, AsyncOperationHandle handle)>();
+            while (queue.Count > 0 || pending.Count > 0)
+            {
+                while (queue.Count > 0 && pending.Count < concurrency)
+                {
+                    var key = queue.Dequeue();
+                    pending.Add((key, AddressableLoadAssetAsync<T>(key, sceneChangeRelease)));
+                }
+                for (var i = pending.Count - 1; i >= 0; i--)
+                {
+                    var request = pending[i];
+                    if (request.handle.IsValid() && !request.handle.IsDone) continue;
+                    if (!request.handle.IsValid() || request.handle.Status != AsyncOperationStatus.Succeeded)
+                        throw new InvalidOperationException("Required preload failed: " + request.key);
+                    pending.RemoveAt(i);
+                }
+                // Already cached requests need no extra frame; unfinished loads yield to the player loop.
+                if (pending.Count > 0) yield return null;
+            }
         }
 
         public T LoadAsset<T>(string key) where T : UnityEngine.Object

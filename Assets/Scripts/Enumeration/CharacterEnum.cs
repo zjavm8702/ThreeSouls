@@ -3,41 +3,11 @@ namespace ThreeSouls.Enumeration
     public enum AnimatorStateParams
     {
         Idle,
-        Ready,
         Walking,
         Running,
         Attack,
         Dead,
         Hit,
-    }
-
-    public enum CharacterAnimatorParams
-    {
-        Action,
-        Idle,
-        Ready,
-        Walking,
-        Running,
-        Moving,
-        GetDown,
-        GetUp,
-        Jumping,
-        Falling,
-        Landed,
-        Blocking,
-        Crawling,
-        Climbing,
-        Grounded,
-        Attack,
-        Push,
-        Jab,
-        Slash,
-        Shot,
-        Fire1H,
-        Fire2H,
-        Hit,
-        Heal,
-        Dead
     }
 
     public enum ProjectileType
@@ -57,6 +27,12 @@ namespace ThreeSouls.Enumeration
         Monster
     }
 
+    public enum RewardType
+    {
+        Gold = 0,
+        Item = 1,
+    }
+
     public enum AttackType
     {
         Single = 0,
@@ -70,5 +46,12 @@ namespace ThreeSouls.Enumeration
         RangedDealer = 1,
         MeleeDealer = 2,
         MonsterMeleeDealer =3,
+    }
+
+    public enum ClassType
+    { 
+        Knight,
+        Archer,
+        Wizard,
     }
 }

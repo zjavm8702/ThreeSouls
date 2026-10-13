@@ -1,0 +1,30 @@
+Key : string,Category : Enum<ThreeSouls.Runes.RuneCategory>,Effect : Enum<ThreeSouls.Runes.RuneEffect>,SkillKey : string,DisplayName : string,GainPerRank : float,CraftGold : int,CraftStones : int,Enabled : bool,TestGrant : bool,Note : string
+룬 고유 키,두 종류 분류,효과 종류,대상 스킬 키(성소는 빈 값),표시 이름,단계당 효과,제작 골드,제작 장비 강화석,현재 사용 가능,Village 테스트 최초 지급,설명
+Shrine_Loot,Sanctuary,EquipmentDrop,,발견의 룬,0.04,600,2,TRUE,FALSE,성소 몬스터 장비 드롭 확률 보너스. 기존 특별 배율 및 행운과 곱연산.
+Shrine_Gold,Sanctuary,Gold,,풍요의 룬,0.06,600,2,TRUE,FALSE,성소 몬스터의 골드 보상을 증가. 던전 승리 때만 지급.
+Shrine_Gems,Sanctuary,Gems,,보석의 룬,0.04,600,2,FALSE,FALSE,추후 보석 보상 연동 예정. 현재 제작·강화·장착 불가.
+Shrine_Ward,Sanctuary,DebuffWard,,수호의 룬,0.02,600,2,TRUE,FALSE,무작위 성소 전투 디버프 감소량을 단계마다 2%p 완화.
+HeavySlash_Power,Skill,Damage,HeavySlash,강타 · 위력,0.08,1000,3,TRUE,FALSE,스킬 피해만 단계마다 8% 증가. 기본 공격은 유지.
+HeavySlash_Haste,Skill,Cooldown,HeavySlash,강타 · 순환,0.04,1000,3,TRUE,FALSE,첫 사용 딜레이와 쿨타임을 단계마다 4% 감소. 최대 20%.
+Whirlwind_Power,Skill,Damage,Whirlwind,회전 베기 · 위력,0.08,1000,3,TRUE,FALSE,스킬 피해만 단계마다 8% 증가. 기본 공격은 유지.
+Whirlwind_Area,Skill,Area,Whirlwind,회전 베기 · 확장,0.06,1000,3,TRUE,FALSE,스킬 반경을 단계마다 6% 증가.
+PrecisionShot_Power,Skill,Damage,PrecisionShot,정밀 사격 · 위력,0.08,1000,3,TRUE,FALSE,스킬 피해만 단계마다 8% 증가. 기본 공격은 유지.
+PrecisionShot_Haste,Skill,Cooldown,PrecisionShot,정밀 사격 · 순환,0.04,1000,3,TRUE,FALSE,첫 사용 딜레이와 쿨타임을 단계마다 4% 감소. 최대 20%.
+ArrowRain_Power,Skill,Damage,ArrowRain,화살비 · 위력,0.08,1000,3,TRUE,FALSE,스킬 피해만 단계마다 8% 증가. 기본 공격은 유지.
+ArrowRain_Area,Skill,Area,ArrowRain,화살비 · 확장,0.06,1000,3,TRUE,FALSE,스킬 반경을 단계마다 6% 증가.
+FireBolt_Power,Skill,Damage,FireBolt,화염탄 · 위력,0.08,1000,3,TRUE,FALSE,스킬 피해만 단계마다 8% 증가. 기본 공격은 유지.
+FireBolt_Haste,Skill,Cooldown,FireBolt,화염탄 · 순환,0.04,1000,3,TRUE,FALSE,첫 사용 딜레이와 쿨타임을 단계마다 4% 감소. 최대 20%.
+FlameNova_Power,Skill,Damage,FlameNova,화염 폭발 · 위력,0.08,1000,3,TRUE,FALSE,스킬 피해만 단계마다 8% 증가. 기본 공격은 유지.
+FlameNova_Area,Skill,Area,FlameNova,화염 폭발 · 확장,0.06,1000,3,TRUE,FALSE,스킬 반경을 단계마다 6% 증가.
+HeavySlash_Momentum,Skill,Momentum,HeavySlash,강타 · 맹공,0.025,2600,6,TRUE,FALSE,스킬 피해 +2.5%와 쿨타임 -1.25%를 단계마다 함께 적용.
+HeavySlash_Reach,Skill,Reach,HeavySlash,강타 · 원거리,0.04,4200,9,TRUE,FALSE,시전 사거리 +4%; 광역 스킬은 범위 +2%를 단계마다 적용.
+Whirlwind_Momentum,Skill,Momentum,Whirlwind,회전 베기 · 맹공,0.025,2600,6,TRUE,FALSE,스킬 피해 +2.5%와 쿨타임 -1.25%를 단계마다 함께 적용.
+Whirlwind_Reach,Skill,Reach,Whirlwind,회전 베기 · 원거리,0.04,4200,9,TRUE,FALSE,시전 사거리 +4%; 광역 스킬은 범위 +2%를 단계마다 적용.
+PrecisionShot_Momentum,Skill,Momentum,PrecisionShot,정밀 사격 · 맹공,0.025,2600,6,TRUE,FALSE,스킬 피해 +2.5%와 쿨타임 -1.25%를 단계마다 함께 적용.
+PrecisionShot_Reach,Skill,Reach,PrecisionShot,정밀 사격 · 원거리,0.04,4200,9,TRUE,FALSE,시전 사거리 +4%; 광역 스킬은 범위 +2%를 단계마다 적용.
+ArrowRain_Momentum,Skill,Momentum,ArrowRain,화살비 · 맹공,0.025,2600,6,TRUE,FALSE,스킬 피해 +2.5%와 쿨타임 -1.25%를 단계마다 함께 적용.
+ArrowRain_Reach,Skill,Reach,ArrowRain,화살비 · 원거리,0.04,4200,9,TRUE,FALSE,시전 사거리 +4%; 광역 스킬은 범위 +2%를 단계마다 적용.
+FireBolt_Momentum,Skill,Momentum,FireBolt,화염탄 · 맹공,0.025,2600,6,TRUE,FALSE,스킬 피해 +2.5%와 쿨타임 -1.25%를 단계마다 함께 적용.
+FireBolt_Reach,Skill,Reach,FireBolt,화염탄 · 원거리,0.04,4200,9,TRUE,FALSE,시전 사거리 +4%; 광역 스킬은 범위 +2%를 단계마다 적용.
+FlameNova_Momentum,Skill,Momentum,FlameNova,화염 폭발 · 맹공,0.025,2600,6,TRUE,FALSE,스킬 피해 +2.5%와 쿨타임 -1.25%를 단계마다 함께 적용.
+FlameNova_Reach,Skill,Reach,FlameNova,화염 폭발 · 원거리,0.04,4200,9,TRUE,FALSE,시전 사거리 +4%; 광역 스킬은 범위 +2%를 단계마다 적용.

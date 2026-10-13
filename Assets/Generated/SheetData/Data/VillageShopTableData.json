@@ -1,0 +1,11 @@
+{
+    "Items": [
+        {
+            "Index": 0,
+            "ShopKey": "VillageEquipment",
+            "DisplayName": "장비 상점",
+            "InteractRadius": 0.25,
+            "Note": "Market 건물/간판 선택 → 입구 이동 → 구매/판매; 저장·재입고·되사기 미구현"
+        }
+    ]
+}

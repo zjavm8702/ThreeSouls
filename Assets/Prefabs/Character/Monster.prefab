@@ -82,7 +82,7 @@ Animator:
   m_GameObject: {fileID: 1795541172195329565}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 065c5fb5e94c4130b013e82a4573a32a, type: 2}
+  m_Controller: {fileID: 9100000, guid: c2f355ed35a55744f9ba04861dcdb671, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -109,7 +109,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -117,10 +117,10 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &5724004423394024565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,6 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3dce36324d90e94a8f25743ec9b6581, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ThreeSouls.Character.Monster
+  HitFlashMaterial: {fileID: 2100000, guid: 8f0d349887ae2c74abf1eb14e458743c, type: 2}
 --- !u!114 &5855174833181693571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,7 +158,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 125baeabb774ce7418fab52bdb9095e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Sky.Scripts.Character.Entity.EntityHealth
-  OnDecreaseHealthColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &4802838900248565302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,6 +170,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41152595315821747a89c2266bceeb3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ThreeSouls.Weapon.CharacterWeapon
+  RightMuzzleOffset: {x: 0.48, y: 0.45}
+  DownMuzzleOffset: {x: 0.14, y: 0.12}
+  UpMuzzleOffset: {x: 0.14, y: 0.85}
 --- !u!58 &7315767104852086747
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -204,8 +207,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.5}
-  m_Radius: 0.5
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.2
 --- !u!1 &3561722886091644524
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,7 +292,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4723107735738678597, guid: 31b4bc442afb44cc9cbe6ab239aed534, type: 3}
+  m_Sprite: {fileID: 2568658475342197922, guid: b5af211ee71f443478c87c3453e279bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -312,10 +315,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.2D.Animation.Runtime::UnityEngine.U2D.Animation.SpriteResolver
-  m_CategoryHash: 0.009161512
-  m_labelHash: 0.00000040954276
+  m_CategoryHash: 6.189024e-29
+  m_labelHash: 4.6177543e-33
   m_SpriteKey: 0
-  m_SpriteHash: 288431053
+  m_SpriteHash: 375404570
 --- !u!114 &7549901649366092023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,7 +332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.2D.Animation.Runtime::UnityEngine.U2D.Animation.SpriteLibrary
   m_Library: []
-  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: b78a18b141da89b43af8750252e01eac, type: 3}
+  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: ad5ff3c9ea7302d4e8ed91d1c007d5cc, type: 3}
 --- !u!1001 &143144451672565015
 PrefabInstance:
   m_ObjectHideFlags: 0

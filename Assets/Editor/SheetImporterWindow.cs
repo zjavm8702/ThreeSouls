@@ -50,7 +50,10 @@ namespace ThreeSouls.EditorTools.Sheets
 
         private void OnGUI()
         {
-            EditorGUILayout.HelpBox("1행: 변수명 : 타입 / 2행: 설명 / 3행부터: 데이터\n로컬 CSV를 지정하면 구글 시트 대신 해당 파일을 읽습니다.", MessageType.Info);
+            EditorGUILayout.HelpBox(
+                "1행: 변수명 : 타입 / 2행: 설명 / 3행부터: 데이터\n" +
+                "Vector2: 0,0.5 또는 (0,0.5) / Vector2[]: (0,0.5)|(1,2)\n" +
+                "로컬 CSV를 지정하면 구글 시트 대신 해당 파일을 읽습니다.", MessageType.Info);
             using (new EditorGUI.DisabledScope(busy || EditorApplication.isCompiling || EditorApplication.isPlayingOrWillChangePlaymode))
             {
                 var settings = SheetImporterSettings.instance;

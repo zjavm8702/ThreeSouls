@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: 9769365ccd319b547971b943022a450e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4310492235721562360
+    second: NPC_Equip_0
+  - first:
+      213: 8960872163931481181
+    second: NPC_Equip_1
+  - first:
+      213: -3567749805889561372
+    second: NPC_Equip_2
+  - first:
+      213: -2540997295641975645
+    second: NPC_Equip_3
+  - first:
+      213: 8509427567430051656
+    second: NPC_Equip_4
+  - first:
+      213: -9193277963408948585
+    second: NPC_Equip_5
+  - first:
+      213: -5667576444624077008
+    second: NPC_Equip_6
+  - first:
+      213: 1768226251105375477
+    second: NPC_Equip_7
+  - first:
+      213: 2563135150219056095
+    second: NPC_Equip_8
+  - first:
+      213: -7633551415338857537
+    second: NPC_Equip_9
+  - first:
+      213: -4283359480240650810
+    second: NPC_Equip_10
+  - first:
+      213: -2791545058887227392
+    second: NPC_Equip_11
+  - first:
+      213: -8622912390725111541
+    second: NPC_Equip_12
+  - first:
+      213: 1038517610327781295
+    second: NPC_Equip_13
+  - first:
+      213: -4799948700394784923
+    second: NPC_Equip_14
+  - first:
+      213: -7871945530569333772
+    second: NPC_Equip_15
+  - first:
+      213: -5508226698521394488
+    second: NPC_Equip_16
+  - first:
+      213: 2707064061190694091
+    second: NPC_Equip_17
+  - first:
+      213: -8418466805886862772
+    second: NPC_Equip_18
+  - first:
+      213: -8563446454279556230
+    second: NPC_Equip_19
+  - first:
+      213: 8423142515373806813
+    second: NPC_Equip_20
+  - first:
+      213: 3838103676823407980
+    second: NPC_Equip_21
+  - first:
+      213: -7845984762698640402
+    second: NPC_Equip_22
+  - first:
+      213: -1713256103017088775
+    second: NPC_Equip_23
+  - first:
+      213: -738273743200365419
+    second: NPC_Equip_24
+  - first:
+      213: -7440558771147017235
+    second: NPC_Equip_25
+  - first:
+      213: -2775416977857282939
+    second: NPC_Equip_26
+  - first:
+      213: 6842646897980586590
+    second: NPC_Equip_27
+  - first:
+      213: -3330483711688837547
+    second: NPC_Equip_28
+  - first:
+      213: -8029743102752311475
+    second: NPC_Equip_29
+  - first:
+      213: 7790822113637939236
+    second: NPC_Equip_30
+  - first:
+      213: -1443332747383709326
+    second: NPC_Equip_31
+  - first:
+      213: -4205816194446724108
+    second: NPC_Equip_32
+  - first:
+      213: 6062410465018503127
+    second: NPC_Equip_33
+  - first:
+      213: -8131855806557634096
+    second: NPC_Equip_34
+  - first:
+      213: -2956184764682838942
+    second: NPC_Equip_35
+  - first:
+      213: -8394264788569394362
+    second: NPC_Equip_36
+  - first:
+      213: -5266787781810131584
+    second: NPC_Equip_37
+  - first:
+      213: -5382757370043943321
+    second: NPC_Equip_38
+  - first:
+      213: -6896980473096022151
+    second: NPC_Equip_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NPC_Equip_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 839
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f85345b9d1f1db30800000000000000
+      internalID: 4310492235721562360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 839
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5462d0a1c96b5c70800000000000000
+      internalID: 8960872163931481181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 775
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecdb7c447ecc7ec0800000000000000
+      internalID: -3567749805889561372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 775
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a428022c609cbcd0800000000000000
+      internalID: -2540997295641975645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 711
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847a596a94f871670800000000000000
+      internalID: 8509427567430051656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 711
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792459d766aea6080800000000000000
+      internalID: -9193277963408948585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_6
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 711
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f7fc07049b851b0800000000000000
+      internalID: -5667576444624077008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_7
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 711
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f418ab28600a8810800000000000000
+      internalID: 1768226251105375477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 647
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3df1cc6d5129320800000000000000
+      internalID: 2563135150219056095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 644
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb0c0a9e6d201690800000000000000
+      internalID: -7633551415338857537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_10
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 645
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c544f63f337e84c0800000000000000
+      internalID: -4283359480240650810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_11
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 644
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008a7862f807249d0800000000000000
+      internalID: -2791545058887227392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 583
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b01f385edd2455880800000000000000
+      internalID: -8622912390725111541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 583
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf2398a34e896e00800000000000000
+      internalID: 1038517610327781295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_14
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 519
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567fed49618236db0800000000000000
+      internalID: -4799948700394784923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_15
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 519
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3e03f4f3b31c290800000000000000
+      internalID: -7871945530569333772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_16
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 519
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c24f446009de83b0800000000000000
+      internalID: -5508226698521394488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_17
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 455
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc46f77cb6c619520800000000000000
+      internalID: 2707064061190694091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_18
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 455
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a32b10b099b2b80800000000000000
+      internalID: -8418466805886862772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_19
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 455
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73b69722d6882980800000000000000
+      internalID: -8563446454279556230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 391
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd498517d7305e470800000000000000
+      internalID: 8423142515373806813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_21
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 391
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d0e2c75fea34530800000000000000
+      internalID: 3838103676823407980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 390
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3583a9d667d1390800000000000000
+      internalID: -7845984762698640402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_23
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 327
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8756ac6aa4938e0800000000000000
+      internalID: -1713256103017088775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_24
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 327
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5945b8d21ff11c5f0800000000000000
+      internalID: -738273743200365419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_25
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 327
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de37d5b2833ddb890800000000000000
+      internalID: -7440558771147017235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_26
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 325
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c7a33a6fcbb79d0800000000000000
+      internalID: -2775416977857282939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_27
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 263
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5abf8d8917f5fe50800000000000000
+      internalID: 6842646897980586590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_28
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 263
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556ff8ab5beb7c1d0800000000000000
+      internalID: -3330483711688837547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_29
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 263
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d473ec2013f909090800000000000000
+      internalID: -8029743102752311475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_30
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 263
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428b5af4f6f8e1c60800000000000000
+      internalID: 7790822113637939236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_31
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 199
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271618b638048fbe0800000000000000
+      internalID: -1443332747383709326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_32
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 199
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3fa6b5470f1a5c0800000000000000
+      internalID: -4205816194446724108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_33
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 135
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfd90aa232022450800000000000000
+      internalID: 6062410465018503127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_34
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 135
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d14f657a38d52f80800000000000000
+      internalID: -8131855806557634096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_35
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 71
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c58aa7e9589f6d0800000000000000
+      internalID: -2956184764682838942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_36
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 71
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64370c646a4918b80800000000000000
+      internalID: -8394264788569394362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_37
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 7
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08de6d5ca6c98e6b0800000000000000
+      internalID: -5266787781810131584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_38
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 7
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7663a66e0ba9c45b0800000000000000
+      internalID: -5382757370043943321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Equip_39
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 4
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9775e4e2dc00940a0800000000000000
+      internalID: -6896980473096022151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NPC_Equip_0: 4310492235721562360
+      NPC_Equip_1: 8960872163931481181
+      NPC_Equip_10: -4283359480240650810
+      NPC_Equip_11: -2791545058887227392
+      NPC_Equip_12: -8622912390725111541
+      NPC_Equip_13: 1038517610327781295
+      NPC_Equip_14: -4799948700394784923
+      NPC_Equip_15: -7871945530569333772
+      NPC_Equip_16: -5508226698521394488
+      NPC_Equip_17: 2707064061190694091
+      NPC_Equip_18: -8418466805886862772
+      NPC_Equip_19: -8563446454279556230
+      NPC_Equip_2: -3567749805889561372
+      NPC_Equip_20: 8423142515373806813
+      NPC_Equip_21: 3838103676823407980
+      NPC_Equip_22: -7845984762698640402
+      NPC_Equip_23: -1713256103017088775
+      NPC_Equip_24: -738273743200365419
+      NPC_Equip_25: -7440558771147017235
+      NPC_Equip_26: -2775416977857282939
+      NPC_Equip_27: 6842646897980586590
+      NPC_Equip_28: -3330483711688837547
+      NPC_Equip_29: -8029743102752311475
+      NPC_Equip_3: -2540997295641975645
+      NPC_Equip_30: 7790822113637939236
+      NPC_Equip_31: -1443332747383709326
+      NPC_Equip_32: -4205816194446724108
+      NPC_Equip_33: 6062410465018503127
+      NPC_Equip_34: -8131855806557634096
+      NPC_Equip_35: -2956184764682838942
+      NPC_Equip_36: -8394264788569394362
+      NPC_Equip_37: -5266787781810131584
+      NPC_Equip_38: -5382757370043943321
+      NPC_Equip_39: -6896980473096022151
+      NPC_Equip_4: 8509427567430051656
+      NPC_Equip_5: -9193277963408948585
+      NPC_Equip_6: -5667576444624077008
+      NPC_Equip_7: 1768226251105375477
+      NPC_Equip_8: 2563135150219056095
+      NPC_Equip_9: -7633551415338857537
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

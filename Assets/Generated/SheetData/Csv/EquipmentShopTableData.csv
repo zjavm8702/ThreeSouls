@@ -1,0 +1,110 @@
+Index : int,ShopKey : string,ItemKey : string,BuyGold : int,SellGold : int,StockCount : int,DisplayOrder : int,Note : string
+인덱스,상점 키,기존 장비 키,구매 골드,판매 골드 (강화비 별도 환급 없음),마을 세션 최초 재고,진열 순서,기획/구현 메모
+0,VillageEquipment,Item_Sword_01,120,30,1,0,가격은 밸런스 초안; 장비별 고정 추첨 재고; 세션 중 자동 재입고 없음
+1,VillageEquipment,Item_Bow_01,120,30,1,1,가격은 밸런스 초안; 장비별 고정 추첨 재고; 세션 중 자동 재입고 없음
+2,VillageEquipment,Item_Staff_01,200,50,1,2,가격은 밸런스 초안; 장비별 고정 추첨 재고; 세션 중 자동 재입고 없음
+3,VillageEquipment,Item_Armor_01,180,45,1,3,가격은 밸런스 초안; 장비별 고정 추첨 재고; 세션 중 자동 재입고 없음
+4,VillageEquipment,Item_Ring_01,400,100,1,4,가격은 밸런스 초안; 장비별 고정 추첨 재고; 세션 중 자동 재입고 없음
+5,VillageEquipment,Item_Sword_02,900,225,0,5,가격은 밸런스 초안; 장비별 고정 추첨 재고; 세션 중 자동 재입고 없음
+6,VillageEquipment,Item_Bow_02,900,225,0,6,가격은 밸런스 초안; 장비별 고정 추첨 재고; 세션 중 자동 재입고 없음
+7,VillageEquipment,Item_Staff_02,1200,300,0,7,가격은 밸런스 초안; 장비별 고정 추첨 재고; 세션 중 자동 재입고 없음
+8,VillageEquipment,Farm_Sword_01,350,30,0,8,던전 파밍 전용; 상점은 판매만 취급
+9,VillageEquipment,Farm_Sword_02,406,34,0,9,던전 파밍 전용; 상점은 판매만 취급
+10,VillageEquipment,Farm_Sword_03,471,38,0,10,던전 파밍 전용; 상점은 판매만 취급
+11,VillageEquipment,Farm_Sword_04,546,42,0,11,던전 파밍 전용; 상점은 판매만 취급
+12,VillageEquipment,Farm_Sword_05,634,47,0,12,던전 파밍 전용; 상점은 판매만 취급
+13,VillageEquipment,Farm_Sword_06,735,53,0,13,던전 파밍 전용; 상점은 판매만 취급
+14,VillageEquipment,Farm_Sword_07,853,59,0,14,던전 파밍 전용; 상점은 판매만 취급
+15,VillageEquipment,Farm_Sword_08,989,66,0,15,던전 파밍 전용; 상점은 판매만 취급
+16,VillageEquipment,Farm_Sword_09,1147,74,0,16,던전 파밍 전용; 상점은 판매만 취급
+17,VillageEquipment,Farm_Sword_10,1331,83,0,17,던전 파밍 전용; 상점은 판매만 취급
+18,VillageEquipment,Farm_Sword_11,1544,93,0,18,던전 파밍 전용; 상점은 판매만 취급
+19,VillageEquipment,Farm_Sword_12,1791,104,0,19,던전 파밍 전용; 상점은 판매만 취급
+20,VillageEquipment,Farm_Sword_13,2078,117,0,20,던전 파밍 전용; 상점은 판매만 취급
+21,VillageEquipment,Farm_Sword_14,2410,131,0,21,던전 파밍 전용; 상점은 판매만 취급
+22,VillageEquipment,Farm_Sword_15,2796,147,0,22,던전 파밍 전용; 상점은 판매만 취급
+23,VillageEquipment,Farm_Sword_16,3243,164,0,23,던전 파밍 전용; 상점은 판매만 취급
+24,VillageEquipment,Farm_Sword_17,3762,184,0,24,던전 파밍 전용; 상점은 판매만 취급
+25,VillageEquipment,Farm_Sword_18,4364,206,0,25,던전 파밍 전용; 상점은 판매만 취급
+26,VillageEquipment,Farm_Sword_19,5062,231,0,26,던전 파밍 전용; 상점은 판매만 취급
+27,VillageEquipment,Farm_Sword_20,5872,258,0,27,던전 파밍 전용; 상점은 판매만 취급
+28,VillageEquipment,Farm_Bow_01,350,30,0,28,던전 파밍 전용; 상점은 판매만 취급
+29,VillageEquipment,Farm_Bow_02,406,34,0,29,던전 파밍 전용; 상점은 판매만 취급
+30,VillageEquipment,Farm_Bow_03,471,38,0,30,던전 파밍 전용; 상점은 판매만 취급
+31,VillageEquipment,Farm_Bow_04,546,42,0,31,던전 파밍 전용; 상점은 판매만 취급
+32,VillageEquipment,Farm_Bow_05,634,47,0,32,던전 파밍 전용; 상점은 판매만 취급
+33,VillageEquipment,Farm_Bow_06,735,53,0,33,던전 파밍 전용; 상점은 판매만 취급
+34,VillageEquipment,Farm_Bow_07,853,59,0,34,던전 파밍 전용; 상점은 판매만 취급
+35,VillageEquipment,Farm_Bow_08,989,66,0,35,던전 파밍 전용; 상점은 판매만 취급
+36,VillageEquipment,Farm_Bow_09,1147,74,0,36,던전 파밍 전용; 상점은 판매만 취급
+37,VillageEquipment,Farm_Bow_10,1331,83,0,37,던전 파밍 전용; 상점은 판매만 취급
+38,VillageEquipment,Farm_Bow_11,1544,93,0,38,던전 파밍 전용; 상점은 판매만 취급
+39,VillageEquipment,Farm_Bow_12,1791,104,0,39,던전 파밍 전용; 상점은 판매만 취급
+40,VillageEquipment,Farm_Bow_13,2078,117,0,40,던전 파밍 전용; 상점은 판매만 취급
+41,VillageEquipment,Farm_Bow_14,2410,131,0,41,던전 파밍 전용; 상점은 판매만 취급
+42,VillageEquipment,Farm_Bow_15,2796,147,0,42,던전 파밍 전용; 상점은 판매만 취급
+43,VillageEquipment,Farm_Bow_16,3243,164,0,43,던전 파밍 전용; 상점은 판매만 취급
+44,VillageEquipment,Farm_Bow_17,3762,184,0,44,던전 파밍 전용; 상점은 판매만 취급
+45,VillageEquipment,Farm_Bow_18,4364,206,0,45,던전 파밍 전용; 상점은 판매만 취급
+46,VillageEquipment,Farm_Bow_19,5062,231,0,46,던전 파밍 전용; 상점은 판매만 취급
+47,VillageEquipment,Farm_Bow_20,5872,258,0,47,던전 파밍 전용; 상점은 판매만 취급
+48,VillageEquipment,Farm_Staff_01,350,30,0,48,던전 파밍 전용; 상점은 판매만 취급
+49,VillageEquipment,Farm_Staff_02,406,34,0,49,던전 파밍 전용; 상점은 판매만 취급
+50,VillageEquipment,Farm_Staff_03,471,38,0,50,던전 파밍 전용; 상점은 판매만 취급
+51,VillageEquipment,Farm_Staff_04,546,42,0,51,던전 파밍 전용; 상점은 판매만 취급
+52,VillageEquipment,Farm_Staff_05,634,47,0,52,던전 파밍 전용; 상점은 판매만 취급
+53,VillageEquipment,Farm_Staff_06,735,53,0,53,던전 파밍 전용; 상점은 판매만 취급
+54,VillageEquipment,Farm_Staff_07,853,59,0,54,던전 파밍 전용; 상점은 판매만 취급
+55,VillageEquipment,Farm_Staff_08,989,66,0,55,던전 파밍 전용; 상점은 판매만 취급
+56,VillageEquipment,Farm_Staff_09,1147,74,0,56,던전 파밍 전용; 상점은 판매만 취급
+57,VillageEquipment,Farm_Staff_10,1331,83,0,57,던전 파밍 전용; 상점은 판매만 취급
+58,VillageEquipment,Farm_Staff_11,1544,93,0,58,던전 파밍 전용; 상점은 판매만 취급
+59,VillageEquipment,Farm_Staff_12,1791,104,0,59,던전 파밍 전용; 상점은 판매만 취급
+60,VillageEquipment,Farm_Staff_13,2078,117,0,60,던전 파밍 전용; 상점은 판매만 취급
+61,VillageEquipment,Farm_Staff_14,2410,131,0,61,던전 파밍 전용; 상점은 판매만 취급
+62,VillageEquipment,Farm_Staff_15,2796,147,0,62,던전 파밍 전용; 상점은 판매만 취급
+63,VillageEquipment,Farm_Staff_16,3243,164,0,63,던전 파밍 전용; 상점은 판매만 취급
+64,VillageEquipment,Farm_Staff_17,3762,184,0,64,던전 파밍 전용; 상점은 판매만 취급
+65,VillageEquipment,Farm_Staff_18,4364,206,0,65,던전 파밍 전용; 상점은 판매만 취급
+66,VillageEquipment,Farm_Staff_19,5062,231,0,66,던전 파밍 전용; 상점은 판매만 취급
+67,VillageEquipment,Farm_Staff_20,5872,258,0,67,던전 파밍 전용; 상점은 판매만 취급
+68,VillageEquipment,Farm_Armor_01,350,30,0,68,던전 파밍 전용; 상점은 판매만 취급
+69,VillageEquipment,Farm_Armor_02,406,34,0,69,던전 파밍 전용; 상점은 판매만 취급
+70,VillageEquipment,Farm_Armor_03,471,38,0,70,던전 파밍 전용; 상점은 판매만 취급
+71,VillageEquipment,Farm_Armor_04,546,42,0,71,던전 파밍 전용; 상점은 판매만 취급
+72,VillageEquipment,Farm_Armor_05,634,47,0,72,던전 파밍 전용; 상점은 판매만 취급
+73,VillageEquipment,Farm_Armor_06,735,53,0,73,던전 파밍 전용; 상점은 판매만 취급
+74,VillageEquipment,Farm_Armor_07,853,59,0,74,던전 파밍 전용; 상점은 판매만 취급
+75,VillageEquipment,Farm_Armor_08,989,66,0,75,던전 파밍 전용; 상점은 판매만 취급
+76,VillageEquipment,Farm_Armor_09,1147,74,0,76,던전 파밍 전용; 상점은 판매만 취급
+77,VillageEquipment,Farm_Armor_10,1331,83,0,77,던전 파밍 전용; 상점은 판매만 취급
+78,VillageEquipment,Farm_Armor_11,1544,93,0,78,던전 파밍 전용; 상점은 판매만 취급
+79,VillageEquipment,Farm_Armor_12,1791,104,0,79,던전 파밍 전용; 상점은 판매만 취급
+80,VillageEquipment,Farm_Armor_13,2078,117,0,80,던전 파밍 전용; 상점은 판매만 취급
+81,VillageEquipment,Farm_Armor_14,2410,131,0,81,던전 파밍 전용; 상점은 판매만 취급
+82,VillageEquipment,Farm_Armor_15,2796,147,0,82,던전 파밍 전용; 상점은 판매만 취급
+83,VillageEquipment,Farm_Armor_16,3243,164,0,83,던전 파밍 전용; 상점은 판매만 취급
+84,VillageEquipment,Farm_Armor_17,3762,184,0,84,던전 파밍 전용; 상점은 판매만 취급
+85,VillageEquipment,Farm_Armor_18,4364,206,0,85,던전 파밍 전용; 상점은 판매만 취급
+86,VillageEquipment,Farm_Armor_19,5062,231,0,86,던전 파밍 전용; 상점은 판매만 취급
+87,VillageEquipment,Farm_Armor_20,5872,258,0,87,던전 파밍 전용; 상점은 판매만 취급
+88,VillageEquipment,Farm_Ring_01,350,30,0,88,던전 파밍 전용; 상점은 판매만 취급
+89,VillageEquipment,Farm_Ring_02,406,34,0,89,던전 파밍 전용; 상점은 판매만 취급
+90,VillageEquipment,Farm_Ring_03,471,38,0,90,던전 파밍 전용; 상점은 판매만 취급
+91,VillageEquipment,Farm_Ring_04,546,42,0,91,던전 파밍 전용; 상점은 판매만 취급
+92,VillageEquipment,Farm_Ring_05,634,47,0,92,던전 파밍 전용; 상점은 판매만 취급
+93,VillageEquipment,Farm_Ring_06,735,53,0,93,던전 파밍 전용; 상점은 판매만 취급
+94,VillageEquipment,Farm_Ring_07,853,59,0,94,던전 파밍 전용; 상점은 판매만 취급
+95,VillageEquipment,Farm_Ring_08,989,66,0,95,던전 파밍 전용; 상점은 판매만 취급
+96,VillageEquipment,Farm_Ring_09,1147,74,0,96,던전 파밍 전용; 상점은 판매만 취급
+97,VillageEquipment,Farm_Ring_10,1331,83,0,97,던전 파밍 전용; 상점은 판매만 취급
+98,VillageEquipment,Farm_Ring_11,1544,93,0,98,던전 파밍 전용; 상점은 판매만 취급
+99,VillageEquipment,Farm_Ring_12,1791,104,0,99,던전 파밍 전용; 상점은 판매만 취급
+100,VillageEquipment,Farm_Ring_13,2078,117,0,100,던전 파밍 전용; 상점은 판매만 취급
+101,VillageEquipment,Farm_Ring_14,2410,131,0,101,던전 파밍 전용; 상점은 판매만 취급
+102,VillageEquipment,Farm_Ring_15,2796,147,0,102,던전 파밍 전용; 상점은 판매만 취급
+103,VillageEquipment,Farm_Ring_16,3243,164,0,103,던전 파밍 전용; 상점은 판매만 취급
+104,VillageEquipment,Farm_Ring_17,3762,184,0,104,던전 파밍 전용; 상점은 판매만 취급
+105,VillageEquipment,Farm_Ring_18,4364,206,0,105,던전 파밍 전용; 상점은 판매만 취급
+106,VillageEquipment,Farm_Ring_19,5062,231,0,106,던전 파밍 전용; 상점은 판매만 취급
+107,VillageEquipment,Farm_Ring_20,5872,258,0,107,던전 파밍 전용; 상점은 판매만 취급

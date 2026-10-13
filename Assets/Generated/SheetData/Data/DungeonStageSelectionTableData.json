@@ -1,0 +1,184 @@
+{
+    "Items": [
+        {
+            "Key": "Mine_1",
+            "DungeonKey": "Mine",
+            "StageNumber": 1,
+            "DisplayName": "광산 입구",
+            "MapX": 0.12999999523162843,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Mine_2",
+            "DungeonKey": "Mine",
+            "StageNumber": 2,
+            "DisplayName": "버려진 갱도",
+            "MapX": 0.3149999976158142,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Mine_3",
+            "DungeonKey": "Mine",
+            "StageNumber": 3,
+            "DisplayName": "지하 수로",
+            "MapX": 0.5,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Mine_4",
+            "DungeonKey": "Mine",
+            "StageNumber": 4,
+            "DisplayName": "채굴장",
+            "MapX": 0.6850000023841858,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Mine_5",
+            "DungeonKey": "Mine",
+            "StageNumber": 5,
+            "DisplayName": "광산 심장부",
+            "MapX": 0.8700000047683716,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Ruins_1",
+            "DungeonKey": "Ruins",
+            "StageNumber": 1,
+            "DisplayName": "유적 야영지",
+            "MapX": 0.12999999523162843,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Ruins_2",
+            "DungeonKey": "Ruins",
+            "StageNumber": 2,
+            "DisplayName": "무너진 다리",
+            "MapX": 0.3149999976158142,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Ruins_3",
+            "DungeonKey": "Ruins",
+            "StageNumber": 3,
+            "DisplayName": "고대 회랑",
+            "MapX": 0.5,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Ruins_4",
+            "DungeonKey": "Ruins",
+            "StageNumber": 4,
+            "DisplayName": "감시탑",
+            "MapX": 0.6850000023841858,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Ruins_5",
+            "DungeonKey": "Ruins",
+            "StageNumber": 5,
+            "DisplayName": "잊힌 성채",
+            "MapX": 0.8700000047683716,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Forest_1",
+            "DungeonKey": "Forest",
+            "StageNumber": 1,
+            "DisplayName": "숲의 입구",
+            "MapX": 0.12999999523162843,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Forest_2",
+            "DungeonKey": "Forest",
+            "StageNumber": 2,
+            "DisplayName": "폭포 길",
+            "MapX": 0.3149999976158142,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Forest_3",
+            "DungeonKey": "Forest",
+            "StageNumber": 3,
+            "DisplayName": "푸른 강가",
+            "MapX": 0.5,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Forest_4",
+            "DungeonKey": "Forest",
+            "StageNumber": 4,
+            "DisplayName": "정령 숲길",
+            "MapX": 0.6850000023841858,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Forest_5",
+            "DungeonKey": "Forest",
+            "StageNumber": 5,
+            "DisplayName": "정령의 성소",
+            "MapX": 0.8700000047683716,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Frost_1",
+            "DungeonKey": "Frost",
+            "StageNumber": 1,
+            "DisplayName": "설원 야영지",
+            "MapX": 0.12999999523162843,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Frost_2",
+            "DungeonKey": "Frost",
+            "StageNumber": 2,
+            "DisplayName": "얼음 다리",
+            "MapX": 0.3149999976158142,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Frost_3",
+            "DungeonKey": "Frost",
+            "StageNumber": 3,
+            "DisplayName": "수정 동굴",
+            "MapX": 0.5,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Frost_4",
+            "DungeonKey": "Frost",
+            "StageNumber": 4,
+            "DisplayName": "눈바람 절벽",
+            "MapX": 0.6850000023841858,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        },
+        {
+            "Key": "Frost_5",
+            "DungeonKey": "Frost",
+            "StageNumber": 5,
+            "DisplayName": "얼음 성채",
+            "MapX": 0.8700000047683716,
+            "MapY": 0.11999999731779099,
+            "Enabled": true
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!612988286 &1
+SpriteAtlasAsset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ThreeSoulsAtlas_World_Tiles_Elements_Plants
+  serializedVersion: 2
+  m_MasterAtlas: {fileID: 0}
+  m_ImporterData:
+    packables:
+    - {fileID: 2800000, guid: a5f6ddb2f8e7e184089974f68aa3ca42, type: 3}
+    - {fileID: 2800000, guid: a411fc625a0ba3246af3be8d7d9e0246, type: 3}
+    - {fileID: 2800000, guid: 1d0c12cb87831824385a3be5c616a4b9, type: 3}
+    - {fileID: 2800000, guid: 1c9f1bc9f820ed141b95b98773881b8a, type: 3}
+    - {fileID: 2800000, guid: ee294342458e68445813e9426368ca37, type: 3}
+    - {fileID: 2800000, guid: 5dc2e5b46316c9940a839ae528aaa0b3, type: 3}
+  m_IsVariant: 0
+  m_ScriptablePacker: {fileID: 0}

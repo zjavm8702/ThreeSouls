@@ -78,15 +78,9 @@ public class T_Astar : MonoBehaviour, IPathGrid
 
     void Find()
     {
-        var start = new PathNode()
-        {
-            CellPosition = WorldToCell(S_Object.transform.position)
-        };
+        var start = new PathNode(WorldToCell(S_Object.transform.position));
 
-        var goal = new PathNode()
-        {
-            CellPosition = WorldToCell(E_Object.transform.position)
-        };
+        var goal = new PathNode(WorldToCell(E_Object.transform.position));
 
         NodeContainer = AStar.FindPath(start, goal);
     }
@@ -113,10 +107,7 @@ public class T_Astar : MonoBehaviour, IPathGrid
             return null;
         }
 
-        return new PathNode
-        {
-            CellPosition = pos
-        };
+        return new PathNode(pos);
     }
 }
 #endif

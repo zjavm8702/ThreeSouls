@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c747c28c641e3245bd6bbbb45b17643, type: 3}
+  m_Name: GameAudioCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::ThreeSouls.Audio.GameAudioCatalog
+  Village: {fileID: 8300000, guid: 4a1046870eea60d418810baee3781bf4, type: 3}
+  Battle: {fileID: 8300000, guid: 79d447aea9b23844888f59f45f0aeb77, type: 3}
+  Cave: {fileID: 8300000, guid: 7e89499e47c210a45a402404b7cca677, type: 3}
+  Effects:
+  - Kind: 0
+    Clip: {fileID: 8300000, guid: 018e910413a010b4cb3a11bea91ee3b5, type: 3}
+    Volume: 0.65
+    Interval: 0.06
+  - Kind: 1
+    Clip: {fileID: 8300000, guid: 0ec20b4389e0ac44faf69fb888e0615b, type: 3}
+    Volume: 0.65
+    Interval: 0.06
+  - Kind: 2
+    Clip: {fileID: 8300000, guid: b51b3ea4d9a01d347a59751c5da1f3c2, type: 3}
+    Volume: 0.65
+    Interval: 0.06
+  - Kind: 3
+    Clip: {fileID: 8300000, guid: 3e186416b8f4a8e46aa798cf7d4ba965, type: 3}
+    Volume: 0.65
+    Interval: 0.06
+  - Kind: 4
+    Clip: {fileID: 8300000, guid: cc0c50396f9396d48a4a6fdca055b067, type: 3}
+    Volume: 0.65
+    Interval: 0.06
+  - Kind: 5
+    Clip: {fileID: 8300000, guid: cb150936d6ae10b43abf429df33daa40, type: 3}
+    Volume: 0.65
+    Interval: 0.06
+  - Kind: 6
+    Clip: {fileID: 8300000, guid: 0ff6eb2292e8c7946b558760167c233e, type: 3}
+    Volume: 0.35
+    Interval: 0.06
+  - Kind: 7
+    Clip: {fileID: 8300000, guid: 040efd2410bddd54abcd146f03305f5d, type: 3}
+    Volume: 0.35
+    Interval: 0.06
+  - Kind: 8
+    Clip: {fileID: 8300000, guid: 58a258e1ffc94774ca53bf50e3003c85, type: 3}
+    Volume: 0.65
+    Interval: 0.06
+  - Kind: 9
+    Clip: {fileID: 8300000, guid: 1789b70a383c1de49967cd1568387b21, type: 3}
+    Volume: 0.65
+    Interval: 0.06
+  - Kind: 10
+    Clip: {fileID: 8300000, guid: 5933f67759eef544d8a4b7fb1084ec93, type: 3}
+    Volume: 0.65
+    Interval: 0.06
+  - Kind: 11
+    Clip: {fileID: 8300000, guid: 79a7b19c57a08ef4195472b322c3562d, type: 3}
+    Volume: 0.25
+    Interval: 0.06
+  - Kind: 12
+    Clip: {fileID: 8300000, guid: 9e232e3ab9e312041bea5c354f3a4312, type: 3}
+    Volume: 0.65
+    Interval: 0.06
+  - Kind: 13
+    Clip: {fileID: 8300000, guid: 6f08e4a64faf234429a8252b15f7b369, type: 3}
+    Volume: 0.65
+    Interval: 0.06
+  - Kind: 14
+    Clip: {fileID: 8300000, guid: 1365d3d7f67936d47a066b08b7f8631b, type: 3}
+    Volume: 0.2
+    Interval: 0.08
+  - Kind: 15
+    Clip: {fileID: 8300000, guid: e9dd6a1041ef8224c839dd09bada6d3c, type: 3}
+    Volume: 0.35
+    Interval: 0.18
+  - Kind: 16
+    Clip: {fileID: 8300000, guid: 7bf8ac8ab64d1ce439b0b7a10a7c47d9, type: 3}
+    Volume: 0.65
+    Interval: 0.06
+  - Kind: 17
+    Clip: {fileID: 8300000, guid: cb922897161c17d4ebd7a59540d8db8a, type: 3}
+    Volume: 0.65
+    Interval: 0.06
+  - Kind: 18
+    Clip: {fileID: 8300000, guid: 7e136381a0b24304eafae4899693d417, type: 3}
+    Volume: 0.65
+    Interval: 0.06
+  - Kind: 19
+    Clip: {fileID: 8300000, guid: a04262d232b0111419422bca1815d002, type: 3}
+    Volume: 0.16
+    Interval: 0.2
+  - Kind: 20
+    Clip: {fileID: 8300000, guid: 8fb8eeffbbbac194aa958e19951f0354, type: 3}
+    Volume: 0.16
+    Interval: 0.2
+  - Kind: 21
+    Clip: {fileID: 8300000, guid: 745a6633d0409984cb8cc3d949bc9ee3, type: 3}
+    Volume: 0.16
+    Interval: 0.2
+  - Kind: 22
+    Clip: {fileID: 8300000, guid: b805fb33b046ff046ba08fbb9df3681b, type: 3}
+    Volume: 0.16
+    Interval: 0.2
+  - Kind: 23
+    Clip: {fileID: 8300000, guid: d9a073886c7ef5247929f8e94b44bf3a, type: 3}
+    Volume: 0.16
+    Interval: 0.2
+  - Kind: 24
+    Clip: {fileID: 8300000, guid: e2cb025f2812b704da4715839a39b01f, type: 3}
+    Volume: 0.16
+    Interval: 0.2
+  - Kind: 25
+    Clip: {fileID: 8300000, guid: 11c43616614be11438705f4b185cb978, type: 3}
+    Volume: 0.65
+    Interval: 0.06
+  - Kind: 26
+    Clip: {fileID: 8300000, guid: fbf286ab950927d4da9a5d572e900fc4, type: 3}
+    Volume: 0.65
+    Interval: 0.06
+  MusicVolume: 0.18
+  EffectsVolume: 0.55

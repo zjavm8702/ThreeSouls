@@ -1,157 +1,263 @@
+using System;
+using System.Collections.Generic;
+using ThreeSouls.Data;
+using ThreeSouls.Data.Generated;
 using ThreeSouls.Enumeration;
 using ThreeSouls.Interface;
 using ThreeSouls.Weapon;
-using Sky.Utility;
-using ThreeSouls.Data;
 using UnityEngine;
 using UnityEngine.U2D.Animation;
-using System.Linq;
-using ThreeSouls.Data.Generated;
-using ThreeSouls.Global;
-using System.Collections.Generic;
-using System;
-using ThreeSouls.Combat;
 
 namespace ThreeSouls.Character
 {
+    /// <summary>
+    /// 영웅과 몬스터의 공통 전투 행동과 캐릭터별 전투 상태를 제공합니다.
+    /// </summary>
+    [RequireComponent(typeof(Rigidbody2D), typeof(CircleCollider2D))]
     public abstract class BaseEntity : MonoBehaviour, ICombatStateProvider
     {
-        public abstract LayerMask EnemyLayerMask { get; }
-        public AStarPathfinder AstarPathfinder { get; }
-        public GameObject EnemyTarget { get; set; } = null;
-        public GameObject[] EnemySpawnTargets { get; set; } = Array.Empty<GameObject>();
-        public CharacterCombatData CharacterData { get; protected set; } = null;
-        public Vector2 CurrentWorldPosition => transform.position;
-        public Vector2[] CurrentDestinations { get; set; } = Array.Empty<Vector2>();
-        public EntityHealth CharHealth { get; protected set; }
-        public SpriteRenderer CharSpriteRenderer { get; protected set; } = null;
+        public GameObject EnemyTarget { get; private set; }
+        public CharacterCombatData CharacterData { get; private set; }
+        public EntityHealth CharHealth { get; private set; }
 
-        protected SpriteLibrary CharSpriteLibrary = null;
-        protected ParticleSystemRenderer MovementDustEffect = null;
-        protected Animator CharAnimator = null;
-        protected CharacterWeapon CharWeapon = null;
-        protected CombatController CharCombatController  = null;
-        protected Coroutine CoPlayCharCoroutine = null;
+        [SerializeField] private Material HitFlashMaterial;
 
-        public virtual void SetUp(
-            CharacterTableDataRow charData,
-            ThreeSoulsRuleDataRow ruleData,
-            SpriteLibraryAsset sprLibraryAssetData,
-            ICombatWorld combatWorld)
-        {
-            CharCombatController.Initialize(this, combatWorld);
+        private Rigidbody2D CharRigid2D;
+        private CircleCollider2D CharMoveCollider;
+        private SpriteLibrary CharSpriteLibrary;
+        private CharacterWeapon CharWeapon;
+        private CombatController CharCombatController;
+        private EntityAnimation Animation;
+        private IReadOnlyList<GameObject> EnemySpawnTargets = Array.Empty<GameObject>();
 
-            ResetData();
+        protected ICombatWorld CombatWorld;
 
-            CharSpriteLibrary.spriteLibraryAsset = sprLibraryAssetData;
-            CharacterData = new CharacterCombatData(charData.CharacterType, charData.CharacterRole, charData.AttackType)
-            {
-                CharHealthPoint = charData.MaxHP,
-                CharAttackDmg = charData.AttackDmg,
-                CharAttackInterval = ruleData.BaseAttackInterval / charData.AttackSpeedMultiplier,
-                CharMoveSpeed = charData.MoveSpeed,
-                CharRunningSpeed = charData.RunningSpeed,
-                CharDistanceToTarget = charData.DistanceToTarget,
-                CharIsRunningPlay = charData.IsRunningPlay,
-                CharDetectDelay = charData.DetectDelay
-            };
-
-            CharHealth.Initialize(CharacterData.CharHealthPoint);
-        }
-
-        public virtual void WaitCombat()
-        {
-          
-        }
-        
         protected virtual void Awake()
         {
-            CharAnimator = GetComponent<Animator>();
+            CharRigid2D = GetRequiredComponent<Rigidbody2D>();
+            CharMoveCollider = GetRequiredComponent<CircleCollider2D>();
+            CharCombatController = GetRequiredComponent<CombatController>();
+            CharHealth = GetRequiredComponent<EntityHealth>();
+            CharWeapon = GetRequiredComponent<CharacterWeapon>();
             CharSpriteLibrary = GetComponentInChildren<SpriteLibrary>();
-            CharSpriteRenderer = GetComponentInChildren<SpriteRenderer>();
-            MovementDustEffect = GetComponentInChildren<ParticleSystemRenderer>(true);
-            CharCombatController = GetComponent<CombatController>();
-            CharHealth = GetComponent<EntityHealth>();
-            CharWeapon = GetComponent<CharacterWeapon>();
-            CharCombatController.IsPlay = false;
+            
+            var animator = GetRequiredComponent<Animator>();
+            var renderer = GetComponentInChildren<SpriteRenderer>();
+
+            if (CharSpriteLibrary == null || renderer == null)
+            {
+                throw new InvalidOperationException($"캐릭터 SpriteLibrary 또는 SpriteRenderer 누락 : {name}");
+            }
+
+            Animation = new EntityAnimation(animator, renderer, GetComponentInChildren<ParticleSystemRenderer>(true), HitFlashMaterial);
+
+            CharHealth.OnHealthChangeEventHandler += OnHealthChangeEventHandler;
+        }
+
+        public virtual void SetUp(CharacterTableDataRow character, ThreeSoulsRuleDataRow rule, SpriteLibraryAsset spriteLibrary, ICombatWorld combatWorld, IProjectileSpawner projectiles)
+        {
+            CombatWorld = combatWorld;
+
+            CharCombatController.Initialize(this, CombatWorld);
+            CharWeapon.Initialize(CombatWorld, projectiles);
+
+            CharacterData = new CharacterCombatData(character, rule);
+            Animation.ValidateRunningSupport(CharacterData.CharacterType == CharacterType.Hero);
+            
+            CharSpriteLibrary.spriteLibraryAsset = spriteLibrary;
+            
+            EnemyTarget = null;
+            EnemySpawnTargets = Array.Empty<GameObject>();
+            
+            StopMove();
+            
+            CharRigid2D.position = transform.position;
+            
+            Animation.Reset();
+            
+            CharHealth.Initialize(character.MaxHP);
+            
+            CharCombatController.Play();
         }
 
         public virtual void Despawn()
         {
-            CharCombatController.IsPlay = false;
-
-            if (CoPlayCharCoroutine != null)
-            {
-                StopCoroutine(CoPlayCharCoroutine);
-                CoPlayCharCoroutine = null;
-            }
-        }
-
-        private void ResetData()
-        {   
+            CharCombatController.Stop();
+            CharWeapon.Clear();
+            Animation.ClearHitFeedback();
             EnemyTarget = null;
             EnemySpawnTargets = Array.Empty<GameObject>();
-            CurrentDestinations = Array.Empty<Vector2>();
-            CharCombatController.IsPlay = true;
-            SetAnimator(AnimatorStateParams.Dead, false);
-            SetAnimator(AnimatorStateParams.Attack, false);
-            SetAnimator(AnimatorStateParams.Walking, false);
-            SetAnimator(AnimatorStateParams.Running, false);
-            SetAnimator(AnimatorStateParams.Hit, false);
-            SetEffect(CombatState.MoveToTarget, false);
+
+            StopMove();
         }
 
-        public virtual void SetAnimator(AnimatorStateParams animatorParam, bool flag)
+        public IReadOnlyList<GameObject> GetEnemySpawnTargets()
         {
-            CharAnimator.SetBool(CharacterUtility.GetCharacterAnimatorParametersHash(animatorParam), flag);
+            return EnemySpawnTargets;
         }
 
-        public virtual bool IsAnimationPlay(AnimatorStateParams animatorParam)
+        internal void SetEnemySpawnTargets(IReadOnlyList<GameObject> targets)
         {
-            return CharAnimator.GetBool(CharacterUtility.GetCharacterAnimatorParametersHash(animatorParam));
+            EnemySpawnTargets = targets;
         }
 
-        public virtual void PlayAnimation(AnimatorStateParams animatorParam, int layer = 0, float normalizedTime = 0)
+        public void SetEnemyTarget(GameObject target)
         {
-            CharAnimator.Play(CharacterUtility.GetCharacterAnimatorParametersHash(animatorParam), layer, normalizedTime);
+            EnemyTarget = target;
         }
 
-        public virtual void SetEffect(CombatState state, bool play)
+        public Vector2 GetWorldPosition()
         {
-            MovementDustEffect.gameObject.SetActive(play);
-            MovementDustEffect.flip = play ? Vector2.right : Vector2.zero;
+            return CharRigid2D.position;
         }
 
-        public virtual void ChangeState(CombatState state)
+        public float GetMoveRadius()
+        {
+            var scale = transform.lossyScale;
+
+            return CharMoveCollider.radius * Mathf.Max(Mathf.Abs(scale.x), Mathf.Abs(scale.y));
+        }
+
+        public Vector2 GetMoveOffset()
+        {
+            return transform.TransformVector(CharMoveCollider.offset);
+        }
+
+        public void MovePosition(Vector2 position)
+        {
+            CharRigid2D.MovePosition(position);
+        }
+
+        public void StopMove()
+        {
+            CharRigid2D.linearVelocity = Vector2.zero;
+            CharRigid2D.angularVelocity = 0;
+
+            CharRigid2D.MovePosition(CharRigid2D.position);
+        }
+
+        public void ChangeState(CombatState state)
         {
             CharCombatController.ChangeState(state);
         }
 
-        public virtual float GetPlayAnimationNormalizedTime(AnimatorStateParams animatorParam)
+        /// <summary>
+        /// 강제 이동이 진행 중인지 판단하여 일반 AI 갱신과 분리합니다.
+        /// </summary>
+        public virtual bool IsForcedMovementActive()
         {
-            var currentState = CharAnimator.GetCurrentAnimatorStateInfo(0);
-            
-            if (currentState.shortNameHash == CharacterUtility.GetCharacterAnimatorParametersHash(animatorParam))
-            {
-                return currentState.normalizedTime;
-            }
-
-            return 0;
+            return false;
         }
 
-        public void SetPosition(Vector3 pos)
+        /// <summary>
+        /// 강제 이동이 이번 물리 갱신을 처리했으면 일반 이동을 건너뜁니다.
+        /// </summary>
+        public virtual bool TryUpdateForcedMovement(float deltaTime)
         {
-            transform.position = pos;
+            return false;
         }
 
-        public void SetSpriteRendererFlip(bool flag)
+        public void SetAnimator(AnimatorStateParams parameter, bool value)
         {
-            var prevFlag = CharSpriteRenderer.flipX;
+            Animation.SetAnimator(parameter, value);
+        }
 
-            if (prevFlag != flag)
+        public bool IsAnimationPlay(AnimatorStateParams parameter)
+        {
+            return Animation.IsAnimationPlay(parameter);
+        }
+
+        public void PlayAnimation(AnimatorStateParams parameter, int layer = 0, float normalizedTime = 0)
+        {
+            Animation.PlayAnimation(parameter, layer, normalizedTime);
+        }
+
+        public float GetPlayAnimationNormalizedTime(AnimatorStateParams parameter)
+        {
+            return Animation.GetNormalizedTime(parameter);
+        }
+
+        public void SetMovementEffect(bool play)
+        {
+            Animation.SetMovementEffect(play);
+        }
+
+        public void SetDirection(Vector2 direction)
+        {
+            Animation.SetDirection(direction);
+        }
+
+        public Vector2 GetFacingDirection()
+        {
+            return Animation.GetFacingDirection();
+        }
+
+        public Bounds GetSpriteBounds()
+        {
+            return Animation.GetSpriteBounds();
+        }
+
+        /// <summary>
+        /// 캐릭터별 행동 규칙에 따라 추가 피해를 받을 수 있는지 판단합니다.
+        /// </summary>
+        internal virtual bool CanTakeDamage()
+        {
+            return true;
+        }
+
+        protected virtual void OnHealthChangeEventHandler(
+            bool takeDamage,
+            float maxHealth,
+            float currentHealth,
+            float damage,
+            BaseEntity sourceEntity)
+        {
+            if (takeDamage == false)
             {
-                CharSpriteRenderer.flipX = flag;
+                return;
             }
+
+            Animation.PlayHitFeedback(CharHealth.LastHit);
+
+            if (CharHealth.IsAlive == true)
+            {
+                Animation.BeginHitAnimation();
+            }
+
+            CombatWorld.SpawnDamageText(transform.position, CharHealth.LastHit);
+        }
+
+        protected virtual void OnDisable()
+        {
+            Animation?.ClearHitFeedback();
+        }
+
+        protected virtual void OnDestroy()
+        {
+            Animation?.ClearHitFeedback();
+
+            if (CharHealth != null)
+            {
+                CharHealth.OnHealthChangeEventHandler -= OnHealthChangeEventHandler;
+            }
+        }
+
+        /// <summary>
+        /// 피격 클립 종료 이벤트에서 피격 상태를 해제하여 기존 행동으로 돌아갑니다.
+        /// </summary>
+        private void OnHitAnimationCompleted()
+        {
+            Animation.SetAnimator(AnimatorStateParams.Hit, false);
+        }
+
+        private T GetRequiredComponent<T>() where T : Component
+        {
+            if (TryGetComponent<T>(out var component) == false)
+            {
+                throw new InvalidOperationException($"캐릭터 필수 컴포넌트 누락 : {name}, {typeof(T).Name}");
+            }
+
+            return component;
         }
     }
 }

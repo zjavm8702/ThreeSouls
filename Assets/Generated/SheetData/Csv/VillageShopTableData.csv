@@ -1,0 +1,3 @@
+Index : int,ShopKey : string,DisplayName : string,InteractRadius : float,Note : string
+인덱스,상점 키,상점 표시 이름,입구 도착 판정 거리,기획/구현 메모
+0,VillageEquipment,장비 상점,0.25,Market 건물/간판 선택 → 입구 이동 → 구매/판매; 저장·재입고·되사기 미구현

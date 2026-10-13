@@ -4,18 +4,18 @@ namespace ThreeSouls.Data
 {
     public class StageData
     {
-        private int Round;
-        public int CurrentRound
+        private int Region;
+        public int RegionNumber
         {
-            get => Round;
-            set => Round = Mathf.Max(1, value);
+            get => Region;
+            set => Region = Mathf.Max(1, value);
         }
 
-        private int MaxStage;
-        public int Stage
+        private int Stage;
+        public int StageNumber
         {
-            get => MaxStage;
-            set => MaxStage = Mathf.Max(1, value);
+            get => Stage;
+            set => Stage = Mathf.Max(1, value);
         }
     }
 }

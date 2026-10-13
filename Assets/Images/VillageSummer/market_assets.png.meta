@@ -1,0 +1,997 @@
+fileFormatVersion: 2
+guid: 36bd0f7013c1d8546b624eaa1ca0a590
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4735326475727761899
+    second: market_assets_0
+  - first:
+      213: 3488554730117946168
+    second: market_assets_1
+  - first:
+      213: -5766274165934346684
+    second: market_assets_2
+  - first:
+      213: 3555296450084225966
+    second: market_assets_3
+  - first:
+      213: 2898836697452486428
+    second: market_assets_4
+  - first:
+      213: 6238579577692781049
+    second: market_assets_5
+  - first:
+      213: -8849805372233849323
+    second: market_assets_6
+  - first:
+      213: 2555919278479925461
+    second: market_assets_7
+  - first:
+      213: -1897374390843320536
+    second: market_assets_8
+  - first:
+      213: -688157599889617191
+    second: market_assets_9
+  - first:
+      213: -7698943729961533995
+    second: market_assets_10
+  - first:
+      213: 2935674271239114101
+    second: market_assets_11
+  - first:
+      213: -515079784439305630
+    second: market_assets_12
+  - first:
+      213: 5928819449178563224
+    second: market_assets_13
+  - first:
+      213: 5764317791813490939
+    second: market_assets_14
+  - first:
+      213: 2519097999490247690
+    second: market_assets_15
+  - first:
+      213: 8992176039579154543
+    second: market_assets_16
+  - first:
+      213: 889976556032213945
+    second: market_assets_17
+  - first:
+      213: -7245945765197371932
+    second: market_assets_18
+  - first:
+      213: 6825104046884157547
+    second: market_assets_19
+  - first:
+      213: 8188143896890131673
+    second: market_assets_20
+  - first:
+      213: -4155673240702996633
+    second: market_assets_21
+  - first:
+      213: 4836425620823436339
+    second: market_assets_22
+  - first:
+      213: -3675374195952568041
+    second: market_assets_23
+  - first:
+      213: -7496078391797376976
+    second: market_assets_24
+  - first:
+      213: 2160767222832224374
+    second: market_assets_25
+  - first:
+      213: -6036706647450484130
+    second: market_assets_26
+  - first:
+      213: -5138701383223668491
+    second: market_assets_27
+  - first:
+      213: -7864189453621432718
+    second: market_assets_28
+  - first:
+      213: 7914915471180698079
+    second: market_assets_29
+  - first:
+      213: -2029358257372561806
+    second: market_assets_30
+  - first:
+      213: 5768410752562339039
+    second: market_assets_31
+  - first:
+      213: -8933583782431586353
+    second: market_assets_32
+  - first:
+      213: 3187711767557097229
+    second: market_assets_33
+  - first:
+      213: 1176825677578667647
+    second: market_assets_34
+  - first:
+      213: -1309271204559491819
+    second: market_assets_35
+  - first:
+      213: 210086287273897016
+    second: market_assets_36
+  - first:
+      213: -2477131132237110824
+    second: market_assets_37
+  - first:
+      213: -6432789432425028120
+    second: market_assets_38
+  - first:
+      213: 6057165573184917486
+    second: market_assets_39
+  - first:
+      213: 1222964169766344004
+    second: market_assets_40
+  - first:
+      213: -5979881109341988976
+    second: market_assets_41
+  - first:
+      213: 8720627235579596781
+    second: market_assets_42
+  - first:
+      213: -1531442408036352036
+    second: market_assets_43
+  - first:
+      213: 6021696672306878396
+    second: market_assets_44
+  - first:
+      213: -3145951648419557242
+    second: market_assets_45
+  - first:
+      213: -6384034741628662563
+    second: market_assets_46
+  - first:
+      213: 5108261550219424894
+    second: market_assets_47
+  - first:
+      213: 833583066260321396
+    second: market_assets_48
+  - first:
+      213: -6864362456717569676
+    second: market_assets_49
+  - first:
+      213: -9188197708496738921
+    second: market_assets_50
+  - first:
+      213: -2773928133642907283
+    second: market_assets_51
+  - first:
+      213: -92658760305791437
+    second: market_assets_52
+  - first:
+      213: -3706847493117816984
+    second: market_assets_53
+  - first:
+      213: -4122054340379987176
+    second: market_assets_54
+  - first:
+      213: -1691475690460837967
+    second: market_assets_55
+  - first:
+      213: -7051556532398258466
+    second: market_assets_56
+  - first:
+      213: 1041985535141085379
+    second: market_assets_57
+  - first:
+      213: -296129117680441073
+    second: market_assets_58
+  - first:
+      213: -3028928541528505495
+    second: market_assets_59
+  - first:
+      213: 7654864236824643458
+    second: market_assets_60
+  - first:
+      213: 6100815113915287403
+    second: market_assets_61
+  - first:
+      213: -3039539780597892158
+    second: market_assets_62
+  - first:
+      213: 5167111713359818132
+    second: market_assets_63
+  - first:
+      213: 2075522288918514077
+    second: market_assets_64
+  - first:
+      213: -4277142567321910465
+    second: market_assets_65
+  - first:
+      213: -7380441403149447572
+    second: market_assets_66
+  - first:
+      213: 2160858918853211179
+    second: market_assets_67
+  - first:
+      213: -497373182753377727
+    second: market_assets_68
+  - first:
+      213: 2088099336740049529
+    second: market_assets_69
+  - first:
+      213: 7471663867167354243
+    second: market_assets_70
+  - first:
+      213: -2112787816481287978
+    second: market_assets_71
+  - first:
+      213: -516897929542536868
+    second: market_assets_72
+  - first:
+      213: -800657803777700429
+    second: market_assets_73
+  - first:
+      213: 5142902058205857639
+    second: market_assets_74
+  - first:
+      213: -463895048245261786
+    second: market_assets_75
+  - first:
+      213: 1170588878733825302
+    second: market_assets_76
+  - first:
+      213: 6993785730590021550
+    second: market_assets_77
+  - first:
+      213: -3561301828235577842
+    second: market_assets_78
+  - first:
+      213: -8064456053219944985
+    second: market_assets_79
+  - first:
+      213: 5243001496233996772
+    second: market_assets_80
+  - first:
+      213: 3327948474417069761
+    second: market_assets_81
+  - first:
+      213: -686775766493944729
+    second: market_assets_82
+  - first:
+      213: -4542306131202601085
+    second: market_assets_83
+  - first:
+      213: -2124077190839689499
+    second: market_assets_84
+  - first:
+      213: -4071401014990383627
+    second: market_assets_85
+  - first:
+      213: -5807424138795773607
+    second: market_assets_86
+  - first:
+      213: -4610988258028873222
+    second: market_assets_87
+  - first:
+      213: 7033575160503085986
+    second: market_assets_88
+  - first:
+      213: -4330829576184964564
+    second: market_assets_89
+  - first:
+      213: -8587622566890929285
+    second: market_assets_90
+  - first:
+      213: -960820040069765288
+    second: market_assets_91
+  - first:
+      213: -3513130342641832412
+    second: market_assets_92
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: market_assets_00
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 250
+        width: 77
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf90404a2f43854bab95611b23d2cf1
+      internalID: -1086899727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_01
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 250
+        width: 77
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7852e5db34b944cb8998df52f5024b
+      internalID: -1859093801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_02
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 222
+        width: 110
+        height: 119
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a56456c6892864f8ed04c2daa239d3
+      internalID: -1126127735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_03
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 287
+        width: 71
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92feaab8499aa8344aee4894d51c4b79
+      internalID: -742906680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_04
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 241
+        width: 71
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d530286eed2541b489452a062e855f34
+      internalID: -776869083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_05
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 175
+        width: 77
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7575d7cbe7bfe4dbe47a50bf410779
+      internalID: 48121190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_06
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 175
+        width: 77
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e4a97296778454db209254adcc94ed
+      internalID: 1650185461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_07
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 175
+        width: 77
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02eb105db907fcf4a8c4ca2a76501a48
+      internalID: -1483618154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_08
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 202
+        width: 73
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008ba1e3c7abe1442a9f0eb0969b295c
+      internalID: 552165759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_09
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 115
+        width: 47
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0aadadbe4bbd3143a05f75a7f71e0cb
+      internalID: 1545277954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 120
+        width: 27
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b4afd90aceb8f479e74b3ff6a80a41
+      internalID: -7698943729961533995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_11
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 120
+        width: 51
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5561cfc20744fe144a1e1e7b9545e3fb
+      internalID: 2935674271239114101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 115
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a217f46d474eca24ebcf7191de36acde
+      internalID: -515079784439305630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_13
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 120
+        width: 17
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c511d641a32ae47ae5df66a50bb1eb
+      internalID: 5928819449178563224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_14
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 119
+        width: 40
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc6db7913b96714886156b8e072da45
+      internalID: 5764317791813490939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_15
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 117
+        width: 64
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87482f57751738a49ba3225defd04af6
+      internalID: 2519097999490247690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_16
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 77
+        width: 40
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65363b119ed851d46907149ca80c42fb
+      internalID: 8992176039579154543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_17
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 67
+        width: 47
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14616b10e3362b946a3492c2f5f7f6c0
+      internalID: 889976556032213945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_18
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 73
+        width: 27
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70436e156dea0541863a88a2db596eb
+      internalID: -7245945765197371932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_19
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 73
+        width: 51
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9169e1a9b2ed5154dbd389010a66808d
+      internalID: 6825104046884157547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 14
+        width: 24
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa270b27244bf7458ccc1ff8f4d1c6f
+      internalID: 8188143896890131673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 9
+        width: 237
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80648cfbd0607f4ab44b0529e92adf5
+      internalID: -4155673240702996633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_22
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 73
+        width: 17
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10dc5487b6934264ba1bf102ca6a0297
+      internalID: 4836425620823436339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_23
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 72
+        width: 65
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a5ef2a3ffa5054e9dada115cb64d12
+      internalID: -3675374195952568041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_assets_24
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 16
+        width: 54
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7c368df51f32f49bb38162916e0f30
+      internalID: -7496078391797376976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 17c250c111935ce4aa86da9a39e19d58
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      market_assets_00: -1086899727
+      market_assets_01: -1859093801
+      market_assets_02: -1126127735
+      market_assets_03: -742906680
+      market_assets_04: -776869083
+      market_assets_05: 48121190
+      market_assets_06: 1650185461
+      market_assets_07: -1483618154
+      market_assets_08: 552165759
+      market_assets_09: 1545277954
+      market_assets_10: -7698943729961533995
+      market_assets_11: 2935674271239114101
+      market_assets_12: -515079784439305630
+      market_assets_13: 5928819449178563224
+      market_assets_14: 5764317791813490939
+      market_assets_15: 2519097999490247690
+      market_assets_16: 8992176039579154543
+      market_assets_17: 889976556032213945
+      market_assets_18: -7245945765197371932
+      market_assets_19: 6825104046884157547
+      market_assets_20: 8188143896890131673
+      market_assets_21: -4155673240702996633
+      market_assets_22: 4836425620823436339
+      market_assets_23: -3675374195952568041
+      market_assets_24: -7496078391797376976
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

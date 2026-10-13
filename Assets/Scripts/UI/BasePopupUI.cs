@@ -17,7 +17,7 @@ namespace ThreeSouls.UI
         public UIState CurrentUIState { get; protected set; } = UIState.HIDE;
         public override bool IsShowing => CurrentUIState == UIState.SHOW_START || CurrentUIState == UIState.SHOW;
 
-        public virtual void Initialize()
+        public override void Initialize()
         {
             BasicObjectState(false);
             CurrentUIState = UIState.HIDE;

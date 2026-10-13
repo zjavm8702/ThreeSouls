@@ -19,3 +19,4 @@ MonoBehaviour:
     - Key_archer
     - Key_wizard
     BaseAttackInterval: 1
+    SpecialItemDropMultiplier: 1.02

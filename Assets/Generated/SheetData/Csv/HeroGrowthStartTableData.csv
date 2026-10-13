@@ -1,0 +1,5 @@
+Index : int,HeroKey : string,InitialLevel : int,InitialExperience : int,Note : string
+인덱스,영웅 키,최초 레벨,현재 레벨 경험치,설명
+0,Key_night,1,0,고정 영웅. 최초 강화 단계 0.
+1,Key_archer,1,0,고정 영웅. 최초 강화 단계 0.
+2,Key_wizard,1,0,고정 영웅. 최초 강화 단계 0.

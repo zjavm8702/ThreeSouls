@@ -1,5 +1,22 @@
-Index : int,Stage : int,Monsters : string[],MapName : Enum<Prefabs>,SpawnCounts : int[]
-인덱스,스테이지,몬스터,맵 프리팹 이름,소환 숫자
-0,1,"[Key_goblin, Key_purpleBat, Key_troll]",Grid_Cave,"[3, 3, 1]"
-1,2,"[Key_goblin, Key_purpleBat, Key_troll]",Grid_Cave,"[3, 3, 1]"
-2,3,"[Key_goblin, Key_purpleBat, Key_troll]",Grid_Cave,"[3, 3, 1]"
+Index : int,RegionId : int,Stage : int,RegionKey : string,StageKey : string,Monsters : string[],MapName : Enum<Prefabs>,SpawnCounts : int[],RoundKeys : string[]
+인덱스,지역,스테이지,지역 이름,스테이지 이름,몬스터,맵 프리팹 이름,소환 숫자,성소 방문 순서에 따른 RoundKey 목록
+0,1,1,test_region_1,test_stage_1,"[Key_purpleBat, Key_brownRat, Key_goblin]",Grid_Cave,"[20, 20, 20]","[Round_01_01, Round_01_02, Round_01_03]"
+1,1,2,test_region_1,test_stage_2,"[Key_brownRat, Key_purpleBat, Key_goblin]",Grid_Cave_02,"[22, 22, 24]","[Round_02_01, Round_02_02, Round_02_03]"
+2,1,3,test_region_1,test_stage_3,"[Key_blueCrab, Key_brownRat, Key_purpleBat]",Grid_Cave_03,"[24, 24, 28]","[Round_03_01, Round_03_02, Round_03_03]"
+3,1,4,test_region_1,test_stage_4,"[Key_goblin, Key_goblinArcher, Key_orc]",Grid_Cave_04,"[26, 26, 32]","[Round_04_01, Round_04_02, Round_04_03]"
+4,1,5,test_region_1,test_stage_5,"[Key_purpleBat, Key_orc, Key_troll]",Grid_Cave_05,"[28, 28, 36]","[Round_05_01, Round_05_02, Round_05_03]"
+5,2,1,ruins,ruins_stage_1,"[Key_goblin, Key_redCrab, Key_orc]",Grid_Ruins_01,"[30, 30, 34]","[Ruins_01_01, Ruins_01_02, Ruins_01_03]"
+6,2,2,ruins,ruins_stage_2,"[Key_blueCrab, Key_redCrab, Key_goblinArcher]",Grid_Ruins_02,"[32, 32, 36]","[Ruins_02_01, Ruins_02_02, Ruins_02_03]"
+7,2,3,ruins,ruins_stage_3,"[Key_goblinArcher, Key_orc, Key_troll]",Grid_Ruins_03,"[34, 34, 38]","[Ruins_03_01, Ruins_03_02, Ruins_03_03]"
+8,2,4,ruins,ruins_stage_4,"[Key_orc, Key_goblinArcher, Key_greenOgre]",Grid_Ruins_04,"[36, 36, 40]","[Ruins_04_01, Ruins_04_02, Ruins_04_03]"
+9,2,5,ruins,ruins_stage_5,"[Key_orc, Key_troll, Key_greenOgre]",Grid_Ruins_05,"[38, 38, 44]","[Ruins_05_01, Ruins_05_02, Ruins_05_03]"
+10,3,1,forest,forest_stage_1,"[Key_hog, Key_yellowBee, Key_brownStump]",Grid_Forest_01,"[40, 40, 46]","[Forest_01_01, Forest_01_02, Forest_01_03]"
+11,3,2,forest,forest_stage_2,"[Key_greenDuck, Key_greenFrog, Key_greenTortoise]",Grid_Forest_02,"[42, 42, 48]","[Forest_02_01, Forest_02_02, Forest_02_03]"
+12,3,3,forest,forest_stage_3,"[Key_greenFlower, Key_brownStump, Key_blackBoar]",Grid_Forest_03,"[44, 44, 50]","[Forest_03_01, Forest_03_02, Forest_03_03]"
+13,3,4,forest,forest_stage_4,"[Key_wolf, Key_blackBoar, Key_blackBear]",Grid_Forest_04,"[46, 46, 52]","[Forest_04_01, Forest_04_02, Forest_04_03]"
+14,3,5,forest,forest_stage_5,"[Key_brownStump, Key_greenFlower, Key_greenOgre]",Grid_Forest_05,"[48, 48, 54]","[Forest_05_01, Forest_05_02, Forest_05_03]"
+15,4,1,frost,frost_stage_1,"[Key_wolf, Key_blackBear, Key_blueCrab]",Grid_Frost_01,"[50, 50, 56]","[Frost_01_01, Frost_01_02, Frost_01_03]"
+16,4,2,frost,frost_stage_2,"[Key_blueCrab, Key_wolf, Key_troll]",Grid_Frost_02,"[52, 52, 58]","[Frost_02_01, Frost_02_02, Frost_02_03]"
+17,4,3,frost,frost_stage_3,"[Key_purpleBat, Key_blueCrab, Key_blueDragon]",Grid_Frost_03,"[54, 54, 60]","[Frost_03_01, Frost_03_02, Frost_03_03]"
+18,4,4,frost,frost_stage_4,"[Key_wolf, Key_troll, Key_greenOgre]",Grid_Frost_04,"[56, 56, 62]","[Frost_04_01, Frost_04_02, Frost_04_03]"
+19,4,5,frost,frost_stage_5,"[Key_blackBear, Key_troll, Key_blueDragon]",Grid_Frost_05,"[58, 58, 64]","[Frost_05_01, Frost_05_02, Frost_05_03]"

@@ -1,0 +1,118 @@
+{
+    "Items": [
+        {
+            "Key": "HeavySlash",
+            "HeroKey": "Key_night",
+            "InitialDelay": 2.0,
+            "Cooldown": 6.0,
+            "CastRange": 1.600000023841858,
+            "HitDelay": 0.23999999463558198,
+            "DamageMultiplier": 3.0,
+            "IsArea": false,
+            "CenterOnCaster": false,
+            "Radius": 0.0,
+            "EffectOffset": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "SkillIconKey": "Icon_Knight_HeavySlash",
+            "AttackClipKey": "HeavySlashAttack",
+            "EffectPrefabKey": "HeavySlash"
+        },
+        {
+            "Key": "Whirlwind",
+            "HeroKey": "Key_night",
+            "InitialDelay": 5.0,
+            "Cooldown": 10.0,
+            "CastRange": 1.7000000476837159,
+            "HitDelay": 0.2199999988079071,
+            "DamageMultiplier": 2.0,
+            "IsArea": true,
+            "CenterOnCaster": true,
+            "Radius": 1.7000000476837159,
+            "EffectOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "SkillIconKey": "Icon_Knight_Whirlwind",
+            "AttackClipKey": "WhirlwindAttack",
+            "EffectPrefabKey": "Whirlwind"
+        },
+        {
+            "Key": "PrecisionShot",
+            "HeroKey": "Key_archer",
+            "InitialDelay": 2.5,
+            "Cooldown": 5.0,
+            "CastRange": 4.5,
+            "HitDelay": 0.17000000178813935,
+            "DamageMultiplier": 2.5,
+            "IsArea": false,
+            "CenterOnCaster": false,
+            "Radius": 0.0,
+            "EffectOffset": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "SkillIconKey": "Icon_Archer_PrecisionShot",
+            "AttackClipKey": "PrecisionShotAttack",
+            "EffectPrefabKey": "PrecisionShot"
+        },
+        {
+            "Key": "ArrowRain",
+            "HeroKey": "Key_archer",
+            "InitialDelay": 6.0,
+            "Cooldown": 10.0,
+            "CastRange": 4.5,
+            "HitDelay": 0.3499999940395355,
+            "DamageMultiplier": 1.5,
+            "IsArea": true,
+            "CenterOnCaster": false,
+            "Radius": 2.0,
+            "EffectOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "SkillIconKey": "Icon_Archer_ArrowRain",
+            "AttackClipKey": "ArrowRainAttack",
+            "EffectPrefabKey": "ArrowRain"
+        },
+        {
+            "Key": "FireBolt",
+            "HeroKey": "Key_wizard",
+            "InitialDelay": 3.0,
+            "Cooldown": 6.0,
+            "CastRange": 3.5,
+            "HitDelay": 0.20000000298023225,
+            "DamageMultiplier": 2.0,
+            "IsArea": false,
+            "CenterOnCaster": false,
+            "Radius": 0.0,
+            "EffectOffset": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "SkillIconKey": "Icon_Wizard_FireBolt",
+            "AttackClipKey": "FireBoltAttack",
+            "EffectPrefabKey": "FireBolt"
+        },
+        {
+            "Key": "FlameNova",
+            "HeroKey": "Key_wizard",
+            "InitialDelay": 7.0,
+            "Cooldown": 11.0,
+            "CastRange": 3.5,
+            "HitDelay": 0.3499999940395355,
+            "DamageMultiplier": 1.75,
+            "IsArea": true,
+            "CenterOnCaster": false,
+            "Radius": 2.200000047683716,
+            "EffectOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "SkillIconKey": "Icon_Wizard_FlameNova",
+            "AttackClipKey": "FlameNovaAttack",
+            "EffectPrefabKey": "FlameNova"
+        }
+    ]
+}

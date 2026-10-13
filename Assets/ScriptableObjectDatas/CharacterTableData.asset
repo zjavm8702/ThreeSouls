@@ -16,8 +16,8 @@ MonoBehaviour:
   - Index: 0
     StrKey: Key_night
     MoveSpeed: 3
-    IsRunningPlay: 1
-    RunningSpeed: 2
+    IsRunningPlay: 0
+    RunningSpeed: 1
     AttackType: 0
     CharacterType: 0
     MaxHP: 500
@@ -25,39 +25,42 @@ MonoBehaviour:
     DistanceToTarget: 1
     CharacterRole: 0
     AttackRange: 0
-    AttackSpeedMultiplier: 0.5
-    DetectDelay: 1
-    ResourceName: Knight
+    AttackSpeedMultiplier: 0.45
+    DetectDelay: 0.2
+    ResourceName: Hero_Knight
+    TargetSearchRadius: 6
   - Index: 1
     StrKey: Key_archer
     MoveSpeed: 3
     IsRunningPlay: 0
-    RunningSpeed: 0
+    RunningSpeed: 1
     AttackType: 1
     CharacterType: 0
     MaxHP: 250
     AttackDmg: 7
-    DistanceToTarget: 4
+    DistanceToTarget: 3
     CharacterRole: 1
     AttackRange: 0
-    AttackSpeedMultiplier: 1
-    DetectDelay: 1
-    ResourceName: Archer
+    AttackSpeedMultiplier: 0.75
+    DetectDelay: 0.2
+    ResourceName: Hero_Archer
+    TargetSearchRadius: 6
   - Index: 2
     StrKey: Key_wizard
     MoveSpeed: 3
     IsRunningPlay: 0
-    RunningSpeed: 0
+    RunningSpeed: 1
     AttackType: 2
     CharacterType: 0
     MaxHP: 250
     AttackDmg: 15
-    DistanceToTarget: 3
+    DistanceToTarget: 4
     CharacterRole: 1
     AttackRange: 0
-    AttackSpeedMultiplier: 0.5
-    DetectDelay: 1
-    ResourceName: FireWizard
+    AttackSpeedMultiplier: 0.25
+    DetectDelay: 0.2
+    ResourceName: Hero_Wizard
+    TargetSearchRadius: 6
   - Index: 3
     StrKey: Key_goblin
     MoveSpeed: 3
@@ -71,8 +74,9 @@ MonoBehaviour:
     CharacterRole: 3
     AttackRange: 0
     AttackSpeedMultiplier: 1
-    DetectDelay: 1
-    ResourceName: Goblin
+    DetectDelay: 0.2
+    ResourceName: Monster_Goblin
+    TargetSearchRadius: 4
   - Index: 4
     StrKey: Key_hog
     MoveSpeed: 3
@@ -86,8 +90,9 @@ MonoBehaviour:
     CharacterRole: 3
     AttackRange: 0
     AttackSpeedMultiplier: 1
-    DetectDelay: 1
-    ResourceName: Hog
+    DetectDelay: 0.2
+    ResourceName: Monster_BrownPig
+    TargetSearchRadius: 4
   - Index: 5
     StrKey: Key_troll
     MoveSpeed: 3
@@ -96,13 +101,14 @@ MonoBehaviour:
     AttackType: 0
     CharacterType: 1
     MaxHP: 200
-    AttackDmg: 6
+    AttackDmg: 3
     DistanceToTarget: 1
     CharacterRole: 3
     AttackRange: 0
     AttackSpeedMultiplier: 1
-    DetectDelay: 1
-    ResourceName: Troll
+    DetectDelay: 0.2
+    ResourceName: Monster_Troll
+    TargetSearchRadius: 4
   - Index: 6
     StrKey: Key_blackBear
     MoveSpeed: 3
@@ -116,8 +122,9 @@ MonoBehaviour:
     CharacterRole: 3
     AttackRange: 0
     AttackSpeedMultiplier: 1
-    DetectDelay: 1
-    ResourceName: BlackBear
+    DetectDelay: 0.2
+    ResourceName: Monster_Bear
+    TargetSearchRadius: 4
   - Index: 7
     StrKey: Key_blueCrab
     MoveSpeed: 3
@@ -131,8 +138,9 @@ MonoBehaviour:
     CharacterRole: 3
     AttackRange: 0
     AttackSpeedMultiplier: 1
-    DetectDelay: 1
-    ResourceName: BlueCrab
+    DetectDelay: 0.2
+    ResourceName: Monster_BlueCrab
+    TargetSearchRadius: 4
   - Index: 8
     StrKey: Key_redCrab
     MoveSpeed: 3
@@ -146,8 +154,9 @@ MonoBehaviour:
     CharacterRole: 3
     AttackRange: 0
     AttackSpeedMultiplier: 1
-    DetectDelay: 1
-    ResourceName: RedCrab
+    DetectDelay: 0.2
+    ResourceName: Monster_RedCrab
+    TargetSearchRadius: 4
   - Index: 9
     StrKey: Key_wolf
     MoveSpeed: 3
@@ -161,11 +170,140 @@ MonoBehaviour:
     CharacterRole: 3
     AttackRange: 0
     AttackSpeedMultiplier: 1
-    DetectDelay: 1
-    ResourceName: Wolf
+    DetectDelay: 0.2
+    ResourceName: Monster_Wolf
+    TargetSearchRadius: 4
   - Index: 10
     StrKey: Key_purpleBat
     MoveSpeed: 3
+    IsRunningPlay: 0
+    RunningSpeed: 0
+    AttackType: 0
+    CharacterType: 1
+    MaxHP: 50
+    AttackDmg: 7
+    DistanceToTarget: 1
+    CharacterRole: 3
+    AttackRange: 0
+    AttackSpeedMultiplier: 1
+    DetectDelay: 0.2
+    ResourceName: Monster_PurpleBat
+    TargetSearchRadius: 4
+  - Index: 11
+    StrKey: Key_goblinArcher
+    MoveSpeed: 2.6
+    IsRunningPlay: 0
+    RunningSpeed: 0
+    AttackType: 1
+    CharacterType: 1
+    MaxHP: 45
+    AttackDmg: 3
+    DistanceToTarget: 3
+    CharacterRole: 3
+    AttackRange: 0
+    AttackSpeedMultiplier: 0.65
+    DetectDelay: 0.2
+    ResourceName: Monster_GoblinArcher
+    TargetSearchRadius: 4
+  - Index: 12
+    StrKey: Key_orc
+    MoveSpeed: 2.2
+    IsRunningPlay: 0
+    RunningSpeed: 0
+    AttackType: 0
+    CharacterType: 1
+    MaxHP: 100
+    AttackDmg: 5
+    DistanceToTarget: 1
+    CharacterRole: 3
+    AttackRange: 0
+    AttackSpeedMultiplier: 0.7
+    DetectDelay: 0.2
+    ResourceName: Monster_Orc
+    TargetSearchRadius: 4
+  - Index: 13
+    StrKey: Key_blackBoar
+    MoveSpeed: 2.7
+    IsRunningPlay: 0
+    RunningSpeed: 0
+    AttackType: 0
+    CharacterType: 1
+    MaxHP: 75
+    AttackDmg: 4
+    DistanceToTarget: 1
+    CharacterRole: 3
+    AttackRange: 0
+    AttackSpeedMultiplier: 0.8
+    DetectDelay: 0.2
+    ResourceName: Monster_BlackBoar
+    TargetSearchRadius: 4
+  - Index: 14
+    StrKey: Key_blueDragon
+    MoveSpeed: 2.2
+    IsRunningPlay: 0
+    RunningSpeed: 0
+    AttackType: 0
+    CharacterType: 1
+    MaxHP: 160
+    AttackDmg: 6
+    DistanceToTarget: 1
+    CharacterRole: 3
+    AttackRange: 0
+    AttackSpeedMultiplier: 0.6
+    DetectDelay: 0.2
+    ResourceName: Monster_BlueDragon
+    TargetSearchRadius: 4
+  - Index: 15
+    StrKey: Key_brownRat
+    MoveSpeed: 3.2
+    IsRunningPlay: 0
+    RunningSpeed: 0
+    AttackType: 0
+    CharacterType: 1
+    MaxHP: 30
+    AttackDmg: 2
+    DistanceToTarget: 1
+    CharacterRole: 3
+    AttackRange: 0
+    AttackSpeedMultiplier: 1.1
+    DetectDelay: 0.2
+    ResourceName: Monster_BrownRat
+    TargetSearchRadius: 4
+  - Index: 16
+    StrKey: Key_brownStump
+    MoveSpeed: 1.6
+    IsRunningPlay: 0
+    RunningSpeed: 0
+    AttackType: 0
+    CharacterType: 1
+    MaxHP: 65
+    AttackDmg: 3
+    DistanceToTarget: 1
+    CharacterRole: 3
+    AttackRange: 0
+    AttackSpeedMultiplier: 0.7
+    DetectDelay: 0.2
+    ResourceName: Monster_BrownStump
+    TargetSearchRadius: 4
+  - Index: 17
+    StrKey: Key_greenDuck
+    MoveSpeed: 2.4
+    IsRunningPlay: 0
+    RunningSpeed: 0
+    AttackType: 0
+    CharacterType: 1
+    MaxHP: 35
+    AttackDmg: 2
+    DistanceToTarget: 1
+    CharacterRole: 3
+    AttackRange: 0
+    AttackSpeedMultiplier: 0.9
+    DetectDelay: 0.2
+    ResourceName: Monster_GreenDuck
+    TargetSearchRadius: 4
+  - Index: 18
+    StrKey: Key_greenFlower
+    MoveSpeed: 1.5
     IsRunningPlay: 0
     RunningSpeed: 0
     AttackType: 0
@@ -175,6 +313,71 @@ MonoBehaviour:
     DistanceToTarget: 1
     CharacterRole: 3
     AttackRange: 0
-    AttackSpeedMultiplier: 1
-    DetectDelay: 1
-    ResourceName: PurpleBat
+    AttackSpeedMultiplier: 0.65
+    DetectDelay: 0.2
+    ResourceName: Monster_GreenFlower
+    TargetSearchRadius: 4
+  - Index: 19
+    StrKey: Key_greenFrog
+    MoveSpeed: 2.4
+    IsRunningPlay: 0
+    RunningSpeed: 0
+    AttackType: 0
+    CharacterType: 1
+    MaxHP: 35
+    AttackDmg: 3
+    DistanceToTarget: 1
+    CharacterRole: 3
+    AttackRange: 0
+    AttackSpeedMultiplier: 0.9
+    DetectDelay: 0.2
+    ResourceName: Monster_GreenFrog
+    TargetSearchRadius: 4
+  - Index: 20
+    StrKey: Key_greenOgre
+    MoveSpeed: 1.8
+    IsRunningPlay: 0
+    RunningSpeed: 0
+    AttackType: 0
+    CharacterType: 1
+    MaxHP: 120
+    AttackDmg: 5
+    DistanceToTarget: 1
+    CharacterRole: 3
+    AttackRange: 0
+    AttackSpeedMultiplier: 0.6
+    DetectDelay: 0.2
+    ResourceName: Monster_GreenOgre
+    TargetSearchRadius: 4
+  - Index: 21
+    StrKey: Key_greenTortoise
+    MoveSpeed: 1.5
+    IsRunningPlay: 0
+    RunningSpeed: 0
+    AttackType: 0
+    CharacterType: 1
+    MaxHP: 90
+    AttackDmg: 3
+    DistanceToTarget: 1
+    CharacterRole: 3
+    AttackRange: 0
+    AttackSpeedMultiplier: 0.6
+    DetectDelay: 0.2
+    ResourceName: Monster_GreenTortoise
+    TargetSearchRadius: 4
+  - Index: 22
+    StrKey: Key_yellowBee
+    MoveSpeed: 3.2
+    IsRunningPlay: 0
+    RunningSpeed: 0
+    AttackType: 0
+    CharacterType: 1
+    MaxHP: 25
+    AttackDmg: 2
+    DistanceToTarget: 1
+    CharacterRole: 3
+    AttackRange: 0
+    AttackSpeedMultiplier: 1.2
+    DetectDelay: 0.2
+    ResourceName: Monster_YellowBee
+    TargetSearchRadius: 4

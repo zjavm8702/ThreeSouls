@@ -8,7 +8,7 @@ namespace ThreeSouls.UI
     /// </summary>
     public abstract class BaseUIItem : UIBehaviour
     {
-        public virtual void Bind(int id) { }
+        public virtual void Bind() { }
 
         public virtual void Clear() { }
 

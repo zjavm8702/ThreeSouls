@@ -1,0 +1,5 @@
+Index : int,PresetKey : string,ItemKey : string,Count : int,EquipToHeroKey : string
+생성 순서,테스트 준비안 키,기존 Equipment의 장비 키,총 생성 수량 (장착분 포함),첫 번째 복사본의 장착 영웅 (빈 값=미장착)
+0,TestVillage,Item_Sword_01,1,Key_night
+1,TestVillage,Item_Bow_01,1,Key_archer
+2,TestVillage,Item_Staff_01,1,Key_wizard

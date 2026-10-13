@@ -1,12 +1,164 @@
-Index : int,StrKey : string ,KrValue : string,EnValue : string
+Index : int,StrKey : string,KrValue : string,EnValue : string
 인덱스,키,KR,EN
-0000,Key_night,나이트,Knight
-0001,Key_archer,아처,Archer
-0002,Key_wizard,위자드,Wizard
-0003,Key_goblin,고블린,Goblin
-0004,Key_hog,돼지,Hog
-0005,Key_troll,트롤,Troll
-0006,Key_blackBear,블랙곰,BlackBear
-0007,Key_blueCrab,파란게,BlueCrab
-0008,Key_redCrab,빨간게,RedCrab
-0009,Key_wolf,늑대,Wolf
+0,Key_night,나이트,Knight
+1,Key_archer,아처,Archer
+2,Key_wizard,위자드,Wizard
+3,Key_goblin,고블린,Goblin
+4,Key_hog,돼지,Hog
+5,Key_troll,트롤,Troll
+6,Key_blackBear,블랙곰,BlackBear
+7,Key_blueCrab,파란게,BlueCrab
+8,Key_redCrab,빨간게,RedCrab
+9,Key_wolf,늑대,Wolf
+10,ItemName_Sword_01,낡은 검,Item_Sword_01
+11,ItemName_Bow_01,사냥꾼의 활,Item_Bow_01
+12,ItemName_Staff_01,수습 마법사의 지팡이,Item_Staff_01
+13,ItemName_Armor_01,튼튼한 방어구,Item_Armor_01
+14,ItemName_Ring_01,신속의 반지,Item_Ring_01
+15,ItemName_Sword_02,정예 기사의 검,Item_Sword_02
+16,ItemName_Bow_02,정예 사냥꾼의 활,Item_Bow_02
+17,ItemName_Staff_02,정예 마법사의 지팡이,Item_Staff_02
+18,ConsumableName_SmallHealingPotion,소형 회복 물약,Small Healing Potion
+19,ConsumableName_PartyHealingPotion,부대 회복 물약,Party Healing Potion
+20,ConsumableEffect_SmallHealingPotion,영웅 1명 · 최대 HP의 25% 회복,Restores 25% of one hero’s maximum HP
+21,ConsumableEffect_PartyHealingPotion,생존 영웅 전체 · 최대 HP 15% 회복,Restores 15% of each living hero’s maximum HP
+22,AutoHeal_Disabled,사용 안 함,Disabled
+23,AutoHeal_At20Percent,HP 20% 이하,HP at or below 20%
+24,AutoHeal_At30Percent,HP 30% 이하,HP at or below 30%
+25,AutoHeal_At40Percent,HP 40% 이하,HP at or below 40%
+26,LobbyHeroName_Knight,기사,Knight
+27,LobbyHeroName_Archer,궁수,Archer
+28,LobbyHeroName_Wizard,마법사,Wizard
+29,LobbyRarity_Normal,일반,Normal
+30,LobbyRarity_Magic,마법,Magic
+31,LobbyRarity_Rare,희귀,Rare
+32,LobbyEquipSlot_Weapon,무기,Weapon
+33,LobbyEquipSlot_Armor,방어구,Armor
+34,LobbyEquipSlot_Accessory,장신구,Accessory
+35,LobbyTab_Village,마을,Village
+36,LobbyTab_Inventory,인벤토리,Inventory
+37,LobbyTab_Characters,캐릭터,Characters
+38,LobbyTab_Supplies,준비,Supplies
+39,LobbyFilter_All,전체,All
+40,LobbyFilter_Weapon,무기,Weapons
+41,LobbyFilter_Armor,방어구,Armor
+42,LobbyFilter_Accessory,장신구,Accessories
+43,LobbyFilter_Equipped,장착 중,Equipped
+44,LobbyOrder_Rarity,등급순 ↓,Rarity descending
+45,LobbyOrder_Name,이름순 ↑,Name ascending
+46,LobbyOrder_Attack,공격력순 ↓,Attack descending
+47,Key_purpleBat,보라 박쥐,Purple Bat
+48,Key_goblinArcher,고블린 궁수,Goblin Archer
+49,Key_orc,오크,Orc
+50,Key_blackBoar,검은 멧돼지,Black Boar
+51,Key_blueDragon,청룡,Blue Dragon
+52,Key_brownRat,갈색 쥐,Brown Rat
+53,Key_brownStump,살아있는 그루터기,Living Stump
+54,Key_greenDuck,초록 오리,Green Duck
+55,Key_greenFlower,초록 식충식물,Green Carnivorous Plant
+56,Key_greenFrog,초록 개구리,Green Frog
+57,Key_greenOgre,초록 오거,Green Ogre
+58,Key_greenTortoise,초록 거북,Green Tortoise
+59,Key_yellowBee,노란 벌,Yellow Bee
+60,Name_Farm_Sword_01,채굴꾼의 검,채굴꾼 Sword
+61,Name_Farm_Sword_02,갱도 수색자의 검,갱도 수색자 Sword
+62,Name_Farm_Sword_03,수로 파수꾼의 검,수로 파수꾼 Sword
+63,Name_Farm_Sword_04,광산 기사의 검,광산 기사 Sword
+64,Name_Farm_Sword_05,새벽 광부의 검,새벽 광부 Sword
+65,Name_Farm_Sword_06,모래 순례자의 검,모래 순례자 Sword
+66,Name_Farm_Sword_07,유적 수호자의 검,유적 수호자 Sword
+67,Name_Farm_Sword_08,고대 문양의 검,고대 문양 Sword
+68,Name_Farm_Sword_09,감시탑 맹세의 검,감시탑 맹세 Sword
+69,Name_Farm_Sword_10,잊힌 왕국의 검,잊힌 왕국 Sword
+70,Name_Farm_Sword_11,초록 방랑자의 검,초록 방랑자 Sword
+71,Name_Farm_Sword_12,물안개의 검,물안개 Sword
+72,Name_Farm_Sword_13,강물의 기억의 검,강물의 기억 Sword
+73,Name_Farm_Sword_14,바람의 노래의 검,바람의 노래 Sword
+74,Name_Farm_Sword_15,숲의 심장의 검,숲의 심장 Sword
+75,Name_Farm_Sword_16,서리 사냥꾼의 검,서리 사냥꾼 Sword
+76,Name_Farm_Sword_17,빙하 수호자의 검,빙하 수호자 Sword
+77,Name_Farm_Sword_18,수정 별빛의 검,수정 별빛 Sword
+78,Name_Farm_Sword_19,설원의 왕관의 검,설원의 왕관 Sword
+79,Name_Farm_Sword_20,세 영혼의 새벽의 검,세 영혼의 새벽 Sword
+80,Name_Farm_Bow_01,채굴꾼의 활,채굴꾼 Bow
+81,Name_Farm_Bow_02,갱도 수색자의 활,갱도 수색자 Bow
+82,Name_Farm_Bow_03,수로 파수꾼의 활,수로 파수꾼 Bow
+83,Name_Farm_Bow_04,광산 기사의 활,광산 기사 Bow
+84,Name_Farm_Bow_05,새벽 광부의 활,새벽 광부 Bow
+85,Name_Farm_Bow_06,모래 순례자의 활,모래 순례자 Bow
+86,Name_Farm_Bow_07,유적 수호자의 활,유적 수호자 Bow
+87,Name_Farm_Bow_08,고대 문양의 활,고대 문양 Bow
+88,Name_Farm_Bow_09,감시탑 맹세의 활,감시탑 맹세 Bow
+89,Name_Farm_Bow_10,잊힌 왕국의 활,잊힌 왕국 Bow
+90,Name_Farm_Bow_11,초록 방랑자의 활,초록 방랑자 Bow
+91,Name_Farm_Bow_12,물안개의 활,물안개 Bow
+92,Name_Farm_Bow_13,강물의 기억의 활,강물의 기억 Bow
+93,Name_Farm_Bow_14,바람의 노래의 활,바람의 노래 Bow
+94,Name_Farm_Bow_15,숲의 심장의 활,숲의 심장 Bow
+95,Name_Farm_Bow_16,서리 사냥꾼의 활,서리 사냥꾼 Bow
+96,Name_Farm_Bow_17,빙하 수호자의 활,빙하 수호자 Bow
+97,Name_Farm_Bow_18,수정 별빛의 활,수정 별빛 Bow
+98,Name_Farm_Bow_19,설원의 왕관의 활,설원의 왕관 Bow
+99,Name_Farm_Bow_20,세 영혼의 새벽의 활,세 영혼의 새벽 Bow
+100,Name_Farm_Staff_01,채굴꾼의 지팡이,채굴꾼 Staff
+101,Name_Farm_Staff_02,갱도 수색자의 지팡이,갱도 수색자 Staff
+102,Name_Farm_Staff_03,수로 파수꾼의 지팡이,수로 파수꾼 Staff
+103,Name_Farm_Staff_04,광산 기사의 지팡이,광산 기사 Staff
+104,Name_Farm_Staff_05,새벽 광부의 지팡이,새벽 광부 Staff
+105,Name_Farm_Staff_06,모래 순례자의 지팡이,모래 순례자 Staff
+106,Name_Farm_Staff_07,유적 수호자의 지팡이,유적 수호자 Staff
+107,Name_Farm_Staff_08,고대 문양의 지팡이,고대 문양 Staff
+108,Name_Farm_Staff_09,감시탑 맹세의 지팡이,감시탑 맹세 Staff
+109,Name_Farm_Staff_10,잊힌 왕국의 지팡이,잊힌 왕국 Staff
+110,Name_Farm_Staff_11,초록 방랑자의 지팡이,초록 방랑자 Staff
+111,Name_Farm_Staff_12,물안개의 지팡이,물안개 Staff
+112,Name_Farm_Staff_13,강물의 기억의 지팡이,강물의 기억 Staff
+113,Name_Farm_Staff_14,바람의 노래의 지팡이,바람의 노래 Staff
+114,Name_Farm_Staff_15,숲의 심장의 지팡이,숲의 심장 Staff
+115,Name_Farm_Staff_16,서리 사냥꾼의 지팡이,서리 사냥꾼 Staff
+116,Name_Farm_Staff_17,빙하 수호자의 지팡이,빙하 수호자 Staff
+117,Name_Farm_Staff_18,수정 별빛의 지팡이,수정 별빛 Staff
+118,Name_Farm_Staff_19,설원의 왕관의 지팡이,설원의 왕관 Staff
+119,Name_Farm_Staff_20,세 영혼의 새벽의 지팡이,세 영혼의 새벽 Staff
+120,Name_Farm_Armor_01,채굴꾼의 갑옷,채굴꾼 Armor
+121,Name_Farm_Armor_02,갱도 수색자의 갑옷,갱도 수색자 Armor
+122,Name_Farm_Armor_03,수로 파수꾼의 갑옷,수로 파수꾼 Armor
+123,Name_Farm_Armor_04,광산 기사의 갑옷,광산 기사 Armor
+124,Name_Farm_Armor_05,새벽 광부의 갑옷,새벽 광부 Armor
+125,Name_Farm_Armor_06,모래 순례자의 갑옷,모래 순례자 Armor
+126,Name_Farm_Armor_07,유적 수호자의 갑옷,유적 수호자 Armor
+127,Name_Farm_Armor_08,고대 문양의 갑옷,고대 문양 Armor
+128,Name_Farm_Armor_09,감시탑 맹세의 갑옷,감시탑 맹세 Armor
+129,Name_Farm_Armor_10,잊힌 왕국의 갑옷,잊힌 왕국 Armor
+130,Name_Farm_Armor_11,초록 방랑자의 갑옷,초록 방랑자 Armor
+131,Name_Farm_Armor_12,물안개의 갑옷,물안개 Armor
+132,Name_Farm_Armor_13,강물의 기억의 갑옷,강물의 기억 Armor
+133,Name_Farm_Armor_14,바람의 노래의 갑옷,바람의 노래 Armor
+134,Name_Farm_Armor_15,숲의 심장의 갑옷,숲의 심장 Armor
+135,Name_Farm_Armor_16,서리 사냥꾼의 갑옷,서리 사냥꾼 Armor
+136,Name_Farm_Armor_17,빙하 수호자의 갑옷,빙하 수호자 Armor
+137,Name_Farm_Armor_18,수정 별빛의 갑옷,수정 별빛 Armor
+138,Name_Farm_Armor_19,설원의 왕관의 갑옷,설원의 왕관 Armor
+139,Name_Farm_Armor_20,세 영혼의 새벽의 갑옷,세 영혼의 새벽 Armor
+140,Name_Farm_Ring_01,채굴꾼의 장신구,채굴꾼 Ring
+141,Name_Farm_Ring_02,갱도 수색자의 장신구,갱도 수색자 Ring
+142,Name_Farm_Ring_03,수로 파수꾼의 장신구,수로 파수꾼 Ring
+143,Name_Farm_Ring_04,광산 기사의 장신구,광산 기사 Ring
+144,Name_Farm_Ring_05,새벽 광부의 장신구,새벽 광부 Ring
+145,Name_Farm_Ring_06,모래 순례자의 장신구,모래 순례자 Ring
+146,Name_Farm_Ring_07,유적 수호자의 장신구,유적 수호자 Ring
+147,Name_Farm_Ring_08,고대 문양의 장신구,고대 문양 Ring
+148,Name_Farm_Ring_09,감시탑 맹세의 장신구,감시탑 맹세 Ring
+149,Name_Farm_Ring_10,잊힌 왕국의 장신구,잊힌 왕국 Ring
+150,Name_Farm_Ring_11,초록 방랑자의 장신구,초록 방랑자 Ring
+151,Name_Farm_Ring_12,물안개의 장신구,물안개 Ring
+152,Name_Farm_Ring_13,강물의 기억의 장신구,강물의 기억 Ring
+153,Name_Farm_Ring_14,바람의 노래의 장신구,바람의 노래 Ring
+154,Name_Farm_Ring_15,숲의 심장의 장신구,숲의 심장 Ring
+155,Name_Farm_Ring_16,서리 사냥꾼의 장신구,서리 사냥꾼 Ring
+156,Name_Farm_Ring_17,빙하 수호자의 장신구,빙하 수호자 Ring
+157,Name_Farm_Ring_18,수정 별빛의 장신구,수정 별빛 Ring
+158,Name_Farm_Ring_19,설원의 왕관의 장신구,설원의 왕관 Ring
+159,Name_Farm_Ring_20,세 영혼의 새벽의 장신구,세 영혼의 새벽 Ring
+160,Rarity_Epic,영웅,Epic
+161,Rarity_Legendary,전설,Legendary

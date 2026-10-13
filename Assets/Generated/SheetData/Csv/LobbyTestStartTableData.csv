@@ -1,0 +1,3 @@
+Key : string,IsTestData : bool,StartingGold : int,StartingEnhancementStones : int,StartingSmallPotions : int,StartingPartyPotions : int,CopiesPerEquipment : int
+테스트 준비안 키,테스트 전용 데이터 여부,시작 골드,시작 강화석,시작 소형 물약,시작 부대 물약,장비 종류별 생성 수량
+TestVillage,FALSE,350,0,4,2,1

@@ -1,6 +1,7 @@
-using System;
+﻿using System;
 using ThreeSouls.Manager;
 using ThreeSouls.Utility;
+using ThreeSouls.UI;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -59,8 +60,8 @@ public class UI_Popup_Patch : MonoBehaviour
 
     private void AssetBundleDownload()
     {
-        ProgressGroup.gameObject.SetActive(true);
-        PopupGroup.SetActive(false);
+        UIPanelMotion.Show(ProgressGroup);
+        UIPanelMotion.Hide(PopupGroup);
 
         ButtonAction?.Invoke();
     }

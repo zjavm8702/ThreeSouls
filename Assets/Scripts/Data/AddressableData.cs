@@ -27,7 +27,12 @@ namespace ThreeSouls.Data
         private Action<AssetData> Completed;
         public string AssetsKey { get; }
         public AsyncOperationHandle AssetHandle { get; }
-        public bool IsSceneChangeRelease { get; }
+        public bool IsSceneChangeRelease { get; private set; }
+
+        internal void RetainForSession()
+        {
+            IsSceneChangeRelease = false;
+        }
 
         public AssetData(string asstsKey, AsyncOperationHandle asyncOp, Action<AssetData> callback, bool sceneChangeRelease)
         {

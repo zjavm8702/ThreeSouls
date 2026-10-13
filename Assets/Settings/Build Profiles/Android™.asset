@@ -26,7 +26,10 @@ MonoBehaviour:
     m_path: Assets/Scenes/Scene_Start.unity
     m_guid: 8c9cfa26abfee488c85f1582747f6a02
   - m_enabled: 1
-    m_path: Assets/Scenes/Scene_3.unity
+    m_path: Assets/Scenes/Scene_Village.unity
+    m_guid: 274965723b1f58a46bb9ccdc9bee0650
+  - m_enabled: 1
+    m_path: Assets/Scenes/Scene_Dungeon.unity
     m_guid: 5090af243bb01c64cb114b42bb2262ab
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []

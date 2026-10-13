@@ -6,34 +6,31 @@ public class ProjectileMoveToTargetState : IState<IProjectileStateProvider>
 {
     public void OnStateEnter(CombatState previousCombatState, IProjectileStateProvider entity)
     {
-        
+        if (entity.IsTargetAlive() == true)
+        {
+            entity.SetDirection(entity.GetTargetWorldPosition() - entity.GetWorldPosition());
+        }
     }
 
     public void OnStatePhysicsUpdate(IProjectileStateProvider entity)
     {
-        if (entity.IsTargetAlive == false)
+        if (entity.IsTargetAlive() == false)
         {
             entity.Despawn();
+
             return;
         }
 
-        var targetPosition = entity.TargetWorldPosition;
-        var direction = targetPosition - entity.CurrentWorldPosition;
+        var targetPosition = entity.GetTargetWorldPosition();
+        var currentPosition = entity.GetWorldPosition();
         var newPosition = Vector2.MoveTowards(
-            entity.CurrentWorldPosition,
+            currentPosition,
             targetPosition,
             ThreeSouls.Global.Constants.PROJECTILE_MOVE_SPEED * Time.fixedDeltaTime);
-
-        entity.SetSpriteRendererFlip(entity.CurrentWorldPosition.x < targetPosition.x);
-        //var rotZ = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
-        //entity.SetRotation(Quaternion.Euler(0, 0, rotZ));
+        entity.SetDirection(targetPosition - currentPosition);
         entity.SetPosition(newPosition);
 
-        
-
-        if (Vector2.Distance(newPosition, targetPosition) <=
-            ThreeSouls.Global.Constants.PROJECTILE_ARRIVAL_DISTANCE)
+        if (Vector2.Distance(newPosition, targetPosition) <= ThreeSouls.Global.Constants.PROJECTILE_ARRIVAL_DISTANCE)
         {
             entity.ApplyHit();
             entity.Despawn();
@@ -42,10 +39,9 @@ public class ProjectileMoveToTargetState : IState<IProjectileStateProvider>
 
     public void OnStateUpdate(IProjectileStateProvider entity)
     {
-        
     }
+
     public void OnStateExit(IProjectileStateProvider entity)
     {
-       
     }
 }

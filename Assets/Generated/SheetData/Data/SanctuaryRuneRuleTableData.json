@@ -1,0 +1,14 @@
+{
+    "Items": [
+        {
+            "Key": "Sanctuary",
+            "EquipmentDropBonus": 0.10000000149011612,
+            "GoldBonus": 0.10000000149011612,
+            "GemBonus": 0.10000000149011612,
+            "DebuffRatio": 0.11999999731779099,
+            "MinimumDebuffRatio": 0.019999999552965165,
+            "MaximumRuneRank": 5,
+            "MaximumCooldownReduction": 0.20000000298023225
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!612988286 &1
+SpriteAtlasAsset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ThreeSoulsAtlas_World_Tiles_Elements_Animals
+  serializedVersion: 2
+  m_MasterAtlas: {fileID: 0}
+  m_ImporterData:
+    packables:
+    - {fileID: 2800000, guid: 995da47458ea5b34c81c13a120de32e3, type: 3}
+    - {fileID: 2800000, guid: 43cbba5af4f19ed41b8a8ae9e133f9ce, type: 3}
+    - {fileID: 2800000, guid: deb37c99ab4d9e44c9c4492340904023, type: 3}
+    - {fileID: 2800000, guid: 95c406f5a4c8d7d49a7b06064499b66d, type: 3}
+    - {fileID: 2800000, guid: 2ed61d46464d2d74e9aa51a9ff98f7cf, type: 3}
+    - {fileID: 2800000, guid: 8b426c27d724c0a44bf73bb18d6f0ea0, type: 3}
+    - {fileID: 2800000, guid: 0ef5a9ce04d9e0544b74a33cadf60af8, type: 3}
+  m_IsVariant: 0
+  m_ScriptablePacker: {fileID: 0}

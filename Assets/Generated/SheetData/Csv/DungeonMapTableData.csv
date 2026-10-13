@@ -1,0 +1,6 @@
+Key : string,RegionNumber : int,DisplayName : string,TexturePath : string,WorldX : float,WorldY : float,Description : string
+던전 키,출전 지역 번호,표시 이름(초안),기존 던전 선택 이미지,전체 지도 선택점 X(왼쪽 0),전체 지도 선택점 Y(아래 0),표시 설명
+Mine,1,폐광,Assets/Images/Map/Previews/NativeDungeon_1.png,0.27,0.75,버려진 갱도와 깊은 채굴장을 탐험합니다.
+Ruins,2,잊힌 유적,Assets/Images/Map/Previews/NativeDungeon_2.png,0.73,0.75,무너진 성벽 너머 오래된 유적을 탐험합니다.
+Forest,3,정령의 숲,Assets/Images/Map/Previews/NativeDungeon_3.png,0.27,0.28,폭포와 숲길을 지나 정령의 성소로 향합니다.
+Frost,4,얼음 협곡,Assets/Images/Map/Previews/NativeDungeon_4.png,0.73,0.28,얼어붙은 다리와 수정 동굴을 탐험합니다.

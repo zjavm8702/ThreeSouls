@@ -1,0 +1,5 @@
+Index : int,EquipSlot : Enum<EquipSlot>,AttackRatePerLevel : float,HPRatePerLevel : float,SpeedBonusPerLevel : float,RequirePositiveBaseSpeed : bool
+인덱스,장착 슬롯,원본 공격력의 단계당 증가율,원본 최대 HP의 단계당 증가율,단계당 공속 보너스 가산,원본 공속이 양수일 때만 가산
+0,Weapon,0.05,0.05,0.,FALSE
+1,Armor,0.05,0.05,0.,FALSE
+2,Accessory,0.,0.,0.002,TRUE

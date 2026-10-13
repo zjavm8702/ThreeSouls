@@ -8,9 +8,18 @@ namespace ThreeSouls.Data.Generated
         /// <summary>인덱스</summary>
         [global::UnityEngine.Tooltip("\uc778\ub371\uc2a4")]
         public int @Index;
+        /// <summary>지역</summary>
+        [global::UnityEngine.Tooltip("\uc9c0\uc5ed")]
+        public int @RegionId;
         /// <summary>스테이지</summary>
         [global::UnityEngine.Tooltip("\uc2a4\ud14c\uc774\uc9c0")]
         public int @Stage;
+        /// <summary>지역 이름</summary>
+        [global::UnityEngine.Tooltip("\uc9c0\uc5ed \uc774\ub984")]
+        public string @RegionKey;
+        /// <summary>스테이지 이름</summary>
+        [global::UnityEngine.Tooltip("\uc2a4\ud14c\uc774\uc9c0 \uc774\ub984")]
+        public string @StageKey;
         /// <summary>몬스터</summary>
         [global::UnityEngine.Tooltip("\ubaac\uc2a4\ud130")]
         public string[] @Monsters;
@@ -20,6 +29,9 @@ namespace ThreeSouls.Data.Generated
         /// <summary>소환 숫자</summary>
         [global::UnityEngine.Tooltip("\uc18c\ud658 \uc22b\uc790")]
         public int[] @SpawnCounts;
+        /// <summary>성소 방문 순서에 따른 RoundKey 목록</summary>
+        [global::UnityEngine.Tooltip("\uc131\uc18c \ubc29\ubb38 \uc21c\uc11c\uc5d0 \ub530\ub978 RoundKey \ubaa9\ub85d")]
+        public string[] @RoundKeys;
     }
     [global::System.Serializable]
     public sealed class GroundTableDataPayload
